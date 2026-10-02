@@ -6,8 +6,12 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Test {
-  id Int @id @default(autoincrement())
-  text String
+model User {
+  id        String   @id @default(uuid()) @db.Uuid
+  username  String   @unique @db.VarChar(30)
+  email     String   @unique @db.VarChar(75)
+  password  String   @db.VarChar(60)
+  photoURL  String?  @db.VarChar(500)
   createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
