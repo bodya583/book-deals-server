@@ -1,0 +1,13 @@
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Test {
+  id Int @id @default(autoincrement())
+  text String
+  createdAt DateTime @default(now())
+}
