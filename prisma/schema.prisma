@@ -14,4 +14,17 @@ model User {
   photoURL  String?  @db.VarChar(500)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  books     Book[]
+}
+
+model Book {
+  id          String   @id @default(uuid()) @db.Uuid
+  title       String   @db.VarChar(255)
+  author      String   @db.VarChar(255)
+  description String?  @db.Text
+  coverURL    String?  @db.VarChar(500)
+  userId      String?  @db.Uuid
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
