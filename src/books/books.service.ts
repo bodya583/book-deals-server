@@ -23,6 +23,7 @@ export interface GetBooksFilter {
   limit?: number;
 }
 
+
 export const getAllBooks = async (filter?: GetBooksFilter) => {
   const page = Math.max(1, Number(filter?.page) || 1);
   const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 20));
@@ -93,12 +94,7 @@ export const getBookById = async (id: string) => {
         select: {
           id: true,
           username: true,
-          email: true,
           photoURL: true,
-          createdAt: true,
-          _count: {
-            select: { books: true },
-          },
         },
       },
     },
@@ -162,7 +158,6 @@ export const createBook = async (data: CreateBookDto) => {
         select: {
           id: true,
           username: true,
-          email: true,
           photoURL: true,
         },
       },
@@ -198,7 +193,6 @@ export const updateBook = async (id: string, data: UpdateBookDto) => {
         select: {
           id: true,
           username: true,
-          email: true,
           photoURL: true,
         },
       },
