@@ -7,6 +7,7 @@ import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from '@prisma/adapter-pg';
 import { Pool } from 'pg';
 import authRouter from './auth/auth.router.js';
+import booksRouter from './books/books.router.js';
 
 const connString = process.env.DATABASE_URL;
 
@@ -28,8 +29,8 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
-// Routes
 app.use('/api/auth', authRouter);
+app.use('/api/books', booksRouter);
 
 app.listen(PORT, () => {
   console.log(`Server run -> http://localhost:${PORT}`);
