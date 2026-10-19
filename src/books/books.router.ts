@@ -1,11 +1,13 @@
-﻿import { Router } from 'express';
+import { Router } from 'express';
 import * as booksController from './books.controller.js';
+import * as genresController from '../genres/genres.controller.js';
 import { authenticate } from '../middleware/authenticate.js';
 
 const router = Router();
 
 // Public routes
 router.get('/', booksController.getAll);
+router.get('/genres', genresController.getAll);
 router.get('/:id/details', booksController.getDetails);
 router.get('/:id', booksController.getById);
 

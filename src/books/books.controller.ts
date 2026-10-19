@@ -1,13 +1,54 @@
-﻿import { Request, Response } from 'express';
+import { Request, Response } from 'express';
 import * as booksService from './books.service.js';
 
 export const getAll = async (req: Request, res: Response) => {
   try {
-    const { search, userId, page, limit } = req.query;
+    const {
+      search,
+      userId,
+      genre,
+      genres,
+      strictGenres,
+      language,
+      languages,
+      year,
+      yearFrom,
+      yearTo,
+      page,
+      limit,
+    } = req.query;
+
+    // Parse genres: can be string[] or comma-separated string or single genre
+    let parsedGenres: string[] | undefined;
+    if (Array.isArray(genres)) {
+      parsedGenres = genres.map(String).filter(Boolean);
+    } else if (typeof genres === 'string' && genres.trim()) {
+      parsedGenres = genres.split(',').map((g) => g.trim()).filter(Boolean);
+    } else if (typeof genre === 'string' && genre.trim() && genre !== 'all') {
+      parsedGenres = [genre.trim()];
+    }
+
+    // Parse languages: can be string[] or comma-separated string or single language
+    let parsedLanguages: string[] | undefined;
+    if (Array.isArray(languages)) {
+      parsedLanguages = languages.map(String).filter(Boolean);
+    } else if (typeof languages === 'string' && languages.trim()) {
+      parsedLanguages = languages.split(',').map((l) => l.trim()).filter(Boolean);
+    } else if (typeof language === 'string' && language.trim() && language !== 'all') {
+      parsedLanguages = [language.trim()];
+    }
+
+    const isStrictGenres = String(strictGenres) === 'true';
 
     const result = await booksService.getAllBooks({
       search: typeof search === 'string' ? search : undefined,
       userId: typeof userId === 'string' ? userId : undefined,
+      genres: parsedGenres,
+      strictGenres: isStrictGenres,
+      languages: parsedLanguages,
+      year: year !== undefined && !isNaN(Number(year)) ? Number(year) : undefined,
+      yearFrom: yearFrom !== undefined && !isNaN(Number(yearFrom)) ? Number(yearFrom) : undefined,
+      yearTo: yearTo !== undefined && !isNaN(Number(yearTo)) ? Number(yearTo) : undefined,
       page: typeof page === 'string' ? Number(page) : undefined,
       limit: typeof limit === 'string' ? Number(limit) : undefined,
     });
@@ -57,7 +98,7 @@ export const create = async (req: Request, res: Response) => {
   try {
     // userId comes from the verified JWT token, not from the request body
     const userId = req.user!.userId;
-    const { title, author, description, coverURL } = req.body;
+    const { title, author, description, coverURL, language, year, genres } = req.body;
 
     if (!title || !author) {
       return res.status(400).json({ message: 'Title and author are required' });
@@ -68,6 +109,9 @@ export const create = async (req: Request, res: Response) => {
       author,
       description,
       coverURL,
+      language,
+      year: year !== undefined && year !== '' && !isNaN(Number(year)) ? Number(year) : null,
+      genres: Array.isArray(genres) ? genres : undefined,
       userId,
     });
 
@@ -93,13 +137,16 @@ export const update = async (req: Request, res: Response) => {
       return res.status(403).json({ message: 'Forbidden: you do not own this book' });
     }
 
-    const { title, author, description, coverURL } = req.body;
+    const { title, author, description, coverURL, language, year, genres } = req.body;
 
     const book = await booksService.updateBook(id, {
       title,
       author,
       description,
       coverURL,
+      language,
+      year: year !== undefined ? (year !== '' && year !== null && !isNaN(Number(year)) ? Number(year) : null) : undefined,
+      genres: Array.isArray(genres) ? genres : undefined,
     });
 
     return res.status(200).json(book);

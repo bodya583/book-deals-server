@@ -8,6 +8,7 @@ import { PrismaPg } from '@prisma/adapter-pg';
 import { Pool } from 'pg';
 import authRouter from './auth/auth.router.js';
 import booksRouter from './books/books.router.js';
+import genresRouter from './genres/genres.router.js';
 
 const connString = process.env.DATABASE_URL;
 
@@ -31,6 +32,7 @@ app.use(cookieParser());
 
 app.use('/api/auth', authRouter);
 app.use('/api/books', booksRouter);
+app.use('/api/genres', genresRouter);
 
 app.listen(PORT, () => {
   console.log(`Server run -> http://localhost:${PORT}`);
