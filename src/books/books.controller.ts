@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+﻿import { Request, Response } from 'express';
 import * as booksService from './books.service.js';
 
 export const getAll = async (req: Request, res: Response) => {
@@ -55,7 +55,9 @@ export const getDetails = async (req: Request, res: Response) => {
 
 export const create = async (req: Request, res: Response) => {
   try {
-    const { title, author, description, coverURL, userId } = req.body;
+    // userId comes from the verified JWT token, not from the request body
+    const userId = req.user!.userId;
+    const { title, author, description, coverURL } = req.body;
 
     if (!title || !author) {
       return res.status(400).json({ message: 'Title and author are required' });
@@ -79,18 +81,25 @@ export const create = async (req: Request, res: Response) => {
 export const update = async (req: Request, res: Response) => {
   try {
     const id = typeof req.params.id === 'string' ? req.params.id : undefined;
-    const { title, author, description, coverURL, userId } = req.body;
+    const userId = req.user!.userId;
 
     if (!id) {
       return res.status(400).json({ message: 'Book ID is required' });
     }
+
+    // Verify the book belongs to the requesting user
+    const existing = await booksService.getBookById(id);
+    if (existing.userId !== userId) {
+      return res.status(403).json({ message: 'Forbidden: you do not own this book' });
+    }
+
+    const { title, author, description, coverURL } = req.body;
 
     const book = await booksService.updateBook(id, {
       title,
       author,
       description,
       coverURL,
-      userId,
     });
 
     return res.status(200).json(book);
@@ -104,9 +113,16 @@ export const update = async (req: Request, res: Response) => {
 export const remove = async (req: Request, res: Response) => {
   try {
     const id = typeof req.params.id === 'string' ? req.params.id : undefined;
+    const userId = req.user!.userId;
 
     if (!id) {
       return res.status(400).json({ message: 'Book ID is required' });
+    }
+
+    // Verify the book belongs to the requesting user
+    const existing = await booksService.getBookById(id);
+    if (existing.userId !== userId) {
+      return res.status(403).json({ message: 'Forbidden: you do not own this book' });
     }
 
     await booksService.deleteBook(id);

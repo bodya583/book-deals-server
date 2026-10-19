@@ -1,13 +1,17 @@
-import { Router } from 'express';
+﻿import { Router } from 'express';
 import * as booksController from './books.controller.js';
+import { authenticate } from '../middleware/authenticate.js';
 
 const router = Router();
 
+// Public routes
 router.get('/', booksController.getAll);
 router.get('/:id/details', booksController.getDetails);
 router.get('/:id', booksController.getById);
-router.post('/', booksController.create);
-router.put('/:id', booksController.update);
-router.delete('/:id', booksController.remove);
+
+// Protected routes (require valid JWT)
+router.post('/', authenticate, booksController.create);
+router.put('/:id', authenticate, booksController.update);
+router.delete('/:id', authenticate, booksController.remove);
 
 export default router;
