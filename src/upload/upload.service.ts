@@ -22,9 +22,17 @@ export const uploadImageToCloudinary = async (
         folder,
         resource_type: 'image',
       },
-      (error, result) => {
+      (error: any, result) => {
         if (error) {
-          return reject(new Error(error.message || 'Ошибка загрузки в Cloudinary'));
+          const rawMsg = error.message || '';
+          if (error.http_code === 403 || rawMsg.includes('403') || rawMsg.includes('permissions')) {
+            return reject(
+              new Error(
+                'Cloudinary 403 Forbidden: у указанного API ключа нет разрешения на создание/загрузку файлов ("create"). В панели Cloudinary (Settings → Access Keys) включите для этого ключа разрешение "Upload / Media management" либо используйте основной Master API Key.'
+              )
+            );
+          }
+          return reject(new Error(rawMsg || 'Ошибка загрузки в Cloudinary'));
         }
         if (!result) {
           return reject(new Error('Cloudinary не вернул результат загрузки'));
