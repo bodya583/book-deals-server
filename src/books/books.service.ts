@@ -1,4 +1,13 @@
 import { prisma } from '../index.js';
+import { isMockMode } from '../config/env.js';
+import {
+  getAllMockBooks,
+  getMockBookById,
+  getMockBookDetails,
+  createMockBook,
+  updateMockBook,
+  deleteMockBook,
+} from '../mocks/mockBooks.js';
 
 export interface CreateBookDto {
   title: string;
@@ -67,6 +76,10 @@ const bookSelect = {
 };
 
 export const getAllBooks = async (filter?: GetBooksFilter) => {
+  if (isMockMode) {
+    return getAllMockBooks(filter);
+  }
+
   const page = Math.max(1, Number(filter?.page) || 1);
   const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 20));
   const skip = (page - 1) * limit;
@@ -174,6 +187,10 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
 };
 
 export const getBookById = async (id: string) => {
+  if (isMockMode) {
+    return getMockBookById(id);
+  }
+
   const book = await prisma.book.findUnique({
     where: { id },
     select: bookSelect,
@@ -187,6 +204,10 @@ export const getBookById = async (id: string) => {
 };
 
 export const getFullBookDetails = async (id: string) => {
+  if (isMockMode) {
+    return getMockBookDetails(id);
+  }
+
   const book = await getBookById(id);
 
   const moreByAuthor = await prisma.book.findMany({
@@ -220,6 +241,10 @@ export const getFullBookDetails = async (id: string) => {
 };
 
 export const createBook = async (data: CreateBookDto) => {
+  if (isMockMode) {
+    return createMockBook(data, data.userId);
+  }
+
   if (!data.title || !data.author) {
     throw new Error('Title and author are required');
   }
@@ -251,6 +276,10 @@ export const createBook = async (data: CreateBookDto) => {
 };
 
 export const updateBook = async (id: string, data: UpdateBookDto) => {
+  if (isMockMode) {
+    return updateMockBook(id, data, data.userId);
+  }
+
   const existing = await prisma.book.findUnique({ where: { id } });
   if (!existing) {
     throw new Error('Book not found');
@@ -290,6 +319,10 @@ export const updateBook = async (id: string, data: UpdateBookDto) => {
 };
 
 export const deleteBook = async (id: string) => {
+  if (isMockMode) {
+    return deleteMockBook(id);
+  }
+
   const existing = await prisma.book.findUnique({ where: { id } });
   if (!existing) {
     throw new Error('Book not found');

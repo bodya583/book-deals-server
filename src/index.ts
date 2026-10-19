@@ -9,6 +9,7 @@ import authRouter from './auth/auth.router.js';
 import booksRouter from './books/books.router.js';
 import genresRouter from './genres/genres.router.js';
 import uploadRouter from './upload/upload.router.js';
+import { isMockMode } from './config/env.js';
 
 const connString = process.env.DATABASE_URL;
 
@@ -37,4 +38,7 @@ app.use('/api/upload', uploadRouter);
 
 app.listen(PORT, () => {
   console.log(`Server run -> http://localhost:${PORT}`);
+  if (isMockMode) {
+    console.log(`[MOCK MODE] 🚀 Сервер запущен с демонстрационными книгами (база данных не затрагивается)`);
+  }
 });
