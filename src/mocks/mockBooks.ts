@@ -1535,7 +1535,7 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
   list.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
 
   const page = Math.max(1, Number(filter?.page) || 1);
-  const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 20));
+  const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 12));
   const skip = (page - 1) * limit;
 
   const total = list.length;
