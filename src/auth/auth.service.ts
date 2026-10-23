@@ -1,4 +1,4 @@
-﻿import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../index.js';
 
@@ -39,7 +39,7 @@ export const register = async (username: string, email: string, password: string
 
   const user = await prisma.user.create({
     data: { username, email, password: hashedPassword },
-    select: { id: true, username: true, email: true, photoURL: true, createdAt: true },
+    select: { id: true, username: true, email: true, photoURL: true, latitude: true, longitude: true, createdAt: true },
   });
 
   const tokens = generateTokens({ userId: user.id, email: user.email });
@@ -67,7 +67,7 @@ export const refresh = async (refreshToken: string) => {
 
   const user = await prisma.user.findUnique({
     where: { id: payload.userId },
-    select: { id: true, username: true, email: true, photoURL: true, createdAt: true },
+    select: { id: true, username: true, email: true, photoURL: true, latitude: true, longitude: true, createdAt: true },
   });
 
   if (!user) throw new Error('User not found');

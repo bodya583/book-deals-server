@@ -10,6 +10,9 @@ export interface MockUser {
   id: string;
   username: string;
   photoURL?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+  city?: string | null;
 }
 
 export interface MockBook {
@@ -53,13 +56,32 @@ const findGenre = (name: string): MockGenre => {
 };
 
 export const MOCK_USERS: MockUser[] = [
-  { id: 'u-1', username: 'alex_reader', photoURL: null },
-  { id: 'u-2', username: 'olga_books', photoURL: null },
-  { id: 'u-3', username: 'serhiy_dev', photoURL: null },
-  { id: 'u-4', username: 'maria_reading', photoURL: null },
-  { id: 'u-5', username: 'taras_lit', photoURL: null },
-  { id: 'u-6', username: 'anna_books', photoURL: null },
+  { id: 'u-1', username: 'alex_reader', photoURL: null, latitude: 50.4501, longitude: 30.5234, city: 'Киев' },
+  { id: 'u-2', username: 'olga_books', photoURL: null, latitude: 49.8397, longitude: 24.0297, city: 'Львов' },
+  { id: 'u-3', username: 'serhiy_dev', photoURL: null, latitude: 46.4825, longitude: 30.7233, city: 'Одесса' },
+  { id: 'u-4', username: 'maria_reading', photoURL: null, latitude: 49.9935, longitude: 36.2304, city: 'Харьков' },
+  { id: 'u-5', username: 'taras_lit', photoURL: null, latitude: 48.4647, longitude: 35.0462, city: 'Днепр' },
+  { id: 'u-6', username: 'anna_books', photoURL: null, latitude: 52.2297, longitude: 21.0122, city: 'Варшава' },
+  { id: 'u-7', username: 'dmytro_lit', photoURL: null, latitude: 49.2331, longitude: 28.4682, city: 'Винница' },
+  { id: 'u-8', username: 'yuliya_frank', photoURL: null, latitude: 48.9226, longitude: 24.7111, city: 'Ивано-Франковск' },
+  { id: 'u-9', username: 'bohdan_poltava', photoURL: null, latitude: 49.5883, longitude: 34.5514, city: 'Полтава' },
+  { id: 'u-10', username: 'oksana_bukovyna', photoURL: null, latitude: 48.2921, longitude: 25.9358, city: 'Черновцы' },
 ];
+
+// Great-circle / spherical distance on Earth (km)
+const haversineKm = (lat1: number, lon1: number, lat2: number, lon2: number) => {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) *
+      Math.cos(lat2 * (Math.PI / 180)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+};
 
 let inMemoryBooks: MockBook[] = [
   {
@@ -155,10 +177,10 @@ let inMemoryBooks: MockBook[] = [
     language: "English",
     year: 2008,
     genres: [findGenre("Компьютерные технологии / IT"), findGenre("Научная литература")],
-    userId: 'u-3',
+    userId: 'u-7',
     createdAt: new Date('2023-01-19T12:00:00Z'),
     updatedAt: new Date('2023-01-19T12:00:00Z'),
-    user: MOCK_USERS[2],
+    user: MOCK_USERS[6],
   },
   {
     id: 'b-8',
@@ -239,10 +261,10 @@ let inMemoryBooks: MockBook[] = [
     language: "Українська",
     year: 1911,
     genres: [findGenre("Классическая литература"), findGenre("Роман / Проза")],
-    userId: 'u-5',
+    userId: 'u-8',
     createdAt: new Date('2023-01-09T12:00:00Z'),
     updatedAt: new Date('2023-01-09T12:00:00Z'),
-    user: MOCK_USERS[4],
+    user: MOCK_USERS[7],
   },
   {
     id: 'b-14',
@@ -295,10 +317,10 @@ let inMemoryBooks: MockBook[] = [
     language: "Українська",
     year: 1857,
     genres: [findGenre("История"), findGenre("Роман / Проза")],
-    userId: 'u-5',
+    userId: 'u-9',
     createdAt: new Date('2023-09-21T12:00:00Z'),
     updatedAt: new Date('2023-09-21T12:00:00Z'),
-    user: MOCK_USERS[4],
+    user: MOCK_USERS[8],
   },
   {
     id: 'b-18',
@@ -407,10 +429,10 @@ let inMemoryBooks: MockBook[] = [
     language: "Українська",
     year: 2004,
     genres: [findGenre("Роман / Проза"), findGenre("История")],
-    userId: 'u-4',
+    userId: 'u-10',
     createdAt: new Date('2023-01-17T12:00:00Z'),
     updatedAt: new Date('2023-01-17T12:00:00Z'),
-    user: MOCK_USERS[3],
+    user: MOCK_USERS[9],
   },
   {
     id: 'b-26',
@@ -1472,6 +1494,42 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
     list = list.filter((b) => b.userId === filter.userId);
   }
 
+  // Settlement / City filter
+  const cityList =
+    filter?.cities && filter.cities.length > 0
+      ? filter.cities.map((c) => c.toLowerCase().trim())
+      : filter?.city && filter.city !== 'all'
+      ? [filter.city.toLowerCase().trim()]
+      : [];
+
+  if (cityList.length > 0) {
+    const matchingUserIds = new Set(
+      MOCK_USERS
+        .filter((u) => u.city && cityList.includes(u.city.toLowerCase().trim()))
+        .map((u) => u.id)
+    );
+    list = list.filter((b) => b.userId && matchingUserIds.has(b.userId));
+  }
+
+  // Proximity filter (spherical distance)
+  if (
+    filter?.nearLat !== undefined &&
+    filter?.nearLng !== undefined &&
+    typeof filter.nearLat === 'number' &&
+    typeof filter.nearLng === 'number'
+  ) {
+    const radiusKm = typeof filter.radius === 'number' && filter.radius > 0 ? filter.radius : 50;
+    const nearbyUserIds = new Set(
+      MOCK_USERS
+        .filter((u) => {
+          if (u.latitude == null || u.longitude == null) return false;
+          return haversineKm(filter.nearLat!, filter.nearLng!, u.latitude, u.longitude) <= radiusKm;
+        })
+        .map((u) => u.id)
+    );
+    list = list.filter((b) => b.userId && nearbyUserIds.has(b.userId));
+  }
+
   // 2. Search filter
   if (filter?.search) {
     const q = filter.search.toLowerCase().trim();
@@ -1539,7 +1597,20 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
   const skip = (page - 1) * limit;
 
   const total = list.length;
-  const paginated = list.slice(skip, skip + limit);
+  const sanitizeUser = (user?: MockUser | null) => {
+    if (!user) return null;
+    return {
+      id: user.id,
+      username: user.username,
+      photoURL: user.photoURL ?? null,
+      city: user.city ?? null,
+    };
+  };
+
+  const paginated = list.slice(skip, skip + limit).map((b) => ({
+    ...b,
+    user: sanitizeUser(b.user),
+  }));
 
   return {
     books: paginated,
@@ -1557,7 +1628,17 @@ export const getMockBookById = async (id: string) => {
   if (!book) {
     throw new Error('Book not found');
   }
-  return book;
+  return {
+    ...book,
+    user: book.user
+      ? {
+          id: book.user.id,
+          username: book.user.username,
+          photoURL: book.user.photoURL ?? null,
+          city: book.user.city ?? null,
+        }
+      : null,
+  };
 };
 
 export const getMockBookDetails = async (id: string) => {
@@ -1664,4 +1745,31 @@ export const getMockGenres = async () => {
       books: inMemoryBooks.filter((b) => b.genres.some((bg) => bg.name === g.name)).length,
     },
   }));
+};
+
+export interface MockSettlement {
+  name: string;
+  count: number;
+  latitude: number;
+  longitude: number;
+}
+
+export const getMockSettlements = async (): Promise<MockSettlement[]> => {
+  const map = new Map<string, MockSettlement>();
+  for (const user of MOCK_USERS) {
+    if (!user.city || user.latitude == null || user.longitude == null) continue;
+    const count = inMemoryBooks.filter((b) => b.userId === user.id).length;
+    const existing = map.get(user.city);
+    if (existing) {
+      existing.count += count;
+    } else {
+      map.set(user.city, {
+        name: user.city,
+        count,
+        latitude: user.latitude,
+        longitude: user.longitude,
+      });
+    }
+  }
+  return Array.from(map.values()).sort((a, b) => b.count - a.count);
 };

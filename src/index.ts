@@ -9,6 +9,7 @@ import authRouter from './auth/auth.router.js';
 import booksRouter from './books/books.router.js';
 import genresRouter from './genres/genres.router.js';
 import uploadRouter from './upload/upload.router.js';
+import usersRouter from './users/users.router.js';
 import { isMockMode } from './config/env.js';
 
 const connString = process.env.DATABASE_URL;
@@ -35,6 +36,7 @@ app.use('/api/auth', authRouter);
 app.use('/api/books', booksRouter);
 app.use('/api/genres', genresRouter);
 app.use('/api/upload', uploadRouter);
+app.use('/api/users', usersRouter);
 
 app.listen(PORT, () => {
   console.log(`Server run -> http://localhost:${PORT}`);

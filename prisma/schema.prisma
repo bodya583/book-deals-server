@@ -1,9 +1,11 @@
 datasource db {
-  provider = "postgresql"
+  provider   = "postgresql"
+  extensions = [postgis]
 }
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
 }
 
 model User {
@@ -12,6 +14,9 @@ model User {
   email     String   @unique @db.VarChar(75)
   password  String   @db.VarChar(60)
   photoURL  String?  @db.VarChar(500)
+  latitude  Float?
+  longitude Float?
+  city      String?  @db.VarChar(100)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   books     Book[]

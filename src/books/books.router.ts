@@ -8,6 +8,7 @@ const router = Router();
 // Public routes
 router.get('/', booksController.getAll);
 router.get('/genres', genresController.getAll);
+router.get('/settlements', booksController.getSettlements);
 router.get('/:id/details', booksController.getDetails);
 router.get('/:id', booksController.getById);
 

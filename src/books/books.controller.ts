@@ -16,6 +16,11 @@ export const getAll = async (req: Request, res: Response) => {
       yearTo,
       page,
       limit,
+      nearLat,
+      nearLng,
+      radius,
+      city,
+      cities,
     } = req.query;
 
     // Parse genres: can be string[] or comma-separated string or single genre
@@ -38,7 +43,21 @@ export const getAll = async (req: Request, res: Response) => {
       parsedLanguages = [language.trim()];
     }
 
+    // Parse settlements / cities: can be string[] or comma-separated string
+    let parsedCities: string[] | undefined;
+    if (Array.isArray(cities)) {
+      parsedCities = cities.map(String).filter(Boolean);
+    } else if (typeof cities === 'string' && cities.trim()) {
+      parsedCities = cities.split(',').map((c) => c.trim()).filter(Boolean);
+    } else if (typeof city === 'string' && city.trim() && city !== 'all') {
+      parsedCities = [city.trim()];
+    }
+
     const isStrictGenres = String(strictGenres) === 'true';
+
+    const parsedNearLat = nearLat !== undefined && !isNaN(Number(nearLat)) ? Number(nearLat) : undefined;
+    const parsedNearLng = nearLng !== undefined && !isNaN(Number(nearLng)) ? Number(nearLng) : undefined;
+    const parsedRadius = radius !== undefined && !isNaN(Number(radius)) ? Number(radius) : undefined;
 
     const result = await booksService.getAllBooks({
       search: typeof search === 'string' ? search : undefined,
@@ -46,11 +65,15 @@ export const getAll = async (req: Request, res: Response) => {
       genres: parsedGenres,
       strictGenres: isStrictGenres,
       languages: parsedLanguages,
+      cities: parsedCities,
       year: year !== undefined && !isNaN(Number(year)) ? Number(year) : undefined,
       yearFrom: yearFrom !== undefined && !isNaN(Number(yearFrom)) ? Number(yearFrom) : undefined,
       yearTo: yearTo !== undefined && !isNaN(Number(yearTo)) ? Number(yearTo) : undefined,
       page: typeof page === 'string' ? Number(page) : undefined,
       limit: typeof limit === 'string' ? Number(limit) : undefined,
+      nearLat: parsedNearLat,
+      nearLng: parsedNearLng,
+      radius: parsedRadius,
     });
 
     return res.status(200).json(result);
@@ -59,6 +82,17 @@ export const getAll = async (req: Request, res: Response) => {
     return res.status(500).json({ message });
   }
 };
+
+export const getSettlements = async (_req: Request, res: Response) => {
+  try {
+    const list = await booksService.getSettlements();
+    return res.status(200).json(list);
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Error fetching settlements';
+    return res.status(500).json({ message });
+  }
+};
+
 
 export const getById = async (req: Request, res: Response) => {
   try {

@@ -7,6 +7,7 @@ import {
   createMockBook,
   updateMockBook,
   deleteMockBook,
+  getMockSettlements,
 } from '../mocks/mockBooks.js';
 
 export interface CreateBookDto {
@@ -44,6 +45,13 @@ export interface GetBooksFilter {
   yearTo?: number;
   page?: number;
   limit?: number;
+  // Proximity filter — uses PostGIS spherical distance (geography)
+  nearLat?: number;
+  nearLng?: number;
+  radius?: number; // km
+  // Settlement filter
+  city?: string;
+  cities?: string[];
 }
 
 const bookSelect = {
@@ -71,6 +79,7 @@ const bookSelect = {
       id: true,
       username: true,
       photoURL: true,
+      city: true,
     },
   },
 };
@@ -88,6 +97,20 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
 
   if (filter?.userId) {
     where.userId = filter.userId;
+  }
+
+  // Settlements / Cities filter
+  const cityList = filter?.cities && filter.cities.length > 0
+    ? filter.cities
+    : filter?.city && filter.city !== 'all'
+      ? [filter.city]
+      : [];
+
+  if (cityList.length > 0) {
+    where.user = {
+      ...(where.user || {}),
+      city: { in: cityList, mode: 'insensitive' },
+    };
   }
 
   // Languages filter (multi-select)
@@ -163,6 +186,73 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
       { genres: { some: { name: { contains: s, mode: 'insensitive' } } } },
     ];
   }
+
+  // ---------- Proximity filter via PostGIS geography (spherical earth) ----------
+  const hasProximity =
+    filter?.nearLat !== undefined &&
+    filter?.nearLng !== undefined &&
+    typeof filter.nearLat === 'number' &&
+    typeof filter.nearLng === 'number';
+
+  if (hasProximity) {
+    const lat = filter!.nearLat!;
+    const lng = filter!.nearLng!;
+    const radiusKm = typeof filter!.radius === 'number' && filter!.radius > 0
+      ? filter!.radius
+      : 50; // default 50 km
+    const radiusM = radiusKm * 1000;
+
+    // Build WHERE clause from existing Prisma where object as SQL fragments
+    // We use a raw query that joins Book → User and filters by distance
+    const prismaWhere = where;
+
+    // Collect userId ids of users within radius via raw SQL
+    const nearbyUsers = await prisma.$queryRaw<{ id: string }[]>`
+      SELECT id FROM "User"
+      WHERE latitude IS NOT NULL
+        AND longitude IS NOT NULL
+        AND ST_DWithin(
+          ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography,
+          ST_SetSRID(ST_MakePoint(${lng}, ${lat}), 4326)::geography,
+          ${radiusM}
+        )
+    `;
+
+    const nearbyUserIds = nearbyUsers.map((u) => u.id);
+
+    // Add userId filter to existing where clause
+    if (nearbyUserIds.length === 0) {
+      return {
+        books: [],
+        pagination: { total: 0, page, limit, totalPages: 0 },
+      };
+    }
+
+    // Merge: books must belong to a nearby user AND satisfy other filters
+    prismaWhere.userId = { in: nearbyUserIds };
+
+    const [total, books] = await Promise.all([
+      prisma.book.count({ where: prismaWhere }),
+      prisma.book.findMany({
+        where: prismaWhere,
+        skip,
+        take: limit,
+        orderBy: { createdAt: 'desc' },
+        select: bookSelect,
+      }),
+    ]);
+
+    return {
+      books,
+      pagination: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit),
+      },
+    };
+  }
+  // ---------- End proximity filter ----------
 
   const [total, books] = await Promise.all([
     prisma.book.count({ where }),
@@ -331,4 +421,28 @@ export const deleteBook = async (id: string) => {
   return prisma.book.delete({
     where: { id },
   });
+};
+
+export const getSettlements = async () => {
+  if (isMockMode) {
+    return getMockSettlements();
+  }
+
+  try {
+    const list = await prisma.$queryRaw<{ name: string; count: number; latitude: number; longitude: number }[]>`
+      SELECT 
+        COALESCE(u.city, 'Не указан') as name,
+        COUNT(b.id)::int as count,
+        AVG(u.latitude)::float as latitude,
+        AVG(u.longitude)::float as longitude
+      FROM "User" u
+      JOIN "Book" b ON b."userId" = u.id
+      WHERE u.latitude IS NOT NULL AND u.longitude IS NOT NULL
+      GROUP BY COALESCE(u.city, 'Не указан')
+      ORDER BY count DESC
+    `;
+    return list;
+  } catch {
+    return [];
+  }
 };
