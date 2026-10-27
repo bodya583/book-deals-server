@@ -1,4 +1,6 @@
 import { prisma } from '../index.js';
+import { isMockMode } from '../config/env.js';
+import { MOCK_USERS } from '../mocks/mockBooks.js';
 
 export const updateLocation = async (userId: string, latitude: number, longitude: number) => {
   const user = await prisma.user.update({
@@ -11,6 +13,7 @@ export const updateLocation = async (userId: string, latitude: number, longitude
       photoURL: true,
       latitude: true,
       longitude: true,
+      city: true,
       createdAt: true,
     },
   });
@@ -28,6 +31,7 @@ export const clearLocation = async (userId: string) => {
       photoURL: true,
       latitude: true,
       longitude: true,
+      city: true,
       createdAt: true,
     },
   });
@@ -35,6 +39,22 @@ export const clearLocation = async (userId: string) => {
 };
 
 export const getProfile = async (userId: string) => {
+  if (isMockMode) {
+    const mockUser = MOCK_USERS.find((u) => u.id === userId);
+    if (mockUser) {
+      return {
+        id: mockUser.id,
+        username: mockUser.username,
+        email: `${mockUser.username}@example.com`,
+        photoURL: mockUser.photoURL || null,
+        latitude: mockUser.latitude || null,
+        longitude: mockUser.longitude || null,
+        city: mockUser.city || null,
+        createdAt: new Date('2024-01-01T00:00:00.000Z'),
+      };
+    }
+  }
+
   const user = await prisma.user.findUnique({
     where: { id: userId },
     select: {
@@ -44,6 +64,7 @@ export const getProfile = async (userId: string) => {
       photoURL: true,
       latitude: true,
       longitude: true,
+      city: true,
       createdAt: true,
     },
   });

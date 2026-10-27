@@ -21,6 +21,7 @@ export const getAll = async (req: Request, res: Response) => {
       radius,
       city,
       cities,
+      isForTrade,
     } = req.query;
 
     // Parse genres: can be string[] or comma-separated string or single genre
@@ -62,6 +63,7 @@ export const getAll = async (req: Request, res: Response) => {
     const result = await booksService.getAllBooks({
       search: typeof search === 'string' ? search : undefined,
       userId: typeof userId === 'string' ? userId : undefined,
+      isForTrade: isForTrade !== undefined ? String(isForTrade) === 'true' : undefined,
       genres: parsedGenres,
       strictGenres: isStrictGenres,
       languages: parsedLanguages,
@@ -171,7 +173,7 @@ export const update = async (req: Request, res: Response) => {
       return res.status(403).json({ message: 'Forbidden: you do not own this book' });
     }
 
-    const { title, author, description, coverURL, language, year, genres } = req.body;
+    const { title, author, description, coverURL, language, year, genres, isForTrade } = req.body;
 
     const book = await booksService.updateBook(id, {
       title,
@@ -181,6 +183,7 @@ export const update = async (req: Request, res: Response) => {
       language,
       year: year !== undefined ? (year !== '' && year !== null && !isNaN(Number(year)) ? Number(year) : null) : undefined,
       genres: Array.isArray(genres) ? genres : undefined,
+      isForTrade: typeof isForTrade === 'boolean' ? isForTrade : undefined,
     });
 
     return res.status(200).json(book);

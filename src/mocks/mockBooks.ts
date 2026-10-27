@@ -25,6 +25,7 @@ export interface MockBook {
   year: number | null;
   genres: MockGenre[];
   userId: string | null;
+  isForTrade?: boolean;
   createdAt: Date;
   updatedAt: Date;
   user?: MockUser | null;
@@ -83,7 +84,7 @@ const haversineKm = (lat1: number, lon1: number, lat2: number, lon2: number) => 
   return R * c;
 };
 
-let inMemoryBooks: MockBook[] = [
+export let inMemoryBooks: MockBook[] = [
   {
     id: 'b-1',
     title: "1984",
@@ -1494,6 +1495,11 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
     list = list.filter((b) => b.userId === filter.userId);
   }
 
+  // Filter by isForTrade if specified
+  if (filter?.isForTrade !== undefined) {
+    list = list.filter((b) => (b.isForTrade ?? true) === filter.isForTrade);
+  }
+
   // Settlement / City filter
   const cityList =
     filter?.cities && filter.cities.length > 0
@@ -1695,6 +1701,7 @@ export const createMockBook = async (data: CreateBookDto, userId?: string) => {
     year: data.year || null,
     genres,
     userId: userId || 'u-1',
+    isForTrade: data.isForTrade !== undefined ? data.isForTrade : true,
     createdAt: new Date(),
     updatedAt: new Date(),
     user,
@@ -1722,6 +1729,7 @@ export const updateMockBook = async (id: string, data: UpdateBookDto, _userId?: 
     language: data.language !== undefined ? data.language.trim() || null : current.language,
     year: data.year !== undefined ? data.year : current.year,
     genres,
+    isForTrade: data.isForTrade !== undefined ? data.isForTrade : (current.isForTrade ?? true),
     updatedAt: new Date(),
   };
 

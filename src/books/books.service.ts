@@ -19,6 +19,7 @@ export interface CreateBookDto {
   year?: number | null;
   genres?: string[];
   userId?: string;
+  isForTrade?: boolean;
 }
 
 export interface UpdateBookDto {
@@ -30,11 +31,13 @@ export interface UpdateBookDto {
   year?: number | null;
   genres?: string[];
   userId?: string;
+  isForTrade?: boolean;
 }
 
 export interface GetBooksFilter {
   search?: string;
   userId?: string;
+  isForTrade?: boolean;
   genre?: string;
   genres?: string[];
   strictGenres?: boolean;
@@ -72,6 +75,7 @@ const bookSelect = {
     },
   },
   userId: true,
+  isForTrade: true,
   createdAt: true,
   updatedAt: true,
   user: {
@@ -97,6 +101,10 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
 
   if (filter?.userId) {
     where.userId = filter.userId;
+  }
+
+  if (filter?.isForTrade !== undefined) {
+    where.isForTrade = filter.isForTrade;
   }
 
   // Settlements / Cities filter
@@ -352,6 +360,7 @@ export const createBook = async (data: CreateBookDto) => {
       language: data.language?.trim() || null,
       year: typeof data.year === 'number' && !isNaN(data.year) ? data.year : null,
       userId: data.userId || null,
+      isForTrade: data.isForTrade !== undefined ? data.isForTrade : true,
       ...(cleanGenres.length > 0 && {
         genres: {
           connectOrCreate: cleanGenres.map((name) => ({
@@ -402,6 +411,7 @@ export const updateBook = async (id: string, data: UpdateBookDto) => {
         year: typeof data.year === 'number' && !isNaN(data.year) ? data.year : null,
       }),
       ...(data.userId !== undefined && { userId: data.userId }),
+      ...(data.isForTrade !== undefined && { isForTrade: data.isForTrade }),
       ...(genresUpdate && { genres: genresUpdate }),
     },
     select: bookSelect,

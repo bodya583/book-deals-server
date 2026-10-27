@@ -6,6 +6,7 @@ const router = Router();
 
 // All user profile routes are protected
 router.get('/me', authenticate, usersController.getMe);
+router.get('/:id', usersController.getUserById);
 router.patch('/me/location', authenticate, usersController.setLocation);
 router.delete('/me/location', authenticate, usersController.deleteLocation);
 

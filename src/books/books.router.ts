@@ -15,6 +15,7 @@ router.get('/:id', booksController.getById);
 // Protected routes (require valid JWT)
 router.post('/', authenticate, booksController.create);
 router.put('/:id', authenticate, booksController.update);
+router.patch('/:id', authenticate, booksController.update);
 router.delete('/:id', authenticate, booksController.remove);
 
 export default router;

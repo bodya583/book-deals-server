@@ -59,3 +59,19 @@ export const getMe = async (req: Request, res: Response) => {
     return res.status(500).json({ message });
   }
 };
+
+/**
+ * GET /api/users/:id
+ * Returns public profile of any user.
+ */
+export const getUserById = async (req: Request, res: Response) => {
+  try {
+    const userId = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+    const user = await usersService.getProfile(userId);
+    return res.status(200).json(user);
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'User not found';
+    return res.status(404).json({ message });
+  }
+};
+
