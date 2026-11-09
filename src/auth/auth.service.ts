@@ -1,6 +1,8 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../index.js';
+import { isMockMode } from '../config/env.js';
+import { MOCK_USERS } from '../mocks/mockBooks.js';
 
 const ACCESS_EXPIRES = '15m';
 const REFRESH_EXPIRES = '15d';
@@ -10,23 +12,56 @@ export interface TokenPayload {
   email: string;
 }
 
+// In-memory registered users for mock mode
+const inMemoryRegisteredUsers: Array<{
+  id: string;
+  username: string;
+  email: string;
+  password?: string;
+  photoURL: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  createdAt: Date;
+}> = [];
+
 export const generateTokens = (payload: TokenPayload) => {
-  const ACCESS_SECRET = process.env.JWT_ACCESS_SECRET!;
-  const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET!;
+  const ACCESS_SECRET = process.env.JWT_ACCESS_SECRET || 'mock_access_secret_key_1234567890123456';
+  const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'mock_refresh_secret_key_1234567890123456';
   const accessToken = jwt.sign(payload, ACCESS_SECRET, { expiresIn: ACCESS_EXPIRES });
   const refreshToken = jwt.sign(payload, REFRESH_SECRET, { expiresIn: REFRESH_EXPIRES });
   return { accessToken, refreshToken };
 };
 
 export const verifyAccessToken = (token: string): TokenPayload => {
-  return jwt.verify(token, process.env.JWT_ACCESS_SECRET!) as TokenPayload;
+  const ACCESS_SECRET = process.env.JWT_ACCESS_SECRET || 'mock_access_secret_key_1234567890123456';
+  return jwt.verify(token, ACCESS_SECRET) as TokenPayload;
 };
 
 export const verifyRefreshToken = (token: string): TokenPayload => {
-  return jwt.verify(token, process.env.JWT_REFRESH_SECRET!) as TokenPayload;
+  const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'mock_refresh_secret_key_1234567890123456';
+  return jwt.verify(token, REFRESH_SECRET) as TokenPayload;
 };
 
 export const register = async (username: string, email: string, password: string) => {
+  if (isMockMode) {
+    const existing = inMemoryRegisteredUsers.find((u) => u.email === email || u.username === username);
+    if (existing) {
+      throw new Error(existing.email === email ? 'Email is already taken' : 'Username is already taken');
+    }
+    const newUser = {
+      id: `mock-u-${Date.now()}`,
+      username,
+      email,
+      photoURL: null,
+      latitude: 50.4501,
+      longitude: 30.5234,
+      createdAt: new Date(),
+    };
+    inMemoryRegisteredUsers.push(newUser);
+    const tokens = generateTokens({ userId: newUser.id, email: newUser.email });
+    return { user: newUser, ...tokens };
+  }
+
   const existing = await prisma.user.findFirst({
     where: { OR: [{ email }, { username }] },
   });
@@ -48,6 +83,40 @@ export const register = async (username: string, email: string, password: string
 };
 
 export const login = async (email: string, password: string) => {
+  if (isMockMode) {
+    // Check in-memory registered first
+    const registered = inMemoryRegisteredUsers.find((u) => u.email === email || u.username === email);
+    if (registered) {
+      const tokens = generateTokens({ userId: registered.id, email: registered.email });
+      return { user: registered, ...tokens };
+    }
+
+    // Match against predefined MOCK_USERS (e.g. alex_reader, olga_books or any email)
+    const mockMatch = MOCK_USERS.find(
+      (u) =>
+        u.username.toLowerCase() === email.toLowerCase() ||
+        `${u.username}@example.com`.toLowerCase() === email.toLowerCase()
+    );
+
+    const user = mockMatch || MOCK_USERS[0]; // fallback to first mock user (alex_reader)
+    const userEmail = `${user.username}@example.com`;
+    const tokens = generateTokens({ userId: user.id, email: userEmail });
+
+    return {
+      user: {
+        id: user.id,
+        username: user.username,
+        email: userEmail,
+        photoURL: user.photoURL || null,
+        latitude: user.latitude || null,
+        longitude: user.longitude || null,
+        city: user.city || null,
+        createdAt: new Date('2024-01-01T00:00:00.000Z'),
+      },
+      ...tokens,
+    };
+  }
+
   const user = await prisma.user.findUnique({ where: { email } });
 
   if (!user) throw new Error('Invalid email or password');
@@ -64,6 +133,32 @@ export const login = async (email: string, password: string) => {
 
 export const refresh = async (refreshToken: string) => {
   const payload = verifyRefreshToken(refreshToken);
+
+  if (isMockMode) {
+    const regUser = inMemoryRegisteredUsers.find((u) => u.id === payload.userId);
+    if (regUser) {
+      const tokens = generateTokens({ userId: regUser.id, email: regUser.email });
+      return { user: regUser, ...tokens };
+    }
+
+    const mockUser = MOCK_USERS.find((u) => u.id === payload.userId) || MOCK_USERS[0];
+    const userEmail = `${mockUser.username}@example.com`;
+    const tokens = generateTokens({ userId: mockUser.id, email: userEmail });
+
+    return {
+      user: {
+        id: mockUser.id,
+        username: mockUser.username,
+        email: userEmail,
+        photoURL: mockUser.photoURL || null,
+        latitude: mockUser.latitude || null,
+        longitude: mockUser.longitude || null,
+        city: mockUser.city || null,
+        createdAt: new Date('2024-01-01T00:00:00.000Z'),
+      },
+      ...tokens,
+    };
+  }
 
   const user = await prisma.user.findUnique({
     where: { id: payload.userId },
