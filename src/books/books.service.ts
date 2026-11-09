@@ -34,6 +34,8 @@ export interface UpdateBookDto {
   isForTrade?: boolean;
 }
 
+export type BookSortOption = 'newest' | 'oldest' | 'title_asc' | 'title_desc' | 'distance' | 'popular';
+
 export interface GetBooksFilter {
   search?: string;
   userId?: string;
@@ -48,6 +50,7 @@ export interface GetBooksFilter {
   yearTo?: number;
   page?: number;
   limit?: number;
+  sortBy?: BookSortOption;
   // Proximity filter — uses PostGIS spherical distance (geography)
   nearLat?: number;
   nearLng?: number;
@@ -236,8 +239,17 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
       };
     }
 
-    // Merge: books must belong to a nearby user AND satisfy other filters
-    prismaWhere.userId = { in: nearbyUserIds };
+    // Dynamic orderBy
+    let orderBy: any = { createdAt: 'desc' };
+    if (filter?.sortBy === 'oldest') {
+      orderBy = { createdAt: 'asc' };
+    } else if (filter?.sortBy === 'title_asc') {
+      orderBy = { title: 'asc' };
+    } else if (filter?.sortBy === 'title_desc') {
+      orderBy = { title: 'desc' };
+    } else if (filter?.sortBy === 'popular') {
+      orderBy = [{ tradeItems: { _count: 'desc' } }, { createdAt: 'desc' }];
+    }
 
     const [total, books] = await Promise.all([
       prisma.book.count({ where: prismaWhere }),
@@ -245,7 +257,7 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
         where: prismaWhere,
         skip,
         take: limit,
-        orderBy: { createdAt: 'desc' },
+        orderBy,
         select: bookSelect,
       }),
     ]);
@@ -262,13 +274,25 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
   }
   // ---------- End proximity filter ----------
 
+  // Dynamic orderBy
+  let orderBy: any = { createdAt: 'desc' };
+  if (filter?.sortBy === 'oldest') {
+    orderBy = { createdAt: 'asc' };
+  } else if (filter?.sortBy === 'title_asc') {
+    orderBy = { title: 'asc' };
+  } else if (filter?.sortBy === 'title_desc') {
+    orderBy = { title: 'desc' };
+  } else if (filter?.sortBy === 'popular') {
+    orderBy = [{ tradeItems: { _count: 'desc' } }, { createdAt: 'desc' }];
+  }
+
   const [total, books] = await Promise.all([
     prisma.book.count({ where }),
     prisma.book.findMany({
       where,
       skip,
       take: limit,
-      orderBy: { createdAt: 'desc' },
+      orderBy,
       select: bookSelect,
     }),
   ]);

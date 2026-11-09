@@ -22,6 +22,7 @@ export const getAll = async (req: Request, res: Response) => {
       city,
       cities,
       isForTrade,
+      sortBy,
     } = req.query;
 
     // Parse genres: can be string[] or comma-separated string or single genre
@@ -76,6 +77,7 @@ export const getAll = async (req: Request, res: Response) => {
       nearLat: parsedNearLat,
       nearLng: parsedNearLng,
       radius: parsedRadius,
+      sortBy: typeof sortBy === 'string' ? (sortBy as booksService.BookSortOption) : undefined,
     });
 
     return res.status(200).json(result);

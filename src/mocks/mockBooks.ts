@@ -1595,8 +1595,30 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
     }
   }
 
-  // Sort by createdAt descending
-  list.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+  // 6. Sorting
+  const sortBy = filter?.sortBy || 'newest';
+  if (sortBy === 'oldest') {
+    list.sort((a, b) => a.createdAt.getTime() - b.createdAt.getTime());
+  } else if (sortBy === 'title_asc') {
+    list.sort((a, b) => a.title.localeCompare(b.title, 'ru', { sensitivity: 'base' }));
+  } else if (sortBy === 'title_desc') {
+    list.sort((a, b) => b.title.localeCompare(a.title, 'ru', { sensitivity: 'base' }));
+  } else if (sortBy === 'popular') {
+    const getPopularity = (book: typeof list[0]) => {
+      const idNum = parseInt(book.id.replace(/\D/g, '') || '0', 10);
+      return ((idNum * 17) % 100) + (book.genres?.length || 0) * 15;
+    };
+    list.sort((a, b) => getPopularity(b) - getPopularity(a));
+  } else if (sortBy === 'distance' && filter?.nearLat != null && filter?.nearLng != null) {
+    const getDist = (b: typeof list[0]) => {
+      if (b.user?.latitude == null || b.user?.longitude == null) return Infinity;
+      return haversineKm(filter.nearLat!, filter.nearLng!, b.user.latitude, b.user.longitude);
+    };
+    list.sort((a, b) => getDist(a) - getDist(b));
+  } else {
+    // Default: newest
+    list.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+  }
 
   const page = Math.max(1, Number(filter?.page) || 1);
   const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 12));
