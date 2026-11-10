@@ -303,7 +303,7 @@ export const createTrade = async (senderId: string, data: CreateTradeDto) => {
   if (isMockMode) {
     ensureMockTradesForUser(senderId);
 
-    const sender = findUser(senderId, 'Вы');
+    const sender = findUser(senderId, 'Читатель');
     const receiver = findUser(receiverId, 'Партнер');
 
     // Find books in memory

@@ -38,22 +38,39 @@ export let inMemoryTrades: MockTrade[] = [];
 export let inMemoryTradeMessages: MockTradeMessage[] = [];
 
 // Helper to find a user or create a fallback
-export const findUser = (id: string, fallbackUsername = 'Пользователь'): MockUser => {
+export const findUser = (id: string, fallbackUsername = 'Читатель'): MockUser => {
   const u = MOCK_USERS.find((user) => user.id === id);
-  if (u) return u;
+  if (u) return { ...u };
   return {
     id,
-    username: fallbackUsername,
+    username: fallbackUsername === 'Вы' ? 'Читатель' : fallbackUsername,
     photoURL: null,
     city: 'Киев',
   };
 };
 
-export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
-  // Clean up any invalid legacy self-trades
+export const ensureMockTradesForUser = (userId: string, username?: string) => {
+  // Clean up any invalid self-trades
   for (let i = inMemoryTrades.length - 1; i >= 0; i--) {
-    if (inMemoryTrades[i].senderId === inMemoryTrades[i].receiverId) {
+    const t = inMemoryTrades[i];
+    if (t.senderId === t.receiverId || t.sender?.id === t.receiver?.id) {
       inMemoryTrades.splice(i, 1);
+    }
+  }
+
+  const userFromMock = MOCK_USERS.find((u) => u.id === userId);
+  const resolvedUsername = userFromMock?.username || (username && username !== 'Вы' ? username : 'alex_reader');
+  const resolvedCity = userFromMock?.city || 'Киев';
+
+  // Fix any existing trades in memory that had username 'Вы'
+  for (const t of inMemoryTrades) {
+    if (t.sender && (t.sender.username === 'Вы' || t.sender.id === userId)) {
+      t.sender.username = resolvedUsername;
+      t.sender.city = resolvedCity;
+    }
+    if (t.receiver && (t.receiver.username === 'Вы' || t.receiver.id === userId)) {
+      t.receiver.username = resolvedUsername;
+      t.receiver.city = resolvedCity;
     }
   }
 
@@ -69,9 +86,9 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
 
     const currentUser: MockUser = {
       id: userId,
-      username,
-      photoURL: null,
-      city: 'Мой город',
+      username: resolvedUsername,
+      photoURL: userFromMock?.photoURL || null,
+      city: resolvedCity,
     };
 
     // Ensure current user has their own books in "Мои книги" (not all 100 books!)
