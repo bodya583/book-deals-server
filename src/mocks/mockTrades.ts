@@ -114,14 +114,32 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
         },
       ],
     });
-    inMemoryTradeMessages.push({
-      id: randomUUID(),
-      tradeId: t1Id,
-      senderId: partner1.id,
-      sender: partner1,
-      text: 'Привет! Давно искал эту книгу. Предлагаю обмен, книга в отличном состоянии!',
-      createdAt: new Date(Date.now() - 3600000 * 4),
-    });
+    inMemoryTradeMessages.push(
+      {
+        id: randomUUID(),
+        tradeId: t1Id,
+        senderId: partner1.id,
+        sender: partner1,
+        text: 'Привет! Давно искал эту книгу. Предлагаю обмен, книга в отличном состоянии!',
+        createdAt: new Date(Date.now() - 3600000 * 4),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t1Id,
+        senderId: partner1.id,
+        sender: partner1,
+        text: '📍 Предложение точки передачи: Парк Шевченко, возле главного фонтана',
+        createdAt: new Date(Date.now() - 3600000 * 3),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t1Id,
+        senderId: partner1.id,
+        sender: partner1,
+        text: '🕒 Предложение времени встречи: Завтра в 17:30',
+        createdAt: new Date(Date.now() - 3600000 * 2),
+      }
+    );
 
     // 2. Outgoing Pending trade: user offers myBook for partner2's p2Book
     const t2Id = randomUUID();
@@ -208,8 +226,40 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
         tradeId: t3Id,
         senderId: partner2.id,
         sender: partner2,
-        text: 'Договорились! Условия обмена зафиксированы. Отправлю посылкой СДЭК.',
+        text: 'Договорились! Условия обмена зафиксированы.',
         createdAt: new Date(Date.now() - 3600000 * 6),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t3Id,
+        senderId: partner2.id,
+        sender: partner2,
+        text: '📍 Предложение точки передачи: Львов, пл. Рынок, у входа в Ратушу',
+        createdAt: new Date(Date.now() - 3600000 * 5),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t3Id,
+        senderId: userId,
+        sender: currentUser,
+        text: '✅ Точка встречи согласована: Львов, пл. Рынок, у входа в Ратушу',
+        createdAt: new Date(Date.now() - 3600000 * 4),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t3Id,
+        senderId: partner2.id,
+        sender: partner2,
+        text: '🕒 Предложение времени встречи: В эту субботу в 14:00',
+        createdAt: new Date(Date.now() - 3600000 * 3),
+      },
+      {
+        id: randomUUID(),
+        tradeId: t3Id,
+        senderId: userId,
+        sender: currentUser,
+        text: '✅ Время встречи согласовано: В эту субботу в 14:00',
+        createdAt: new Date(Date.now() - 3600000 * 2),
       }
     );
 
