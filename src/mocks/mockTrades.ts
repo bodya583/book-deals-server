@@ -21,6 +21,8 @@ export interface MockTrade {
   items: MockTradeItem[];
   senderCompleted?: boolean;
   receiverCompleted?: boolean;
+  agreedLocationHash?: string;
+  agreedTimeHash?: string;
 }
 
 export interface MockTradeMessage {

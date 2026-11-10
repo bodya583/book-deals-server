@@ -101,6 +101,8 @@ const formatTradeMock = (trade: MockTrade, currentUserId: string) => {
     isReceiver: trade.receiverId === currentUserId,
     senderCompleted: Boolean(trade.senderCompleted),
     receiverCompleted: Boolean(trade.receiverCompleted),
+    agreedLocationHash: trade.agreedLocationHash,
+    agreedTimeHash: trade.agreedTimeHash,
   };
 };
 
@@ -567,7 +569,7 @@ export const completeTrade = async (tradeId: string, userId: string) => {
   });
 };
 
-export const rejectTrade = async (tradeId: string, userId: string) => {
+export const rejectTrade = async (tradeId: string, userId: string, reason?: string) => {
   if (isMockMode) {
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) throw new Error('Трейд не найден');
@@ -582,6 +584,19 @@ export const rejectTrade = async (tradeId: string, userId: string) => {
 
     trade.status = 'REJECTED';
     trade.updatedAt = new Date();
+
+    if (reason && reason.trim()) {
+      const user = findUser(userId);
+      inMemoryTradeMessages.push({
+        id: randomUUID(),
+        tradeId,
+        senderId: userId,
+        sender: user,
+        text: `🚫 Предложение отклонено. Причина: ${reason.trim()}`,
+        createdAt: new Date(),
+      });
+    }
+
     return formatTradeMock(trade, userId);
   }
 
@@ -601,6 +616,16 @@ export const rejectTrade = async (tradeId: string, userId: string) => {
       },
     },
   });
+
+  if (reason && reason.trim()) {
+    await prisma.tradeMessage.create({
+      data: {
+        tradeId,
+        senderId: userId,
+        text: `🚫 Предложение отклонено. Причина: ${reason.trim()}`,
+      },
+    });
+  }
 
   return formatTradePrisma(updated, userId);
 };
@@ -680,6 +705,16 @@ export const getPartners = async (currentUserId: string) => {
   }));
 };
 
+export const computeSimpleHash = (str: string): string => {
+  let hash = 0;
+  const s = str.trim().toLowerCase();
+  for (let i = 0; i < s.length; i++) {
+    hash = (hash << 5) - hash + s.charCodeAt(i);
+    hash |= 0;
+  }
+  return `h_${Math.abs(hash)}`;
+};
+
 export const counterTrade = async (
   originalTradeId: string,
   userId: string,
@@ -700,12 +735,47 @@ export const counterTrade = async (
     oldTrade.status = 'REJECTED';
     oldTrade.updatedAt = new Date();
 
-    return createTrade(userId, {
+    // Collect all previous messages from originalTradeId to preserve chat history
+    const prevMessages = inMemoryTradeMessages.filter((m) => m.tradeId === originalTradeId);
+
+    const newTrade = await createTrade(userId, {
       receiverId: oldTrade.senderId,
       offerBookIds: data.offerBookIds,
       targetBookIds: data.targetBookIds,
       message: data.message || 'Встречное предложение к обмену',
     });
+
+    const currentUser = findUser(userId);
+    const copiedMessages: MockTradeMessage[] = prevMessages.map((m) => ({
+      id: randomUUID(),
+      tradeId: newTrade.id,
+      senderId: m.senderId,
+      sender: m.sender,
+      text: m.text,
+      createdAt: m.createdAt,
+    }));
+
+    const systemMarker: MockTradeMessage = {
+      id: randomUUID(),
+      tradeId: newTrade.id,
+      senderId: userId,
+      sender: currentUser,
+      text: '🔄 Предложены встречные условия: изменён состав обмениваемых книг',
+      createdAt: new Date(),
+    };
+
+    const currentTradeMessages = inMemoryTradeMessages.filter((m) => m.tradeId === newTrade.id);
+    for (let i = inMemoryTradeMessages.length - 1; i >= 0; i--) {
+      if (inMemoryTradeMessages[i].tradeId === newTrade.id) {
+        inMemoryTradeMessages.splice(i, 1);
+      }
+    }
+
+    inMemoryTradeMessages.push(...copiedMessages);
+    inMemoryTradeMessages.push(systemMarker);
+    inMemoryTradeMessages.push(...currentTradeMessages);
+
+    return newTrade;
   }
 
   return await prisma.$transaction(async (tx) => {
@@ -755,6 +825,31 @@ export const counterTrade = async (
             book: bookInclude,
           },
         },
+      },
+    });
+
+    // Copy over all previous messages to preserve history across counter-offers
+    const prevMessages = await tx.tradeMessage.findMany({
+      where: { tradeId: originalTradeId },
+      orderBy: { createdAt: 'asc' },
+    });
+
+    for (const msg of prevMessages) {
+      await tx.tradeMessage.create({
+        data: {
+          tradeId: newTrade.id,
+          senderId: msg.senderId,
+          text: msg.text,
+          createdAt: msg.createdAt,
+        },
+      });
+    }
+
+    await tx.tradeMessage.create({
+      data: {
+        tradeId: newTrade.id,
+        senderId: userId,
+        text: '🔄 Предложены встречные условия: изменён состав обмениваемых книг',
       },
     });
 
@@ -836,6 +931,16 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
       text: cleanText,
       createdAt: new Date(),
     };
+
+    if (cleanText.includes('Точка встречи согласована:')) {
+      const loc = cleanText.replace(/.*Точка встречи согласована:\s*/, '').trim();
+      trade.agreedLocationHash = computeSimpleHash(loc);
+    }
+    if (cleanText.includes('Время встречи согласовано:')) {
+      const tm = cleanText.replace(/.*Время встречи согласовано:\s*/, '').trim();
+      trade.agreedTimeHash = computeSimpleHash(tm);
+    }
+
     inMemoryTradeMessages.push(newMessage);
     return newMessage;
   }

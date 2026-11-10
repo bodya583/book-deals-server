@@ -59,7 +59,8 @@ export const reject = async (req: Request, res: Response) => {
   try {
     const userId = req.user!.userId;
     const tradeId = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
-    const trade = await tradesService.rejectTrade(tradeId, userId);
+    const reason = req.body?.reason;
+    const trade = await tradesService.rejectTrade(tradeId, userId, reason);
     return res.json(trade);
   } catch (error: any) {
     return res.status(400).json({ message: error.message || 'Ошибка при отклонении трейда' });
