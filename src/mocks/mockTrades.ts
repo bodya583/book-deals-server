@@ -50,6 +50,13 @@ export const findUser = (id: string, fallbackUsername = 'Пользовател�
 };
 
 export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
+  // Clean up any invalid legacy self-trades
+  for (let i = inMemoryTrades.length - 1; i >= 0; i--) {
+    if (inMemoryTrades[i].senderId === inMemoryTrades[i].receiverId) {
+      inMemoryTrades.splice(i, 1);
+    }
+  }
+
   const hasUserTrades = inMemoryTrades.some(
     (t) => t.senderId === userId || t.receiverId === userId
   );

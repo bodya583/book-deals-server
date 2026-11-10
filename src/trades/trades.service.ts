@@ -72,6 +72,7 @@ const formatTradePrisma = (trade: any, currentUserId: string) => {
     isReceiver: trade.receiverId === currentUserId,
     senderCompleted: Boolean((trade as any).senderCompleted),
     receiverCompleted: Boolean((trade as any).receiverCompleted),
+    messagesCount: (trade as any)._count?.messages ?? (trade as any).messages?.length ?? 0,
   };
 };
 
@@ -83,6 +84,8 @@ const formatTradeMock = (trade: MockTrade, currentUserId: string) => {
   const requestedBooks = trade.items
     .filter((item) => item.side === 'REQUESTED')
     .map((item) => item.book);
+
+  const messagesCount = inMemoryTradeMessages.filter((m) => m.tradeId === trade.id).length;
 
   return {
     id: trade.id,
@@ -103,6 +106,7 @@ const formatTradeMock = (trade: MockTrade, currentUserId: string) => {
     receiverCompleted: Boolean(trade.receiverCompleted),
     agreedLocationHash: trade.agreedLocationHash,
     agreedTimeHash: trade.agreedTimeHash,
+    messagesCount,
   };
 };
 
@@ -290,6 +294,10 @@ export const createTrade = async (senderId: string, data: CreateTradeDto) => {
 
   if (offerBookIds.length === 0 && targetBookIds.length === 0) {
     throw new Error('Выберите хотя бы одну книгу для предложения или запроса');
+  }
+
+  if (senderId === receiverId) {
+    throw new Error('Нельзя создать предложение обмена с самим собой');
   }
 
   if (isMockMode) {
@@ -725,21 +733,26 @@ export const counterTrade = async (
     if (!oldTrade) {
       throw new Error('Исходный трейд не найден');
     }
-    if (oldTrade.receiverId !== userId) {
-      throw new Error('Только получатель предложения может создать встречный трейд');
+    if (oldTrade.senderId !== userId && oldTrade.receiverId !== userId) {
+      throw new Error('У вас нет прав для изменения этого трейда');
     }
     if (oldTrade.status !== 'PENDING') {
       throw new Error(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
     }
 
-    oldTrade.status = 'REJECTED';
+    const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
+    if (targetPartnerId === userId) {
+      throw new Error('Нельзя создать предложение обмена с самим собой');
+    }
+
+    oldTrade.status = oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED';
     oldTrade.updatedAt = new Date();
 
     // Collect all previous messages from originalTradeId to preserve chat history
     const prevMessages = inMemoryTradeMessages.filter((m) => m.tradeId === originalTradeId);
 
     const newTrade = await createTrade(userId, {
-      receiverId: oldTrade.senderId,
+      receiverId: targetPartnerId,
       offerBookIds: data.offerBookIds,
       targetBookIds: data.targetBookIds,
       message: data.message || 'Встречное предложение к обмену',
@@ -786,22 +799,27 @@ export const counterTrade = async (
     if (!oldTrade) {
       throw new Error('Исходный трейд не найден');
     }
-    if (oldTrade.receiverId !== userId) {
-      throw new Error('Только получатель предложения может создать встречный трейд');
+    if (oldTrade.senderId !== userId && oldTrade.receiverId !== userId) {
+      throw new Error('У вас нет прав для изменения этого трейда');
     }
     if (oldTrade.status !== 'PENDING') {
       throw new Error(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
     }
 
+    const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
+    if (targetPartnerId === userId) {
+      throw new Error('Нельзя создать предложение обмена с самим собой');
+    }
+
     await tx.trade.update({
       where: { id: originalTradeId },
-      data: { status: 'REJECTED' },
+      data: { status: oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED' },
     });
 
     const newTrade = await tx.trade.create({
       data: {
         senderId: userId,
-        receiverId: oldTrade.senderId,
+        receiverId: targetPartnerId,
         status: 'PENDING',
         message: data.message?.trim() || 'Встречное предложение к обмену',
         items: {
