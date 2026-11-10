@@ -10,6 +10,25 @@ import {
   inMemoryTradeMessages,
   MockTradeMessage,
 } from '../mocks/mockTrades.js';
+import {
+  computeSimpleHash,
+  computeBooksHash,
+  validateSelfTrade,
+  validateTradePayload,
+  validateBookOwnership,
+} from './trades.validation.js';
+import {
+  formatTradeMock,
+  formatTradePrisma,
+  findPrismaTradeById,
+  findPrismaBooksByIds,
+  userSelect,
+  bookInclude,
+  type PrismaTradeEntity,
+  type FormattedTrade,
+} from './trades.repository.js';
+
+export { computeSimpleHash, computeBooksHash };
 
 export interface CreateTradeDto {
   receiverId: string;
@@ -22,95 +41,7 @@ export interface TradeFilter {
   tab?: 'incoming' | 'outgoing' | 'agreed' | 'completed' | 'requests' | 'all';
 }
 
-const bookInclude = {
-  select: {
-    id: true,
-    title: true,
-    author: true,
-    coverURL: true,
-    language: true,
-    year: true,
-    userId: true,
-    genres: {
-      select: { id: true, name: true },
-    },
-  },
-};
-
-const userSelect = {
-  select: {
-    id: true,
-    username: true,
-    photoURL: true,
-    city: true,
-  },
-};
-
-const formatTradePrisma = (trade: any, currentUserId: string) => {
-  const offeredBooks = trade.items
-    .filter((item: any) => item.side === 'OFFERED')
-    .map((item: any) => item.book);
-
-  const requestedBooks = trade.items
-    .filter((item: any) => item.side === 'REQUESTED')
-    .map((item: any) => item.book);
-
-  return {
-    id: trade.id,
-    senderId: trade.senderId,
-    sender: trade.sender,
-    receiverId: trade.receiverId,
-    receiver: trade.receiver,
-    status: trade.status,
-    message: trade.message,
-    createdAt: trade.createdAt,
-    updatedAt: trade.updatedAt,
-    offeredBooks,
-    requestedBooks,
-    items: trade.items,
-    isSender: trade.senderId === currentUserId,
-    isReceiver: trade.receiverId === currentUserId,
-    senderCompleted: Boolean((trade as any).senderCompleted),
-    receiverCompleted: Boolean((trade as any).receiverCompleted),
-    messagesCount: (trade as any)._count?.messages ?? (trade as any).messages?.length ?? 0,
-  };
-};
-
-const formatTradeMock = (trade: MockTrade, currentUserId: string) => {
-  const offeredBooks = trade.items
-    .filter((item) => item.side === 'OFFERED')
-    .map((item) => item.book);
-
-  const requestedBooks = trade.items
-    .filter((item) => item.side === 'REQUESTED')
-    .map((item) => item.book);
-
-  const messagesCount = inMemoryTradeMessages.filter((m) => m.tradeId === trade.id).length;
-
-  return {
-    id: trade.id,
-    senderId: trade.senderId,
-    sender: trade.sender,
-    receiverId: trade.receiverId,
-    receiver: trade.receiver,
-    status: trade.status,
-    message: trade.message,
-    createdAt: trade.createdAt,
-    updatedAt: trade.updatedAt,
-    offeredBooks,
-    requestedBooks,
-    items: trade.items,
-    isSender: trade.senderId === currentUserId,
-    isReceiver: trade.receiverId === currentUserId,
-    senderCompleted: Boolean(trade.senderCompleted),
-    receiverCompleted: Boolean(trade.receiverCompleted),
-    agreedLocationHash: trade.agreedLocationHash,
-    agreedTimeHash: trade.agreedTimeHash,
-    messagesCount,
-  };
-};
-
-export const getTrades = async (userId: string, filter?: TradeFilter) => {
+export const getTrades = async (userId: string, filter?: TradeFilter): Promise<FormattedTrade[]> => {
   if (isMockMode) {
     ensureMockTradesForUser(userId);
     let list = inMemoryTrades.filter(
@@ -138,7 +69,8 @@ export const getTrades = async (userId: string, filter?: TradeFilter) => {
   }
 
   const tab = filter?.tab || 'all';
-  let where: any = {};
+  type WhereClause = Record<string, unknown>;
+  let where: WhereClause = {};
 
   if (tab === 'incoming') {
     where = { receiverId: userId, status: 'PENDING' };
@@ -165,7 +97,7 @@ export const getTrades = async (userId: string, filter?: TradeFilter) => {
     };
   }
 
-  const trades = await prisma.trade.findMany({
+  const trades = (await prisma.trade.findMany({
     where,
     include: {
       sender: userSelect,
@@ -177,7 +109,7 @@ export const getTrades = async (userId: string, filter?: TradeFilter) => {
       },
     },
     orderBy: { createdAt: 'desc' },
-  });
+  })) as unknown as PrismaTradeEntity[];
 
   return trades.map((t) => formatTradePrisma(t, userId));
 };
@@ -244,7 +176,7 @@ export const getTradeCounts = async (userId: string) => {
   return { incoming, outgoing, requests: incoming + outgoing, agreed, completed, total };
 };
 
-export const getTradeById = async (tradeId: string, userId: string) => {
+export const getTradeById = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     ensureMockTradesForUser(userId);
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
@@ -257,18 +189,7 @@ export const getTradeById = async (tradeId: string, userId: string) => {
     return formatTradeMock(trade, userId);
   }
 
-  const trade = await prisma.trade.findUnique({
-    where: { id: tradeId },
-    include: {
-      sender: userSelect,
-      receiver: userSelect,
-      items: {
-        include: {
-          book: bookInclude,
-        },
-      },
-    },
-  });
+  const trade = await findPrismaTradeById(tradeId);
 
   if (!trade) {
     throw new Error('Трейд не найден');
@@ -281,27 +202,17 @@ export const getTradeById = async (tradeId: string, userId: string) => {
   return formatTradePrisma(trade, userId);
 };
 
-export const createTrade = async (senderId: string, data: CreateTradeDto) => {
+export const createTrade = async (senderId: string, data: CreateTradeDto): Promise<FormattedTrade> => {
   const { receiverId, offerBookIds = [], targetBookIds = [], message } = data;
 
-  if (!receiverId) {
-    throw new Error('Не указан партнер по обмену');
-  }
-
-  if (receiverId === senderId) {
-    throw new Error('Нельзя создать трейд с самим собой');
-  }
-
-  if (offerBookIds.length === 0 && targetBookIds.length === 0) {
-    throw new Error('Выберите хотя бы одну книгу для предложения или запроса');
-  }
-
-  if (senderId === receiverId) {
-    throw new Error('Нельзя создать предложение обмена с самим собой');
-  }
+  validateSelfTrade(senderId, receiverId);
+  validateTradePayload(offerBookIds, targetBookIds);
 
   if (isMockMode) {
     ensureMockTradesForUser(senderId);
+
+    // Validate book ownership
+    validateBookOwnership(senderId, receiverId, offerBookIds, targetBookIds, inMemoryBooks);
 
     const sender = findUser(senderId, 'Читатель');
     const receiver = findUser(receiverId, 'Партнер');
@@ -353,9 +264,13 @@ export const createTrade = async (senderId: string, data: CreateTradeDto) => {
     return formatTradeMock(newTrade, senderId);
   }
 
-  // Database mode
+  // Database mode: validate ownership before writing
+  const allBookIds = [...offerBookIds, ...targetBookIds];
+  const dbBooks = await findPrismaBooksByIds(allBookIds);
+  validateBookOwnership(senderId, receiverId, offerBookIds, targetBookIds, dbBooks);
+
   return await prisma.$transaction(async (tx) => {
-    const newTrade = await tx.trade.create({
+    const newTrade = (await tx.trade.create({
       data: {
         senderId,
         receiverId,
@@ -383,7 +298,7 @@ export const createTrade = async (senderId: string, data: CreateTradeDto) => {
           },
         },
       },
-    });
+    })) as unknown as PrismaTradeEntity;
 
     if (message?.trim()) {
       await tx.tradeMessage.create({
@@ -399,7 +314,7 @@ export const createTrade = async (senderId: string, data: CreateTradeDto) => {
   });
 };
 
-export const acceptTrade = async (tradeId: string, userId: string) => {
+export const acceptTrade = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const tradeIndex = inMemoryTrades.findIndex((t) => t.id === tradeId);
     if (tradeIndex === -1) {
@@ -416,14 +331,12 @@ export const acceptTrade = async (tradeId: string, userId: string) => {
       throw new Error(`Нельзя согласовать трейд со статусом "${trade.status}"`);
     }
 
-    // Move to AGREED status (conditions fixed, waiting for physical book exchange)
     trade.status = 'AGREED';
     trade.updatedAt = new Date();
 
     return formatTradeMock(trade, userId);
   }
 
-  // Database mode: move to AGREED
   const trade = await prisma.trade.findUnique({
     where: { id: tradeId },
   });
@@ -440,7 +353,7 @@ export const acceptTrade = async (tradeId: string, userId: string) => {
     throw new Error(`Нельзя согласовать трейд со статусом "${trade.status}"`);
   }
 
-  const updated = await prisma.trade.update({
+  const updated = (await prisma.trade.update({
     where: { id: tradeId },
     data: { status: 'AGREED' },
     include: {
@@ -452,12 +365,12 @@ export const acceptTrade = async (tradeId: string, userId: string) => {
         },
       },
     },
-  });
+  })) as unknown as PrismaTradeEntity;
 
   return formatTradePrisma(updated, userId);
 };
 
-export const completeTrade = async (tradeId: string, userId: string) => {
+export const completeTrade = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const tradeIndex = inMemoryTrades.findIndex((t) => t.id === tradeId);
     if (tradeIndex === -1) {
@@ -474,8 +387,6 @@ export const completeTrade = async (tradeId: string, userId: string) => {
       throw new Error(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
     }
 
-    // Two-phase completion logic:
-    // Mark confirming user as completed
     if (trade.senderId === userId) {
       trade.senderCompleted = true;
     }
@@ -483,7 +394,6 @@ export const completeTrade = async (tradeId: string, userId: string) => {
       trade.receiverCompleted = true;
     }
 
-    // Trade is only COMPLETED and books transferred when BOTH sides confirm
     if (trade.senderCompleted && trade.receiverCompleted) {
       const offeredIds = trade.items
         .filter((i) => i.side === 'OFFERED')
@@ -500,11 +410,11 @@ export const completeTrade = async (tradeId: string, userId: string) => {
         if (offeredIds.includes(b.id)) {
           b.userId = trade.receiverId;
           b.user = newOwnerReceiver;
-          b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
+          b.isForTrade = false;
         } else if (requestedIds.includes(b.id)) {
           b.userId = trade.senderId;
           b.user = newOwnerSender;
-          b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
+          b.isForTrade = false;
         }
       }
 
@@ -515,13 +425,10 @@ export const completeTrade = async (tradeId: string, userId: string) => {
     return formatTradeMock(trade, userId);
   }
 
-  // Database mode: complete trade and transfer books
   return await prisma.$transaction(async (tx) => {
     const trade = await tx.trade.findUnique({
       where: { id: tradeId },
-      include: {
-        items: true,
-      },
+      include: { items: true },
     });
 
     if (!trade) {
@@ -544,7 +451,6 @@ export const completeTrade = async (tradeId: string, userId: string) => {
       .filter((i) => i.side === 'REQUESTED')
       .map((i) => i.bookId);
 
-    // Swap book ownership and set isForTrade to false:
     if (offeredIds.length > 0) {
       await tx.book.updateMany({
         where: { id: { in: offeredIds } },
@@ -559,7 +465,7 @@ export const completeTrade = async (tradeId: string, userId: string) => {
       });
     }
 
-    const updated = await tx.trade.update({
+    const updated = (await tx.trade.update({
       where: { id: tradeId },
       data: { status: 'COMPLETED' },
       include: {
@@ -571,13 +477,13 @@ export const completeTrade = async (tradeId: string, userId: string) => {
           },
         },
       },
-    });
+    })) as unknown as PrismaTradeEntity;
 
     return formatTradePrisma(updated, userId);
   });
 };
 
-export const rejectTrade = async (tradeId: string, userId: string, reason?: string) => {
+export const rejectTrade = async (tradeId: string, userId: string, reason?: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) throw new Error('Трейд не найден');
@@ -613,7 +519,7 @@ export const rejectTrade = async (tradeId: string, userId: string, reason?: stri
   if (trade.receiverId !== userId) throw new Error('Только получатель может отклонить трейд');
   if (trade.status !== 'PENDING') throw new Error(`Нельзя отклонить трейд со статусом "${trade.status}"`);
 
-  const updated = await prisma.trade.update({
+  const updated = (await prisma.trade.update({
     where: { id: tradeId },
     data: { status: 'REJECTED' },
     include: {
@@ -623,7 +529,7 @@ export const rejectTrade = async (tradeId: string, userId: string, reason?: stri
         include: { book: bookInclude },
       },
     },
-  });
+  })) as unknown as PrismaTradeEntity;
 
   if (reason && reason.trim()) {
     await prisma.tradeMessage.create({
@@ -638,7 +544,7 @@ export const rejectTrade = async (tradeId: string, userId: string, reason?: stri
   return formatTradePrisma(updated, userId);
 };
 
-export const cancelTrade = async (tradeId: string, userId: string) => {
+export const cancelTrade = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) throw new Error('Трейд не найден');
@@ -661,7 +567,7 @@ export const cancelTrade = async (tradeId: string, userId: string) => {
   if (trade.senderId !== userId) throw new Error('Только создатель предложения может отменить трейд');
   if (trade.status !== 'PENDING') throw new Error(`Нельзя отменить трейд со статусом "${trade.status}"`);
 
-  const updated = await prisma.trade.update({
+  const updated = (await prisma.trade.update({
     where: { id: tradeId },
     data: { status: 'CANCELLED' },
     include: {
@@ -671,7 +577,7 @@ export const cancelTrade = async (tradeId: string, userId: string) => {
         include: { book: bookInclude },
       },
     },
-  });
+  })) as unknown as PrismaTradeEntity;
 
   return formatTradePrisma(updated, userId);
 };
@@ -713,34 +619,11 @@ export const getPartners = async (currentUserId: string) => {
   }));
 };
 
-export const computeSimpleHash = (str: string): string => {
-  let hash = 0;
-  const s = str.trim().toLowerCase();
-  for (let i = 0; i < s.length; i++) {
-    hash = (hash << 5) - hash + s.charCodeAt(i);
-    hash |= 0;
-  }
-  return `h_${Math.abs(hash)}`;
-};
-
-// Sort book IDs alphabetically and compute a hash so that selection order does not matter
-export const computeBooksHash = (offeredIds: string[] = [], targetIds: string[] = []): string => {
-  const sortedOffered = [...offeredIds].sort().join(',');
-  const sortedTarget = [...targetIds].sort().join(',');
-  const rawKey = `give:[${sortedOffered}]|get:[${sortedTarget}]`;
-  let hash = 0;
-  for (let i = 0; i < rawKey.length; i++) {
-    hash = (hash << 5) - hash + rawKey.charCodeAt(i);
-    hash |= 0;
-  }
-  return `bh_${Math.abs(hash)}`;
-};
-
 export const counterTrade = async (
   originalTradeId: string,
   userId: string,
   data: CreateTradeDto
-) => {
+): Promise<FormattedTrade> => {
   if (isMockMode) {
     const oldTrade = inMemoryTrades.find((t) => t.id === originalTradeId);
     if (!oldTrade) {
@@ -754,9 +637,7 @@ export const counterTrade = async (
     }
 
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
-    if (targetPartnerId === userId) {
-      throw new Error('Нельзя создать предложение обмена с самим собой');
-    }
+    validateSelfTrade(userId, targetPartnerId);
 
     // Verify books were changed by comparing pre-sorted books hash
     const oldOffered = oldTrade.items
@@ -776,7 +657,6 @@ export const counterTrade = async (
     oldTrade.status = oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED';
     oldTrade.updatedAt = new Date();
 
-    // Collect all previous messages from originalTradeId to preserve chat history
     const prevMessages = inMemoryTradeMessages.filter((m) => m.tradeId === originalTradeId);
 
     const newTrade = await createTrade(userId, {
@@ -836,9 +716,7 @@ export const counterTrade = async (
     }
 
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
-    if (targetPartnerId === userId) {
-      throw new Error('Нельзя создать предложение обмена с самим собой');
-    }
+    validateSelfTrade(userId, targetPartnerId);
 
     const oldOffered = (oldTrade.items || [])
       .filter((i) => (oldTrade.senderId === userId ? i.side === 'OFFERED' : i.side === 'REQUESTED'))
@@ -859,7 +737,7 @@ export const counterTrade = async (
       data: { status: oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED' },
     });
 
-    const newTrade = await tx.trade.create({
+    const newTrade = (await tx.trade.create({
       data: {
         senderId: userId,
         receiverId: targetPartnerId,
@@ -887,9 +765,8 @@ export const counterTrade = async (
           },
         },
       },
-    });
+    })) as unknown as PrismaTradeEntity;
 
-    // Copy over all previous messages to preserve history across counter-offers
     const prevMessages = await tx.tradeMessage.findMany({
       where: { tradeId: originalTradeId },
       orderBy: { createdAt: 'asc' },
@@ -939,11 +816,9 @@ export const getTradeMessages = async (tradeId: string, userId: string) => {
       throw new Error('Нет доступа к переписке этого трейда');
     }
 
-    const messages = inMemoryTradeMessages
+    return inMemoryTradeMessages
       .filter((m) => m.tradeId === tradeId)
       .sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
-
-    return messages;
   }
 
   const trade = await prisma.trade.findUnique({
@@ -956,15 +831,13 @@ export const getTradeMessages = async (tradeId: string, userId: string) => {
     throw new Error('Нет доступа к переписке этого трейда');
   }
 
-  const messages = await prisma.tradeMessage.findMany({
+  return await prisma.tradeMessage.findMany({
     where: { tradeId },
     orderBy: { createdAt: 'asc' },
     include: {
       sender: userSelect,
     },
   });
-
-  return messages;
 };
 
 export const sendTradeMessage = async (tradeId: string, userId: string, text: string) => {
@@ -1036,4 +909,3 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
 
   return message;
 };
-
