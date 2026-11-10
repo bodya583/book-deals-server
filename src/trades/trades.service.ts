@@ -19,7 +19,7 @@ export interface CreateTradeDto {
 }
 
 export interface TradeFilter {
-  tab?: 'incoming' | 'outgoing' | 'agreed' | 'completed' | 'all';
+  tab?: 'incoming' | 'outgoing' | 'agreed' | 'completed' | 'requests' | 'all';
 }
 
 const bookInclude = {
@@ -117,6 +117,10 @@ export const getTrades = async (userId: string, filter?: TradeFilter) => {
       list = list.filter((t) => t.receiverId === userId && t.status === 'PENDING');
     } else if (tab === 'outgoing') {
       list = list.filter((t) => t.senderId === userId && t.status === 'PENDING');
+    } else if (tab === 'requests') {
+      list = list.filter(
+        (t) => (t.receiverId === userId || t.senderId === userId) && t.status === 'PENDING'
+      );
     } else if (tab === 'agreed') {
       list = list.filter((t) => ['AGREED', 'ACCEPTED'].includes(t.status));
     } else if (tab === 'completed') {
@@ -134,6 +138,11 @@ export const getTrades = async (userId: string, filter?: TradeFilter) => {
     where = { receiverId: userId, status: 'PENDING' };
   } else if (tab === 'outgoing') {
     where = { senderId: userId, status: 'PENDING' };
+  } else if (tab === 'requests') {
+    where = {
+      OR: [{ senderId: userId }, { receiverId: userId }],
+      status: 'PENDING',
+    };
   } else if (tab === 'agreed') {
     where = {
       OR: [{ senderId: userId }, { receiverId: userId }],
@@ -190,7 +199,14 @@ export const getTradeCounts = async (userId: string) => {
       (t) => t.status === 'COMPLETED'
     ).length;
 
-    return { incoming, outgoing, agreed, completed, total: userTrades.length };
+    return {
+      incoming,
+      outgoing,
+      requests: incoming + outgoing,
+      agreed,
+      completed,
+      total: userTrades.length,
+    };
   }
 
   const [incoming, outgoing, agreed, completed, total] = await Promise.all([
@@ -219,7 +235,7 @@ export const getTradeCounts = async (userId: string) => {
     }),
   ]);
 
-  return { incoming, outgoing, agreed, completed, total };
+  return { incoming, outgoing, requests: incoming + outgoing, agreed, completed, total };
 };
 
 export const getTradeById = async (tradeId: string, userId: string) => {

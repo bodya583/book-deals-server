@@ -4,7 +4,7 @@ import * as tradesService from './trades.service.js';
 export const getAll = async (req: Request, res: Response) => {
   try {
     const userId = req.user!.userId;
-    const tab = req.query.tab as 'incoming' | 'outgoing' | 'agreed' | 'all' | undefined;
+    const tab = req.query.tab as 'incoming' | 'outgoing' | 'agreed' | 'completed' | 'requests' | 'all' | undefined;
     const trades = await tradesService.getTrades(userId, { tab });
     return res.json(trades);
   } catch (error: any) {
