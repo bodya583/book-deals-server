@@ -959,6 +959,7 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
       trade.agreedTimeHash = computeSimpleHash(tm);
     }
 
+    trade.updatedAt = new Date();
     inMemoryTradeMessages.push(newMessage);
     return newMessage;
   }
@@ -973,16 +974,22 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
     throw new Error('Нет доступа к переписке этого трейда');
   }
 
-  const message = await prisma.tradeMessage.create({
-    data: {
-      tradeId,
-      senderId: userId,
-      text: cleanText,
-    },
-    include: {
-      sender: userSelect,
-    },
-  });
+  const [message] = await Promise.all([
+    prisma.tradeMessage.create({
+      data: {
+        tradeId,
+        senderId: userId,
+        text: cleanText,
+      },
+      include: {
+        sender: userSelect,
+      },
+    }),
+    prisma.trade.update({
+      where: { id: tradeId },
+      data: { updatedAt: new Date() },
+    }),
+  ]);
 
   return message;
 };
