@@ -51,9 +51,10 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
   );
 
   if (!hasUserTrades && inMemoryBooks.length >= 4) {
-    const partner1 = MOCK_USERS[0] || { id: 'u-1', username: 'alex_reader', city: 'Киев' };
-    const partner2 = MOCK_USERS[1] || { id: 'u-2', username: 'olga_books', city: 'Львов' };
-    const partner3 = MOCK_USERS[2] || { id: 'u-3', username: 'serhiy_dev', city: 'Одесса' };
+    const otherUsers = MOCK_USERS.filter((u) => u.id !== userId);
+    const partner1 = otherUsers[0] || { id: 'u-2', username: 'olga_books', city: 'Львов' };
+    const partner2 = otherUsers[1] || { id: 'u-3', username: 'serhiy_dev', city: 'Одесса' };
+    const partner3 = otherUsers[2] || { id: 'u-4', username: 'maria_reading', city: 'Харьков' };
 
     const currentUser: MockUser = {
       id: userId,
