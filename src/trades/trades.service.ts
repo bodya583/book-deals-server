@@ -723,6 +723,19 @@ export const computeSimpleHash = (str: string): string => {
   return `h_${Math.abs(hash)}`;
 };
 
+// Sort book IDs alphabetically and compute a hash so that selection order does not matter
+export const computeBooksHash = (offeredIds: string[] = [], targetIds: string[] = []): string => {
+  const sortedOffered = [...offeredIds].sort().join(',');
+  const sortedTarget = [...targetIds].sort().join(',');
+  const rawKey = `give:[${sortedOffered}]|get:[${sortedTarget}]`;
+  let hash = 0;
+  for (let i = 0; i < rawKey.length; i++) {
+    hash = (hash << 5) - hash + rawKey.charCodeAt(i);
+    hash |= 0;
+  }
+  return `bh_${Math.abs(hash)}`;
+};
+
 export const counterTrade = async (
   originalTradeId: string,
   userId: string,
@@ -743,6 +756,21 @@ export const counterTrade = async (
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
     if (targetPartnerId === userId) {
       throw new Error('Нельзя создать предложение обмена с самим собой');
+    }
+
+    // Verify books were changed by comparing pre-sorted books hash
+    const oldOffered = oldTrade.items
+      .filter((i) => (oldTrade.senderId === userId ? i.side === 'OFFERED' : i.side === 'REQUESTED'))
+      .map((i) => i.bookId);
+    const oldTarget = oldTrade.items
+      .filter((i) => (oldTrade.senderId === userId ? i.side === 'REQUESTED' : i.side === 'OFFERED'))
+      .map((i) => i.bookId);
+
+    const oldBooksHash = computeBooksHash(oldOffered, oldTarget);
+    const newBooksHash = computeBooksHash(data.offerBookIds, data.targetBookIds);
+
+    if (oldBooksHash === newBooksHash) {
+      throw new Error('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
     }
 
     oldTrade.status = oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED';
@@ -794,6 +822,7 @@ export const counterTrade = async (
   return await prisma.$transaction(async (tx) => {
     const oldTrade = await tx.trade.findUnique({
       where: { id: originalTradeId },
+      include: { items: true },
     });
 
     if (!oldTrade) {
@@ -809,6 +838,20 @@ export const counterTrade = async (
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
     if (targetPartnerId === userId) {
       throw new Error('Нельзя создать предложение обмена с самим собой');
+    }
+
+    const oldOffered = (oldTrade.items || [])
+      .filter((i) => (oldTrade.senderId === userId ? i.side === 'OFFERED' : i.side === 'REQUESTED'))
+      .map((i) => i.bookId);
+    const oldTarget = (oldTrade.items || [])
+      .filter((i) => (oldTrade.senderId === userId ? i.side === 'REQUESTED' : i.side === 'OFFERED'))
+      .map((i) => i.bookId);
+
+    const oldBooksHash = computeBooksHash(oldOffered, oldTarget);
+    const newBooksHash = computeBooksHash(data.offerBookIds, data.targetBookIds);
+
+    if (oldBooksHash === newBooksHash) {
+      throw new Error('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
     }
 
     await tx.trade.update({
