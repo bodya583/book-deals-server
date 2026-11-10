@@ -19,6 +19,8 @@ export interface MockTrade {
   createdAt: Date;
   updatedAt: Date;
   items: MockTradeItem[];
+  senderCompleted?: boolean;
+  receiverCompleted?: boolean;
 }
 
 export interface MockTradeMessage {
@@ -188,6 +190,8 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
       receiver: currentUser,
       status: 'AGREED',
       message: 'Договорились! Условия обмена зафиксированы. Отправлю посылкой СДЭК.',
+      senderCompleted: false,
+      receiverCompleted: false,
       createdAt: new Date(Date.now() - 3600000 * 12),
       updatedAt: new Date(Date.now() - 3600000 * 6),
       items: [
@@ -274,6 +278,8 @@ export const ensureMockTradesForUser = (userId: string, username = 'Вы') => {
       receiver: currentUser,
       status: 'COMPLETED',
       message: 'Спасибо за обмен! Книги получены, обмен успешно завершён 👍',
+      senderCompleted: true,
+      receiverCompleted: true,
       createdAt: new Date(Date.now() - 3600000 * 72), // 3 days ago
       updatedAt: new Date(Date.now() - 3600000 * 48), // completed 2 days ago
       items: [

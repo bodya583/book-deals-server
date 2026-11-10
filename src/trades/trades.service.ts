@@ -70,6 +70,8 @@ const formatTradePrisma = (trade: any, currentUserId: string) => {
     items: trade.items,
     isSender: trade.senderId === currentUserId,
     isReceiver: trade.receiverId === currentUserId,
+    senderCompleted: Boolean((trade as any).senderCompleted),
+    receiverCompleted: Boolean((trade as any).receiverCompleted),
   };
 };
 
@@ -97,6 +99,8 @@ const formatTradeMock = (trade: MockTrade, currentUserId: string) => {
     items: trade.items,
     isSender: trade.senderId === currentUserId,
     isReceiver: trade.receiverId === currentUserId,
+    senderCompleted: Boolean(trade.senderCompleted),
+    receiverCompleted: Boolean(trade.receiverCompleted),
   };
 };
 
@@ -444,33 +448,44 @@ export const completeTrade = async (tradeId: string, userId: string) => {
       throw new Error(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
     }
 
-    // Books received! Execute swap in mock books
-    const offeredIds = trade.items
-      .filter((i) => i.side === 'OFFERED')
-      .map((i) => i.bookId);
-
-    const requestedIds = trade.items
-      .filter((i) => i.side === 'REQUESTED')
-      .map((i) => i.bookId);
-
-    const newOwnerReceiver = findUser(trade.receiverId);
-    const newOwnerSender = findUser(trade.senderId);
-
-    for (const b of inMemoryBooks) {
-      if (offeredIds.includes(b.id)) {
-        b.userId = trade.receiverId;
-        b.user = newOwnerReceiver;
-        b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
-      } else if (requestedIds.includes(b.id)) {
-        b.userId = trade.senderId;
-        b.user = newOwnerSender;
-        b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
-      }
+    // Two-phase completion logic:
+    // Mark confirming user as completed
+    if (trade.senderId === userId) {
+      trade.senderCompleted = true;
+    }
+    if (trade.receiverId === userId) {
+      trade.receiverCompleted = true;
     }
 
-    trade.status = 'COMPLETED';
-    trade.updatedAt = new Date();
+    // Trade is only COMPLETED and books transferred when BOTH sides confirm
+    if (trade.senderCompleted && trade.receiverCompleted) {
+      const offeredIds = trade.items
+        .filter((i) => i.side === 'OFFERED')
+        .map((i) => i.bookId);
 
+      const requestedIds = trade.items
+        .filter((i) => i.side === 'REQUESTED')
+        .map((i) => i.bookId);
+
+      const newOwnerReceiver = findUser(trade.receiverId);
+      const newOwnerSender = findUser(trade.senderId);
+
+      for (const b of inMemoryBooks) {
+        if (offeredIds.includes(b.id)) {
+          b.userId = trade.receiverId;
+          b.user = newOwnerReceiver;
+          b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
+        } else if (requestedIds.includes(b.id)) {
+          b.userId = trade.senderId;
+          b.user = newOwnerSender;
+          b.isForTrade = false; // Freshly received: visible only to owner until owner enables exchange
+        }
+      }
+
+      trade.status = 'COMPLETED';
+    }
+
+    trade.updatedAt = new Date();
     return formatTradeMock(trade, userId);
   }
 
