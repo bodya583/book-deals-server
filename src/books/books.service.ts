@@ -87,6 +87,8 @@ const bookSelect = {
       username: true,
       photoURL: true,
       city: true,
+      latitude: true,
+      longitude: true,
     },
   },
 };
