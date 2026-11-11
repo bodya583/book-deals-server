@@ -12,7 +12,7 @@ export const uploadImageToCloudinary = async (
 ): Promise<UploadResult> => {
   if (!isCloudinaryConfigured()) {
     throw new Error(
-      'Сервер Cloudinary не настроен. Пожалуйста, укажите переменные окружения CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY и CLOUDINARY_API_SECRET (или CLOUDINARY_URL) в server/.env'
+      'Cloudinary server is not configured. Please set CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, and CLOUDINARY_API_SECRET (or CLOUDINARY_URL) in server/.env'
     );
   }
 
@@ -28,14 +28,14 @@ export const uploadImageToCloudinary = async (
           if (error.http_code === 403 || rawMsg.includes('403') || rawMsg.includes('permissions')) {
             return reject(
               new Error(
-                'Cloudinary 403 Forbidden: у указанного API ключа нет разрешения на создание/загрузку файлов ("create"). В панели Cloudinary (Settings → Access Keys) включите для этого ключа разрешение "Upload / Media management" либо используйте основной Master API Key.'
+                'Cloudinary 403 Forbidden: the provided API key does not have permission to create/upload files. In Cloudinary Settings -> Access Keys, enable "Upload / Media management" permission or use the Master API Key.'
               )
             );
           }
-          return reject(new Error(rawMsg || 'Ошибка загрузки в Cloudinary'));
+          return reject(new Error(rawMsg || 'Cloudinary upload error'));
         }
         if (!result) {
-          return reject(new Error('Cloudinary не вернул результат загрузки'));
+          return reject(new Error('Cloudinary did not return an upload result'));
         }
         resolve({
           url: result.secure_url,

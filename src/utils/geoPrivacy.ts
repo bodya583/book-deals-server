@@ -4,18 +4,18 @@
  */
 
 const CITY_COORDINATES: Record<string, [number, number]> = {
-  киев: [50.4501, 30.5234],
-  київ: [50.4501, 30.5234],
-  львов: [49.8397, 24.0297],
-  львів: [49.8397, 24.0297],
-  одесса: [46.4825, 30.7233],
-  одеса: [46.4825, 30.7233],
-  харьков: [49.9935, 36.2304],
-  харків: [49.9935, 36.2304],
-  днепр: [48.4647, 35.0462],
-  дніпро: [48.4647, 35.0462],
-  запорожье: [47.8388, 35.1396],
-  запоріжжя: [47.8388, 35.1396],
+  kyiv: [50.4501, 30.5234],
+  lviv: [49.8397, 24.0297],
+  odesa: [46.4825, 30.7233],
+  odessa: [46.4825, 30.7233],
+  kharkiv: [49.9935, 36.2304],
+  dnipro: [48.4647, 35.0462],
+  zaporizhzhia: [47.8388, 35.1396],
+  warsaw: [52.2297, 21.0122],
+  vinnytsia: [49.2331, 28.4682],
+  'ivano-frankivsk': [48.9226, 24.7111],
+  poltava: [49.5883, 34.5514],
+  chernivtsi: [48.2921, 25.9358],
 };
 
 /**
@@ -126,22 +126,22 @@ export function calculateDistanceKm(
  */
 export function getDiscreteDistanceLabel(distanceKm: number | null | undefined): string {
   if (distanceKm == null || isNaN(distanceKm)) {
-    return 'В вашем городе';
+    return 'In your city';
   }
 
   if (distanceKm < 1) {
-    return 'Поблизости (< 1 км)';
+    return 'Nearby (< 1 km)';
   }
   if (distanceKm < 3.5) {
-    return '~2–3 км от вас';
+    return '~2–3 km away';
   }
   if (distanceKm < 6.5) {
-    return '~5 км от вас';
+    return '~5 km away';
   }
   if (distanceKm < 12) {
-    return '~10 км от вас';
+    return '~10 km away';
   }
 
   const rounded = Math.round(distanceKm / 5) * 5;
-  return `~${rounded} км от вас`;
+  return `~${rounded} km away`;
 }

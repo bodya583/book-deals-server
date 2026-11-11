@@ -36,14 +36,14 @@ describe('Books Hashing & Invariance Algorithm', () => {
 
   describe('computeSimpleHash for Handover Agreements', () => {
     it('should normalize casing and trim whitespace', () => {
-      const h1 = computeSimpleHash('  Парк Шевченко  ');
-      const h2 = computeSimpleHash('парк шевченко');
+      const h1 = computeSimpleHash('  Shevchenko Park  ');
+      const h2 = computeSimpleHash('shevchenko park');
       assert.equal(h1, h2);
     });
 
     it('should produce different hashes for different locations', () => {
-      const h1 = computeSimpleHash('Парк Шевченко');
-      const h2 = computeSimpleHash('Метро Университет');
+      const h1 = computeSimpleHash('Shevchenko Park');
+      const h2 = computeSimpleHash('University Metro');
       assert.notEqual(h1, h2);
     });
   });

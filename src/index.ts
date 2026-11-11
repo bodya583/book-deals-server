@@ -47,6 +47,6 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`Server run -> http://localhost:${PORT}`);
   if (isMockMode) {
-    console.log(`[MOCK MODE] 🚀 Сервер запущен с демонстрационными книгами (база данных не затрагивается)`);
+    console.log('[MOCK MODE] Server started with sample mock books (database is untouched)');
   }
 });

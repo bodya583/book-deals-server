@@ -467,14 +467,14 @@ export const getSettlements = async () => {
   try {
     const list = await prisma.$queryRaw<{ name: string; count: number; latitude: number; longitude: number }[]>`
       SELECT 
-        COALESCE(u.city, 'Не указан') as name,
+        COALESCE(u.city, 'Unspecified') as name,
         COUNT(b.id)::int as count,
         AVG(u.latitude)::float as latitude,
         AVG(u.longitude)::float as longitude
       FROM "User" u
       JOIN "Book" b ON b."userId" = u.id
       WHERE u.latitude IS NOT NULL AND u.longitude IS NOT NULL
-      GROUP BY COALESCE(u.city, 'Не указан')
+      GROUP BY COALESCE(u.city, 'Unspecified')
       ORDER BY count DESC
     `;
     return list;

@@ -38,14 +38,14 @@ export let inMemoryTrades: MockTrade[] = [];
 export let inMemoryTradeMessages: MockTradeMessage[] = [];
 
 // Helper to find a user or create a fallback
-export const findUser = (id: string, fallbackUsername = 'Читатель'): MockUser => {
+export const findUser = (id: string, fallbackUsername = 'Reader'): MockUser => {
   const u = MOCK_USERS.find((user) => user.id === id);
   if (u) return { ...u };
   return {
     id,
-    username: fallbackUsername === 'Вы' ? 'Читатель' : fallbackUsername,
+    username: fallbackUsername === 'You' ? 'Reader' : fallbackUsername,
     photoURL: null,
-    city: 'Киев',
+    city: 'Kyiv',
   };
 };
 
@@ -59,16 +59,16 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
   }
 
   const userFromMock = MOCK_USERS.find((u) => u.id === userId);
-  const resolvedUsername = userFromMock?.username || (username && username !== 'Вы' ? username : 'alex_reader');
-  const resolvedCity = userFromMock?.city || 'Киев';
+  const resolvedUsername = userFromMock?.username || (username && username !== 'You' ? username : 'alex_reader');
+  const resolvedCity = userFromMock?.city || 'Kyiv';
 
-  // Fix any existing trades in memory that had username 'Вы'
+  // Fix any existing trades in memory with placeholder username
   for (const t of inMemoryTrades) {
-    if (t.sender && (t.sender.username === 'Вы' || t.sender.id === userId)) {
+    if (t.sender && (t.sender.username === 'You' || t.sender.id === userId)) {
       t.sender.username = resolvedUsername;
       t.sender.city = resolvedCity;
     }
-    if (t.receiver && (t.receiver.username === 'Вы' || t.receiver.id === userId)) {
+    if (t.receiver && (t.receiver.username === 'You' || t.receiver.id === userId)) {
       t.receiver.username = resolvedUsername;
       t.receiver.city = resolvedCity;
     }
@@ -80,9 +80,9 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
 
   if (!hasUserTrades && inMemoryBooks.length >= 4) {
     const otherUsers = MOCK_USERS.filter((u) => u.id !== userId);
-    const partner1 = otherUsers[0] || { id: 'u-2', username: 'olga_books', city: 'Львов' };
-    const partner2 = otherUsers[1] || { id: 'u-3', username: 'serhiy_dev', city: 'Одесса' };
-    const partner3 = otherUsers[2] || { id: 'u-4', username: 'maria_reading', city: 'Харьков' };
+    const partner1 = otherUsers[0] || { id: 'u-2', username: 'olga_books', city: 'Lviv' };
+    const partner2 = otherUsers[1] || { id: 'u-3', username: 'serhiy_dev', city: 'Odesa' };
+    const partner3 = otherUsers[2] || { id: 'u-4', username: 'maria_reading', city: 'Kharkiv' };
 
     const currentUser: MockUser = {
       id: userId,
@@ -91,7 +91,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       city: resolvedCity,
     };
 
-    // Ensure current user has their own books in "Мои книги" (not all 100 books!)
+    // Ensure current user has their own books in My Library
     let userBooks = inMemoryBooks.filter((b) => b.userId === userId);
     if (userBooks.length === 0) {
       const candidates = inMemoryBooks.filter(
@@ -125,8 +125,8 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       receiverId: userId,
       receiver: currentUser,
       status: 'PENDING',
-      message: 'Привет! Давно искал эту книгу. Предлагаю обмен, книга в отличном состоянии!',
-      createdAt: new Date(Date.now() - 3600000 * 4), // 4 hours ago
+      message: 'Hi! Been looking for this book for a long time. Interested in a swap, mine is in great condition!',
+      createdAt: new Date(Date.now() - 3600000 * 4),
       updatedAt: new Date(Date.now() - 3600000 * 4),
       items: [
         {
@@ -149,7 +149,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t1Id,
         senderId: partner1.id,
         sender: partner1,
-        text: 'Привет! Давно искал эту книгу. Предлагаю обмен, книга в отличном состоянии!',
+        text: 'Hi! Been looking for this book for a long time. Interested in a swap, mine is in great condition!',
         createdAt: new Date(Date.now() - 3600000 * 4),
       },
       {
@@ -157,7 +157,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t1Id,
         senderId: partner1.id,
         sender: partner1,
-        text: '📍 Предложение точки передачи: Парк Шевченко, возле главного фонтана',
+        text: '📍 Meeting location proposal: Shevchenko Park, near the main fountain',
         createdAt: new Date(Date.now() - 3600000 * 3),
       },
       {
@@ -165,7 +165,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t1Id,
         senderId: partner1.id,
         sender: partner1,
-        text: '🕒 Предложение времени встречи: Завтра в 17:30',
+        text: '🕒 Meeting time proposal: Tomorrow at 17:30',
         createdAt: new Date(Date.now() - 3600000 * 2),
       }
     );
@@ -179,8 +179,8 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       receiverId: partner2.id,
       receiver: partner2,
       status: 'PENDING',
-      message: 'Здравствуйте! Готов обменяться, напишите, если согласны.',
-      createdAt: new Date(Date.now() - 3600000 * 24), // 1 day ago
+      message: 'Hello! Ready to swap, let me know if this works for you.',
+      createdAt: new Date(Date.now() - 3600000 * 24),
       updatedAt: new Date(Date.now() - 3600000 * 24),
       items: [
         {
@@ -202,7 +202,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       tradeId: t2Id,
       senderId: userId,
       sender: currentUser,
-      text: 'Здравствуйте! Готов обменяться, напишите, если согласны.',
+      text: 'Hello! Ready to swap, let me know if this works for you.',
       createdAt: new Date(Date.now() - 3600000 * 24),
     });
 
@@ -215,7 +215,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       receiverId: userId,
       receiver: currentUser,
       status: 'AGREED',
-      message: 'Договорились! Условия обмена зафиксированы. Отправлю посылкой СДЭК.',
+      message: 'Deal! Exchange terms locked. Let us agree on handover details.',
       senderCompleted: false,
       receiverCompleted: false,
       createdAt: new Date(Date.now() - 3600000 * 12),
@@ -241,7 +241,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: partner2.id,
         sender: partner2,
-        text: 'Привет! Предлагаю обменяться книгами.',
+        text: 'Hi! Let us swap books.',
         createdAt: new Date(Date.now() - 3600000 * 12),
       },
       {
@@ -249,7 +249,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: userId,
         sender: currentUser,
-        text: 'Отлично, я согласен! Какой службой доставки отправим?',
+        text: 'Sounds great, I agree! Where would you like to meet?',
         createdAt: new Date(Date.now() - 3600000 * 10),
       },
       {
@@ -257,7 +257,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: partner2.id,
         sender: partner2,
-        text: 'Договорились! Условия обмена зафиксированы.',
+        text: 'Deal! Exchange terms are locked.',
         createdAt: new Date(Date.now() - 3600000 * 6),
       },
       {
@@ -265,7 +265,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: partner2.id,
         sender: partner2,
-        text: '📍 Предложение точки передачи: Львов, пл. Рынок, у входа в Ратушу',
+        text: '📍 Meeting location proposal: Lviv, Rynok Square, City Hall entrance',
         createdAt: new Date(Date.now() - 3600000 * 5),
       },
       {
@@ -273,7 +273,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: userId,
         sender: currentUser,
-        text: '✅ Точка встречи согласована: Львов, пл. Рынок, у входа в Ратушу',
+        text: '✅ Meeting location agreed: Lviv, Rynok Square, City Hall entrance',
         createdAt: new Date(Date.now() - 3600000 * 4),
       },
       {
@@ -281,7 +281,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: partner2.id,
         sender: partner2,
-        text: '🕒 Предложение времени встречи: В эту субботу в 14:00',
+        text: '🕒 Meeting time proposal: This Saturday at 14:00',
         createdAt: new Date(Date.now() - 3600000 * 3),
       },
       {
@@ -289,7 +289,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t3Id,
         senderId: userId,
         sender: currentUser,
-        text: '✅ Время встречи согласовано: В эту субботу в 14:00',
+        text: '✅ Meeting time agreed: This Saturday at 14:00',
         createdAt: new Date(Date.now() - 3600000 * 2),
       }
     );
@@ -303,11 +303,11 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
       receiverId: userId,
       receiver: currentUser,
       status: 'COMPLETED',
-      message: 'Спасибо за обмен! Книги получены, обмен успешно завершён 👍',
+      message: 'Thanks for the trade! Books received, swap completed smoothly 👍',
       senderCompleted: true,
       receiverCompleted: true,
-      createdAt: new Date(Date.now() - 3600000 * 72), // 3 days ago
-      updatedAt: new Date(Date.now() - 3600000 * 48), // completed 2 days ago
+      createdAt: new Date(Date.now() - 3600000 * 72),
+      updatedAt: new Date(Date.now() - 3600000 * 48),
       items: [
         {
           id: randomUUID(),
@@ -329,7 +329,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t4Id,
         senderId: partner3.id,
         sender: partner3,
-        text: 'Книгу отправил! Трек-номер выслал.',
+        text: 'Sent the book! Tracking number shared.',
         createdAt: new Date(Date.now() - 3600000 * 60),
       },
       {
@@ -337,7 +337,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t4Id,
         senderId: userId,
         sender: currentUser,
-        text: 'Получил посылку, книга в отличном состоянии!',
+        text: 'Received the package, the book is in mint condition!',
         createdAt: new Date(Date.now() - 3600000 * 50),
       },
       {
@@ -345,7 +345,7 @@ export const ensureMockTradesForUser = (userId: string, username?: string) => {
         tradeId: t4Id,
         senderId: partner3.id,
         sender: partner3,
-        text: 'Спасибо за обмен! Книги получены, обмен успешно завершён 👍',
+        text: 'Thanks for the trade! Books received, swap completed smoothly 👍',
         createdAt: new Date(Date.now() - 3600000 * 48),
       }
     );

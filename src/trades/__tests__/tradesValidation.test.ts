@@ -12,14 +12,14 @@ describe('Trade Validation Rules', () => {
     it('should throw when receiverId is missing', () => {
       assert.throws(
         () => validateSelfTrade('user-1', ''),
-        /Не указан партнер по обмену/
+        /Trade partner is required/
       );
     });
 
     it('should throw when senderId and receiverId are identical', () => {
       assert.throws(
         () => validateSelfTrade('user-1', 'user-1'),
-        /Нельзя создать предложение обмена с самим собой/
+        /Cannot create a trade offer with yourself/
       );
     });
 
@@ -32,7 +32,7 @@ describe('Trade Validation Rules', () => {
     it('should throw when both offered and target book lists are empty', () => {
       assert.throws(
         () => validateTradePayload([], []),
-        /Выберите хотя бы одну книгу для предложения или запроса/
+        /Select at least one book to offer or request/
       );
     });
 
@@ -63,28 +63,28 @@ describe('Trade Validation Rules', () => {
     it('should throw if offered book belongs to someone else', () => {
       assert.throws(
         () => validateBookOwnership('user-sender', 'user-receiver', ['b5'], ['b3'], mockBooks),
-        /Вы не являетесь владельцем предлагаемой книги/
+        /You do not own the offered book/
       );
     });
 
     it('should throw if target book does not belong to receiver', () => {
       assert.throws(
         () => validateBookOwnership('user-sender', 'user-receiver', ['b1'], ['b5'], mockBooks),
-        /Запрашиваемая книга .* не принадлежит партнёру/
+        /does not belong to the trade partner/
       );
     });
 
     it('should throw if target book is closed for trade', () => {
       assert.throws(
         () => validateBookOwnership('user-sender', 'user-receiver', ['b1'], ['b4'], mockBooks),
-        /закрыта владельцем для обмена/
+        /is not open for trade by its owner/
       );
     });
 
     it('should throw if book does not exist in registry', () => {
       assert.throws(
         () => validateBookOwnership('user-sender', 'user-receiver', ['ghost-id'], ['b3'], mockBooks),
-        /не найдена в системе/
+        /was not found/
       );
     });
   });

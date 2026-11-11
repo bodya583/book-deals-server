@@ -62,28 +62,28 @@ describe('Geo Privacy & Spatial Cloaking Algorithms', () => {
 
   describe('getDiscreteDistanceLabel (Differential Privacy against Trilateration)', () => {
     it('should return safe ranges instead of raw meters', () => {
-      assert.equal(getDiscreteDistanceLabel(0.4), 'Поблизости (< 1 км)');
-      assert.equal(getDiscreteDistanceLabel(2.5), '~2–3 км от вас');
-      assert.equal(getDiscreteDistanceLabel(5.2), '~5 км от вас');
-      assert.equal(getDiscreteDistanceLabel(10.1), '~10 км от вас');
-      assert.equal(getDiscreteDistanceLabel(23.4), '~25 км от вас');
+      assert.equal(getDiscreteDistanceLabel(0.4), 'Nearby (< 1 km)');
+      assert.equal(getDiscreteDistanceLabel(2.5), '~2–3 km away');
+      assert.equal(getDiscreteDistanceLabel(5.2), '~5 km away');
+      assert.equal(getDiscreteDistanceLabel(10.1), '~10 km away');
+      assert.equal(getDiscreteDistanceLabel(23.4), '~25 km away');
     });
 
     it('should handle undefined or null distance safely', () => {
-      assert.equal(getDiscreteDistanceLabel(null), 'В вашем городе');
-      assert.equal(getDiscreteDistanceLabel(undefined), 'В вашем городе');
+      assert.equal(getDiscreteDistanceLabel(null), 'In your city');
+      assert.equal(getDiscreteDistanceLabel(undefined), 'In your city');
     });
   });
 
   describe('resolveBookBaseCoordinates', () => {
     it('should resolve coordinates from user city when exact GPS is null', () => {
-      const coords = resolveBookBaseCoordinates({ city: 'Одесса' });
+      const coords = resolveBookBaseCoordinates({ city: 'Odesa' });
       assert.deepEqual(coords, [46.4825, 30.7233]);
     });
 
     it('should prioritize exact GPS coordinates if present', () => {
       const coords = resolveBookBaseCoordinates({
-        city: 'Одесса',
+        city: 'Odesa',
         latitude: 50.0,
         longitude: 36.0,
       });

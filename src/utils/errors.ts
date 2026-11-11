@@ -21,37 +21,37 @@ export class AppError extends Error {
 }
 
 export class BadRequestError extends AppError {
-  constructor(message: string = 'Некорректный запрос', details?: unknown) {
+  constructor(message: string = 'Bad request', details?: unknown) {
     super(message, 400, 'BAD_REQUEST', details);
   }
 }
 
 export class UnauthorizedError extends AppError {
-  constructor(message: string = 'Требуется авторизация') {
+  constructor(message: string = 'Authentication required') {
     super(message, 401, 'UNAUTHORIZED');
   }
 }
 
 export class ForbiddenError extends AppError {
-  constructor(message: string = 'Доступ запрещён') {
+  constructor(message: string = 'Access forbidden') {
     super(message, 403, 'FORBIDDEN');
   }
 }
 
 export class NotFoundError extends AppError {
-  constructor(message: string = 'Ресурс не найден') {
+  constructor(message: string = 'Resource not found') {
     super(message, 404, 'NOT_FOUND');
   }
 }
 
 export class ConflictError extends AppError {
-  constructor(message: string = 'Конфликт состояния данных') {
+  constructor(message: string = 'Data state conflict') {
     super(message, 409, 'CONFLICT');
   }
 }
 
 export class ValidationError extends AppError {
-  constructor(message: string = 'Ошибка валидации данных', details?: unknown) {
+  constructor(message: string = 'Data validation error', details?: unknown) {
     super(message, 422, 'VALIDATION_ERROR', details);
   }
 }

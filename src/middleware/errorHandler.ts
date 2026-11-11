@@ -31,18 +31,18 @@ export const errorHandler = (
     }));
 
     return res.status(400).json({
-      message: formattedErrors[0]?.message || 'Ошибка валидации данных',
+      message: formattedErrors[0]?.message || 'Validation error',
       errorCode: 'VALIDATION_ERROR',
       errors: formattedErrors,
     });
   }
 
   // 3. Fallback generic or unexpected server errors
-  const message = err instanceof Error ? err.message : 'Внутренняя ошибка сервера';
+  const message = err instanceof Error ? err.message : 'Internal server error';
   console.error('[UnhandledError]', err);
 
   return res.status(500).json({
-    message: process.env.NODE_ENV === 'production' ? 'Внутренняя ошибка сервера' : message,
+    message: process.env.NODE_ENV === 'production' ? 'Internal server error' : message,
     errorCode: 'INTERNAL_SERVER_ERROR',
   });
 };

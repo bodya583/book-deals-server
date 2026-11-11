@@ -21,7 +21,7 @@ const upload = multer({
     if (allowedMimeTypes.includes(file.mimetype)) {
       cb(null, true);
     } else {
-      cb(new Error('Разрешены только файлы изображений (JPEG, PNG, WEBP, GIF)'));
+      cb(new Error('Only image files are allowed (JPEG, PNG, WEBP, GIF)'));
     }
   },
 });
@@ -32,9 +32,9 @@ export const uploadSingleImage = (req: Request, res: Response, next: NextFunctio
   single(req, res, (err: unknown) => {
     if (err instanceof multer.MulterError) {
       if (err.code === 'LIMIT_FILE_SIZE') {
-        return res.status(400).json({ message: 'Размер файла превышает допустимый предел (10 МБ)' });
+        return res.status(400).json({ message: 'File size exceeds the maximum limit (10 MB)' });
       }
-      return res.status(400).json({ message: `Ошибка загрузки файла: ${err.message}` });
+      return res.status(400).json({ message: `File upload error: ${err.message}` });
     }
     if (err instanceof Error) {
       return res.status(400).json({ message: err.message });

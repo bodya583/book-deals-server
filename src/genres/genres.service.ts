@@ -3,23 +3,23 @@ import { isMockMode } from '../config/env.js';
 import { getMockGenres, createMockGenre } from '../mocks/mockBooks.js';
 
 export const DEFAULT_GENRES = [
-  'Художественная литература',
-  'Фантастика',
-  'Фэнтези',
-  'Детектив',
-  'Триллер / Ужасы',
-  'Приключения',
-  'Роман / Проза',
-  'Классическая литература',
-  'Научная литература',
-  'Биография / Мемуары',
-  'История',
-  'Психология / Саморазвитие',
-  'Бизнес / Финансы',
-  'Философия',
-  'Поэзия',
-  'Детская литература',
-  'Компьютерные технологии / IT',
+  'Fiction',
+  'Sci-Fi',
+  'Fantasy',
+  'Mystery / Detective',
+  'Thriller / Horror',
+  'Adventure',
+  'Romance / Novel',
+  'Classic Literature',
+  'Non-fiction',
+  'Biography / Memoir',
+  'History',
+  'Psychology / Self-help',
+  'Business / Finance',
+  'Philosophy',
+  'Poetry',
+  'Children’s Literature',
+  'Computer Science / IT',
 ];
 
 export const getAllGenres = async () => {
@@ -54,7 +54,7 @@ export const createGenre = async (name: string) => {
 
   const trimmed = name.trim();
   if (!trimmed) {
-    throw new Error('Название жанра не может быть пустым');
+    throw new Error('Genre name cannot be empty');
   }
 
   return prisma.genre.upsert({

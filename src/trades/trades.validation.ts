@@ -25,16 +25,16 @@ export const computeBooksHash = (offeredIds: string[] = [], targetIds: string[] 
 
 export const validateSelfTrade = (senderId: string, receiverId: string): void => {
   if (!receiverId) {
-    throw new BadRequestError('Не указан партнер по обмену');
+    throw new BadRequestError('Trade partner is required');
   }
   if (receiverId === senderId) {
-    throw new BadRequestError('Нельзя создать предложение обмена с самим собой');
+    throw new BadRequestError('Cannot create a trade offer with yourself');
   }
 };
 
 export const validateTradePayload = (offerBookIds: string[] = [], targetBookIds: string[] = []): void => {
   if (offerBookIds.length === 0 && targetBookIds.length === 0) {
-    throw new BadRequestError('Выберите хотя бы одну книгу для предложения или запроса');
+    throw new BadRequestError('Select at least one book to offer or request');
   }
 };
 
@@ -56,23 +56,23 @@ export const validateBookOwnership = (
   for (const bookId of offerBookIds) {
     const book = bookMap.get(bookId);
     if (!book) {
-      throw new NotFoundError(`Предлагаемая книга (${bookId}) не найдена в системе`);
+      throw new NotFoundError(`Offered book (${bookId}) was not found`);
     }
     if (!book.userId || book.userId !== senderId) {
-      throw new ForbiddenError(`Вы не являетесь владельцем предлагаемой книги: ${bookId}`);
+      throw new ForbiddenError(`You do not own the offered book: ${bookId}`);
     }
   }
 
   for (const bookId of targetBookIds) {
     const book = bookMap.get(bookId);
     if (!book) {
-      throw new NotFoundError(`Запрашиваемая книга (${bookId}) не найдена в системе`);
+      throw new NotFoundError(`Requested book (${bookId}) was not found`);
     }
     if (!book.userId || book.userId !== receiverId) {
-      throw new ForbiddenError(`Запрашиваемая книга (${bookId}) не принадлежит партнёру по сделке`);
+      throw new ForbiddenError(`Requested book (${bookId}) does not belong to the trade partner`);
     }
     if (book.isForTrade === false) {
-      throw new BadRequestError(`Запрашиваемая книга (${bookId}) закрыта владельцем для обмена`);
+      throw new BadRequestError(`Requested book (${bookId}) is not open for trade by its owner`);
     }
   }
 };

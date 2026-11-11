@@ -15,7 +15,7 @@ export const create = async (req: Request, res: Response) => {
   try {
     const { name } = req.body;
     if (!name || typeof name !== 'string') {
-      return res.status(400).json({ message: 'Название жанра обязательно' });
+      return res.status(400).json({ message: 'Genre name is required' });
     }
 
     const genre = await genresService.createGenre(name);
