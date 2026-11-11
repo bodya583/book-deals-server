@@ -18,6 +18,12 @@ import {
   validateBookOwnership,
 } from './trades.validation.js';
 import {
+  NotFoundError,
+  ForbiddenError,
+  BadRequestError,
+  ConflictError,
+} from '../utils/errors.js';
+import {
   formatTradeMock,
   formatTradePrisma,
   findPrismaTradeById,
@@ -181,10 +187,10 @@ export const getTradeById = async (tradeId: string, userId: string): Promise<For
     ensureMockTradesForUser(userId);
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
     if (trade.senderId !== userId && trade.receiverId !== userId) {
-      throw new Error('У вас нет доступа к этому трейду');
+      throw new ForbiddenError('У вас нет доступа к этому трейду');
     }
     return formatTradeMock(trade, userId);
   }
@@ -192,11 +198,11 @@ export const getTradeById = async (tradeId: string, userId: string): Promise<For
   const trade = await findPrismaTradeById(tradeId);
 
   if (!trade) {
-    throw new Error('Трейд не найден');
+    throw new NotFoundError('Трейд не найден');
   }
 
   if (trade.senderId !== userId && trade.receiverId !== userId) {
-    throw new Error('У вас нет доступа к этому трейду');
+    throw new ForbiddenError('У вас нет доступа к этому трейду');
   }
 
   return formatTradePrisma(trade, userId);
@@ -318,17 +324,17 @@ export const acceptTrade = async (tradeId: string, userId: string): Promise<Form
   if (isMockMode) {
     const tradeIndex = inMemoryTrades.findIndex((t) => t.id === tradeId);
     if (tradeIndex === -1) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
 
     const trade = inMemoryTrades[tradeIndex];
 
     if (trade.receiverId !== userId) {
-      throw new Error('Только получатель предложения может согласовать трейд');
+      throw new ForbiddenError('Только получатель предложения может согласовать трейд');
     }
 
     if (trade.status !== 'PENDING') {
-      throw new Error(`Нельзя согласовать трейд со статусом "${trade.status}"`);
+      throw new ConflictError(`Нельзя согласовать трейд со статусом "${trade.status}"`);
     }
 
     trade.status = 'AGREED';
@@ -342,15 +348,15 @@ export const acceptTrade = async (tradeId: string, userId: string): Promise<Form
   });
 
   if (!trade) {
-    throw new Error('Трейд не найден');
+    throw new NotFoundError('Трейд не найден');
   }
 
   if (trade.receiverId !== userId) {
-    throw new Error('Только получатель предложения может согласовать трейд');
+    throw new ForbiddenError('Только получатель предложения может согласовать трейд');
   }
 
   if (trade.status !== 'PENDING') {
-    throw new Error(`Нельзя согласовать трейд со статусом "${trade.status}"`);
+    throw new ConflictError(`Нельзя согласовать трейд со статусом "${trade.status}"`);
   }
 
   const updated = (await prisma.trade.update({
@@ -374,17 +380,17 @@ export const completeTrade = async (tradeId: string, userId: string): Promise<Fo
   if (isMockMode) {
     const tradeIndex = inMemoryTrades.findIndex((t) => t.id === tradeId);
     if (tradeIndex === -1) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
 
     const trade = inMemoryTrades[tradeIndex];
 
     if (trade.senderId !== userId && trade.receiverId !== userId) {
-      throw new Error('У вас нет прав для завершения этого трейда');
+      throw new ForbiddenError('У вас нет прав для завершения этого трейда');
     }
 
     if (trade.status !== 'AGREED' && trade.status !== 'ACCEPTED') {
-      throw new Error(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
+      throw new ConflictError(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
     }
 
     if (trade.senderId === userId) {
@@ -432,15 +438,15 @@ export const completeTrade = async (tradeId: string, userId: string): Promise<Fo
     });
 
     if (!trade) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
 
     if (trade.senderId !== userId && trade.receiverId !== userId) {
-      throw new Error('У вас нет прав для завершения этого трейда');
+      throw new ForbiddenError('У вас нет прав для завершения этого трейда');
     }
 
     if (trade.status !== 'AGREED' && trade.status !== 'ACCEPTED') {
-      throw new Error(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
+      throw new ConflictError(`Завершить можно только согласованный трейд (текущий: "${trade.status}")`);
     }
 
     const offeredIds = trade.items
@@ -486,14 +492,14 @@ export const completeTrade = async (tradeId: string, userId: string): Promise<Fo
 export const rejectTrade = async (tradeId: string, userId: string, reason?: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
-    if (!trade) throw new Error('Трейд не найден');
+    if (!trade) throw new NotFoundError('Трейд не найден');
 
     if (trade.receiverId !== userId) {
-      throw new Error('Только получатель может отклонить трейд');
+      throw new ForbiddenError('Только получатель может отклонить трейд');
     }
 
     if (trade.status !== 'PENDING') {
-      throw new Error(`Нельзя отклонить трейд со статусом "${trade.status}"`);
+      throw new ConflictError(`Нельзя отклонить трейд со статусом "${trade.status}"`);
     }
 
     trade.status = 'REJECTED';
@@ -515,9 +521,9 @@ export const rejectTrade = async (tradeId: string, userId: string, reason?: stri
   }
 
   const trade = await prisma.trade.findUnique({ where: { id: tradeId } });
-  if (!trade) throw new Error('Трейд не найден');
-  if (trade.receiverId !== userId) throw new Error('Только получатель может отклонить трейд');
-  if (trade.status !== 'PENDING') throw new Error(`Нельзя отклонить трейд со статусом "${trade.status}"`);
+  if (!trade) throw new NotFoundError('Трейд не найден');
+  if (trade.receiverId !== userId) throw new ForbiddenError('Только получатель может отклонить трейд');
+  if (trade.status !== 'PENDING') throw new ConflictError(`Нельзя отклонить трейд со статусом "${trade.status}"`);
 
   const updated = (await prisma.trade.update({
     where: { id: tradeId },
@@ -547,14 +553,14 @@ export const rejectTrade = async (tradeId: string, userId: string, reason?: stri
 export const cancelTrade = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
   if (isMockMode) {
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
-    if (!trade) throw new Error('Трейд не найден');
+    if (!trade) throw new NotFoundError('Трейд не найден');
 
     if (trade.senderId !== userId) {
-      throw new Error('Только создатель предложения может отменить трейд');
+      throw new ForbiddenError('Только создатель предложения может отменить трейд');
     }
 
     if (trade.status !== 'PENDING') {
-      throw new Error(`Нельзя отменить трейд со статусом "${trade.status}"`);
+      throw new ConflictError(`Нельзя отменить трейд со статусом "${trade.status}"`);
     }
 
     trade.status = 'CANCELLED';
@@ -563,9 +569,9 @@ export const cancelTrade = async (tradeId: string, userId: string): Promise<Form
   }
 
   const trade = await prisma.trade.findUnique({ where: { id: tradeId } });
-  if (!trade) throw new Error('Трейд не найден');
-  if (trade.senderId !== userId) throw new Error('Только создатель предложения может отменить трейд');
-  if (trade.status !== 'PENDING') throw new Error(`Нельзя отменить трейд со статусом "${trade.status}"`);
+  if (!trade) throw new NotFoundError('Трейд не найден');
+  if (trade.senderId !== userId) throw new ForbiddenError('Только создатель предложения может отменить трейд');
+  if (trade.status !== 'PENDING') throw new ConflictError(`Нельзя отменить трейд со статусом "${trade.status}"`);
 
   const updated = (await prisma.trade.update({
     where: { id: tradeId },
@@ -627,13 +633,13 @@ export const counterTrade = async (
   if (isMockMode) {
     const oldTrade = inMemoryTrades.find((t) => t.id === originalTradeId);
     if (!oldTrade) {
-      throw new Error('Исходный трейд не найден');
+      throw new NotFoundError('Исходный трейд не найден');
     }
     if (oldTrade.senderId !== userId && oldTrade.receiverId !== userId) {
-      throw new Error('У вас нет прав для изменения этого трейда');
+      throw new ForbiddenError('У вас нет прав для изменения этого трейда');
     }
     if (oldTrade.status !== 'PENDING') {
-      throw new Error(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
+      throw new ConflictError(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
     }
 
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
@@ -651,7 +657,7 @@ export const counterTrade = async (
     const newBooksHash = computeBooksHash(data.offerBookIds, data.targetBookIds);
 
     if (oldBooksHash === newBooksHash) {
-      throw new Error('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
+      throw new BadRequestError('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
     }
 
     oldTrade.status = oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED';
@@ -706,13 +712,13 @@ export const counterTrade = async (
     });
 
     if (!oldTrade) {
-      throw new Error('Исходный трейд не найден');
+      throw new NotFoundError('Исходный трейд не найден');
     }
     if (oldTrade.senderId !== userId && oldTrade.receiverId !== userId) {
-      throw new Error('У вас нет прав для изменения этого трейда');
+      throw new ForbiddenError('У вас нет прав для изменения этого трейда');
     }
     if (oldTrade.status !== 'PENDING') {
-      throw new Error(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
+      throw new ConflictError(`Нельзя изменить трейд со статусом "${oldTrade.status}"`);
     }
 
     const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
@@ -729,7 +735,7 @@ export const counterTrade = async (
     const newBooksHash = computeBooksHash(data.offerBookIds, data.targetBookIds);
 
     if (oldBooksHash === newBooksHash) {
-      throw new Error('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
+      throw new BadRequestError('Состав книг не изменился. Измените книги, чтобы отправить встречное предложение');
     }
 
     await tx.trade.update({
@@ -810,10 +816,10 @@ export const getTradeMessages = async (tradeId: string, userId: string) => {
     ensureMockTradesForUser(userId);
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
     if (trade.senderId !== userId && trade.receiverId !== userId) {
-      throw new Error('Нет доступа к переписке этого трейда');
+      throw new ForbiddenError('Нет доступа к переписке этого трейда');
     }
 
     return inMemoryTradeMessages
@@ -825,10 +831,10 @@ export const getTradeMessages = async (tradeId: string, userId: string) => {
     where: { id: tradeId },
   });
   if (!trade) {
-    throw new Error('Трейд не найден');
+    throw new NotFoundError('Трейд не найден');
   }
   if (trade.senderId !== userId && trade.receiverId !== userId) {
-    throw new Error('Нет доступа к переписке этого трейда');
+    throw new ForbiddenError('Нет доступа к переписке этого трейда');
   }
 
   return await prisma.tradeMessage.findMany({
@@ -843,17 +849,17 @@ export const getTradeMessages = async (tradeId: string, userId: string) => {
 export const sendTradeMessage = async (tradeId: string, userId: string, text: string) => {
   const cleanText = text?.trim();
   if (!cleanText) {
-    throw new Error('Сообщение не может быть пустым');
+    throw new BadRequestError('Сообщение не может быть пустым');
   }
 
   if (isMockMode) {
     ensureMockTradesForUser(userId);
     const trade = inMemoryTrades.find((t) => t.id === tradeId);
     if (!trade) {
-      throw new Error('Трейд не найден');
+      throw new NotFoundError('Трейд не найден');
     }
     if (trade.senderId !== userId && trade.receiverId !== userId) {
-      throw new Error('Нет доступа к переписке этого трейда');
+      throw new ForbiddenError('Нет доступа к переписке этого трейда');
     }
 
     const sender = findUser(userId);
@@ -884,10 +890,10 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
     where: { id: tradeId },
   });
   if (!trade) {
-    throw new Error('Трейд не найден');
+    throw new NotFoundError('Трейд не найден');
   }
   if (trade.senderId !== userId && trade.receiverId !== userId) {
-    throw new Error('Нет доступа к переписке этого трейда');
+    throw new ForbiddenError('Нет доступа к переписке этого трейда');
   }
 
   const [message] = await Promise.all([
