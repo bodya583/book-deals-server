@@ -872,13 +872,17 @@ export const sendTradeMessage = async (tradeId: string, userId: string, text: st
       createdAt: new Date(),
     };
 
-    if (cleanText.includes('Точка встречи согласована:')) {
-      const loc = cleanText.replace(/.*Точка встречи согласована:\s*/, '').trim();
-      trade.agreedLocationHash = computeSimpleHash(loc);
+    const locAgreeMatch = cleanText.match(
+      /(?:Точка зустрічі узгоджена|Точка встречи согласована|Meeting location agreed):\s*(.*)/i
+    );
+    if (locAgreeMatch) {
+      trade.agreedLocationHash = computeSimpleHash(locAgreeMatch[1].trim());
     }
-    if (cleanText.includes('Время встречи согласовано:')) {
-      const tm = cleanText.replace(/.*Время встречи согласовано:\s*/, '').trim();
-      trade.agreedTimeHash = computeSimpleHash(tm);
+    const timeAgreeMatch = cleanText.match(
+      /(?:Час зустрічі узгоджено|Время встречи согласовано|Meeting time agreed):\s*(.*)/i
+    );
+    if (timeAgreeMatch) {
+      trade.agreedTimeHash = computeSimpleHash(timeAgreeMatch[1].trim());
     }
 
     trade.updatedAt = new Date();
