@@ -52,19 +52,28 @@ export const getPrismaTrades = async (
 };
 
 export const getPrismaTradeCounts = async (userId: string) => {
-  const [incoming, outgoing, agreed, completed, total] = await Promise.all([
-    prisma.trade.count({ where: { receiverId: userId, status: 'PENDING' } }),
-    prisma.trade.count({ where: { senderId: userId, status: 'PENDING' } }),
-    prisma.trade.count({
-      where: { OR: [{ senderId: userId }, { receiverId: userId }], status: { in: ['AGREED', 'ACCEPTED'] } },
-    }),
-    prisma.trade.count({
-      where: { OR: [{ senderId: userId }, { receiverId: userId }], status: 'COMPLETED' },
-    }),
-    prisma.trade.count({ where: { OR: [{ senderId: userId }, { receiverId: userId }] } }),
-  ]);
+  const rows = await prisma.trade.findMany({
+    where: { OR: [{ senderId: userId }, { receiverId: userId }] },
+    select: { senderId: true, receiverId: true, status: true },
+  });
 
-  return { incoming, outgoing, requests: incoming + outgoing, agreed, completed, total };
+  let incoming = 0;
+  let outgoing = 0;
+  let agreed = 0;
+  let completed = 0;
+
+  for (const row of rows) {
+    if (row.status === 'PENDING') {
+      if (row.receiverId === userId) incoming += 1;
+      else if (row.senderId === userId) outgoing += 1;
+    } else if (row.status === 'AGREED' || row.status === 'ACCEPTED') {
+      agreed += 1;
+    } else if (row.status === 'COMPLETED') {
+      completed += 1;
+    }
+  }
+
+  return { incoming, outgoing, requests: incoming + outgoing, agreed, completed, total: rows.length };
 };
 
 export const getPrismaTradeById = async (tradeId: string, userId: string): Promise<FormattedTrade> => {
