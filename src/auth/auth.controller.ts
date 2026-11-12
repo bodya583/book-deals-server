@@ -1,4 +1,4 @@
-﻿import { Request, Response } from 'express';
+import { Request, Response } from 'express';
 import * as authService from './auth.service.js';
 
 const REFRESH_COOKIE = 'refreshToken';
@@ -12,10 +12,14 @@ const cookieOptions = {
 
 export const register = async (req: Request, res: Response) => {
   try {
-    const { username, email, password } = req.body;
+    const { username, email, password, confirmPassword } = req.body;
 
     if (!username || !email || !password) {
       return res.status(400).json({ message: 'All fields are required' });
+    }
+
+    if (typeof confirmPassword === 'string' && password !== confirmPassword) {
+      return res.status(400).json({ message: 'Passwords do not match' });
     }
 
     const { user, accessToken, refreshToken } = await authService.register(username, email, password);

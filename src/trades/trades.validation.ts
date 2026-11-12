@@ -33,8 +33,8 @@ export const validateSelfTrade = (senderId: string, receiverId: string): void =>
 };
 
 export const validateTradePayload = (offerBookIds: string[] = [], targetBookIds: string[] = []): void => {
-  if (offerBookIds.length === 0 && targetBookIds.length === 0) {
-    throw new BadRequestError('Select at least one book to offer or request');
+  if (offerBookIds.length === 0 || targetBookIds.length === 0) {
+    throw new BadRequestError('Trade requires at least one book offered and one book requested');
   }
 };
 

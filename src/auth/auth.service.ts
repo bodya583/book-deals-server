@@ -1,3 +1,4 @@
+import { randomUUID } from 'crypto';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../index.js';
@@ -21,6 +22,7 @@ const inMemoryRegisteredUsers: Array<{
   photoURL: string | null;
   latitude: number | null;
   longitude: number | null;
+  city: string | null;
   createdAt: Date;
 }> = [];
 
@@ -44,20 +46,39 @@ export const verifyRefreshToken = (token: string): TokenPayload => {
 
 export const register = async (username: string, email: string, password: string) => {
   if (isMockMode) {
-    const existing = inMemoryRegisteredUsers.find((u) => u.email === email || u.username === username);
-    if (existing) {
-      throw new Error(existing.email === email ? 'Email is already taken' : 'Username is already taken');
+    const emailTaken =
+      inMemoryRegisteredUsers.some((u) => u.email.toLowerCase() === email.toLowerCase()) ||
+      MOCK_USERS.some((u) => `${u.username}@example.com`.toLowerCase() === email.toLowerCase());
+    if (emailTaken) {
+      throw new Error('Email is already taken');
     }
+
+    const usernameTaken =
+      inMemoryRegisteredUsers.some((u) => u.username.toLowerCase() === username.toLowerCase()) ||
+      MOCK_USERS.some((u) => u.username.toLowerCase() === username.toLowerCase());
+    if (usernameTaken) {
+      throw new Error('Username is already taken');
+    }
+
     const newUser = {
-      id: `mock-u-${Date.now()}`,
+      id: `mock-u-${randomUUID().slice(0, 8)}`,
       username,
       email,
       photoURL: null,
       latitude: 50.4501,
       longitude: 30.5234,
+      city: 'Kyiv',
       createdAt: new Date(),
     };
     inMemoryRegisteredUsers.push(newUser);
+    MOCK_USERS.push({
+      id: newUser.id,
+      username: newUser.username,
+      photoURL: newUser.photoURL,
+      latitude: newUser.latitude,
+      longitude: newUser.longitude,
+      city: newUser.city,
+    });
     const tokens = generateTokens({ userId: newUser.id, email: newUser.email });
     return { user: newUser, ...tokens };
   }

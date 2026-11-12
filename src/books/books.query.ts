@@ -46,7 +46,11 @@ export const buildBookWhereClause = (filter?: GetBooksFilter): BookWhereInput =>
   const where: BookWhereInput = {};
 
   if (filter?.userId) where.userId = filter.userId;
-  if (filter?.isForTrade !== undefined) where.isForTrade = filter.isForTrade;
+  if (filter?.isForTrade !== undefined) {
+    where.isForTrade = filter.isForTrade;
+  } else if (!filter?.userId) {
+    where.isForTrade = true;
+  }
 
   const cityList = normalizeFilterList(filter?.cities, filter?.city);
   if (cityList.length > 0) {

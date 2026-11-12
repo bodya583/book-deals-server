@@ -32,16 +32,26 @@ describe('Trade Validation Rules', () => {
     it('should throw when both offered and target book lists are empty', () => {
       assert.throws(
         () => validateTradePayload([], []),
-        /Select at least one book to offer or request/
+        /Trade requires at least one book offered and one book requested/
       );
     });
 
-    it('should pass when at least one book is offered', () => {
-      assert.doesNotThrow(() => validateTradePayload(['book-1'], []));
+    it('should throw when offered list is empty', () => {
+      assert.throws(
+        () => validateTradePayload([], ['book-2']),
+        /Trade requires at least one book offered and one book requested/
+      );
     });
 
-    it('should pass when at least one book is requested', () => {
-      assert.doesNotThrow(() => validateTradePayload([], ['book-2']));
+    it('should throw when target list is empty', () => {
+      assert.throws(
+        () => validateTradePayload(['book-1'], []),
+        /Trade requires at least one book offered and one book requested/
+      );
+    });
+
+    it('should pass when at least one book is offered and at least one is requested', () => {
+      assert.doesNotThrow(() => validateTradePayload(['book-1'], ['book-2']));
     });
   });
 

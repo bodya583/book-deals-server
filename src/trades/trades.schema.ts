@@ -2,15 +2,15 @@ import { z } from 'zod';
 
 export const createTradeSchema = z.object({
   receiverId: z.string().min(1, 'Trade receiver ID is required'),
-  offerBookIds: z.array(z.string()).default([]),
-  targetBookIds: z.array(z.string()).default([]),
+  offerBookIds: z.array(z.string()).min(1, 'At least one book must be offered'),
+  targetBookIds: z.array(z.string()).min(1, 'At least one book must be requested'),
   message: z.string().max(1000, 'Message cannot exceed 1000 characters').optional(),
 });
 
 export const counterTradeSchema = z.object({
   receiverId: z.string().min(1, 'Counter offer receiver ID is required'),
-  offerBookIds: z.array(z.string()),
-  targetBookIds: z.array(z.string()),
+  offerBookIds: z.array(z.string()).min(1, 'At least one book must be offered'),
+  targetBookIds: z.array(z.string()).min(1, 'At least one book must be requested'),
   message: z.string().max(1000, 'Message cannot exceed 1000 characters').optional(),
 });
 

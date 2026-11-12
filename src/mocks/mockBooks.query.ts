@@ -36,6 +36,8 @@ export const getAllMockBooks = async (filter?: GetBooksFilter) => {
   if (filter?.userId) list = list.filter((b) => b.userId === filter.userId);
   if (filter?.isForTrade !== undefined) {
     list = list.filter((b) => (b.isForTrade ?? true) === filter.isForTrade);
+  } else if (!filter?.userId) {
+    list = list.filter((b) => b.isForTrade !== false);
   }
 
   const cityList = filter?.cities?.length
@@ -210,7 +212,7 @@ export const getMockSettlements = async (): Promise<MockSettlement[]> => {
   const map = new Map<string, MockSettlement>();
   for (const user of MOCK_USERS) {
     if (!user.city || user.latitude == null || user.longitude == null) continue;
-    const count = inMemoryBooks.filter((b) => b.userId === user.id).length;
+    const count = inMemoryBooks.filter((b) => b.userId === user.id && b.isForTrade !== false).length;
     const existing = map.get(user.city);
     if (existing) {
       existing.count += count;
