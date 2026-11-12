@@ -14,7 +14,7 @@ export interface TokenPayload {
 }
 
 // In-memory registered users for mock mode
-const inMemoryRegisteredUsers: Array<{
+export const inMemoryRegisteredUsers: Array<{
   id: string;
   username: string;
   email: string;
