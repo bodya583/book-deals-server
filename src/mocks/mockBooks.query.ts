@@ -4,21 +4,18 @@ import { calculateDistanceKm } from '../utils/geoPrivacy.js';
 import { MOCK_USERS } from './mockUsers.js';
 import { countMockGenres, findGenre } from './mockGenres.js';
 import type { MockBook, MockSettlement, MockUser } from './mockBooks.types.js';
-import { booksPart1 } from './catalog/booksPart1.js';
-import { booksPart2 } from './catalog/booksPart2.js';
-import { booksPart3 } from './catalog/booksPart3.js';
-import { booksPart4 } from './catalog/booksPart4.js';
-import { booksPart5 } from './catalog/booksPart5.js';
-import { booksPart6 } from './catalog/booksPart6.js';
+import { SEED_BOOKS_1000 } from './catalog/seed1000Data.js';
 
-export const inMemoryBooks: MockBook[] = [
-  ...booksPart1,
-  ...booksPart2,
-  ...booksPart3,
-  ...booksPart4,
-  ...booksPart5,
-  ...booksPart6,
-];
+export const inMemoryBooks: MockBook[] = SEED_BOOKS_1000.map((b) => {
+  if (b.userId === '00000000-0000-4000-a000-000000000001') {
+    return {
+      ...b,
+      userId: 'u-1',
+      user: { ...b.user!, id: 'u-1' },
+    };
+  }
+  return b;
+});
 
 const sanitizeUser = (user?: MockUser | null) =>
   user

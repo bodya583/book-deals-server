@@ -6,10 +6,15 @@
     "test": "tsx --test \"src/**/__tests__/**/*.test.ts\"",
     "dev": "tsx watch src/index.ts",
     "dev:mock": "tsx watch src/index.ts --mock",
+    "seed": "tsx prisma/seed.ts",
     "db:push": "prisma db push",
     "db:reset": "prisma db push --force-reset",
+    "db:seed": "prisma db seed",
     "build": "tsc",
     "start": "node dist/index.js"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "keywords": [],
   "author": "",
