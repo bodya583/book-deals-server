@@ -11,7 +11,7 @@ export const DEFAULT_GENRES = [
   'Adventure',
   'Romance / Novel',
   'Classic Literature',
-  'Non-fiction',
+  'Popular Science',
   'Biography / Memoir',
   'History',
   'Psychology / Self-help',
@@ -20,6 +20,11 @@ export const DEFAULT_GENRES = [
   'Poetry',
   'Children’s Literature',
   'Computer Science / IT',
+  'Young Adult',
+  'Comics & Manga',
+  'Art & Design',
+  'Education & Languages',
+  'Hobbies & Travel',
 ];
 
 export const getAllGenres = async () => {
@@ -27,35 +32,34 @@ export const getAllGenres = async () => {
     return getMockGenres();
   }
 
+  const selectGenre = {
+    id: true,
+    name: true,
+    _count: {
+      select: { books: true },
+    },
+  } as const;
+
   const existing = await prisma.genre.findMany({
     orderBy: { name: 'asc' },
-    select: {
-      id: true,
-      name: true,
-      _count: {
-        select: { books: true },
-      },
-    },
+    select: selectGenre,
   });
 
-  if (existing.length > 0) {
+  const existingNames = new Set(existing.map((genre) => genre.name));
+  const missingDefaults = DEFAULT_GENRES.filter((name) => !existingNames.has(name));
+
+  if (missingDefaults.length === 0) {
     return existing;
   }
 
   await prisma.genre.createMany({
-    data: DEFAULT_GENRES.map((name) => ({ name })),
+    data: missingDefaults.map((name) => ({ name })),
     skipDuplicates: true,
   });
 
   return prisma.genre.findMany({
     orderBy: { name: 'asc' },
-    select: {
-      id: true,
-      name: true,
-      _count: {
-        select: { books: true },
-      },
-    },
+    select: selectGenre,
   });
 };
 

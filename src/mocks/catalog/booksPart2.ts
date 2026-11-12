@@ -235,7 +235,7 @@ export const booksPart2: MockBook[] = [
     coverURL: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&auto=format&fit=crop&q=80',
     language: "English",
     year: 1951,
-    genres: [findGenre("Sci-Fi"), findGenre("Non-fiction")],
+    genres: [findGenre("Sci-Fi")],
     userId: 'u-1',
     createdAt: new Date('2023-07-16T12:00:00Z'),
     updatedAt: new Date('2023-07-16T12:00:00Z'),

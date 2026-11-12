@@ -10,7 +10,7 @@ export const MOCK_GENRES: MockGenre[] = [
   { id: 'g-6', name: 'Adventure' },
   { id: 'g-7', name: 'Romance / Novel' },
   { id: 'g-8', name: 'Classic Literature' },
-  { id: 'g-9', name: 'Non-fiction' },
+  { id: 'g-9', name: 'Popular Science' },
   { id: 'g-10', name: 'Biography / Memoir' },
   { id: 'g-11', name: 'History' },
   { id: 'g-12', name: 'Psychology / Self-help' },
@@ -19,6 +19,11 @@ export const MOCK_GENRES: MockGenre[] = [
   { id: 'g-15', name: 'Poetry' },
   { id: 'g-16', name: 'Children’s Literature' },
   { id: 'g-17', name: 'Computer Science / IT' },
+  { id: 'g-18', name: 'Young Adult' },
+  { id: 'g-19', name: 'Comics & Manga' },
+  { id: 'g-20', name: 'Art & Design' },
+  { id: 'g-21', name: 'Education & Languages' },
+  { id: 'g-22', name: 'Hobbies & Travel' },
 ];
 
 export const findGenre = (name: string): MockGenre => {

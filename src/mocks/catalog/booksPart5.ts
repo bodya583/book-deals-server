@@ -39,7 +39,7 @@ export const booksPart5: MockBook[] = [
     coverURL: 'https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=600&auto=format&fit=crop&q=80',
     language: "English",
     year: 2017,
-    genres: [findGenre("Computer Science / IT"), findGenre("Non-fiction")],
+    genres: [findGenre("Computer Science / IT")],
     userId: 'u-3',
     createdAt: new Date('2024-09-15T12:00:00Z'),
     updatedAt: new Date('2024-09-15T12:00:00Z'),
