@@ -66,6 +66,16 @@ export const userSelect = {
   },
 };
 
+export const tradeRelationsInclude = {
+  sender: userSelect,
+  receiver: userSelect,
+  items: {
+    include: {
+      book: bookInclude,
+    },
+  },
+};
+
 interface PrismaTradeItemWithBook {
   id: string;
   bookId: string;
@@ -163,15 +173,7 @@ export const formatTradeMock = (
 export const findPrismaTradeById = async (tradeId: string): Promise<PrismaTradeEntity | null> => {
   return (await prisma.trade.findUnique({
     where: { id: tradeId },
-    include: {
-      sender: userSelect,
-      receiver: userSelect,
-      items: {
-        include: {
-          book: bookInclude,
-        },
-      },
-    },
+    include: tradeRelationsInclude,
   })) as unknown as PrismaTradeEntity | null;
 };
 

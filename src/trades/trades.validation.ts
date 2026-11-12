@@ -1,4 +1,4 @@
-import { BadRequestError, NotFoundError, ForbiddenError } from '../utils/errors.js';
+import { BadRequestError, NotFoundError, ForbiddenError, ConflictError } from '../utils/errors.js';
 
 export const computeSimpleHash = (str: string): string => {
   let hash = 0;
@@ -75,4 +75,88 @@ export const validateBookOwnership = (
       throw new BadRequestError(`Requested book (${bookId}) is not open for trade by its owner`);
     }
   }
+};
+
+export interface TradeActorShape {
+  senderId: string;
+  receiverId: string;
+  status: string;
+}
+
+export function assertTradeExists<T>(trade: T | null | undefined, message = 'Trade not found'): asserts trade is T {
+  if (!trade) {
+    throw new NotFoundError(message);
+  }
+}
+
+export const assertTradeParticipant = (
+  trade: Pick<TradeActorShape, 'senderId' | 'receiverId'>,
+  userId: string,
+  message = 'You do not have access to this trade'
+): void => {
+  if (trade.senderId !== userId && trade.receiverId !== userId) {
+    throw new ForbiddenError(message);
+  }
+};
+
+export const assertPendingRecipientAction = (
+  trade: TradeActorShape,
+  userId: string,
+  action: 'accept' | 'reject'
+): void => {
+  if (trade.receiverId !== userId) {
+    throw new ForbiddenError(
+      action === 'accept'
+        ? 'Only the trade recipient can accept this offer'
+        : 'Only the recipient can reject a trade'
+    );
+  }
+  if (trade.status !== 'PENDING') {
+    throw new ConflictError(`Cannot ${action} a trade with status "${trade.status}"`);
+  }
+};
+
+export const assertPendingSenderCancel = (trade: TradeActorShape, userId: string): void => {
+  if (trade.senderId !== userId) {
+    throw new ForbiddenError('Only the offer creator can cancel this trade');
+  }
+  if (trade.status !== 'PENDING') {
+    throw new ConflictError(`Cannot cancel a trade with status "${trade.status}"`);
+  }
+};
+
+export const assertCompletableTrade = (trade: TradeActorShape, userId: string): void => {
+  assertTradeParticipant(trade, userId, 'You do not have permission to complete this trade');
+  if (trade.status !== 'AGREED' && trade.status !== 'ACCEPTED') {
+    throw new ConflictError(`Only an agreed trade can be completed (current: "${trade.status}")`);
+  }
+};
+
+export const validateCounterOffer = (
+  oldTrade: TradeActorShape & { items?: { bookId: string; side: string }[] },
+  userId: string,
+  offerBookIds: string[],
+  targetBookIds: string[]
+): string => {
+  assertTradeParticipant(oldTrade, userId, 'You do not have permission to modify this trade');
+  if (oldTrade.status !== 'PENDING') {
+    throw new ConflictError(`Cannot modify a trade with status "${oldTrade.status}"`);
+  }
+
+  const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
+  validateSelfTrade(userId, targetPartnerId);
+
+  const items = oldTrade.items || [];
+  const oldOffered = items
+    .filter((i) => (oldTrade.senderId === userId ? i.side === 'OFFERED' : i.side === 'REQUESTED'))
+    .map((i) => i.bookId);
+  const oldTarget = items
+    .filter((i) => (oldTrade.senderId === userId ? i.side === 'REQUESTED' : i.side === 'OFFERED'))
+    .map((i) => i.bookId);
+
+  if (computeBooksHash(oldOffered, oldTarget) === computeBooksHash(offerBookIds, targetBookIds)) {
+    throw new BadRequestError('Book selection is unchanged. Modify the books to send a counter offer');
+  }
+
+  return targetPartnerId;
 };

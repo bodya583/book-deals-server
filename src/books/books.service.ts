@@ -9,89 +9,21 @@ import {
   deleteMockBook,
   getMockSettlements,
 } from '../mocks/mockBooks.js';
+import {
+  bookSelect,
+  buildBookOrderBy,
+  buildBookWhereClause,
+  fetchPaginatedPrismaBooks,
+  resolveNearbyUserIds,
+} from './books.query.js';
+import type {
+  BookSortOption,
+  CreateBookDto,
+  GetBooksFilter,
+  UpdateBookDto,
+} from './books.types.js';
 
-export interface CreateBookDto {
-  title: string;
-  author: string;
-  description?: string;
-  coverURL?: string;
-  language?: string;
-  year?: number | null;
-  genres?: string[];
-  userId?: string;
-  isForTrade?: boolean;
-}
-
-export interface UpdateBookDto {
-  title?: string;
-  author?: string;
-  description?: string;
-  coverURL?: string;
-  language?: string;
-  year?: number | null;
-  genres?: string[];
-  userId?: string;
-  isForTrade?: boolean;
-}
-
-export type BookSortOption = 'newest' | 'oldest' | 'title_asc' | 'title_desc' | 'distance' | 'popular';
-
-export interface GetBooksFilter {
-  search?: string;
-  userId?: string;
-  isForTrade?: boolean;
-  genre?: string;
-  genres?: string[];
-  strictGenres?: boolean;
-  language?: string;
-  languages?: string[];
-  year?: number;
-  yearFrom?: number;
-  yearTo?: number;
-  page?: number;
-  limit?: number;
-  sortBy?: BookSortOption;
-  // Proximity filter — uses PostGIS spherical distance (geography)
-  nearLat?: number;
-  nearLng?: number;
-  radius?: number; // km
-  // Settlement filter
-  city?: string;
-  cities?: string[];
-}
-
-const bookSelect = {
-  id: true,
-  title: true,
-  author: true,
-  description: true,
-  coverURL: true,
-  language: true,
-  year: true,
-  genres: {
-    select: {
-      id: true,
-      name: true,
-    },
-    orderBy: {
-      name: 'asc' as const,
-    },
-  },
-  userId: true,
-  isForTrade: true,
-  createdAt: true,
-  updatedAt: true,
-  user: {
-    select: {
-      id: true,
-      username: true,
-      photoURL: true,
-      city: true,
-      latitude: true,
-      longitude: true,
-    },
-  },
-};
+export type { BookSortOption, CreateBookDto, GetBooksFilter, UpdateBookDto };
 
 export const getAllBooks = async (filter?: GetBooksFilter) => {
   if (isMockMode) {
@@ -100,214 +32,35 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
 
   const page = Math.max(1, Number(filter?.page) || 1);
   const limit = Math.max(1, Math.min(100, Number(filter?.limit) || 12));
-  const skip = (page - 1) * limit;
+  const where = buildBookWhereClause(filter);
+  const orderBy = buildBookOrderBy(filter?.sortBy);
 
-  const where: any = {};
-
-  if (filter?.userId) {
-    where.userId = filter.userId;
-  }
-
-  if (filter?.isForTrade !== undefined) {
-    where.isForTrade = filter.isForTrade;
-  }
-
-  // Settlements / Cities filter
-  const cityList = filter?.cities && filter.cities.length > 0
-    ? filter.cities
-    : filter?.city && filter.city !== 'all'
-      ? [filter.city]
-      : [];
-
-  if (cityList.length > 0) {
-    where.user = {
-      ...(where.user || {}),
-      city: { in: cityList, mode: 'insensitive' },
-    };
-  }
-
-  // Languages filter (multi-select)
-  const langs = filter?.languages && filter.languages.length > 0
-    ? filter.languages
-    : filter?.language && filter.language !== 'all'
-      ? [filter.language]
-      : [];
-
-  if (langs.length > 0) {
-    where.language = { in: langs };
-  }
-
-  // Genres filter (multi-select with strict AND vs OR match)
-  const genreList = filter?.genres && filter.genres.length > 0
-    ? filter.genres
-    : filter?.genre && filter.genre !== 'all'
-      ? [filter.genre]
-      : [];
-
-  const isUuid = (val: string) =>
-    /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(val);
-
-  if (genreList.length > 0) {
-    if (filter?.strictGenres) {
-      // Strict match: book must have ALL of the selected genres (1 AND 2 AND 3)
-      where.AND = [
-        ...(where.AND || []),
-        ...genreList.map((gName) => ({
-          genres: {
-            some: isUuid(gName)
-              ? { id: gName }
-              : { name: { equals: gName, mode: 'insensitive' } },
-          },
-        })),
-      ];
-    } else {
-      // Lenient match: book has ANY of the selected genres (1 OR 2 OR 3)
-      where.genres = {
-        some: {
-          OR: genreList.map((gName) =>
-            isUuid(gName)
-              ? { id: gName }
-              : { name: { equals: gName, mode: 'insensitive' } }
-          ),
-        },
-      };
-    }
-  }
-
-  // Year filter (year, yearFrom, yearTo)
-  if (filter?.year !== undefined && !isNaN(filter.year)) {
-    where.year = filter.year;
-  } else if (
-    (filter?.yearFrom !== undefined && !isNaN(filter.yearFrom)) ||
-    (filter?.yearTo !== undefined && !isNaN(filter.yearTo))
-  ) {
-    where.year = {};
-    if (filter.yearFrom !== undefined && !isNaN(filter.yearFrom)) {
-      where.year.gte = filter.yearFrom;
-    }
-    if (filter.yearTo !== undefined && !isNaN(filter.yearTo)) {
-      where.year.lte = filter.yearTo;
-    }
-  }
-
-  if (filter?.search && filter.search.trim()) {
-    const s = filter.search.trim();
-    where.OR = [
-      { title: { contains: s, mode: 'insensitive' } },
-      { author: { contains: s, mode: 'insensitive' } },
-      { description: { contains: s, mode: 'insensitive' } },
-      { genres: { some: { name: { contains: s, mode: 'insensitive' } } } },
-    ];
-  }
-
-  // ---------- Proximity filter via PostGIS geography (spherical earth) ----------
   const hasProximity =
-    filter?.nearLat !== undefined &&
-    filter?.nearLng !== undefined &&
-    typeof filter.nearLat === 'number' &&
-    typeof filter.nearLng === 'number';
+    typeof filter?.nearLat === 'number' && typeof filter?.nearLng === 'number';
 
   if (hasProximity) {
-    const lat = filter!.nearLat!;
-    const lng = filter!.nearLng!;
-    const radiusKm = typeof filter!.radius === 'number' && filter!.radius > 0
-      ? filter!.radius
-      : 50; // default 50 km
-    const radiusM = radiusKm * 1000;
+    const nearbyUserIds = await resolveNearbyUserIds(
+      filter!.nearLat!,
+      filter!.nearLng!,
+      filter?.radius
+    );
 
-    // Build WHERE clause from existing Prisma where object as SQL fragments
-    // We use a raw query that joins Book → User and filters by distance
-    const prismaWhere = where;
-
-    // Collect userId ids of users within radius via raw SQL
-    const nearbyUsers = await prisma.$queryRaw<{ id: string }[]>`
-      SELECT id FROM "User"
-      WHERE latitude IS NOT NULL
-        AND longitude IS NOT NULL
-        AND ST_DWithin(
-          ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography,
-          ST_SetSRID(ST_MakePoint(${lng}, ${lat}), 4326)::geography,
-          ${radiusM}
-        )
-    `;
-
-    const nearbyUserIds = nearbyUsers.map((u) => u.id);
-
-    // Add userId filter to existing where clause
-    if (nearbyUserIds.length === 0) {
+    if (
+      nearbyUserIds.length === 0 ||
+      (filter?.userId && !nearbyUserIds.includes(filter.userId))
+    ) {
       return {
         books: [],
         pagination: { total: 0, page, limit, totalPages: 0 },
       };
     }
 
-    // Dynamic orderBy
-    let orderBy: any = { createdAt: 'desc' };
-    if (filter?.sortBy === 'oldest') {
-      orderBy = { createdAt: 'asc' };
-    } else if (filter?.sortBy === 'title_asc') {
-      orderBy = { title: 'asc' };
-    } else if (filter?.sortBy === 'title_desc') {
-      orderBy = { title: 'desc' };
-    } else if (filter?.sortBy === 'popular') {
-      orderBy = [{ tradeItems: { _count: 'desc' } }, { createdAt: 'desc' }];
+    if (!filter?.userId) {
+      where.userId = { in: nearbyUserIds };
     }
-
-    const [total, books] = await Promise.all([
-      prisma.book.count({ where: prismaWhere }),
-      prisma.book.findMany({
-        where: prismaWhere,
-        skip,
-        take: limit,
-        orderBy,
-        select: bookSelect,
-      }),
-    ]);
-
-    return {
-      books,
-      pagination: {
-        total,
-        page,
-        limit,
-        totalPages: Math.ceil(total / limit),
-      },
-    };
-  }
-  // ---------- End proximity filter ----------
-
-  // Dynamic orderBy
-  let orderBy: any = { createdAt: 'desc' };
-  if (filter?.sortBy === 'oldest') {
-    orderBy = { createdAt: 'asc' };
-  } else if (filter?.sortBy === 'title_asc') {
-    orderBy = { title: 'asc' };
-  } else if (filter?.sortBy === 'title_desc') {
-    orderBy = { title: 'desc' };
-  } else if (filter?.sortBy === 'popular') {
-    orderBy = [{ tradeItems: { _count: 'desc' } }, { createdAt: 'desc' }];
   }
 
-  const [total, books] = await Promise.all([
-    prisma.book.count({ where }),
-    prisma.book.findMany({
-      where,
-      skip,
-      take: limit,
-      orderBy,
-      select: bookSelect,
-    }),
-  ]);
-
-  return {
-    books,
-    pagination: {
-      total,
-      page,
-      limit,
-      totalPages: Math.ceil(total / limit),
-    },
-  };
+  return fetchPaginatedPrismaBooks(where, orderBy, page, limit);
 };
 
 export const getBookById = async (id: string) => {
@@ -333,12 +86,8 @@ export const getFullBookDetails = async (id: string) => {
   }
 
   const book = await getBookById(id);
-
   const moreByAuthor = await prisma.book.findMany({
-    where: {
-      author: book.author,
-      id: { not: book.id },
-    },
+    where: { author: book.author, id: { not: book.id } },
     take: 4,
     orderBy: { createdAt: 'desc' },
     select: {
@@ -348,20 +97,12 @@ export const getFullBookDetails = async (id: string) => {
       coverURL: true,
       language: true,
       year: true,
-      genres: {
-        select: {
-          id: true,
-          name: true,
-        },
-      },
+      genres: { select: { id: true, name: true } },
       createdAt: true,
     },
   });
 
-  return {
-    ...book,
-    moreByAuthor,
-  };
+  return { ...book, moreByAuthor };
 };
 
 export const createBook = async (data: CreateBookDto) => {
@@ -454,9 +195,7 @@ export const deleteBook = async (id: string) => {
     throw new Error('Book not found');
   }
 
-  return prisma.book.delete({
-    where: { id },
-  });
+  return prisma.book.delete({ where: { id } });
 };
 
 export const getSettlements = async () => {
@@ -465,8 +204,8 @@ export const getSettlements = async () => {
   }
 
   try {
-    const list = await prisma.$queryRaw<{ name: string; count: number; latitude: number; longitude: number }[]>`
-      SELECT 
+    return await prisma.$queryRaw<{ name: string; count: number; latitude: number; longitude: number }[]>`
+      SELECT
         COALESCE(u.city, 'Unspecified') as name,
         COUNT(b.id)::int as count,
         AVG(u.latitude)::float as latitude,
@@ -477,7 +216,6 @@ export const getSettlements = async () => {
       GROUP BY COALESCE(u.city, 'Unspecified')
       ORDER BY count DESC
     `;
-    return list;
   } catch {
     return [];
   }
