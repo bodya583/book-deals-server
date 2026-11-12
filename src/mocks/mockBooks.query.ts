@@ -24,6 +24,8 @@ const sanitizeUser = (user?: MockUser | null) =>
         username: user.username,
         photoURL: user.photoURL ?? null,
         city: user.city ?? null,
+        latitude: user.latitude ?? null,
+        longitude: user.longitude ?? null,
       }
     : null;
 
