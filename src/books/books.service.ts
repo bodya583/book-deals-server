@@ -1,5 +1,6 @@
 import { prisma } from '../index.js';
 import { isMockMode } from '../config/env.js';
+import { calculateDistanceKm } from '../utils/geoPrivacy.js';
 import {
   getAllMockBooks,
   getMockBookById,
@@ -35,14 +36,15 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
   const where = buildBookWhereClause(filter);
   const orderBy = buildBookOrderBy(filter?.sortBy);
 
-  const hasProximity =
+  const hasCoords =
     typeof filter?.nearLat === 'number' && typeof filter?.nearLng === 'number';
+  const hasRadiusLimit = hasCoords && typeof filter?.radius === 'number' && filter.radius > 0;
 
-  if (hasProximity) {
+  if (hasRadiusLimit) {
     const nearbyUserIds = await resolveNearbyUserIds(
       filter!.nearLat!,
       filter!.nearLng!,
-      filter?.radius
+      filter!.radius
     );
 
     if (
@@ -58,6 +60,22 @@ export const getAllBooks = async (filter?: GetBooksFilter) => {
     if (!filter?.userId) {
       where.userId = { in: nearbyUserIds };
     }
+  }
+
+  if (filter?.sortBy === 'distance' && hasCoords) {
+    const matching = await prisma.book.findMany({ where, select: bookSelect });
+    const dist = (b: typeof matching[0]) =>
+      b.user?.latitude != null && b.user?.longitude != null
+        ? calculateDistanceKm(filter!.nearLat!, filter!.nearLng!, b.user.latitude, b.user.longitude)
+        : Infinity;
+
+    matching.sort((a, b) => dist(a) - dist(b));
+    const total = matching.length;
+    const skip = (page - 1) * limit;
+    return {
+      books: matching.slice(skip, skip + limit),
+      pagination: { total, page, limit, totalPages: Math.ceil(total / limit) },
+    };
   }
 
   return fetchPaginatedPrismaBooks(where, orderBy, page, limit);

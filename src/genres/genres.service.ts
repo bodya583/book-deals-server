@@ -27,13 +27,25 @@ export const getAllGenres = async () => {
     return getMockGenres();
   }
 
-  const count = await prisma.genre.count();
-  if (count === 0) {
-    await prisma.genre.createMany({
-      data: DEFAULT_GENRES.map((name) => ({ name })),
-      skipDuplicates: true,
-    });
+  const existing = await prisma.genre.findMany({
+    orderBy: { name: 'asc' },
+    select: {
+      id: true,
+      name: true,
+      _count: {
+        select: { books: true },
+      },
+    },
+  });
+
+  if (existing.length > 0) {
+    return existing;
   }
+
+  await prisma.genre.createMany({
+    data: DEFAULT_GENRES.map((name) => ({ name })),
+    skipDuplicates: true,
+  });
 
   return prisma.genre.findMany({
     orderBy: { name: 'asc' },

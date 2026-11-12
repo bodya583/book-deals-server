@@ -50,7 +50,18 @@ export const buildBookWhereClause = (filter?: GetBooksFilter): BookWhereInput =>
 
   const cityList = normalizeFilterList(filter?.cities, filter?.city);
   if (cityList.length > 0) {
-    where.user = { city: { in: cityList, mode: 'insensitive' } };
+    const hasUnspecified = cityList.some((c) => c.toLowerCase() === 'unspecified');
+    const namedCities = cityList.filter((c) => c.toLowerCase() !== 'unspecified');
+
+    if (hasUnspecified && namedCities.length > 0) {
+      where.user = {
+        OR: [{ city: { in: namedCities, mode: 'insensitive' } }, { city: null }],
+      };
+    } else if (hasUnspecified) {
+      where.user = { city: null };
+    } else {
+      where.user = { city: { in: namedCities, mode: 'insensitive' } };
+    }
   }
 
   const langs = normalizeFilterList(filter?.languages, filter?.language);
@@ -151,6 +162,38 @@ export const fetchPaginatedPrismaBooks = async (
   limit: number
 ) => {
   const skip = (page - 1) * limit;
+
+  if (page === 1) {
+    const rows = await prisma.book.findMany({
+      where,
+      skip: 0,
+      take: limit + 1,
+      orderBy,
+      select: bookSelect,
+    });
+    if (rows.length <= limit) {
+      return {
+        books: rows,
+        pagination: {
+          total: rows.length,
+          page,
+          limit,
+          totalPages: rows.length > 0 ? 1 : 0,
+        },
+      };
+    }
+    const total = await prisma.book.count({ where });
+    return {
+      books: rows.slice(0, limit),
+      pagination: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit),
+      },
+    };
+  }
+
   const [total, books] = await Promise.all([
     prisma.book.count({ where }),
     prisma.book.findMany({
