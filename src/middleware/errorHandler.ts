@@ -14,7 +14,6 @@ export const errorHandler = (
   res: Response,
   _next: NextFunction
 ) => {
-  // 1. Domain App Errors
   if (err instanceof AppError) {
     return res.status(err.statusCode).json({
       message: err.message,
@@ -23,7 +22,6 @@ export const errorHandler = (
     });
   }
 
-  // 2. Zod Request Validation Errors
   if (err instanceof ZodError) {
     const formattedErrors = err.issues.map((e: any) => ({
       field: Array.isArray(e.path) ? e.path.join('.') : String(e.path || ''),
@@ -37,7 +35,6 @@ export const errorHandler = (
     });
   }
 
-  // 3. Fallback generic or unexpected server errors
   const message = err instanceof Error ? err.message : 'Internal server error';
   console.error('[UnhandledError]', err);
 

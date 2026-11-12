@@ -11,8 +11,6 @@ import {
 describe('Geo Privacy & Spatial Cloaking Algorithms', () => {
   describe('calculateDistanceKm (Haversine formula)', () => {
     it('should calculate accurate Great-Circle distance between Kyiv and Odesa (~440-450 km)', () => {
-      // Kyiv coordinates: 50.4501, 30.5234
-      // Odesa coordinates: 46.4825, 30.7233
       const distance = calculateDistanceKm(50.4501, 30.5234, 46.4825, 30.7233);
       assert.ok(distance > 440 && distance < 450, `Expected distance ~442km, got ${distance}`);
     });
@@ -30,15 +28,12 @@ describe('Geo Privacy & Spatial Cloaking Algorithms', () => {
       const [cloakedLat1, cloakedLng1] = cloakCoordinates(lat, lng, 'book-123');
       const [cloakedLat2, cloakedLng2] = cloakCoordinates(lat, lng, 'book-123');
 
-      // Deterministic: multiple calls with same ID yield same cloaked coordinates
       assert.equal(cloakedLat1, cloakedLat2);
       assert.equal(cloakedLng1, cloakedLng2);
 
-      // Obfuscated: not identical to exact original coordinates
       assert.notEqual(cloakedLat1, lat);
       assert.notEqual(cloakedLng1, lng);
 
-      // Safe bounds: offset is within ~1.2 km of the real point
       const offsetKm = calculateDistanceKm(lat, lng, cloakedLat1, cloakedLng1);
       assert.ok(offsetKm > 0 && offsetKm < 1.5, `Offset should be bounded, got ${offsetKm} km`);
     });
@@ -53,7 +48,6 @@ describe('Geo Privacy & Spatial Cloaking Algorithms', () => {
       const p2 = disperseAndCloakCoordinates(baseLat, baseLng, 'book-b', 1, 3);
       const p3 = disperseAndCloakCoordinates(baseLat, baseLng, 'book-c', 2, 3);
 
-      // No two books share the exact same coordinates
       assert.notDeepEqual(p1, p2);
       assert.notDeepEqual(p2, p3);
       assert.notDeepEqual(p1, p3);

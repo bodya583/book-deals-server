@@ -21,7 +21,6 @@ export const validate = (validators: RequestValidators) => {
       }
       if (validators.query) {
         const parsedQuery = (await validators.query.parseAsync(req.query)) as any;
-        // Express 5 defines `req.query` as a getter-only prototype property
         Object.defineProperty(req, 'query', {
           value: parsedQuery,
           writable: true,

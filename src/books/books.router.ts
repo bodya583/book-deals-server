@@ -5,14 +5,12 @@ import { authenticate } from '../middleware/authenticate.js';
 
 const router = Router();
 
-// Public routes
 router.get('/', booksController.getAll);
 router.get('/genres', genresController.getAll);
 router.get('/settlements', booksController.getSettlements);
 router.get('/:id/details', booksController.getDetails);
 router.get('/:id', booksController.getById);
 
-// Protected routes (require valid JWT)
 router.post('/', authenticate, booksController.create);
 router.put('/:id', authenticate, booksController.update);
 router.patch('/:id', authenticate, booksController.update);

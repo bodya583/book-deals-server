@@ -60,7 +60,7 @@ describe('Trade Validation Rules', () => {
       { id: 'b1', userId: 'user-sender', isForTrade: true },
       { id: 'b2', userId: 'user-sender', isForTrade: true },
       { id: 'b3', userId: 'user-receiver', isForTrade: true },
-      { id: 'b4', userId: 'user-receiver', isForTrade: false }, // Closed for trade!
+      { id: 'b4', userId: 'user-receiver', isForTrade: false },
       { id: 'b5', userId: 'stranger-id', isForTrade: true },
     ];
 

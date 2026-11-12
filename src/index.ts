@@ -16,7 +16,7 @@ import { errorHandler } from './middleware/errorHandler.js';
 
 const connString = process.env.DATABASE_URL;
 
-const pool = new Pool({ 
+const pool = new Pool({
   connectionString: connString,
   ssl: { rejectUnauthorized: false }
 });
@@ -41,7 +41,6 @@ app.use('/api/upload', uploadRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/trades', tradesRouter);
 
-// Global Error Handler
 app.use(errorHandler);
 
 app.listen(PORT, () => {

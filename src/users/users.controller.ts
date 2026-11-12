@@ -1,11 +1,6 @@
 import { Request, Response } from 'express';
 import * as usersService from './users.service.js';
 
-/**
- * PATCH /api/users/me/location
- * Updates or sets the authenticated user's coordinates.
- * Body: { latitude: number, longitude: number }
- */
 export const setLocation = async (req: Request, res: Response) => {
   try {
     const userId = req.user!.userId;
@@ -30,10 +25,6 @@ export const setLocation = async (req: Request, res: Response) => {
   }
 };
 
-/**
- * DELETE /api/users/me/location
- * Clears the authenticated user's coordinates.
- */
 export const deleteLocation = async (req: Request, res: Response) => {
   try {
     const userId = req.user!.userId;
@@ -45,10 +36,6 @@ export const deleteLocation = async (req: Request, res: Response) => {
   }
 };
 
-/**
- * GET /api/users/me
- * Returns the authenticated user's profile (including private location).
- */
 export const getMe = async (req: Request, res: Response) => {
   try {
     const userId = req.user!.userId;
@@ -60,10 +47,6 @@ export const getMe = async (req: Request, res: Response) => {
   }
 };
 
-/**
- * GET /api/users/:id
- * Returns public profile of any user.
- */
 export const getUserById = async (req: Request, res: Response) => {
   try {
     const userId = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
@@ -74,4 +57,3 @@ export const getUserById = async (req: Request, res: Response) => {
     return res.status(404).json({ message });
   }
 };
-

@@ -19,8 +19,6 @@ export const findUser = (id: string, fallbackUsername = 'Reader'): MockUser => {
 };
 
 export const ensureMockTradesForUser = (userId: string) => {
-  // Demo sample trades only apply to the built-in demo account u-1 (alex_reader).
-  // Newly registered mock accounts start with zero books and zero trades.
   if (userId !== 'u-1') return;
 
   const hasUserTrades = inMemoryTrades.some(

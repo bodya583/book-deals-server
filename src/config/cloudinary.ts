@@ -32,7 +32,6 @@ export const isCloudinaryConfigured = (): boolean => {
   return configureCloudinary();
 };
 
-// Initial configuration attempt
 configureCloudinary();
 
 export default cloudinary;

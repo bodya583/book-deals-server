@@ -10,7 +10,6 @@ export const computeSimpleHash = (str: string): string => {
   return `h_${Math.abs(hash)}`;
 };
 
-// Sort book IDs alphabetically and compute a hash so that selection order does not matter
 export const computeBooksHash = (offeredIds: string[] = [], targetIds: string[] = []): string => {
   const sortedOffered = [...offeredIds].sort().join(',');
   const sortedTarget = [...targetIds].sort().join(',');

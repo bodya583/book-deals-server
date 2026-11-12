@@ -25,7 +25,6 @@ export const getAll = async (req: Request, res: Response) => {
       sortBy,
     } = req.query;
 
-    // Parse genres: can be string[] or comma-separated string or single genre
     let parsedGenres: string[] | undefined;
     if (Array.isArray(genres)) {
       parsedGenres = genres.map(String).filter(Boolean);
@@ -35,7 +34,6 @@ export const getAll = async (req: Request, res: Response) => {
       parsedGenres = [genre.trim()];
     }
 
-    // Parse languages: can be string[] or comma-separated string or single language
     let parsedLanguages: string[] | undefined;
     if (Array.isArray(languages)) {
       parsedLanguages = languages.map(String).filter(Boolean);
@@ -45,7 +43,6 @@ export const getAll = async (req: Request, res: Response) => {
       parsedLanguages = [language.trim()];
     }
 
-    // Parse settlements / cities: can be string[] or comma-separated string
     let parsedCities: string[] | undefined;
     if (Array.isArray(cities)) {
       parsedCities = cities.map(String).filter(Boolean);
@@ -97,7 +94,6 @@ export const getSettlements = async (_req: Request, res: Response) => {
   }
 };
 
-
 export const getById = async (req: Request, res: Response) => {
   try {
     const id = typeof req.params.id === 'string' ? req.params.id : undefined;
@@ -134,7 +130,6 @@ export const getDetails = async (req: Request, res: Response) => {
 
 export const create = async (req: Request, res: Response) => {
   try {
-    // userId comes from the verified JWT token, not from the request body
     const userId = req.user!.userId;
     const { title, author, description, coverURL, language, year, genres } = req.body;
 
@@ -169,7 +164,6 @@ export const update = async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'Book ID is required' });
     }
 
-    // Verify the book belongs to the requesting user
     const existing = await booksService.getBookById(id);
     if (existing.userId !== userId) {
       return res.status(403).json({ message: 'Forbidden: you do not own this book' });
@@ -205,7 +199,6 @@ export const remove = async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'Book ID is required' });
     }
 
-    // Verify the book belongs to the requesting user
     const existing = await booksService.getBookById(id);
     if (existing.userId !== userId) {
       return res.status(403).json({ message: 'Forbidden: you do not own this book' });

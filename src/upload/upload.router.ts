@@ -5,7 +5,6 @@ import * as uploadController from './upload.controller.js';
 
 const router = Router();
 
-// Upload single image (authenticated users only)
 router.post('/', authenticate, uploadSingleImage, uploadController.uploadImage);
 
 export default router;

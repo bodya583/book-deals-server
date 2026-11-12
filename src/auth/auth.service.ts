@@ -13,7 +13,6 @@ export interface TokenPayload {
   email: string;
 }
 
-// In-memory registered users for mock mode
 export const inMemoryRegisteredUsers: Array<{
   id: string;
   username: string;
@@ -105,21 +104,19 @@ export const register = async (username: string, email: string, password: string
 
 export const login = async (email: string, password: string) => {
   if (isMockMode) {
-    // Check in-memory registered first
     const registered = inMemoryRegisteredUsers.find((u) => u.email === email || u.username === email);
     if (registered) {
       const tokens = generateTokens({ userId: registered.id, email: registered.email });
       return { user: registered, ...tokens };
     }
 
-    // Match against predefined MOCK_USERS (e.g. alex_reader, olga_books or any email)
     const mockMatch = MOCK_USERS.find(
       (u) =>
         u.username.toLowerCase() === email.toLowerCase() ||
         `${u.username}@example.com`.toLowerCase() === email.toLowerCase()
     );
 
-    const user = mockMatch || MOCK_USERS[0]; // fallback to first mock user (alex_reader)
+    const user = mockMatch || MOCK_USERS[0];
     const userEmail = `${user.username}@example.com`;
     const tokens = generateTokens({ userId: user.id, email: userEmail });
 

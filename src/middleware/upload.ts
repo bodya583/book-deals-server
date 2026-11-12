@@ -1,7 +1,6 @@
 import multer from 'multer';
 import { Request, Response, NextFunction } from 'express';
 
-// Use in-memory storage so buffers can be streamed straight to Cloudinary
 const storage = multer.memoryStorage();
 
 const allowedMimeTypes = [
@@ -15,7 +14,7 @@ const allowedMimeTypes = [
 const upload = multer({
   storage,
   limits: {
-    fileSize: 10 * 1024 * 1024, // 10 MB maximum
+    fileSize: 10 * 1024 * 1024,
   },
   fileFilter: (_req, file, cb) => {
     if (allowedMimeTypes.includes(file.mimetype)) {

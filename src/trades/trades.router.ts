@@ -13,7 +13,6 @@ import {
 
 const router = Router();
 
-// All trade endpoints are protected by JWT authentication
 router.use(authenticate);
 
 router.get('/', validate({ query: getTradesQuerySchema }), asyncHandler(tradesController.getAll));

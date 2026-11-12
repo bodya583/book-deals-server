@@ -22,7 +22,6 @@ describe('Users Location Management in Mock Mode', () => {
     assert.equal(userInArray?.latitude, newLat);
     assert.equal(userInArray?.longitude, newLng);
 
-    // Verify books sync
     const userBooks = inMemoryBooks.filter((b) => b.userId === targetUserId);
     for (const b of userBooks) {
       if (b.user) {
