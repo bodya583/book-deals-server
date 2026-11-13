@@ -8,6 +8,7 @@ const connString = process.env.DATABASE_URL;
 const pool = new Pool({
   connectionString: connString,
   ssl: { rejectUnauthorized: false },
+  max: 20,
 });
 const adapter = new PrismaPg(pool);
 const prisma = new PrismaClient({ adapter });
@@ -51,12 +52,12 @@ async function main() {
   console.log(`✓ ${SEED_USERS_WITH_HASH.length} users created.`);
 
   console.log(`4. Seeding ${SEED_BOOKS_1000.length} authentic books in batches...`);
-  const BATCH_SIZE = 50;
+  const BATCH_SIZE = 15;
 
   for (let i = 0; i < SEED_BOOKS_1000.length; i += BATCH_SIZE) {
     const batch = SEED_BOOKS_1000.slice(i, i + BATCH_SIZE);
 
-    await prisma.$transaction(
+    await Promise.all(
       batch.map((b) =>
         prisma.book.create({
           data: {
@@ -78,7 +79,9 @@ async function main() {
     );
 
     const progress = Math.min(i + BATCH_SIZE, SEED_BOOKS_1000.length);
-    console.log(`  Seeded ${progress} / ${SEED_BOOKS_1000.length} books...`);
+    if (progress % 60 === 0 || progress === SEED_BOOKS_1000.length) {
+      console.log(`  Seeded ${progress} / ${SEED_BOOKS_1000.length} books...`);
+    }
   }
 
   console.log('✓ All 1000 books successfully seeded into database!');
