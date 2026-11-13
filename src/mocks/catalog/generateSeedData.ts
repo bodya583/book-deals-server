@@ -22,7 +22,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Poetry"],
     description: "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    coverIdOrIsbn: "12644214"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Гайдамаки",
@@ -31,7 +31,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Poetry", "History"],
     description: "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    coverIdOrIsbn: "8231860"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Захар Беркут",
@@ -40,7 +40,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "History", "Adventure"],
     description: "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    coverIdOrIsbn: "8231870"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Перехресні стежки",
@@ -49,7 +49,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel", "Philosophy"],
     description: "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    coverIdOrIsbn: "8231875"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Украдене щастя",
@@ -58,7 +58,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    coverIdOrIsbn: "8231878"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Мойсей",
@@ -67,7 +67,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Poetry", "Philosophy"],
     description: "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    coverIdOrIsbn: "8231882"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Лісова пісня",
@@ -76,7 +76,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fantasy", "Romance / Novel"],
     description: "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    coverIdOrIsbn: "8231890"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Бояриня",
@@ -85,7 +85,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "History"],
     description: "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    coverIdOrIsbn: "8231894"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Камінний господар",
@@ -94,7 +94,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Philosophy", "Romance / Novel"],
     description: "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    coverIdOrIsbn: "8231898"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Тіні забутих предків",
@@ -103,7 +103,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel", "Fantasy"],
     description: "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    coverIdOrIsbn: "8231905"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Fata Morgana",
@@ -112,7 +112,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fiction", "History"],
     description: "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    coverIdOrIsbn: "8231910"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Intermezzo",
@@ -121,7 +121,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Philosophy"],
     description: "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    coverIdOrIsbn: "8231915"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Кайдашева сім'я",
@@ -130,7 +130,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fiction"],
     description: "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    coverIdOrIsbn: "8231920"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Микола Джеря",
@@ -139,7 +139,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Adventure", "History"],
     description: "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    coverIdOrIsbn: "8231925"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Енеїда",
@@ -148,7 +148,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Poetry", "Adventure"],
     description: "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    coverIdOrIsbn: "8231930"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Наталка Полтавка",
@@ -157,7 +157,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    coverIdOrIsbn: "8231935"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Тигролови",
@@ -166,7 +166,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Adventure", "Fiction", "Classic Literature"],
     description: "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    coverIdOrIsbn: "8231940"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Сад Гетсиманський",
@@ -175,7 +175,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Fiction", "Philosophy"],
     description: "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    coverIdOrIsbn: "8231945"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Місто",
@@ -184,7 +184,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fiction", "Philosophy"],
     description: "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    coverIdOrIsbn: "8231950"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Невеличка драма",
@@ -193,7 +193,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    coverIdOrIsbn: "8231955"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Я (Романтика)",
@@ -202,7 +202,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Philosophy"],
     description: "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    coverIdOrIsbn: "8231960"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Маруся Чурай",
@@ -211,7 +211,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Poetry", "History", "Classic Literature"],
     description: "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    coverIdOrIsbn: "8231965"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Записки українського самашедшого",
@@ -220,7 +220,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Philosophy"],
     description: "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    coverIdOrIsbn: "8231970"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Інтернат",
@@ -229,7 +229,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "History"],
     description: "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    coverIdOrIsbn: "8231975"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Ворошиловград",
@@ -238,7 +238,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Adventure"],
     description: "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    coverIdOrIsbn: "8231980"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Депеш Мод",
@@ -247,7 +247,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Adventure"],
     description: "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    coverIdOrIsbn: "8231985"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Месопотамія",
@@ -256,7 +256,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Poetry", "Romance / Novel"],
     description: "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    coverIdOrIsbn: "8231988"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Польові дослідження з українського сексу",
@@ -265,7 +265,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Philosophy", "Romance / Novel"],
     description: "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    coverIdOrIsbn: "8231992"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Музей покинутих секретів",
@@ -274,7 +274,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Fiction", "Detective / Mystery"],
     description: "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    coverIdOrIsbn: "8231995"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Московіада",
@@ -283,7 +283,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Philosophy"],
     description: "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    coverIdOrIsbn: "8231998"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Перверзія",
@@ -292,7 +292,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Philosophy", "Detective / Mystery"],
     description: "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    coverIdOrIsbn: "8232002"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Культ",
@@ -301,7 +301,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fantasy", "Thriller / Horror", "Fiction"],
     description: "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    coverIdOrIsbn: "8232005"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Танго смерті",
@@ -310,7 +310,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Detective / Mystery", "Fiction"],
     description: "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    coverIdOrIsbn: "8232008"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Чорний Ворон",
@@ -319,7 +319,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Adventure", "Fiction"],
     description: "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    coverIdOrIsbn: "8232012"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Колонія. Нові темні віки",
@@ -328,7 +328,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Sci-Fi", "Thriller / Horror"],
     description: "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    coverIdOrIsbn: "12843589"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Не озирайся і мовчи",
@@ -337,7 +337,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Thriller / Horror", "Sci-Fi"],
     description: "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    coverIdOrIsbn: "8232018"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Фелікс Австрія",
@@ -346,7 +346,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Romance / Novel", "Fiction"],
     description: "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    coverIdOrIsbn: "8232022"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Амадока",
@@ -355,7 +355,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Philosophy", "Fiction"],
     description: "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    coverIdOrIsbn: "8232025"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Точка нуль",
@@ -364,7 +364,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Biography / Memoir", "History"],
     description: "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    coverIdOrIsbn: "8232028"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Хто ти такий?",
@@ -373,7 +373,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Fiction", "Biography / Memoir"],
     description: "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    coverIdOrIsbn: "8232032"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Чорна рада",
@@ -382,7 +382,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Classic Literature", "Romance / Novel"],
     description: "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    coverIdOrIsbn: "8232035"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Хіба ревуть воли, як ясла повні?",
@@ -391,7 +391,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fiction", "History"],
     description: "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    coverIdOrIsbn: "8232040"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Камінний хрест",
@@ -400,7 +400,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Philosophy"],
     description: "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    coverIdOrIsbn: "8232045"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Записки кирпатого Мефістофеля",
@@ -409,7 +409,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Romance / Novel", "Philosophy"],
     description: "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    coverIdOrIsbn: "8232050"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Мина Мазайло",
@@ -418,7 +418,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["Classic Literature", "Fiction"],
     description: "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    coverIdOrIsbn: "8232055"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80"
   },
   {
     title: "Червоний",
@@ -427,7 +427,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Ukrainian",
     genres: ["History", "Adventure", "Fiction"],
     description: "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    coverIdOrIsbn: "8232060"
+    coverIdOrIsbn: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80"
   },
 
   // ENGLISH & WORLD CLASSICS
@@ -438,7 +438,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Classic Literature", "Philosophy"],
     description: "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    coverIdOrIsbn: "8575743"
+    coverIdOrIsbn: "9780451524935"
   },
   {
     title: "Animal Farm",
@@ -447,7 +447,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Fiction", "Philosophy"],
     description: "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    coverIdOrIsbn: "8225261"
+    coverIdOrIsbn: "9780451526342"
   },
   {
     title: "Brave New World",
@@ -456,7 +456,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Classic Literature", "Philosophy"],
     description: "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    coverIdOrIsbn: "8754162"
+    coverIdOrIsbn: "9780060850524"
   },
   {
     title: "Fahrenheit 451",
@@ -465,7 +465,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Classic Literature"],
     description: "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    coverIdOrIsbn: "10521270"
+    coverIdOrIsbn: "9781451673319"
   },
   {
     title: "The Hobbit",
@@ -474,7 +474,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure", "Children's Literature"],
     description: "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    coverIdOrIsbn: "8406786"
+    coverIdOrIsbn: "9780547928227"
   },
   {
     title: "The Fellowship of the Ring",
@@ -483,7 +483,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure", "Classic Literature"],
     description: "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    coverIdOrIsbn: "8231991"
+    coverIdOrIsbn: "9780547928210"
   },
   {
     title: "The Two Towers",
@@ -492,7 +492,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    coverIdOrIsbn: "8231993"
+    coverIdOrIsbn: "9780547928203"
   },
   {
     title: "The Return of the King",
@@ -501,7 +501,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    coverIdOrIsbn: "8231994"
+    coverIdOrIsbn: "9780547928197"
   },
   {
     title: "Dune",
@@ -510,7 +510,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Adventure", "Philosophy"],
     description: "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    coverIdOrIsbn: "8931215"
+    coverIdOrIsbn: "9780441172719"
   },
   {
     title: "Dune Messiah",
@@ -519,7 +519,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Philosophy"],
     description: "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    coverIdOrIsbn: "8931218"
+    coverIdOrIsbn: "9780441172696"
   },
   {
     title: "Children of Dune",
@@ -528,7 +528,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Philosophy"],
     description: "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    coverIdOrIsbn: "8931220"
+    coverIdOrIsbn: "9780441104024"
   },
   {
     title: "Foundation",
@@ -537,7 +537,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Classic Literature"],
     description: "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    coverIdOrIsbn: "8235287"
+    coverIdOrIsbn: "9780553293357"
   },
   {
     title: "Foundation and Empire",
@@ -546,7 +546,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi"],
     description: "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    coverIdOrIsbn: "8235290"
+    coverIdOrIsbn: "9780553293371"
   },
   {
     title: "Second Foundation",
@@ -555,7 +555,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi"],
     description: "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    coverIdOrIsbn: "8235295"
+    coverIdOrIsbn: "9780553293364"
   },
   {
     title: "Do Androids Dream of Electric Sheep?",
@@ -564,7 +564,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Philosophy"],
     description: "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    coverIdOrIsbn: "8235300"
+    coverIdOrIsbn: "9780345404474"
   },
   {
     title: "Neuromancer",
@@ -573,7 +573,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi"],
     description: "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    coverIdOrIsbn: "8235305"
+    coverIdOrIsbn: "9780441569595"
   },
   {
     title: "A Game of Thrones",
@@ -582,7 +582,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    coverIdOrIsbn: "8235310"
+    coverIdOrIsbn: "9780553573404"
   },
   {
     title: "A Clash of Kings",
@@ -591,7 +591,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    coverIdOrIsbn: "8235315"
+    coverIdOrIsbn: "9780553579901"
   },
   {
     title: "A Storm of Swords",
@@ -600,7 +600,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    coverIdOrIsbn: "8235320"
+    coverIdOrIsbn: "9780553573428"
   },
   {
     title: "American Gods",
@@ -609,7 +609,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Fiction"],
     description: "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    coverIdOrIsbn: "8235325"
+    coverIdOrIsbn: "9780060558123"
   },
   {
     title: "Neverwhere",
@@ -618,7 +618,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Adventure"],
     description: "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    coverIdOrIsbn: "8235330"
+    coverIdOrIsbn: "9780060557805"
   },
   {
     title: "The Shining",
@@ -627,7 +627,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Thriller / Horror", "Fiction"],
     description: "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    coverIdOrIsbn: "8235335"
+    coverIdOrIsbn: "9780307743657"
   },
   {
     title: "It",
@@ -636,7 +636,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Thriller / Horror", "Fiction"],
     description: "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    coverIdOrIsbn: "8235340"
+    coverIdOrIsbn: "9781501142970"
   },
   {
     title: "Misery",
@@ -645,7 +645,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Thriller / Horror", "Detective / Mystery"],
     description: "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    coverIdOrIsbn: "8235345"
+    coverIdOrIsbn: "9781501156748"
   },
   {
     title: "The Stand",
@@ -654,7 +654,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Thriller / Horror", "Sci-Fi", "Fantasy"],
     description: "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    coverIdOrIsbn: "8235350"
+    coverIdOrIsbn: "9780307743688"
   },
   {
     title: "A Study in Scarlet",
@@ -663,7 +663,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Detective / Mystery", "Classic Literature"],
     description: "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    coverIdOrIsbn: "8235355"
+    coverIdOrIsbn: "9780140439083"
   },
   {
     title: "The Hound of the Baskervilles",
@@ -672,7 +672,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Detective / Mystery", "Classic Literature", "Thriller / Horror"],
     description: "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    coverIdOrIsbn: "8235360"
+    coverIdOrIsbn: "9780141439730"
   },
   {
     title: "Murder on the Orient Express",
@@ -681,7 +681,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Detective / Mystery", "Classic Literature"],
     description: "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    coverIdOrIsbn: "8235365"
+    coverIdOrIsbn: "9780062073495"
   },
   {
     title: "And Then There Were None",
@@ -690,7 +690,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Detective / Mystery", "Thriller / Horror"],
     description: "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    coverIdOrIsbn: "8235370"
+    coverIdOrIsbn: "9780062073488"
   },
   {
     title: "The Great Gatsby",
@@ -699,7 +699,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    coverIdOrIsbn: "8432047"
+    coverIdOrIsbn: "9780743273565"
   },
   {
     title: "The Old Man and the Sea",
@@ -708,7 +708,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Adventure", "Philosophy"],
     description: "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    coverIdOrIsbn: "8235375"
+    coverIdOrIsbn: "9780684801223"
   },
   {
     title: "For Whom the Bell Tolls",
@@ -717,7 +717,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "History", "Adventure"],
     description: "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    coverIdOrIsbn: "8235380"
+    coverIdOrIsbn: "9780684803357"
   },
   {
     title: "The Catcher in the Rye",
@@ -726,7 +726,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Fiction"],
     description: "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    coverIdOrIsbn: "8226191"
+    coverIdOrIsbn: "9780316769488"
   },
   {
     title: "To Kill a Mockingbird",
@@ -735,7 +735,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Fiction"],
     description: "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    coverIdOrIsbn: "8225261"
+    coverIdOrIsbn: "9780060935467"
   },
   {
     title: "Pride and Prejudice",
@@ -744,7 +744,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    coverIdOrIsbn: "8231856"
+    coverIdOrIsbn: "9780141439518"
   },
   {
     title: "Jane Eyre",
@@ -753,7 +753,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    coverIdOrIsbn: "8235385"
+    coverIdOrIsbn: "9780141441146"
   },
   {
     title: "Wuthering Heights",
@@ -762,7 +762,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Romance / Novel", "Thriller / Horror"],
     description: "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    coverIdOrIsbn: "8235390"
+    coverIdOrIsbn: "9780141439556"
   },
   {
     title: "The Picture of Dorian Gray",
@@ -771,7 +771,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Philosophy", "Thriller / Horror"],
     description: "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    coverIdOrIsbn: "8235395"
+    coverIdOrIsbn: "9780141439570"
   },
   {
     title: "Frankenstein",
@@ -780,7 +780,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Sci-Fi", "Thriller / Horror"],
     description: "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    coverIdOrIsbn: "8235400"
+    coverIdOrIsbn: "9780141439471"
   },
   {
     title: "Dracula",
@@ -789,7 +789,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Classic Literature", "Thriller / Horror"],
     description: "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    coverIdOrIsbn: "8235405"
+    coverIdOrIsbn: "9780141439846"
   },
   {
     title: "The Road",
@@ -798,7 +798,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fiction", "Sci-Fi", "Philosophy"],
     description: "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    coverIdOrIsbn: "8235410"
+    coverIdOrIsbn: "9780307387899"
   },
   {
     title: "The Handmaid's Tale",
@@ -807,7 +807,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Fiction"],
     description: "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    coverIdOrIsbn: "8235415"
+    coverIdOrIsbn: "9780385490818"
   },
   {
     title: "Never Let Me Go",
@@ -816,7 +816,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Sci-Fi", "Romance / Novel", "Philosophy"],
     description: "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    coverIdOrIsbn: "8235420"
+    coverIdOrIsbn: "9781400078776"
   },
   {
     title: "Norwegian Wood",
@@ -825,7 +825,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fiction", "Romance / Novel"],
     description: "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    coverIdOrIsbn: "8235425"
+    coverIdOrIsbn: "9780375704024"
   },
   {
     title: "Kafka on the Shore",
@@ -834,7 +834,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Fantasy", "Fiction", "Philosophy"],
     description: "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    coverIdOrIsbn: "8235430"
+    coverIdOrIsbn: "9781400079278"
   },
 
   // FRENCH LITERATURE
@@ -845,7 +845,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Philosophy", "Children's Literature"],
     description: "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    coverIdOrIsbn: "8235111"
+    coverIdOrIsbn: "9782070612758"
   },
   {
     title: "L'Étranger",
@@ -854,7 +854,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Philosophy", "Classic Literature"],
     description: "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    coverIdOrIsbn: "8232150"
+    coverIdOrIsbn: "9782070360024"
   },
   {
     title: "La Peste",
@@ -863,7 +863,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Philosophy", "Classic Literature", "Fiction"],
     description: "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    coverIdOrIsbn: "8232152"
+    coverIdOrIsbn: "9782070360420"
   },
   {
     title: "Les Misérables",
@@ -872,7 +872,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "History", "Romance / Novel"],
     description: "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    coverIdOrIsbn: "8232155"
+    coverIdOrIsbn: "9782253096337"
   },
   {
     title: "Notre-Dame de Paris",
@@ -881,7 +881,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "History", "Romance / Novel"],
     description: "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    coverIdOrIsbn: "8232160"
+    coverIdOrIsbn: "9782253009689"
   },
   {
     title: "Le Comte de Monte-Cristo",
@@ -890,7 +890,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Adventure"],
     description: "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    coverIdOrIsbn: "8232165"
+    coverIdOrIsbn: "9782253098553"
   },
   {
     title: "Les Trois Mousquetaires",
@@ -899,7 +899,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Adventure"],
     description: "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    coverIdOrIsbn: "8232170"
+    coverIdOrIsbn: "9782253008989"
   },
   {
     title: "Madame Bovary",
@@ -908,7 +908,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    coverIdOrIsbn: "8232188"
+    coverIdOrIsbn: "9782253004455"
   },
   {
     title: "Du côté de chez Swann",
@@ -917,7 +917,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Philosophy", "Romance / Novel"],
     description: "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    coverIdOrIsbn: "8232190"
+    coverIdOrIsbn: "9782070379248"
   },
   {
     title: "Germinal",
@@ -926,7 +926,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Fiction", "History"],
     description: "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    coverIdOrIsbn: "8232195"
+    coverIdOrIsbn: "9782253004226"
   },
   {
     title: "Vingt mille lieues sous les mers",
@@ -935,7 +935,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Sci-Fi", "Adventure"],
     description: "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    coverIdOrIsbn: "8232200"
+    coverIdOrIsbn: "9782253006329"
   },
   {
     title: "Le Tour du monde en quatre-vingts jours",
@@ -944,7 +944,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "French",
     genres: ["Classic Literature", "Adventure"],
     description: "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    coverIdOrIsbn: "8232205"
+    coverIdOrIsbn: "9782253005896"
   },
 
   // GERMAN LITERATURE & PHILOSOPHY
@@ -955,7 +955,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Philosophy", "Classic Literature", "Fiction"],
     description: "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    coverIdOrIsbn: "8235287"
+    coverIdOrIsbn: "9783518366752"
   },
   {
     title: "Siddhartha",
@@ -964,7 +964,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Philosophy", "Classic Literature"],
     description: "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    coverIdOrIsbn: "8235289"
+    coverIdOrIsbn: "9783518366820"
   },
   {
     title: "Demian",
@@ -973,7 +973,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Philosophy", "Fiction"],
     description: "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    coverIdOrIsbn: "8235292"
+    coverIdOrIsbn: "9783518367001"
   },
   {
     title: "Die Verwandlung",
@@ -982,7 +982,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "Philosophy"],
     description: "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    coverIdOrIsbn: "8232100"
+    coverIdOrIsbn: "9783150099001"
   },
   {
     title: "Der Process",
@@ -991,7 +991,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "Philosophy", "Detective / Mystery"],
     description: "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    coverIdOrIsbn: "8232102"
+    coverIdOrIsbn: "9783596123407"
   },
   {
     title: "Faust",
@@ -1000,7 +1000,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "Philosophy", "Poetry"],
     description: "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    coverIdOrIsbn: "8232104"
+    coverIdOrIsbn: "9783150000014"
   },
   {
     title: "Im Westen nichts Neues",
@@ -1009,7 +1009,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "History", "Fiction"],
     description: "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    coverIdOrIsbn: "8232110"
+    coverIdOrIsbn: "9783462046335"
   },
   {
     title: "Drei Kameraden",
@@ -1018,7 +1018,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "Romance / Novel", "Fiction"],
     description: "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    coverIdOrIsbn: "8232115"
+    coverIdOrIsbn: "9783462046311"
   },
   {
     title: "Der Zauberberg",
@@ -1027,7 +1027,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Classic Literature", "Philosophy"],
     description: "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    coverIdOrIsbn: "8232120"
+    coverIdOrIsbn: "9783596294336"
   },
   {
     title: "Also sprach Zarathustra",
@@ -1036,7 +1036,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Philosophy", "Classic Literature", "Poetry"],
     description: "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    coverIdOrIsbn: "8232130"
+    coverIdOrIsbn: "9783150071113"
   },
   {
     title: "Jenseits von Gut und Böse",
@@ -1045,7 +1045,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Philosophy"],
     description: "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    coverIdOrIsbn: "8232001"
+    coverIdOrIsbn: "9783150071106"
   },
   {
     title: "Das Parfum",
@@ -1054,7 +1054,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "German",
     genres: ["Fiction", "Thriller / Horror", "Detective / Mystery"],
     description: "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    coverIdOrIsbn: "8232140"
+    coverIdOrIsbn: "9783257214604"
   },
 
   // POLISH LITERATURE
@@ -1065,7 +1065,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Sci-Fi", "Philosophy"],
     description: "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    coverIdOrIsbn: "8232300"
+    coverIdOrIsbn: "9788308049006"
   },
   {
     title: "Cyberiada",
@@ -1074,7 +1074,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Sci-Fi", "Philosophy", "Children's Literature"],
     description: "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    coverIdOrIsbn: "8232305"
+    coverIdOrIsbn: "9788308049013"
   },
   {
     title: "Ostatnie życzenie",
@@ -1083,7 +1083,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Fantasy", "Adventure"],
     description: "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    coverIdOrIsbn: "8232350"
+    coverIdOrIsbn: "9788375780635"
   },
   {
     title: "Miecz przeznaczenia",
@@ -1092,7 +1092,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Fantasy", "Adventure"],
     description: "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    coverIdOrIsbn: "8232355"
+    coverIdOrIsbn: "9788375780642"
   },
   {
     title: "Krew elfów",
@@ -1101,7 +1101,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Fantasy", "Adventure"],
     description: "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    coverIdOrIsbn: "8232360"
+    coverIdOrIsbn: "9788375780659"
   },
   {
     title: "Bieguni",
@@ -1110,7 +1110,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Fiction", "Philosophy"],
     description: "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    coverIdOrIsbn: "8232370"
+    coverIdOrIsbn: "9788308041697"
   },
   {
     title: "Prowadź swój pług przez kości umarłych",
@@ -1119,7 +1119,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Detective / Mystery", "Fiction", "Philosophy"],
     description: "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    coverIdOrIsbn: "8232375"
+    coverIdOrIsbn: "9788308043691"
   },
   {
     title: "Pan Tadeusz",
@@ -1128,7 +1128,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Classic Literature", "Poetry", "History"],
     description: "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    coverIdOrIsbn: "8232400"
+    coverIdOrIsbn: "9788304000452"
   },
   {
     title: "Quo Vadis",
@@ -1137,7 +1137,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Classic Literature", "History", "Romance / Novel"],
     description: "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    coverIdOrIsbn: "8232405"
+    coverIdOrIsbn: "9788373271876"
   },
   {
     title: "Ogniem i mieczem",
@@ -1146,7 +1146,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Polish",
     genres: ["Classic Literature", "History", "Adventure"],
     description: "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    coverIdOrIsbn: "8232410"
+    coverIdOrIsbn: "9788373271883"
   },
 
   // SPANISH & LATIN AMERICAN LITERATURE
@@ -1157,7 +1157,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Classic Literature", "Adventure"],
     description: "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    coverIdOrIsbn: "8232210"
+    coverIdOrIsbn: "9780060934347"
   },
   {
     title: "Cien años de soledad",
@@ -1166,7 +1166,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Classic Literature", "Fantasy", "Fiction"],
     description: "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    coverIdOrIsbn: "8232250"
+    coverIdOrIsbn: "9780307474728"
   },
   {
     title: "El amor en los tiempos del cólera",
@@ -1175,7 +1175,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Classic Literature", "Romance / Novel"],
     description: "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    coverIdOrIsbn: "8232255"
+    coverIdOrIsbn: "9780307387264"
   },
   {
     title: "Crónica de una muerte anunciada",
@@ -1184,7 +1184,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Detective / Mystery", "Classic Literature"],
     description: "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    coverIdOrIsbn: "8232260"
+    coverIdOrIsbn: "9781400034710"
   },
   {
     title: "Ficciones",
@@ -1193,7 +1193,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Fiction", "Philosophy", "Fantasy"],
     description: "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    coverIdOrIsbn: "8232270"
+    coverIdOrIsbn: "9780307950925"
   },
   {
     title: "Rayuela",
@@ -1202,7 +1202,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Fiction", "Philosophy", "Romance / Novel"],
     description: "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    coverIdOrIsbn: "8232275"
+    coverIdOrIsbn: "9788466331906"
   },
   {
     title: "La sombra del viento",
@@ -1211,7 +1211,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Spanish",
     genres: ["Detective / Mystery", "Romance / Novel", "Adventure"],
     description: "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    coverIdOrIsbn: "8232280"
+    coverIdOrIsbn: "9788408163435"
   },
 
   // ITALIAN LITERATURE
@@ -1222,7 +1222,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Italian",
     genres: ["Classic Literature", "Poetry", "Philosophy"],
     description: "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    coverIdOrIsbn: "8232450"
+    coverIdOrIsbn: "9788806228583"
   },
   {
     title: "Il nome della rosa",
@@ -1231,7 +1231,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Italian",
     genres: ["Detective / Mystery", "History", "Philosophy"],
     description: "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    coverIdOrIsbn: "8232455"
+    coverIdOrIsbn: "9788845278655"
   },
   {
     title: "Il pendolo di Foucault",
@@ -1240,7 +1240,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Italian",
     genres: ["Detective / Mystery", "Philosophy", "Fiction"],
     description: "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    coverIdOrIsbn: "8232460"
+    coverIdOrIsbn: "9788845278662"
   },
   {
     title: "Le città invisibili",
@@ -1249,7 +1249,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Italian",
     genres: ["Fiction", "Philosophy", "Poetry"],
     description: "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    coverIdOrIsbn: "8232465"
+    coverIdOrIsbn: "9788804667957"
   },
   {
     title: "L'amica geniale",
@@ -1258,7 +1258,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "Italian",
     genres: ["Fiction", "Romance / Novel"],
     description: "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    coverIdOrIsbn: "8232470"
+    coverIdOrIsbn: "9788866320326"
   },
 
   // WORLD NON-FICTION, PHILOSOPHY, PSYCHOLOGY & SCIENCE
@@ -1269,7 +1269,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["History", "Science / Non-Fiction", "Philosophy"],
     description: "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    coverIdOrIsbn: "8314120"
+    coverIdOrIsbn: "9780062316097"
   },
   {
     title: "Homo Deus: A Brief History of Tomorrow",
@@ -1278,7 +1278,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "Science / Non-Fiction", "History"],
     description: "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    coverIdOrIsbn: "8314125"
+    coverIdOrIsbn: "9780062464316"
   },
   {
     title: "Thinking, Fast and Slow",
@@ -1287,7 +1287,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Psychology / Self-Help", "Science / Non-Fiction", "Business / Finance"],
     description: "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    coverIdOrIsbn: "8235456"
+    coverIdOrIsbn: "9780374533557"
   },
   {
     title: "Antifragile: Things That Gain from Disorder",
@@ -1296,7 +1296,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "Business / Finance", "Science / Non-Fiction"],
     description: "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    coverIdOrIsbn: "8235460"
+    coverIdOrIsbn: "9780812979688"
   },
   {
     title: "The Black Swan",
@@ -1305,7 +1305,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "Business / Finance", "Science / Non-Fiction"],
     description: "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    coverIdOrIsbn: "8235465"
+    coverIdOrIsbn: "9781400063512"
   },
   {
     title: "Atomic Habits",
@@ -1314,7 +1314,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Psychology / Self-Help", "Business / Finance"],
     description: "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    coverIdOrIsbn: "12843589"
+    coverIdOrIsbn: "9780735211292"
   },
   {
     title: "Meditations",
@@ -1323,7 +1323,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "Classic Literature"],
     description: "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    coverIdOrIsbn: "8231923"
+    coverIdOrIsbn: "9780140449334"
   },
   {
     title: "Letters from a Stoic",
@@ -1332,7 +1332,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "Classic Literature"],
     description: "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    coverIdOrIsbn: "8231926"
+    coverIdOrIsbn: "9780140442106"
   },
   {
     title: "Man's Search for Meaning",
@@ -1341,7 +1341,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Psychology / Self-Help", "Philosophy", "Biography / Memoir"],
     description: "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    coverIdOrIsbn: "8235470"
+    coverIdOrIsbn: "9780807014295"
   },
   {
     title: "A Brief History of Time",
@@ -1350,7 +1350,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Science / Non-Fiction", "Philosophy"],
     description: "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    coverIdOrIsbn: "8235475"
+    coverIdOrIsbn: "9780553380163"
   },
   {
     title: "Cosmos",
@@ -1359,7 +1359,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Science / Non-Fiction", "Philosophy"],
     description: "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    coverIdOrIsbn: "8235480"
+    coverIdOrIsbn: "9780345331359"
   },
   {
     title: "The Selfish Gene",
@@ -1368,7 +1368,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Science / Non-Fiction", "Philosophy"],
     description: "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    coverIdOrIsbn: "8235485"
+    coverIdOrIsbn: "9780199291151"
   },
   {
     title: "The 48 Laws of Power",
@@ -1377,7 +1377,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Psychology / Self-Help", "History", "Business / Finance"],
     description: "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    coverIdOrIsbn: "8235490"
+    coverIdOrIsbn: "9780140280197"
   },
   {
     title: "The Prince",
@@ -1386,7 +1386,7 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     language: "English",
     genres: ["Philosophy", "History", "Classic Literature"],
     description: "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    coverIdOrIsbn: "8235495"
+    coverIdOrIsbn: "9780140449150"
   },
   {
     title: "The Art of War",
@@ -1400,95 +1400,47 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
 ];
 
 export function generate1000Books() {
-  const users = SEED_USERS;
-  const templates = MASTER_CATALOG;
   const books: any[] = [];
+  const templates = MASTER_CATALOG;
+  const users = SEED_USERS;
 
-  const verifiedCoverPool = [
-    "8575743", "8225261", "8754162", "10521270", "8406786", "8231991", "8231993", "8231994",
-    "8931215", "8931218", "8931220", "8235287", "8235290", "8235295", "8235300", "8235305",
-    "8235310", "8235315", "8235320", "8235325", "8235330", "8235335", "8235340", "8235345",
-    "8235350", "8235355", "8235360", "8235365", "8235370", "8432047", "8235375", "8235380",
-    "8226191", "8231856", "8235385", "8235390", "8235395", "8235400", "8235405", "8235410",
-    "8235415", "8235420", "8235425", "8235430", "8235111", "8232150", "8232152", "8232155",
-    "8232160", "8232165", "8232170", "8232188", "8232190", "8232195", "8232200", "8232205",
-    "8232100", "8232102", "8232104", "8232110", "8232115", "8232120", "8232130", "8232001",
-    "8232140", "8232300", "8232305", "8232350", "8232355", "8232360", "8232370", "8232375",
-    "8232400", "8232405", "8232410", "8232210", "8232250", "8232255", "8232260", "8232270",
-    "8232275", "8232280", "8232450", "8232455", "8232460", "8232465", "8232470", "8314120",
-    "8314125", "8235456", "8235460", "8235465", "12843589", "8231923", "8231926", "8235470",
-    "8235475", "8235480", "8235485", "8235490", "8235495", "8235500", "12644214", "8231860"
-  ];
+  for (let i = 0; i < 1000; i++) {
+    const tmpl = templates[i % templates.length];
+    const assignedUser = users[i % users.length];
+    const currentBookIndex = i + 1;
 
-  let currentBookIndex = 1;
-
-  for (let cycle = 0; currentBookIndex <= 1000; cycle++) {
-    for (let tIdx = 0; tIdx < templates.length && currentBookIndex <= 1000; tIdx++) {
-      const tmpl = templates[tIdx];
-      const assignedUser = users[(currentBookIndex - 1) % users.length];
-
-      let title = tmpl.title;
-      let year = tmpl.year;
-      let language = tmpl.language;
-      let cover = tmpl.coverIdOrIsbn;
-
-      if (cycle > 0) {
-        if (cycle === 1) {
-          title = `${tmpl.title} (Видання ${cycle + 1})`;
-          year = Math.min(2024, tmpl.year + cycle * 5);
-        } else if (cycle === 2) {
-          title = `${tmpl.title} (Колекційне видання)`;
-          year = Math.min(2024, tmpl.year + cycle * 8);
-        } else if (cycle === 3) {
-          title = `${tmpl.title} (Ілюстроване видання)`;
-          year = Math.min(2024, tmpl.year + cycle * 10);
-        } else if (cycle === 4) {
-          title = `${tmpl.title} (Повне зібрання)`;
-          year = Math.min(2024, tmpl.year + cycle * 12);
-        } else if (cycle === 5) {
-          title = `${tmpl.title} (Ювілейне видання)`;
-          year = Math.min(2024, tmpl.year + cycle * 15);
-        } else if (cycle === 6) {
-          title = `${tmpl.title} (Том ${((currentBookIndex % 3) + 1)})`;
-          year = Math.min(2024, tmpl.year + cycle * 18);
-        } else {
-          title = `${tmpl.title} (Серія «Світовий бестселер»)`;
-          year = Math.min(2024, tmpl.year + cycle * 20);
-        }
-
-        const coverChoice = verifiedCoverPool[(currentBookIndex * 13) % verifiedCoverPool.length];
-        cover = coverChoice;
-      }
-
-      const coverURL = cover.startsWith("978") || cover.startsWith("ISBN")
-        ? `https://covers.openlibrary.org/b/isbn/${cover}-L.jpg`
-        : `https://covers.openlibrary.org/b/id/${cover}-L.jpg`;
-
-      const genreObjects = tmpl.genres.map((gName) => resolveGenreObj(gName));
-
-      books.push({
-        id: toBookUuid(currentBookIndex),
-        title,
-        author: tmpl.author,
-        year: year > 0 ? year : 1900,
-        language,
-        genres: genreObjects,
-        description: tmpl.description,
-        coverURL,
-        userId: assignedUser.id,
-        isForTrade: (currentBookIndex % 15 !== 0), // ~93% for trade, ~7% personal
-        user: {
-          id: assignedUser.id,
-          username: assignedUser.username,
-          photoURL: assignedUser.photoURL,
-          city: assignedUser.city,
-          latitude: assignedUser.latitude,
-          longitude: assignedUser.longitude,
-        }
-      });
-
-      currentBookIndex++;
+    let coverURL: string;
+    const cover = tmpl.coverIdOrIsbn;
+    if (cover.startsWith("http")) {
+      coverURL = cover;
+    } else if (cover.startsWith("978") || cover.startsWith("ISBN")) {
+      coverURL = `https://covers.openlibrary.org/b/isbn/${cover}-L.jpg`;
+    } else {
+      coverURL = `https://covers.openlibrary.org/b/id/${cover}-L.jpg`;
     }
+
+    const genreObjects = tmpl.genres.map((gName) => resolveGenreObj(gName));
+
+    books.push({
+      id: toBookUuid(currentBookIndex),
+      title: tmpl.title,
+      author: tmpl.author,
+      year: tmpl.year > 0 ? tmpl.year : 1900,
+      language: tmpl.language,
+      genres: genreObjects,
+      description: tmpl.description,
+      coverURL,
+      userId: assignedUser.id,
+      isForTrade: (currentBookIndex % 15 !== 0), // ~93% for trade, ~7% personal
+      user: {
+        id: assignedUser.id,
+        username: assignedUser.username,
+        photoURL: assignedUser.photoURL,
+        city: assignedUser.city,
+        latitude: assignedUser.latitude,
+        longitude: assignedUser.longitude,
+      }
+    });
   }
 
   return books;

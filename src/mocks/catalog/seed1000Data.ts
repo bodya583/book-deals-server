@@ -93,7 +93,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.5015,
     "longitude": 30.4982,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000002",
@@ -103,7 +103,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4688,
     "longitude": 30.5185,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000003",
@@ -113,7 +113,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4623,
     "longitude": 30.5218,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000004",
@@ -123,7 +123,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4472,
     "longitude": 30.5225,
     "photoURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000005",
@@ -133,7 +133,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4245,
     "longitude": 30.542,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000006",
@@ -143,7 +143,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.421,
     "longitude": 30.518,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000007",
@@ -153,7 +153,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4012,
     "longitude": 30.6355,
     "photoURL": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000008",
@@ -163,7 +163,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.4095,
     "longitude": 30.641,
     "photoURL": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000009",
@@ -173,7 +173,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.405,
     "longitude": 30.622,
     "photoURL": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000010",
@@ -183,7 +183,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.458,
     "longitude": 30.412,
     "photoURL": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000011",
@@ -193,7 +193,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.46,
     "longitude": 30.49,
     "photoURL": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000012",
@@ -203,7 +203,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.452,
     "longitude": 30.592,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000013",
@@ -213,7 +213,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.512,
     "longitude": 30.602,
     "photoURL": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000014",
@@ -223,7 +223,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.522,
     "longitude": 30.499,
     "photoURL": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000015",
@@ -233,7 +233,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.512,
     "longitude": 30.503,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000016",
@@ -243,7 +243,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.451,
     "longitude": 30.511,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000017",
@@ -253,7 +253,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.444,
     "longitude": 30.537,
     "photoURL": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000018",
@@ -263,7 +263,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.429,
     "longitude": 30.517,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000019",
@@ -273,7 +273,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.395,
     "longitude": 30.505,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000020",
@@ -283,7 +283,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.412,
     "longitude": 30.655,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000021",
@@ -293,7 +293,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.399,
     "longitude": 30.628,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000022",
@@ -303,7 +303,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.414,
     "longitude": 30.62,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000023",
@@ -313,7 +313,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.442,
     "longitude": 30.448,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000024",
@@ -323,7 +323,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.451,
     "longitude": 30.472,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000025",
@@ -333,7 +333,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.432,
     "longitude": 30.489,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000026",
@@ -343,7 +343,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.428,
     "longitude": 30.46,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000027",
@@ -353,7 +353,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.438,
     "longitude": 30.598,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000028",
@@ -363,7 +363,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.418,
     "longitude": 30.602,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000029",
@@ -373,7 +373,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.519,
     "longitude": 30.612,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000030",
@@ -383,7 +383,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.453,
     "longitude": 30.505,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000031",
@@ -393,7 +393,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.8418,
     "longitude": 24.0315,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000032",
@@ -403,7 +403,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.832,
     "longitude": 24.034,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000033",
@@ -413,7 +413,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.8355,
     "longitude": 24.009,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000034",
@@ -423,7 +423,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.829,
     "longitude": 23.998,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000035",
@@ -433,7 +433,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.794,
     "longitude": 24.053,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000036",
@@ -443,7 +443,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.871,
     "longitude": 24.028,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000037",
@@ -453,7 +453,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.839,
     "longitude": 23.997,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000038",
@@ -463,7 +463,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.841,
     "longitude": 24.054,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000039",
@@ -473,7 +473,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.837,
     "longitude": 24.026,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000040",
@@ -483,7 +483,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.815,
     "longitude": 24.027,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000041",
@@ -493,7 +493,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.809,
     "longitude": 23.987,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000042",
@@ -503,7 +503,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.856,
     "longitude": 24.023,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000043",
@@ -513,7 +513,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.802,
     "longitude": 24.002,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000044",
@@ -523,7 +523,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.819,
     "longitude": 24.068,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000045",
@@ -533,7 +533,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.808,
     "longitude": 24.004,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000046",
@@ -543,7 +543,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.485,
     "longitude": 30.738,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000047",
@@ -553,7 +553,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.459,
     "longitude": 30.755,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000048",
@@ -563,7 +563,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.442,
     "longitude": 30.752,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000049",
@@ -573,7 +573,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.402,
     "longitude": 30.718,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000050",
@@ -583,7 +583,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.482,
     "longitude": 30.702,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000051",
@@ -593,7 +593,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.578,
     "longitude": 30.795,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000052",
@@ -603,7 +603,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.448,
     "longitude": 30.751,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000053",
@@ -613,7 +613,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.438,
     "longitude": 30.701,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000054",
@@ -623,7 +623,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.479,
     "longitude": 30.742,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000055",
@@ -633,7 +633,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 46.468,
     "longitude": 30.745,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000056",
@@ -643,7 +643,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.008,
     "longitude": 36.236,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000057",
@@ -653,7 +653,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.001,
     "longitude": 36.248,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000058",
@@ -663,7 +663,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.024,
     "longitude": 36.335,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000059",
@@ -673,7 +673,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.002,
     "longitude": 36.368,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000060",
@@ -683,7 +683,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.025,
     "longitude": 36.222,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000061",
@@ -693,7 +693,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.982,
     "longitude": 36.182,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000062",
@@ -703,7 +703,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 50.052,
     "longitude": 36.205,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000063",
@@ -713,7 +713,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.991,
     "longitude": 36.234,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000064",
@@ -723,7 +723,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.465,
     "longitude": 35.045,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000065",
@@ -733,7 +733,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.423,
     "longitude": 35.078,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000066",
@@ -743,7 +743,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.435,
     "longitude": 35.042,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000067",
@@ -753,7 +753,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.502,
     "longitude": 35.082,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000068",
@@ -763,7 +763,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.432,
     "longitude": 35.008,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000069",
@@ -773,7 +773,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.395,
     "longitude": 35.025,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000070",
@@ -783,7 +783,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.2331,
     "longitude": 28.4682,
     "photoURL": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000071",
@@ -793,7 +793,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.9226,
     "longitude": 24.7111,
     "photoURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000072",
@@ -803,7 +803,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 49.5883,
     "longitude": 34.5514,
     "photoURL": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000073",
@@ -813,7 +813,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 48.2921,
     "longitude": 25.9358,
     "photoURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000074",
@@ -823,7 +823,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 47.8388,
     "longitude": 35.1396,
     "photoURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   },
   {
     "id": "00000000-0000-4000-a000-000000000075",
@@ -833,7 +833,7 @@ export const SEED_USERS_WITH_HASH = [
     "latitude": 52.2297,
     "longitude": 21.0122,
     "photoURL": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
-    "password": "$2b$10$ed4Th8KB14zmOm9SAA57H./yIoDRCqMPOMseFXIPrgoo7RFuSxpAW"
+    "password": "$2b$10$EtrEe6swyE8XmfJC.KYLEOD/0Ypidc4VPeG/uPjsM40ASt1R6d5c."
   }
 ];
 
@@ -871,7 +871,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/12644214-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -906,7 +906,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231860-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -941,7 +941,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231870-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -976,7 +976,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231875-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -1007,7 +1007,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231878-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -1042,7 +1042,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231882-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -1077,7 +1077,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231890-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -1108,7 +1108,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231894-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -1143,7 +1143,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231898-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -1178,7 +1178,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231905-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -1213,7 +1213,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231910-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -1244,7 +1244,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231915-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -1275,7 +1275,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231920-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -1310,7 +1310,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231925-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -1345,7 +1345,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231930-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -1376,7 +1376,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231935-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -1411,7 +1411,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231940-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -1446,7 +1446,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231945-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -1481,7 +1481,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231950-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -1512,7 +1512,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231955-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -1543,7 +1543,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231960-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -1578,7 +1578,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231965-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -1609,7 +1609,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231970-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -1640,7 +1640,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231975-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -1671,7 +1671,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231980-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -1702,7 +1702,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231985-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -1737,7 +1737,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231988-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -1772,7 +1772,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231992-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -1807,7 +1807,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231995-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -1838,7 +1838,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231998-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -1873,7 +1873,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232002-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -1908,7 +1908,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232005-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -1943,7 +1943,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232008-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -1978,7 +1978,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232012-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -2009,7 +2009,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/12843589-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -2040,7 +2040,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232018-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -2075,7 +2075,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232022-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -2110,7 +2110,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232025-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -2141,7 +2141,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232028-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -2172,7 +2172,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232032-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -2207,7 +2207,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232035-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -2242,7 +2242,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232040-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -2273,7 +2273,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232045-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -2308,7 +2308,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232050-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -2339,7 +2339,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232055-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -2374,7 +2374,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232060-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -2409,7 +2409,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -2444,7 +2444,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -2479,7 +2479,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8754162-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -2510,7 +2510,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -2545,7 +2545,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8406786-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -2580,7 +2580,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231991-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -2611,7 +2611,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231993-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -2642,7 +2642,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231994-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -2677,7 +2677,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8931215-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -2708,7 +2708,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8931218-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -2739,7 +2739,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8931220-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -2770,7 +2770,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235287-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -2797,7 +2797,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235290-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -2824,7 +2824,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -2855,7 +2855,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -2882,7 +2882,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235305-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -2913,7 +2913,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235310-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -2944,7 +2944,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235315-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -2975,7 +2975,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235320-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -3006,7 +3006,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235325-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -3037,7 +3037,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235330-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -3068,7 +3068,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235335-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -3099,7 +3099,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235340-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -3130,7 +3130,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235345-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -3165,7 +3165,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235350-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -3196,7 +3196,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235355-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -3231,7 +3231,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -3262,7 +3262,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235365-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -3293,7 +3293,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235370-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -3324,7 +3324,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8432047-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -3359,7 +3359,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235375-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -3394,7 +3394,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235380-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -3425,7 +3425,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8226191-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -3456,7 +3456,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -3487,7 +3487,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -3518,7 +3518,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235385-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -3553,7 +3553,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235390-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -3588,7 +3588,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235395-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -3623,7 +3623,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235400-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -3654,7 +3654,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235405-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -3689,7 +3689,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -3720,7 +3720,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235415-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -3755,7 +3755,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235420-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -3786,7 +3786,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235425-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -3821,7 +3821,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235430-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -3856,7 +3856,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235111-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -3887,7 +3887,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232150-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -3922,7 +3922,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232152-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -3957,7 +3957,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232155-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -3992,7 +3992,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232160-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -4023,7 +4023,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232165-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -4054,7 +4054,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232170-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -4085,7 +4085,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232188-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -4120,7 +4120,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -4155,7 +4155,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232195-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -4190,7 +4190,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232200-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -4221,7 +4221,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232205-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -4256,7 +4256,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235287-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -4287,7 +4287,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235289-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -4318,7 +4318,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235292-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -4349,7 +4349,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232100-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -4384,7 +4384,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232102-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -4419,7 +4419,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232104-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -4454,7 +4454,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232110-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -4489,7 +4489,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232115-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -4520,7 +4520,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232120-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -4555,7 +4555,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232130-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -4582,7 +4582,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232001-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -4617,7 +4617,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232140-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -4648,7 +4648,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -4683,7 +4683,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232305-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -4714,7 +4714,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232350-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -4745,7 +4745,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232355-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -4776,7 +4776,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -4807,7 +4807,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232370-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -4842,7 +4842,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232375-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -4877,7 +4877,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232400-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -4912,7 +4912,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232405-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -4947,7 +4947,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -4978,7 +4978,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232210-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -5013,7 +5013,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232250-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -5044,7 +5044,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232255-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -5075,7 +5075,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -5110,7 +5110,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232270-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -5145,7 +5145,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232275-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -5180,7 +5180,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232280-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -5215,7 +5215,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232450-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -5250,7 +5250,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232455-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -5285,7 +5285,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232460-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -5320,7 +5320,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -5351,7 +5351,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232470-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -5386,7 +5386,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8314120-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -5421,7 +5421,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8314125-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -5456,7 +5456,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235456-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -5491,7 +5491,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235460-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -5526,7 +5526,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -5557,7 +5557,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/12843589-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -5588,7 +5588,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231923-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -5619,7 +5619,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8231926-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -5654,7 +5654,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235470-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -5685,7 +5685,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235475-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -5716,7 +5716,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235480-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -5747,7 +5747,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235485-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -5782,7 +5782,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235490-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -5817,7 +5817,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235495-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -5868,9 +5868,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000153",
-    "title": "Кобзар (Видання 2)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1845,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -5883,7 +5883,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -5899,9 +5899,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000154",
-    "title": "Гайдамаки (Видання 2)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1846,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -5918,7 +5918,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -5934,9 +5934,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000155",
-    "title": "Захар Беркут (Видання 2)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1888,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -5953,7 +5953,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -5969,9 +5969,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000156",
-    "title": "Перехресні стежки (Видання 2)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 1905,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -5988,7 +5988,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -6004,9 +6004,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000157",
-    "title": "Украдене щастя (Видання 2)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 1898,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6019,7 +6019,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -6035,9 +6035,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000158",
-    "title": "Мойсей (Видання 2)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 1910,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6054,7 +6054,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -6070,9 +6070,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000159",
-    "title": "Лісова пісня (Видання 2)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 1916,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6089,7 +6089,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -6105,9 +6105,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000160",
-    "title": "Бояриня (Видання 2)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 1915,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6120,7 +6120,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -6136,9 +6136,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000161",
-    "title": "Камінний господар (Видання 2)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 1917,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6155,7 +6155,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -6171,9 +6171,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000162",
-    "title": "Тіні забутих предків (Видання 2)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 1916,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6190,7 +6190,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -6206,9 +6206,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000163",
-    "title": "Fata Morgana (Видання 2)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 1915,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6225,7 +6225,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -6241,9 +6241,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000164",
-    "title": "Intermezzo (Видання 2)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 1913,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6256,7 +6256,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -6272,9 +6272,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000165",
-    "title": "Кайдашева сім'я (Видання 2)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1883,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6287,7 +6287,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -6303,9 +6303,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000166",
-    "title": "Микола Джеря (Видання 2)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1883,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6322,7 +6322,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -6338,9 +6338,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000167",
-    "title": "Енеїда (Видання 2)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1803,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6357,7 +6357,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -6373,9 +6373,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000168",
-    "title": "Наталка Полтавка (Видання 2)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1824,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6388,7 +6388,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -6404,9 +6404,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000169",
-    "title": "Тигролови (Видання 2)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 1949,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6423,7 +6423,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -6439,9 +6439,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000170",
-    "title": "Сад Гетсиманський (Видання 2)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 1955,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6458,7 +6458,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -6474,9 +6474,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000171",
-    "title": "Місто (Видання 2)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 1933,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6493,7 +6493,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -6509,9 +6509,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000172",
-    "title": "Невеличка драма (Видання 2)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 1935,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6524,7 +6524,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -6540,9 +6540,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000173",
-    "title": "Я (Романтика) (Видання 2)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 1929,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6555,7 +6555,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -6571,9 +6571,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000174",
-    "title": "Маруся Чурай (Видання 2)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 1984,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6590,7 +6590,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -6606,9 +6606,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000175",
-    "title": "Записки українського самашедшого (Видання 2)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2015,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6621,7 +6621,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -6637,9 +6637,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000176",
-    "title": "Інтернат (Видання 2)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2022,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6652,7 +6652,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -6668,9 +6668,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000177",
-    "title": "Ворошиловград (Видання 2)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2015,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6683,7 +6683,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -6699,9 +6699,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000178",
-    "title": "Депеш Мод (Видання 2)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2009,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6714,7 +6714,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -6730,9 +6730,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000179",
-    "title": "Месопотамія (Видання 2)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2019,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6749,7 +6749,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -6765,9 +6765,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000180",
-    "title": "Польові дослідження з українського сексу (Видання 2)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2001,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6784,7 +6784,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -6800,9 +6800,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000181",
-    "title": "Музей покинутих секретів (Видання 2)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2014,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6819,7 +6819,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -6835,9 +6835,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000182",
-    "title": "Московіада (Видання 2)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 1998,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6850,7 +6850,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -6866,9 +6866,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000183",
-    "title": "Перверзія (Видання 2)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2001,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6885,7 +6885,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -6901,9 +6901,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000184",
-    "title": "Культ (Видання 2)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2006,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6920,7 +6920,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -6936,9 +6936,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000185",
-    "title": "Танго смерті (Видання 2)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2017,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6955,7 +6955,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -6971,9 +6971,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000186",
-    "title": "Чорний Ворон (Видання 2)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2014,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -6990,7 +6990,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -7006,9 +7006,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000187",
-    "title": "Колонія. Нові темні віки (Видання 2)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7021,7 +7021,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -7037,9 +7037,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000188",
-    "title": "Не озирайся і мовчи (Видання 2)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2022,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7052,7 +7052,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -7068,9 +7068,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000189",
-    "title": "Фелікс Австрія (Видання 2)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2019,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7087,7 +7087,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -7103,9 +7103,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000190",
-    "title": "Амадока (Видання 2)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7122,7 +7122,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -7138,9 +7138,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000191",
-    "title": "Точка нуль (Видання 2)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2022,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7153,7 +7153,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -7169,9 +7169,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000192",
-    "title": "Хто ти такий? (Видання 2)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7184,7 +7184,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -7200,9 +7200,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000193",
-    "title": "Чорна рада (Видання 2)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1862,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7219,7 +7219,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -7235,9 +7235,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000194",
-    "title": "Хіба ревуть воли, як ясла повні? (Видання 2)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1885,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7254,7 +7254,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -7270,9 +7270,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000195",
-    "title": "Камінний хрест (Видання 2)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 1905,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7285,7 +7285,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -7301,9 +7301,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000196",
-    "title": "Записки кирпатого Мефістофеля (Видання 2)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 1922,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7320,7 +7320,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -7336,9 +7336,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000197",
-    "title": "Мина Мазайло (Видання 2)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 1934,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7351,7 +7351,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -7367,9 +7367,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000198",
-    "title": "Червоний (Видання 2)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2017,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -7386,7 +7386,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -7402,9 +7402,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000199",
-    "title": "1984 (Видання 2)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 1954,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -7421,7 +7421,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -7437,9 +7437,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000200",
-    "title": "Animal Farm (Видання 2)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 1950,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -7456,7 +7456,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -7472,9 +7472,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000201",
-    "title": "Brave New World (Видання 2)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 1937,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -7491,7 +7491,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -7507,9 +7507,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000202",
-    "title": "Fahrenheit 451 (Видання 2)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 1958,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -7522,7 +7522,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -7538,9 +7538,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000203",
-    "title": "The Hobbit (Видання 2)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 1942,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -7557,7 +7557,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -7573,9 +7573,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000204",
-    "title": "The Fellowship of the Ring (Видання 2)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 1959,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -7592,7 +7592,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -7608,9 +7608,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000205",
-    "title": "The Two Towers (Видання 2)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 1959,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -7623,7 +7623,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -7639,9 +7639,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000206",
-    "title": "The Return of the King (Видання 2)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 1960,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -7654,7 +7654,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -7670,9 +7670,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000207",
-    "title": "Dune (Видання 2)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 1970,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -7689,7 +7689,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -7705,9 +7705,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000208",
-    "title": "Dune Messiah (Видання 2)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 1974,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -7720,7 +7720,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -7736,9 +7736,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000209",
-    "title": "Children of Dune (Видання 2)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 1981,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -7751,7 +7751,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -7767,9 +7767,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000210",
-    "title": "Foundation (Видання 2)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 1956,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -7782,7 +7782,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -7798,9 +7798,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000211",
-    "title": "Foundation and Empire (Видання 2)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 1957,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -7809,7 +7809,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -7825,9 +7825,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000212",
-    "title": "Second Foundation (Видання 2)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 1958,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -7836,7 +7836,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -7852,9 +7852,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000213",
-    "title": "Do Androids Dream of Electric Sheep? (Видання 2)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 1973,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -7867,7 +7867,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -7883,9 +7883,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000214",
-    "title": "Neuromancer (Видання 2)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 1989,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -7894,7 +7894,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -7910,9 +7910,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000215",
-    "title": "A Game of Thrones (Видання 2)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2001,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -7925,7 +7925,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -7941,9 +7941,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000216",
-    "title": "A Clash of Kings (Видання 2)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2003,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -7956,7 +7956,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -7972,9 +7972,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000217",
-    "title": "A Storm of Swords (Видання 2)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2005,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -7987,7 +7987,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -8003,9 +8003,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000218",
-    "title": "American Gods (Видання 2)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2006,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -8018,7 +8018,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -8034,9 +8034,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000219",
-    "title": "Neverwhere (Видання 2)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2001,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -8049,7 +8049,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -8065,9 +8065,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000220",
-    "title": "The Shining (Видання 2)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 1982,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -8080,7 +8080,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -8096,9 +8096,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000221",
-    "title": "It (Видання 2)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 1991,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -8111,7 +8111,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -8127,9 +8127,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000222",
-    "title": "Misery (Видання 2)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 1992,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -8142,7 +8142,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -8158,9 +8158,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000223",
-    "title": "The Stand (Видання 2)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 1983,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -8177,7 +8177,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -8193,9 +8193,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000224",
-    "title": "A Study in Scarlet (Видання 2)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1892,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -8208,7 +8208,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -8224,9 +8224,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000225",
-    "title": "The Hound of the Baskervilles (Видання 2)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 1907,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -8243,7 +8243,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -8259,9 +8259,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000226",
-    "title": "Murder on the Orient Express (Видання 2)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 1939,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -8274,7 +8274,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -8290,9 +8290,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000227",
-    "title": "And Then There Were None (Видання 2)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 1944,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -8305,7 +8305,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -8321,9 +8321,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000228",
-    "title": "The Great Gatsby (Видання 2)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 1930,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -8336,7 +8336,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -8352,9 +8352,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000229",
-    "title": "The Old Man and the Sea (Видання 2)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 1957,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -8371,7 +8371,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -8387,9 +8387,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000230",
-    "title": "For Whom the Bell Tolls (Видання 2)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 1945,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -8406,7 +8406,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -8422,9 +8422,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000231",
-    "title": "The Catcher in the Rye (Видання 2)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 1956,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -8437,7 +8437,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -8453,9 +8453,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000232",
-    "title": "To Kill a Mockingbird (Видання 2)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 1965,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -8468,7 +8468,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -8484,9 +8484,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000233",
-    "title": "Pride and Prejudice (Видання 2)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1818,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -8499,7 +8499,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -8515,9 +8515,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000234",
-    "title": "Jane Eyre (Видання 2)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1852,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -8530,7 +8530,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -8546,9 +8546,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000235",
-    "title": "Wuthering Heights (Видання 2)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1852,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -8565,7 +8565,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -8581,9 +8581,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000236",
-    "title": "The Picture of Dorian Gray (Видання 2)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1895,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -8600,7 +8600,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -8616,9 +8616,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000237",
-    "title": "Frankenstein (Видання 2)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1823,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -8635,7 +8635,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -8651,9 +8651,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000238",
-    "title": "Dracula (Видання 2)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 1902,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -8666,7 +8666,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -8682,9 +8682,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000239",
-    "title": "The Road (Видання 2)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2011,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -8701,7 +8701,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -8717,9 +8717,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000240",
-    "title": "The Handmaid's Tale (Видання 2)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 1990,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -8732,7 +8732,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -8748,9 +8748,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000241",
-    "title": "Never Let Me Go (Видання 2)",
+    "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "year": 2010,
+    "year": 2005,
     "language": "English",
     "genres": [
       {
@@ -8767,7 +8767,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -8783,9 +8783,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000242",
-    "title": "Norwegian Wood (Видання 2)",
+    "title": "Norwegian Wood",
     "author": "Haruki Murakami",
-    "year": 1992,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -8798,7 +8798,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -8814,9 +8814,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000243",
-    "title": "Kafka on the Shore (Видання 2)",
+    "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "year": 2007,
+    "year": 2002,
     "language": "English",
     "genres": [
       {
@@ -8833,7 +8833,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -8849,9 +8849,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000244",
-    "title": "Le Petit Prince (Видання 2)",
+    "title": "Le Petit Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 1948,
+    "year": 1943,
     "language": "French",
     "genres": [
       {
@@ -8868,7 +8868,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -8884,9 +8884,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000245",
-    "title": "L'Étranger (Видання 2)",
+    "title": "L'Étranger",
     "author": "Albert Camus",
-    "year": 1947,
+    "year": 1942,
     "language": "French",
     "genres": [
       {
@@ -8899,7 +8899,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -8915,9 +8915,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000246",
-    "title": "La Peste (Видання 2)",
+    "title": "La Peste",
     "author": "Albert Camus",
-    "year": 1952,
+    "year": 1947,
     "language": "French",
     "genres": [
       {
@@ -8934,7 +8934,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -8950,9 +8950,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000247",
-    "title": "Les Misérables (Видання 2)",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1867,
+    "year": 1862,
     "language": "French",
     "genres": [
       {
@@ -8969,7 +8969,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -8985,9 +8985,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000248",
-    "title": "Notre-Dame de Paris (Видання 2)",
+    "title": "Notre-Dame de Paris",
     "author": "Victor Hugo",
-    "year": 1836,
+    "year": 1831,
     "language": "French",
     "genres": [
       {
@@ -9004,7 +9004,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -9020,9 +9020,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000249",
-    "title": "Le Comte de Monte-Cristo (Видання 2)",
+    "title": "Le Comte de Monte-Cristo",
     "author": "Alexandre Dumas",
-    "year": 1849,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -9035,7 +9035,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -9051,9 +9051,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000250",
-    "title": "Les Trois Mousquetaires (Видання 2)",
+    "title": "Les Trois Mousquetaires",
     "author": "Alexandre Dumas",
-    "year": 1849,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -9066,7 +9066,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -9082,9 +9082,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000251",
-    "title": "Madame Bovary (Видання 2)",
+    "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1862,
+    "year": 1857,
     "language": "French",
     "genres": [
       {
@@ -9097,7 +9097,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -9113,9 +9113,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000252",
-    "title": "Du côté de chez Swann (Видання 2)",
+    "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1918,
+    "year": 1913,
     "language": "French",
     "genres": [
       {
@@ -9132,7 +9132,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -9148,9 +9148,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000253",
-    "title": "Germinal (Видання 2)",
+    "title": "Germinal",
     "author": "Émile Zola",
-    "year": 1890,
+    "year": 1885,
     "language": "French",
     "genres": [
       {
@@ -9167,7 +9167,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -9183,9 +9183,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000254",
-    "title": "Vingt mille lieues sous les mers (Видання 2)",
+    "title": "Vingt mille lieues sous les mers",
     "author": "Jules Verne",
-    "year": 1875,
+    "year": 1870,
     "language": "French",
     "genres": [
       {
@@ -9202,7 +9202,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -9218,9 +9218,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000255",
-    "title": "Le Tour du monde en quatre-vingts jours (Видання 2)",
+    "title": "Le Tour du monde en quatre-vingts jours",
     "author": "Jules Verne",
-    "year": 1877,
+    "year": 1872,
     "language": "French",
     "genres": [
       {
@@ -9233,7 +9233,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -9249,9 +9249,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000256",
-    "title": "Der Steppenwolf (Видання 2)",
+    "title": "Der Steppenwolf",
     "author": "Hermann Hesse",
-    "year": 1932,
+    "year": 1927,
     "language": "German",
     "genres": [
       {
@@ -9268,7 +9268,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -9284,9 +9284,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000257",
-    "title": "Siddhartha (Видання 2)",
+    "title": "Siddhartha",
     "author": "Hermann Hesse",
-    "year": 1927,
+    "year": 1922,
     "language": "German",
     "genres": [
       {
@@ -9299,7 +9299,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -9315,9 +9315,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000258",
-    "title": "Demian (Видання 2)",
+    "title": "Demian",
     "author": "Hermann Hesse",
-    "year": 1924,
+    "year": 1919,
     "language": "German",
     "genres": [
       {
@@ -9330,7 +9330,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -9346,9 +9346,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000259",
-    "title": "Die Verwandlung (Видання 2)",
+    "title": "Die Verwandlung",
     "author": "Franz Kafka",
-    "year": 1920,
+    "year": 1915,
     "language": "German",
     "genres": [
       {
@@ -9361,7 +9361,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -9377,9 +9377,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000260",
-    "title": "Der Process (Видання 2)",
+    "title": "Der Process",
     "author": "Franz Kafka",
-    "year": 1930,
+    "year": 1925,
     "language": "German",
     "genres": [
       {
@@ -9396,7 +9396,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -9412,9 +9412,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000261",
-    "title": "Faust (Видання 2)",
+    "title": "Faust",
     "author": "Johann Wolfgang von Goethe",
-    "year": 1813,
+    "year": 1808,
     "language": "German",
     "genres": [
       {
@@ -9431,7 +9431,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -9447,9 +9447,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000262",
-    "title": "Im Westen nichts Neues (Видання 2)",
+    "title": "Im Westen nichts Neues",
     "author": "Erich Maria Remarque",
-    "year": 1934,
+    "year": 1929,
     "language": "German",
     "genres": [
       {
@@ -9466,7 +9466,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -9482,9 +9482,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000263",
-    "title": "Drei Kameraden (Видання 2)",
+    "title": "Drei Kameraden",
     "author": "Erich Maria Remarque",
-    "year": 1941,
+    "year": 1936,
     "language": "German",
     "genres": [
       {
@@ -9501,7 +9501,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -9517,9 +9517,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000264",
-    "title": "Der Zauberberg (Видання 2)",
+    "title": "Der Zauberberg",
     "author": "Thomas Mann",
-    "year": 1929,
+    "year": 1924,
     "language": "German",
     "genres": [
       {
@@ -9532,7 +9532,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -9548,9 +9548,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000265",
-    "title": "Also sprach Zarathustra (Видання 2)",
+    "title": "Also sprach Zarathustra",
     "author": "Friedrich Nietzsche",
-    "year": 1888,
+    "year": 1883,
     "language": "German",
     "genres": [
       {
@@ -9567,7 +9567,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -9583,9 +9583,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000266",
-    "title": "Jenseits von Gut und Böse (Видання 2)",
+    "title": "Jenseits von Gut und Böse",
     "author": "Friedrich Nietzsche",
-    "year": 1891,
+    "year": 1886,
     "language": "German",
     "genres": [
       {
@@ -9594,7 +9594,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -9610,9 +9610,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000267",
-    "title": "Das Parfum (Видання 2)",
+    "title": "Das Parfum",
     "author": "Patrick Süskind",
-    "year": 1990,
+    "year": 1985,
     "language": "German",
     "genres": [
       {
@@ -9629,7 +9629,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -9645,9 +9645,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000268",
-    "title": "Solaris (Видання 2)",
+    "title": "Solaris",
     "author": "Stanisław Lem",
-    "year": 1966,
+    "year": 1961,
     "language": "Polish",
     "genres": [
       {
@@ -9660,7 +9660,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -9676,9 +9676,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000269",
-    "title": "Cyberiada (Видання 2)",
+    "title": "Cyberiada",
     "author": "Stanisław Lem",
-    "year": 1970,
+    "year": 1965,
     "language": "Polish",
     "genres": [
       {
@@ -9695,7 +9695,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -9711,9 +9711,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000270",
-    "title": "Ostatnie życzenie (Видання 2)",
+    "title": "Ostatnie życzenie",
     "author": "Andrzej Sapkowski",
-    "year": 1998,
+    "year": 1993,
     "language": "Polish",
     "genres": [
       {
@@ -9726,7 +9726,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -9742,9 +9742,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000271",
-    "title": "Miecz przeznaczenia (Видання 2)",
+    "title": "Miecz przeznaczenia",
     "author": "Andrzej Sapkowski",
-    "year": 1997,
+    "year": 1992,
     "language": "Polish",
     "genres": [
       {
@@ -9757,7 +9757,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -9773,9 +9773,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000272",
-    "title": "Krew elfów (Видання 2)",
+    "title": "Krew elfów",
     "author": "Andrzej Sapkowski",
-    "year": 1999,
+    "year": 1994,
     "language": "Polish",
     "genres": [
       {
@@ -9788,7 +9788,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -9804,9 +9804,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000273",
-    "title": "Bieguni (Видання 2)",
+    "title": "Bieguni",
     "author": "Olga Tokarczuk",
-    "year": 2012,
+    "year": 2007,
     "language": "Polish",
     "genres": [
       {
@@ -9819,7 +9819,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -9835,9 +9835,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000274",
-    "title": "Prowadź swój pług przez kości umarłych (Видання 2)",
+    "title": "Prowadź swój pług przez kości umarłych",
     "author": "Olga Tokarczuk",
-    "year": 2014,
+    "year": 2009,
     "language": "Polish",
     "genres": [
       {
@@ -9854,7 +9854,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -9870,9 +9870,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000275",
-    "title": "Pan Tadeusz (Видання 2)",
+    "title": "Pan Tadeusz",
     "author": "Adam Mickiewicz",
-    "year": 1839,
+    "year": 1834,
     "language": "Polish",
     "genres": [
       {
@@ -9889,7 +9889,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -9905,9 +9905,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000276",
-    "title": "Quo Vadis (Видання 2)",
+    "title": "Quo Vadis",
     "author": "Henryk Sienkiewicz",
-    "year": 1901,
+    "year": 1896,
     "language": "Polish",
     "genres": [
       {
@@ -9924,7 +9924,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -9940,9 +9940,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000277",
-    "title": "Ogniem i mieczem (Видання 2)",
+    "title": "Ogniem i mieczem",
     "author": "Henryk Sienkiewicz",
-    "year": 1889,
+    "year": 1884,
     "language": "Polish",
     "genres": [
       {
@@ -9959,7 +9959,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -9975,9 +9975,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000278",
-    "title": "Don Quijote de la Mancha (Видання 2)",
+    "title": "Don Quijote de la Mancha",
     "author": "Miguel de Cervantes",
-    "year": 1610,
+    "year": 1605,
     "language": "Spanish",
     "genres": [
       {
@@ -9990,7 +9990,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -10006,9 +10006,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000279",
-    "title": "Cien años de soledad (Видання 2)",
+    "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
-    "year": 1972,
+    "year": 1967,
     "language": "Spanish",
     "genres": [
       {
@@ -10025,7 +10025,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -10041,9 +10041,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000280",
-    "title": "El amor en los tiempos del cólera (Видання 2)",
+    "title": "El amor en los tiempos del cólera",
     "author": "Gabriel García Márquez",
-    "year": 1990,
+    "year": 1985,
     "language": "Spanish",
     "genres": [
       {
@@ -10056,7 +10056,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -10072,9 +10072,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000281",
-    "title": "Crónica de una muerte anunciada (Видання 2)",
+    "title": "Crónica de una muerte anunciada",
     "author": "Gabriel García Márquez",
-    "year": 1986,
+    "year": 1981,
     "language": "Spanish",
     "genres": [
       {
@@ -10087,7 +10087,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -10103,9 +10103,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000282",
-    "title": "Ficciones (Видання 2)",
+    "title": "Ficciones",
     "author": "Jorge Luis Borges",
-    "year": 1949,
+    "year": 1944,
     "language": "Spanish",
     "genres": [
       {
@@ -10122,7 +10122,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -10138,9 +10138,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000283",
-    "title": "Rayuela (Видання 2)",
+    "title": "Rayuela",
     "author": "Julio Cortázar",
-    "year": 1968,
+    "year": 1963,
     "language": "Spanish",
     "genres": [
       {
@@ -10157,7 +10157,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -10173,9 +10173,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000284",
-    "title": "La sombra del viento (Видання 2)",
+    "title": "La sombra del viento",
     "author": "Carlos Ruiz Zafón",
-    "year": 2006,
+    "year": 2001,
     "language": "Spanish",
     "genres": [
       {
@@ -10192,7 +10192,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -10208,9 +10208,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000285",
-    "title": "Divina Commedia (Видання 2)",
+    "title": "Divina Commedia",
     "author": "Dante Alighieri",
-    "year": 1325,
+    "year": 1320,
     "language": "Italian",
     "genres": [
       {
@@ -10227,7 +10227,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -10243,9 +10243,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000286",
-    "title": "Il nome della rosa (Видання 2)",
+    "title": "Il nome della rosa",
     "author": "Umberto Eco",
-    "year": 1985,
+    "year": 1980,
     "language": "Italian",
     "genres": [
       {
@@ -10262,7 +10262,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -10278,9 +10278,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000287",
-    "title": "Il pendolo di Foucault (Видання 2)",
+    "title": "Il pendolo di Foucault",
     "author": "Umberto Eco",
-    "year": 1993,
+    "year": 1988,
     "language": "Italian",
     "genres": [
       {
@@ -10297,7 +10297,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -10313,9 +10313,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000288",
-    "title": "Le città invisibili (Видання 2)",
+    "title": "Le città invisibili",
     "author": "Italo Calvino",
-    "year": 1977,
+    "year": 1972,
     "language": "Italian",
     "genres": [
       {
@@ -10332,7 +10332,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -10348,9 +10348,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000289",
-    "title": "L'amica geniale (Видання 2)",
+    "title": "L'amica geniale",
     "author": "Elena Ferrante",
-    "year": 2016,
+    "year": 2011,
     "language": "Italian",
     "genres": [
       {
@@ -10363,7 +10363,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -10379,9 +10379,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000290",
-    "title": "Sapiens: A Brief History of Humankind (Видання 2)",
+    "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "year": 2016,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -10398,7 +10398,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -10414,9 +10414,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000291",
-    "title": "Homo Deus: A Brief History of Tomorrow (Видання 2)",
+    "title": "Homo Deus: A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
-    "year": 2020,
+    "year": 2015,
     "language": "English",
     "genres": [
       {
@@ -10433,7 +10433,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -10449,9 +10449,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000292",
-    "title": "Thinking, Fast and Slow (Видання 2)",
+    "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "year": 2016,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -10468,7 +10468,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -10484,9 +10484,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000293",
-    "title": "Antifragile: Things That Gain from Disorder (Видання 2)",
+    "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb",
-    "year": 2017,
+    "year": 2012,
     "language": "English",
     "genres": [
       {
@@ -10503,7 +10503,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -10519,9 +10519,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000294",
-    "title": "The Black Swan (Видання 2)",
+    "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "year": 2012,
+    "year": 2007,
     "language": "English",
     "genres": [
       {
@@ -10538,7 +10538,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -10554,9 +10554,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000295",
-    "title": "Atomic Habits (Видання 2)",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "year": 2023,
+    "year": 2018,
     "language": "English",
     "genres": [
       {
@@ -10569,7 +10569,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -10585,9 +10585,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000296",
-    "title": "Meditations (Видання 2)",
+    "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": 185,
+    "year": 180,
     "language": "English",
     "genres": [
       {
@@ -10600,7 +10600,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -10616,9 +10616,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000297",
-    "title": "Letters from a Stoic (Видання 2)",
+    "title": "Letters from a Stoic",
     "author": "Seneca",
-    "year": 70,
+    "year": 65,
     "language": "English",
     "genres": [
       {
@@ -10631,7 +10631,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -10647,9 +10647,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000298",
-    "title": "Man's Search for Meaning (Видання 2)",
+    "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
-    "year": 1951,
+    "year": 1946,
     "language": "English",
     "genres": [
       {
@@ -10666,7 +10666,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -10682,9 +10682,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000299",
-    "title": "A Brief History of Time (Видання 2)",
+    "title": "A Brief History of Time",
     "author": "Stephen Hawking",
-    "year": 1993,
+    "year": 1988,
     "language": "English",
     "genres": [
       {
@@ -10697,7 +10697,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -10713,9 +10713,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000300",
-    "title": "Cosmos (Видання 2)",
+    "title": "Cosmos",
     "author": "Carl Sagan",
-    "year": 1985,
+    "year": 1980,
     "language": "English",
     "genres": [
       {
@@ -10728,7 +10728,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -10744,9 +10744,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000301",
-    "title": "The Selfish Gene (Видання 2)",
+    "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "year": 1981,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -10759,7 +10759,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -10775,9 +10775,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000302",
-    "title": "The 48 Laws of Power (Видання 2)",
+    "title": "The 48 Laws of Power",
     "author": "Robert Greene",
-    "year": 2003,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -10794,7 +10794,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -10810,9 +10810,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000303",
-    "title": "The Prince (Видання 2)",
+    "title": "The Prince",
     "author": "Niccolò Machiavelli",
-    "year": 1537,
+    "year": 1532,
     "language": "English",
     "genres": [
       {
@@ -10829,7 +10829,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -10845,7 +10845,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000304",
-    "title": "The Art of War (Видання 2)",
+    "title": "The Art of War",
     "author": "Sun Tzu",
     "year": 1900,
     "language": "English",
@@ -10864,7 +10864,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ancient Chinese military treatise on deception, strategic positioning, and overcoming conflict without battle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/id/8235500-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -10880,9 +10880,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000305",
-    "title": "Кобзар (Колекційне видання)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1856,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -10895,7 +10895,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -10911,9 +10911,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000306",
-    "title": "Гайдамаки (Колекційне видання)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1857,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -10930,7 +10930,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -10946,9 +10946,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000307",
-    "title": "Захар Беркут (Колекційне видання)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1899,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -10965,7 +10965,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -10981,9 +10981,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000308",
-    "title": "Перехресні стежки (Колекційне видання)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 1916,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11000,7 +11000,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -11016,9 +11016,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000309",
-    "title": "Украдене щастя (Колекційне видання)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 1909,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11031,7 +11031,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -11047,9 +11047,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000310",
-    "title": "Мойсей (Колекційне видання)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 1921,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11066,7 +11066,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -11082,9 +11082,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000311",
-    "title": "Лісова пісня (Колекційне видання)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 1927,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11101,7 +11101,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -11117,9 +11117,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000312",
-    "title": "Бояриня (Колекційне видання)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 1926,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11132,7 +11132,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -11148,9 +11148,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000313",
-    "title": "Камінний господар (Колекційне видання)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 1928,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11167,7 +11167,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -11183,9 +11183,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000314",
-    "title": "Тіні забутих предків (Колекційне видання)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 1927,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11202,7 +11202,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -11218,9 +11218,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000315",
-    "title": "Fata Morgana (Колекційне видання)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 1926,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11237,7 +11237,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -11253,9 +11253,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000316",
-    "title": "Intermezzo (Колекційне видання)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 1924,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11268,7 +11268,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -11284,9 +11284,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000317",
-    "title": "Кайдашева сім'я (Колекційне видання)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1894,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11299,7 +11299,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -11315,9 +11315,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000318",
-    "title": "Микола Джеря (Колекційне видання)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1894,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11334,7 +11334,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -11350,9 +11350,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000319",
-    "title": "Енеїда (Колекційне видання)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1814,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11369,7 +11369,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -11385,9 +11385,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000320",
-    "title": "Наталка Полтавка (Колекційне видання)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1835,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11400,7 +11400,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -11416,9 +11416,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000321",
-    "title": "Тигролови (Колекційне видання)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 1960,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11435,7 +11435,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -11451,9 +11451,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000322",
-    "title": "Сад Гетсиманський (Колекційне видання)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 1966,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11470,7 +11470,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -11486,9 +11486,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000323",
-    "title": "Місто (Колекційне видання)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 1944,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11505,7 +11505,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -11521,9 +11521,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000324",
-    "title": "Невеличка драма (Колекційне видання)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 1946,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11536,7 +11536,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -11552,9 +11552,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000325",
-    "title": "Я (Романтика) (Колекційне видання)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 1940,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11567,7 +11567,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -11583,9 +11583,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000326",
-    "title": "Маруся Чурай (Колекційне видання)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 1995,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11602,7 +11602,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -11618,9 +11618,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000327",
-    "title": "Записки українського самашедшого (Колекційне видання)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11633,7 +11633,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -11649,9 +11649,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000328",
-    "title": "Інтернат (Колекційне видання)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11664,7 +11664,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -11680,9 +11680,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000329",
-    "title": "Ворошиловград (Колекційне видання)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11695,7 +11695,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -11711,9 +11711,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000330",
-    "title": "Депеш Мод (Колекційне видання)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2020,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11726,7 +11726,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -11742,9 +11742,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000331",
-    "title": "Месопотамія (Колекційне видання)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11761,7 +11761,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -11777,9 +11777,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000332",
-    "title": "Польові дослідження з українського сексу (Колекційне видання)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2012,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11796,7 +11796,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -11812,9 +11812,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000333",
-    "title": "Музей покинутих секретів (Колекційне видання)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11831,7 +11831,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -11847,9 +11847,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000334",
-    "title": "Московіада (Колекційне видання)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 2009,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11862,7 +11862,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -11878,9 +11878,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000335",
-    "title": "Перверзія (Колекційне видання)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2012,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11897,7 +11897,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -11913,9 +11913,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000336",
-    "title": "Культ (Колекційне видання)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2017,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11932,7 +11932,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -11948,9 +11948,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000337",
-    "title": "Танго смерті (Колекційне видання)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -11967,7 +11967,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -11983,9 +11983,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000338",
-    "title": "Чорний Ворон (Колекційне видання)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12002,7 +12002,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -12018,9 +12018,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000339",
-    "title": "Колонія. Нові темні віки (Колекційне видання)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12033,7 +12033,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -12049,9 +12049,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000340",
-    "title": "Не озирайся і мовчи (Колекційне видання)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12064,7 +12064,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -12080,9 +12080,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000341",
-    "title": "Фелікс Австрія (Колекційне видання)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12099,7 +12099,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -12115,9 +12115,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000342",
-    "title": "Амадока (Колекційне видання)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12134,7 +12134,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -12150,9 +12150,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000343",
-    "title": "Точка нуль (Колекційне видання)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12165,7 +12165,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -12181,9 +12181,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000344",
-    "title": "Хто ти такий? (Колекційне видання)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12196,7 +12196,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -12212,9 +12212,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000345",
-    "title": "Чорна рада (Колекційне видання)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1873,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12231,7 +12231,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -12247,9 +12247,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000346",
-    "title": "Хіба ревуть воли, як ясла повні? (Колекційне видання)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1896,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12266,7 +12266,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -12282,9 +12282,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000347",
-    "title": "Камінний хрест (Колекційне видання)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 1916,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12297,7 +12297,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -12313,9 +12313,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000348",
-    "title": "Записки кирпатого Мефістофеля (Колекційне видання)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 1933,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12332,7 +12332,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -12348,9 +12348,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000349",
-    "title": "Мина Мазайло (Колекційне видання)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 1945,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12363,7 +12363,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -12379,9 +12379,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000350",
-    "title": "Червоний (Колекційне видання)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -12398,7 +12398,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -12414,9 +12414,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000351",
-    "title": "1984 (Колекційне видання)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 1965,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -12433,7 +12433,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -12449,9 +12449,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000352",
-    "title": "Animal Farm (Колекційне видання)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 1961,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -12468,7 +12468,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -12484,9 +12484,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000353",
-    "title": "Brave New World (Колекційне видання)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 1948,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -12503,7 +12503,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -12519,9 +12519,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000354",
-    "title": "Fahrenheit 451 (Колекційне видання)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 1969,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -12534,7 +12534,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -12550,9 +12550,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000355",
-    "title": "The Hobbit (Колекційне видання)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 1953,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -12569,7 +12569,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -12585,9 +12585,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000356",
-    "title": "The Fellowship of the Ring (Колекційне видання)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 1970,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -12604,7 +12604,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -12620,9 +12620,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000357",
-    "title": "The Two Towers (Колекційне видання)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 1970,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -12635,7 +12635,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -12651,9 +12651,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000358",
-    "title": "The Return of the King (Колекційне видання)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 1971,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -12666,7 +12666,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -12682,9 +12682,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000359",
-    "title": "Dune (Колекційне видання)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 1981,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -12701,7 +12701,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -12717,9 +12717,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000360",
-    "title": "Dune Messiah (Колекційне видання)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 1985,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -12732,7 +12732,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -12748,9 +12748,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000361",
-    "title": "Children of Dune (Колекційне видання)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 1992,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -12763,7 +12763,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -12779,9 +12779,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000362",
-    "title": "Foundation (Колекційне видання)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 1967,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -12794,7 +12794,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -12810,9 +12810,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000363",
-    "title": "Foundation and Empire (Колекційне видання)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 1968,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -12821,7 +12821,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -12837,9 +12837,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000364",
-    "title": "Second Foundation (Колекційне видання)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 1969,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -12848,7 +12848,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -12864,9 +12864,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000365",
-    "title": "Do Androids Dream of Electric Sheep? (Колекційне видання)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 1984,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -12879,7 +12879,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -12895,9 +12895,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000366",
-    "title": "Neuromancer (Колекційне видання)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 2000,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -12906,7 +12906,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -12922,9 +12922,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000367",
-    "title": "A Game of Thrones (Колекційне видання)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2012,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -12937,7 +12937,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -12953,9 +12953,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000368",
-    "title": "A Clash of Kings (Колекційне видання)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2014,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -12968,7 +12968,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -12984,9 +12984,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000369",
-    "title": "A Storm of Swords (Колекційне видання)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2016,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -12999,7 +12999,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -13015,9 +13015,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000370",
-    "title": "American Gods (Колекційне видання)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2017,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -13030,7 +13030,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -13046,9 +13046,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000371",
-    "title": "Neverwhere (Колекційне видання)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2012,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -13061,7 +13061,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -13077,9 +13077,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000372",
-    "title": "The Shining (Колекційне видання)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 1993,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -13092,7 +13092,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -13108,9 +13108,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000373",
-    "title": "It (Колекційне видання)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 2002,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -13123,7 +13123,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -13139,9 +13139,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000374",
-    "title": "Misery (Колекційне видання)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 2003,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -13154,7 +13154,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -13170,9 +13170,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000375",
-    "title": "The Stand (Колекційне видання)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 1994,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -13189,7 +13189,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -13205,9 +13205,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000376",
-    "title": "A Study in Scarlet (Колекційне видання)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1903,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -13220,7 +13220,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -13236,9 +13236,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000377",
-    "title": "The Hound of the Baskervilles (Колекційне видання)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 1918,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -13255,7 +13255,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -13271,9 +13271,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000378",
-    "title": "Murder on the Orient Express (Колекційне видання)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 1950,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -13286,7 +13286,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -13302,9 +13302,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000379",
-    "title": "And Then There Were None (Колекційне видання)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 1955,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -13317,7 +13317,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -13333,9 +13333,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000380",
-    "title": "The Great Gatsby (Колекційне видання)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 1941,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -13348,7 +13348,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -13364,9 +13364,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000381",
-    "title": "The Old Man and the Sea (Колекційне видання)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 1968,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -13383,7 +13383,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -13399,9 +13399,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000382",
-    "title": "For Whom the Bell Tolls (Колекційне видання)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 1956,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -13418,7 +13418,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -13434,9 +13434,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000383",
-    "title": "The Catcher in the Rye (Колекційне видання)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 1967,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -13449,7 +13449,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -13465,9 +13465,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000384",
-    "title": "To Kill a Mockingbird (Колекційне видання)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 1976,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -13480,7 +13480,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -13496,9 +13496,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000385",
-    "title": "Pride and Prejudice (Колекційне видання)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1829,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -13511,7 +13511,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -13527,9 +13527,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000386",
-    "title": "Jane Eyre (Колекційне видання)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1863,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -13542,7 +13542,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -13558,9 +13558,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000387",
-    "title": "Wuthering Heights (Колекційне видання)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1863,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -13577,7 +13577,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -13593,9 +13593,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000388",
-    "title": "The Picture of Dorian Gray (Колекційне видання)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1906,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -13612,7 +13612,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -13628,9 +13628,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000389",
-    "title": "Frankenstein (Колекційне видання)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1834,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -13647,7 +13647,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -13663,9 +13663,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000390",
-    "title": "Dracula (Колекційне видання)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 1913,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -13678,7 +13678,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -13694,9 +13694,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000391",
-    "title": "The Road (Колекційне видання)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2022,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -13713,7 +13713,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -13729,9 +13729,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000392",
-    "title": "The Handmaid's Tale (Колекційне видання)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 2001,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -13744,7 +13744,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -13760,9 +13760,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000393",
-    "title": "Never Let Me Go (Колекційне видання)",
+    "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "year": 2021,
+    "year": 2005,
     "language": "English",
     "genres": [
       {
@@ -13779,7 +13779,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -13795,9 +13795,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000394",
-    "title": "Norwegian Wood (Колекційне видання)",
+    "title": "Norwegian Wood",
     "author": "Haruki Murakami",
-    "year": 2003,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -13810,7 +13810,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -13826,9 +13826,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000395",
-    "title": "Kafka on the Shore (Колекційне видання)",
+    "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "year": 2018,
+    "year": 2002,
     "language": "English",
     "genres": [
       {
@@ -13845,7 +13845,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -13861,9 +13861,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000396",
-    "title": "Le Petit Prince (Колекційне видання)",
+    "title": "Le Petit Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 1959,
+    "year": 1943,
     "language": "French",
     "genres": [
       {
@@ -13880,7 +13880,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -13896,9 +13896,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000397",
-    "title": "L'Étranger (Колекційне видання)",
+    "title": "L'Étranger",
     "author": "Albert Camus",
-    "year": 1958,
+    "year": 1942,
     "language": "French",
     "genres": [
       {
@@ -13911,7 +13911,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -13927,9 +13927,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000398",
-    "title": "La Peste (Колекційне видання)",
+    "title": "La Peste",
     "author": "Albert Camus",
-    "year": 1963,
+    "year": 1947,
     "language": "French",
     "genres": [
       {
@@ -13946,7 +13946,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -13962,9 +13962,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000399",
-    "title": "Les Misérables (Колекційне видання)",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1878,
+    "year": 1862,
     "language": "French",
     "genres": [
       {
@@ -13981,7 +13981,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -13997,9 +13997,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000400",
-    "title": "Notre-Dame de Paris (Колекційне видання)",
+    "title": "Notre-Dame de Paris",
     "author": "Victor Hugo",
-    "year": 1847,
+    "year": 1831,
     "language": "French",
     "genres": [
       {
@@ -14016,7 +14016,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -14032,9 +14032,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000401",
-    "title": "Le Comte de Monte-Cristo (Колекційне видання)",
+    "title": "Le Comte de Monte-Cristo",
     "author": "Alexandre Dumas",
-    "year": 1860,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -14047,7 +14047,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -14063,9 +14063,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000402",
-    "title": "Les Trois Mousquetaires (Колекційне видання)",
+    "title": "Les Trois Mousquetaires",
     "author": "Alexandre Dumas",
-    "year": 1860,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -14078,7 +14078,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -14094,9 +14094,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000403",
-    "title": "Madame Bovary (Колекційне видання)",
+    "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1873,
+    "year": 1857,
     "language": "French",
     "genres": [
       {
@@ -14109,7 +14109,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -14125,9 +14125,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000404",
-    "title": "Du côté de chez Swann (Колекційне видання)",
+    "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1929,
+    "year": 1913,
     "language": "French",
     "genres": [
       {
@@ -14144,7 +14144,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -14160,9 +14160,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000405",
-    "title": "Germinal (Колекційне видання)",
+    "title": "Germinal",
     "author": "Émile Zola",
-    "year": 1901,
+    "year": 1885,
     "language": "French",
     "genres": [
       {
@@ -14179,7 +14179,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -14195,9 +14195,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000406",
-    "title": "Vingt mille lieues sous les mers (Колекційне видання)",
+    "title": "Vingt mille lieues sous les mers",
     "author": "Jules Verne",
-    "year": 1886,
+    "year": 1870,
     "language": "French",
     "genres": [
       {
@@ -14214,7 +14214,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -14230,9 +14230,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000407",
-    "title": "Le Tour du monde en quatre-vingts jours (Колекційне видання)",
+    "title": "Le Tour du monde en quatre-vingts jours",
     "author": "Jules Verne",
-    "year": 1888,
+    "year": 1872,
     "language": "French",
     "genres": [
       {
@@ -14245,7 +14245,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -14261,9 +14261,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000408",
-    "title": "Der Steppenwolf (Колекційне видання)",
+    "title": "Der Steppenwolf",
     "author": "Hermann Hesse",
-    "year": 1943,
+    "year": 1927,
     "language": "German",
     "genres": [
       {
@@ -14280,7 +14280,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -14296,9 +14296,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000409",
-    "title": "Siddhartha (Колекційне видання)",
+    "title": "Siddhartha",
     "author": "Hermann Hesse",
-    "year": 1938,
+    "year": 1922,
     "language": "German",
     "genres": [
       {
@@ -14311,7 +14311,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -14327,9 +14327,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000410",
-    "title": "Demian (Колекційне видання)",
+    "title": "Demian",
     "author": "Hermann Hesse",
-    "year": 1935,
+    "year": 1919,
     "language": "German",
     "genres": [
       {
@@ -14342,7 +14342,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -14358,9 +14358,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000411",
-    "title": "Die Verwandlung (Колекційне видання)",
+    "title": "Die Verwandlung",
     "author": "Franz Kafka",
-    "year": 1931,
+    "year": 1915,
     "language": "German",
     "genres": [
       {
@@ -14373,7 +14373,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -14389,9 +14389,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000412",
-    "title": "Der Process (Колекційне видання)",
+    "title": "Der Process",
     "author": "Franz Kafka",
-    "year": 1941,
+    "year": 1925,
     "language": "German",
     "genres": [
       {
@@ -14408,7 +14408,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -14424,9 +14424,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000413",
-    "title": "Faust (Колекційне видання)",
+    "title": "Faust",
     "author": "Johann Wolfgang von Goethe",
-    "year": 1824,
+    "year": 1808,
     "language": "German",
     "genres": [
       {
@@ -14443,7 +14443,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -14459,9 +14459,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000414",
-    "title": "Im Westen nichts Neues (Колекційне видання)",
+    "title": "Im Westen nichts Neues",
     "author": "Erich Maria Remarque",
-    "year": 1945,
+    "year": 1929,
     "language": "German",
     "genres": [
       {
@@ -14478,7 +14478,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -14494,9 +14494,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000415",
-    "title": "Drei Kameraden (Колекційне видання)",
+    "title": "Drei Kameraden",
     "author": "Erich Maria Remarque",
-    "year": 1952,
+    "year": 1936,
     "language": "German",
     "genres": [
       {
@@ -14513,7 +14513,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -14529,9 +14529,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000416",
-    "title": "Der Zauberberg (Колекційне видання)",
+    "title": "Der Zauberberg",
     "author": "Thomas Mann",
-    "year": 1940,
+    "year": 1924,
     "language": "German",
     "genres": [
       {
@@ -14544,7 +14544,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -14560,9 +14560,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000417",
-    "title": "Also sprach Zarathustra (Колекційне видання)",
+    "title": "Also sprach Zarathustra",
     "author": "Friedrich Nietzsche",
-    "year": 1899,
+    "year": 1883,
     "language": "German",
     "genres": [
       {
@@ -14579,7 +14579,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -14595,9 +14595,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000418",
-    "title": "Jenseits von Gut und Böse (Колекційне видання)",
+    "title": "Jenseits von Gut und Böse",
     "author": "Friedrich Nietzsche",
-    "year": 1902,
+    "year": 1886,
     "language": "German",
     "genres": [
       {
@@ -14606,7 +14606,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -14622,9 +14622,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000419",
-    "title": "Das Parfum (Колекційне видання)",
+    "title": "Das Parfum",
     "author": "Patrick Süskind",
-    "year": 2001,
+    "year": 1985,
     "language": "German",
     "genres": [
       {
@@ -14641,7 +14641,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -14657,9 +14657,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000420",
-    "title": "Solaris (Колекційне видання)",
+    "title": "Solaris",
     "author": "Stanisław Lem",
-    "year": 1977,
+    "year": 1961,
     "language": "Polish",
     "genres": [
       {
@@ -14672,7 +14672,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -14688,9 +14688,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000421",
-    "title": "Cyberiada (Колекційне видання)",
+    "title": "Cyberiada",
     "author": "Stanisław Lem",
-    "year": 1981,
+    "year": 1965,
     "language": "Polish",
     "genres": [
       {
@@ -14707,7 +14707,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -14723,9 +14723,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000422",
-    "title": "Ostatnie życzenie (Колекційне видання)",
+    "title": "Ostatnie życzenie",
     "author": "Andrzej Sapkowski",
-    "year": 2009,
+    "year": 1993,
     "language": "Polish",
     "genres": [
       {
@@ -14738,7 +14738,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -14754,9 +14754,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000423",
-    "title": "Miecz przeznaczenia (Колекційне видання)",
+    "title": "Miecz przeznaczenia",
     "author": "Andrzej Sapkowski",
-    "year": 2008,
+    "year": 1992,
     "language": "Polish",
     "genres": [
       {
@@ -14769,7 +14769,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -14785,9 +14785,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000424",
-    "title": "Krew elfów (Колекційне видання)",
+    "title": "Krew elfów",
     "author": "Andrzej Sapkowski",
-    "year": 2010,
+    "year": 1994,
     "language": "Polish",
     "genres": [
       {
@@ -14800,7 +14800,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -14816,9 +14816,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000425",
-    "title": "Bieguni (Колекційне видання)",
+    "title": "Bieguni",
     "author": "Olga Tokarczuk",
-    "year": 2023,
+    "year": 2007,
     "language": "Polish",
     "genres": [
       {
@@ -14831,7 +14831,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -14847,9 +14847,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000426",
-    "title": "Prowadź swój pług przez kości umarłych (Колекційне видання)",
+    "title": "Prowadź swój pług przez kości umarłych",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2009,
     "language": "Polish",
     "genres": [
       {
@@ -14866,7 +14866,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -14882,9 +14882,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000427",
-    "title": "Pan Tadeusz (Колекційне видання)",
+    "title": "Pan Tadeusz",
     "author": "Adam Mickiewicz",
-    "year": 1850,
+    "year": 1834,
     "language": "Polish",
     "genres": [
       {
@@ -14901,7 +14901,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -14917,9 +14917,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000428",
-    "title": "Quo Vadis (Колекційне видання)",
+    "title": "Quo Vadis",
     "author": "Henryk Sienkiewicz",
-    "year": 1912,
+    "year": 1896,
     "language": "Polish",
     "genres": [
       {
@@ -14936,7 +14936,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -14952,9 +14952,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000429",
-    "title": "Ogniem i mieczem (Колекційне видання)",
+    "title": "Ogniem i mieczem",
     "author": "Henryk Sienkiewicz",
-    "year": 1900,
+    "year": 1884,
     "language": "Polish",
     "genres": [
       {
@@ -14971,7 +14971,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -14987,9 +14987,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000430",
-    "title": "Don Quijote de la Mancha (Колекційне видання)",
+    "title": "Don Quijote de la Mancha",
     "author": "Miguel de Cervantes",
-    "year": 1621,
+    "year": 1605,
     "language": "Spanish",
     "genres": [
       {
@@ -15002,7 +15002,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -15018,9 +15018,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000431",
-    "title": "Cien años de soledad (Колекційне видання)",
+    "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
-    "year": 1983,
+    "year": 1967,
     "language": "Spanish",
     "genres": [
       {
@@ -15037,7 +15037,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -15053,9 +15053,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000432",
-    "title": "El amor en los tiempos del cólera (Колекційне видання)",
+    "title": "El amor en los tiempos del cólera",
     "author": "Gabriel García Márquez",
-    "year": 2001,
+    "year": 1985,
     "language": "Spanish",
     "genres": [
       {
@@ -15068,7 +15068,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -15084,9 +15084,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000433",
-    "title": "Crónica de una muerte anunciada (Колекційне видання)",
+    "title": "Crónica de una muerte anunciada",
     "author": "Gabriel García Márquez",
-    "year": 1997,
+    "year": 1981,
     "language": "Spanish",
     "genres": [
       {
@@ -15099,7 +15099,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -15115,9 +15115,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000434",
-    "title": "Ficciones (Колекційне видання)",
+    "title": "Ficciones",
     "author": "Jorge Luis Borges",
-    "year": 1960,
+    "year": 1944,
     "language": "Spanish",
     "genres": [
       {
@@ -15134,7 +15134,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -15150,9 +15150,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000435",
-    "title": "Rayuela (Колекційне видання)",
+    "title": "Rayuela",
     "author": "Julio Cortázar",
-    "year": 1979,
+    "year": 1963,
     "language": "Spanish",
     "genres": [
       {
@@ -15169,7 +15169,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -15185,9 +15185,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000436",
-    "title": "La sombra del viento (Колекційне видання)",
+    "title": "La sombra del viento",
     "author": "Carlos Ruiz Zafón",
-    "year": 2017,
+    "year": 2001,
     "language": "Spanish",
     "genres": [
       {
@@ -15204,7 +15204,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -15220,9 +15220,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000437",
-    "title": "Divina Commedia (Колекційне видання)",
+    "title": "Divina Commedia",
     "author": "Dante Alighieri",
-    "year": 1336,
+    "year": 1320,
     "language": "Italian",
     "genres": [
       {
@@ -15239,7 +15239,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -15255,9 +15255,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000438",
-    "title": "Il nome della rosa (Колекційне видання)",
+    "title": "Il nome della rosa",
     "author": "Umberto Eco",
-    "year": 1996,
+    "year": 1980,
     "language": "Italian",
     "genres": [
       {
@@ -15274,7 +15274,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -15290,9 +15290,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000439",
-    "title": "Il pendolo di Foucault (Колекційне видання)",
+    "title": "Il pendolo di Foucault",
     "author": "Umberto Eco",
-    "year": 2004,
+    "year": 1988,
     "language": "Italian",
     "genres": [
       {
@@ -15309,7 +15309,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -15325,9 +15325,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000440",
-    "title": "Le città invisibili (Колекційне видання)",
+    "title": "Le città invisibili",
     "author": "Italo Calvino",
-    "year": 1988,
+    "year": 1972,
     "language": "Italian",
     "genres": [
       {
@@ -15344,7 +15344,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -15360,9 +15360,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000441",
-    "title": "L'amica geniale (Колекційне видання)",
+    "title": "L'amica geniale",
     "author": "Elena Ferrante",
-    "year": 2024,
+    "year": 2011,
     "language": "Italian",
     "genres": [
       {
@@ -15375,7 +15375,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -15391,9 +15391,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000442",
-    "title": "Sapiens: A Brief History of Humankind (Колекційне видання)",
+    "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -15410,7 +15410,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -15426,9 +15426,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000443",
-    "title": "Homo Deus: A Brief History of Tomorrow (Колекційне видання)",
+    "title": "Homo Deus: A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2015,
     "language": "English",
     "genres": [
       {
@@ -15445,7 +15445,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -15461,9 +15461,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000444",
-    "title": "Thinking, Fast and Slow (Колекційне видання)",
+    "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -15480,7 +15480,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -15496,9 +15496,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000445",
-    "title": "Antifragile: Things That Gain from Disorder (Колекційне видання)",
+    "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2012,
     "language": "English",
     "genres": [
       {
@@ -15515,7 +15515,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -15531,9 +15531,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000446",
-    "title": "The Black Swan (Колекційне видання)",
+    "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "year": 2023,
+    "year": 2007,
     "language": "English",
     "genres": [
       {
@@ -15550,7 +15550,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -15566,9 +15566,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000447",
-    "title": "Atomic Habits (Колекційне видання)",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "year": 2024,
+    "year": 2018,
     "language": "English",
     "genres": [
       {
@@ -15581,7 +15581,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -15597,9 +15597,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000448",
-    "title": "Meditations (Колекційне видання)",
+    "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": 196,
+    "year": 180,
     "language": "English",
     "genres": [
       {
@@ -15612,7 +15612,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -15628,9 +15628,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000449",
-    "title": "Letters from a Stoic (Колекційне видання)",
+    "title": "Letters from a Stoic",
     "author": "Seneca",
-    "year": 81,
+    "year": 65,
     "language": "English",
     "genres": [
       {
@@ -15643,7 +15643,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -15659,9 +15659,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000450",
-    "title": "Man's Search for Meaning (Колекційне видання)",
+    "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
-    "year": 1962,
+    "year": 1946,
     "language": "English",
     "genres": [
       {
@@ -15678,7 +15678,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -15694,9 +15694,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000451",
-    "title": "A Brief History of Time (Колекційне видання)",
+    "title": "A Brief History of Time",
     "author": "Stephen Hawking",
-    "year": 2004,
+    "year": 1988,
     "language": "English",
     "genres": [
       {
@@ -15709,7 +15709,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -15725,9 +15725,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000452",
-    "title": "Cosmos (Колекційне видання)",
+    "title": "Cosmos",
     "author": "Carl Sagan",
-    "year": 1996,
+    "year": 1980,
     "language": "English",
     "genres": [
       {
@@ -15740,7 +15740,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -15756,9 +15756,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000453",
-    "title": "The Selfish Gene (Колекційне видання)",
+    "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "year": 1992,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -15771,7 +15771,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -15787,9 +15787,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000454",
-    "title": "The 48 Laws of Power (Колекційне видання)",
+    "title": "The 48 Laws of Power",
     "author": "Robert Greene",
-    "year": 2014,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -15806,7 +15806,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -15822,9 +15822,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000455",
-    "title": "The Prince (Колекційне видання)",
+    "title": "The Prince",
     "author": "Niccolò Machiavelli",
-    "year": 1548,
+    "year": 1532,
     "language": "English",
     "genres": [
       {
@@ -15841,7 +15841,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -15857,7 +15857,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000456",
-    "title": "The Art of War (Колекційне видання)",
+    "title": "The Art of War",
     "author": "Sun Tzu",
     "year": 1900,
     "language": "English",
@@ -15876,7 +15876,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ancient Chinese military treatise on deception, strategic positioning, and overcoming conflict without battle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/id/8235500-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -15892,9 +15892,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000457",
-    "title": "Кобзар (Ілюстроване видання)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1870,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -15907,7 +15907,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -15923,9 +15923,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000458",
-    "title": "Гайдамаки (Ілюстроване видання)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1871,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -15942,7 +15942,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -15958,9 +15958,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000459",
-    "title": "Захар Беркут (Ілюстроване видання)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1913,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -15977,7 +15977,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -15993,9 +15993,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000460",
-    "title": "Перехресні стежки (Ілюстроване видання)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 1930,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16012,7 +16012,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -16028,9 +16028,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000461",
-    "title": "Украдене щастя (Ілюстроване видання)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 1923,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16043,7 +16043,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -16059,9 +16059,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000462",
-    "title": "Мойсей (Ілюстроване видання)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 1935,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16078,7 +16078,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -16094,9 +16094,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000463",
-    "title": "Лісова пісня (Ілюстроване видання)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 1941,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16113,7 +16113,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -16129,9 +16129,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000464",
-    "title": "Бояриня (Ілюстроване видання)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 1940,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16144,7 +16144,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -16160,9 +16160,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000465",
-    "title": "Камінний господар (Ілюстроване видання)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 1942,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16179,7 +16179,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -16195,9 +16195,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000466",
-    "title": "Тіні забутих предків (Ілюстроване видання)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 1941,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16214,7 +16214,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -16230,9 +16230,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000467",
-    "title": "Fata Morgana (Ілюстроване видання)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 1940,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16249,7 +16249,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -16265,9 +16265,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000468",
-    "title": "Intermezzo (Ілюстроване видання)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 1938,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16280,7 +16280,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -16296,9 +16296,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000469",
-    "title": "Кайдашева сім'я (Ілюстроване видання)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1908,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16311,7 +16311,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -16327,9 +16327,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000470",
-    "title": "Микола Джеря (Ілюстроване видання)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1908,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16346,7 +16346,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -16362,9 +16362,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000471",
-    "title": "Енеїда (Ілюстроване видання)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1828,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16381,7 +16381,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -16397,9 +16397,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000472",
-    "title": "Наталка Полтавка (Ілюстроване видання)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1849,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16412,7 +16412,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -16428,9 +16428,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000473",
-    "title": "Тигролови (Ілюстроване видання)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 1974,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16447,7 +16447,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -16463,9 +16463,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000474",
-    "title": "Сад Гетсиманський (Ілюстроване видання)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 1980,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16482,7 +16482,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -16498,9 +16498,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000475",
-    "title": "Місто (Ілюстроване видання)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 1958,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16517,7 +16517,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -16533,9 +16533,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000476",
-    "title": "Невеличка драма (Ілюстроване видання)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 1960,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16548,7 +16548,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -16564,9 +16564,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000477",
-    "title": "Я (Романтика) (Ілюстроване видання)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 1954,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16579,7 +16579,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -16595,9 +16595,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000478",
-    "title": "Маруся Чурай (Ілюстроване видання)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 2009,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16614,7 +16614,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -16630,9 +16630,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000479",
-    "title": "Записки українського самашедшого (Ілюстроване видання)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16645,7 +16645,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -16661,9 +16661,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000480",
-    "title": "Інтернат (Ілюстроване видання)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16676,7 +16676,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -16692,9 +16692,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000481",
-    "title": "Ворошиловград (Ілюстроване видання)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16707,7 +16707,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -16723,9 +16723,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000482",
-    "title": "Депеш Мод (Ілюстроване видання)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16738,7 +16738,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -16754,9 +16754,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000483",
-    "title": "Месопотамія (Ілюстроване видання)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16773,7 +16773,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -16789,9 +16789,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000484",
-    "title": "Польові дослідження з українського сексу (Ілюстроване видання)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16808,7 +16808,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -16824,9 +16824,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000485",
-    "title": "Музей покинутих секретів (Ілюстроване видання)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16843,7 +16843,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -16859,9 +16859,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000486",
-    "title": "Московіада (Ілюстроване видання)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 2023,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16874,7 +16874,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -16890,9 +16890,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000487",
-    "title": "Перверзія (Ілюстроване видання)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16909,7 +16909,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -16925,9 +16925,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000488",
-    "title": "Культ (Ілюстроване видання)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2024,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16944,7 +16944,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -16960,9 +16960,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000489",
-    "title": "Танго смерті (Ілюстроване видання)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -16979,7 +16979,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -16995,9 +16995,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000490",
-    "title": "Чорний Ворон (Ілюстроване видання)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17014,7 +17014,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -17030,9 +17030,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000491",
-    "title": "Колонія. Нові темні віки (Ілюстроване видання)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17045,7 +17045,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -17061,9 +17061,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000492",
-    "title": "Не озирайся і мовчи (Ілюстроване видання)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17076,7 +17076,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -17092,9 +17092,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000493",
-    "title": "Фелікс Австрія (Ілюстроване видання)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17111,7 +17111,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -17127,9 +17127,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000494",
-    "title": "Амадока (Ілюстроване видання)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17146,7 +17146,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -17162,9 +17162,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000495",
-    "title": "Точка нуль (Ілюстроване видання)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17177,7 +17177,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -17193,9 +17193,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000496",
-    "title": "Хто ти такий? (Ілюстроване видання)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17208,7 +17208,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -17224,9 +17224,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000497",
-    "title": "Чорна рада (Ілюстроване видання)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1887,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17243,7 +17243,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -17259,9 +17259,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000498",
-    "title": "Хіба ревуть воли, як ясла повні? (Ілюстроване видання)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1910,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17278,7 +17278,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -17294,9 +17294,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000499",
-    "title": "Камінний хрест (Ілюстроване видання)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 1930,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17309,7 +17309,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -17325,9 +17325,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000500",
-    "title": "Записки кирпатого Мефістофеля (Ілюстроване видання)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 1947,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17344,7 +17344,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -17360,9 +17360,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000501",
-    "title": "Мина Мазайло (Ілюстроване видання)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 1959,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17375,7 +17375,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -17391,9 +17391,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000502",
-    "title": "Червоний (Ілюстроване видання)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -17410,7 +17410,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -17426,9 +17426,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000503",
-    "title": "1984 (Ілюстроване видання)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 1979,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -17445,7 +17445,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -17461,9 +17461,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000504",
-    "title": "Animal Farm (Ілюстроване видання)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 1975,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -17480,7 +17480,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -17496,9 +17496,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000505",
-    "title": "Brave New World (Ілюстроване видання)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 1962,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -17515,7 +17515,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -17531,9 +17531,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000506",
-    "title": "Fahrenheit 451 (Ілюстроване видання)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 1983,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -17546,7 +17546,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -17562,9 +17562,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000507",
-    "title": "The Hobbit (Ілюстроване видання)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 1967,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -17581,7 +17581,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -17597,9 +17597,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000508",
-    "title": "The Fellowship of the Ring (Ілюстроване видання)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 1984,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -17616,7 +17616,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -17632,9 +17632,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000509",
-    "title": "The Two Towers (Ілюстроване видання)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 1984,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -17647,7 +17647,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -17663,9 +17663,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000510",
-    "title": "The Return of the King (Ілюстроване видання)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 1985,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -17678,7 +17678,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -17694,9 +17694,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000511",
-    "title": "Dune (Ілюстроване видання)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 1995,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -17713,7 +17713,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -17729,9 +17729,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000512",
-    "title": "Dune Messiah (Ілюстроване видання)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 1999,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -17744,7 +17744,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -17760,9 +17760,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000513",
-    "title": "Children of Dune (Ілюстроване видання)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 2006,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -17775,7 +17775,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -17791,9 +17791,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000514",
-    "title": "Foundation (Ілюстроване видання)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 1981,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -17806,7 +17806,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -17822,9 +17822,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000515",
-    "title": "Foundation and Empire (Ілюстроване видання)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 1982,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -17833,7 +17833,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -17849,9 +17849,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000516",
-    "title": "Second Foundation (Ілюстроване видання)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 1983,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -17860,7 +17860,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -17876,9 +17876,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000517",
-    "title": "Do Androids Dream of Electric Sheep? (Ілюстроване видання)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 1998,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -17891,7 +17891,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -17907,9 +17907,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000518",
-    "title": "Neuromancer (Ілюстроване видання)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 2014,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -17918,7 +17918,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -17934,9 +17934,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000519",
-    "title": "A Game of Thrones (Ілюстроване видання)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -17949,7 +17949,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -17965,9 +17965,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000520",
-    "title": "A Clash of Kings (Ілюстроване видання)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -17980,7 +17980,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -17996,9 +17996,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000521",
-    "title": "A Storm of Swords (Ілюстроване видання)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -18011,7 +18011,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -18027,9 +18027,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000522",
-    "title": "American Gods (Ілюстроване видання)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -18042,7 +18042,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -18058,9 +18058,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000523",
-    "title": "Neverwhere (Ілюстроване видання)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -18073,7 +18073,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -18089,9 +18089,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000524",
-    "title": "The Shining (Ілюстроване видання)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 2007,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -18104,7 +18104,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -18120,9 +18120,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000525",
-    "title": "It (Ілюстроване видання)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 2016,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -18135,7 +18135,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -18151,9 +18151,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000526",
-    "title": "Misery (Ілюстроване видання)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 2017,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -18166,7 +18166,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -18182,9 +18182,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000527",
-    "title": "The Stand (Ілюстроване видання)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 2008,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -18201,7 +18201,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -18217,9 +18217,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000528",
-    "title": "A Study in Scarlet (Ілюстроване видання)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1917,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -18232,7 +18232,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -18248,9 +18248,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000529",
-    "title": "The Hound of the Baskervilles (Ілюстроване видання)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 1932,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -18267,7 +18267,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -18283,9 +18283,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000530",
-    "title": "Murder on the Orient Express (Ілюстроване видання)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 1964,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -18298,7 +18298,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -18314,9 +18314,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000531",
-    "title": "And Then There Were None (Ілюстроване видання)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 1969,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -18329,7 +18329,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -18345,9 +18345,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000532",
-    "title": "The Great Gatsby (Ілюстроване видання)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 1955,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -18360,7 +18360,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -18376,9 +18376,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000533",
-    "title": "The Old Man and the Sea (Ілюстроване видання)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 1982,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -18395,7 +18395,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -18411,9 +18411,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000534",
-    "title": "For Whom the Bell Tolls (Ілюстроване видання)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 1970,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -18430,7 +18430,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -18446,9 +18446,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000535",
-    "title": "The Catcher in the Rye (Ілюстроване видання)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 1981,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -18461,7 +18461,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -18477,9 +18477,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000536",
-    "title": "To Kill a Mockingbird (Ілюстроване видання)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 1990,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -18492,7 +18492,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -18508,9 +18508,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000537",
-    "title": "Pride and Prejudice (Ілюстроване видання)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1843,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -18523,7 +18523,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -18539,9 +18539,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000538",
-    "title": "Jane Eyre (Ілюстроване видання)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1877,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -18554,7 +18554,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -18570,9 +18570,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000539",
-    "title": "Wuthering Heights (Ілюстроване видання)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1877,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -18589,7 +18589,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -18605,9 +18605,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000540",
-    "title": "The Picture of Dorian Gray (Ілюстроване видання)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1920,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -18624,7 +18624,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -18640,9 +18640,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000541",
-    "title": "Frankenstein (Ілюстроване видання)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1848,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -18659,7 +18659,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -18675,9 +18675,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000542",
-    "title": "Dracula (Ілюстроване видання)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 1927,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -18690,7 +18690,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -18706,9 +18706,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000543",
-    "title": "The Road (Ілюстроване видання)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2024,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -18725,7 +18725,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -18741,9 +18741,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000544",
-    "title": "The Handmaid's Tale (Ілюстроване видання)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 2015,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -18756,7 +18756,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -18772,9 +18772,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000545",
-    "title": "Never Let Me Go (Ілюстроване видання)",
+    "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "year": 2024,
+    "year": 2005,
     "language": "English",
     "genres": [
       {
@@ -18791,7 +18791,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -18807,9 +18807,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000546",
-    "title": "Norwegian Wood (Ілюстроване видання)",
+    "title": "Norwegian Wood",
     "author": "Haruki Murakami",
-    "year": 2017,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -18822,7 +18822,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -18838,9 +18838,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000547",
-    "title": "Kafka on the Shore (Ілюстроване видання)",
+    "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "year": 2024,
+    "year": 2002,
     "language": "English",
     "genres": [
       {
@@ -18857,7 +18857,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -18873,9 +18873,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000548",
-    "title": "Le Petit Prince (Ілюстроване видання)",
+    "title": "Le Petit Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 1973,
+    "year": 1943,
     "language": "French",
     "genres": [
       {
@@ -18892,7 +18892,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -18908,9 +18908,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000549",
-    "title": "L'Étranger (Ілюстроване видання)",
+    "title": "L'Étranger",
     "author": "Albert Camus",
-    "year": 1972,
+    "year": 1942,
     "language": "French",
     "genres": [
       {
@@ -18923,7 +18923,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -18939,9 +18939,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000550",
-    "title": "La Peste (Ілюстроване видання)",
+    "title": "La Peste",
     "author": "Albert Camus",
-    "year": 1977,
+    "year": 1947,
     "language": "French",
     "genres": [
       {
@@ -18958,7 +18958,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -18974,9 +18974,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000551",
-    "title": "Les Misérables (Ілюстроване видання)",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1892,
+    "year": 1862,
     "language": "French",
     "genres": [
       {
@@ -18993,7 +18993,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -19009,9 +19009,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000552",
-    "title": "Notre-Dame de Paris (Ілюстроване видання)",
+    "title": "Notre-Dame de Paris",
     "author": "Victor Hugo",
-    "year": 1861,
+    "year": 1831,
     "language": "French",
     "genres": [
       {
@@ -19028,7 +19028,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -19044,9 +19044,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000553",
-    "title": "Le Comte de Monte-Cristo (Ілюстроване видання)",
+    "title": "Le Comte de Monte-Cristo",
     "author": "Alexandre Dumas",
-    "year": 1874,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -19059,7 +19059,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -19075,9 +19075,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000554",
-    "title": "Les Trois Mousquetaires (Ілюстроване видання)",
+    "title": "Les Trois Mousquetaires",
     "author": "Alexandre Dumas",
-    "year": 1874,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -19090,7 +19090,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -19106,9 +19106,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000555",
-    "title": "Madame Bovary (Ілюстроване видання)",
+    "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1887,
+    "year": 1857,
     "language": "French",
     "genres": [
       {
@@ -19121,7 +19121,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -19137,9 +19137,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000556",
-    "title": "Du côté de chez Swann (Ілюстроване видання)",
+    "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1943,
+    "year": 1913,
     "language": "French",
     "genres": [
       {
@@ -19156,7 +19156,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -19172,9 +19172,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000557",
-    "title": "Germinal (Ілюстроване видання)",
+    "title": "Germinal",
     "author": "Émile Zola",
-    "year": 1915,
+    "year": 1885,
     "language": "French",
     "genres": [
       {
@@ -19191,7 +19191,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -19207,9 +19207,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000558",
-    "title": "Vingt mille lieues sous les mers (Ілюстроване видання)",
+    "title": "Vingt mille lieues sous les mers",
     "author": "Jules Verne",
-    "year": 1900,
+    "year": 1870,
     "language": "French",
     "genres": [
       {
@@ -19226,7 +19226,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -19242,9 +19242,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000559",
-    "title": "Le Tour du monde en quatre-vingts jours (Ілюстроване видання)",
+    "title": "Le Tour du monde en quatre-vingts jours",
     "author": "Jules Verne",
-    "year": 1902,
+    "year": 1872,
     "language": "French",
     "genres": [
       {
@@ -19257,7 +19257,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -19273,9 +19273,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000560",
-    "title": "Der Steppenwolf (Ілюстроване видання)",
+    "title": "Der Steppenwolf",
     "author": "Hermann Hesse",
-    "year": 1957,
+    "year": 1927,
     "language": "German",
     "genres": [
       {
@@ -19292,7 +19292,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -19308,9 +19308,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000561",
-    "title": "Siddhartha (Ілюстроване видання)",
+    "title": "Siddhartha",
     "author": "Hermann Hesse",
-    "year": 1952,
+    "year": 1922,
     "language": "German",
     "genres": [
       {
@@ -19323,7 +19323,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -19339,9 +19339,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000562",
-    "title": "Demian (Ілюстроване видання)",
+    "title": "Demian",
     "author": "Hermann Hesse",
-    "year": 1949,
+    "year": 1919,
     "language": "German",
     "genres": [
       {
@@ -19354,7 +19354,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -19370,9 +19370,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000563",
-    "title": "Die Verwandlung (Ілюстроване видання)",
+    "title": "Die Verwandlung",
     "author": "Franz Kafka",
-    "year": 1945,
+    "year": 1915,
     "language": "German",
     "genres": [
       {
@@ -19385,7 +19385,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -19401,9 +19401,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000564",
-    "title": "Der Process (Ілюстроване видання)",
+    "title": "Der Process",
     "author": "Franz Kafka",
-    "year": 1955,
+    "year": 1925,
     "language": "German",
     "genres": [
       {
@@ -19420,7 +19420,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -19436,9 +19436,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000565",
-    "title": "Faust (Ілюстроване видання)",
+    "title": "Faust",
     "author": "Johann Wolfgang von Goethe",
-    "year": 1838,
+    "year": 1808,
     "language": "German",
     "genres": [
       {
@@ -19455,7 +19455,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -19471,9 +19471,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000566",
-    "title": "Im Westen nichts Neues (Ілюстроване видання)",
+    "title": "Im Westen nichts Neues",
     "author": "Erich Maria Remarque",
-    "year": 1959,
+    "year": 1929,
     "language": "German",
     "genres": [
       {
@@ -19490,7 +19490,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -19506,9 +19506,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000567",
-    "title": "Drei Kameraden (Ілюстроване видання)",
+    "title": "Drei Kameraden",
     "author": "Erich Maria Remarque",
-    "year": 1966,
+    "year": 1936,
     "language": "German",
     "genres": [
       {
@@ -19525,7 +19525,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -19541,9 +19541,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000568",
-    "title": "Der Zauberberg (Ілюстроване видання)",
+    "title": "Der Zauberberg",
     "author": "Thomas Mann",
-    "year": 1954,
+    "year": 1924,
     "language": "German",
     "genres": [
       {
@@ -19556,7 +19556,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -19572,9 +19572,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000569",
-    "title": "Also sprach Zarathustra (Ілюстроване видання)",
+    "title": "Also sprach Zarathustra",
     "author": "Friedrich Nietzsche",
-    "year": 1913,
+    "year": 1883,
     "language": "German",
     "genres": [
       {
@@ -19591,7 +19591,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -19607,9 +19607,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000570",
-    "title": "Jenseits von Gut und Böse (Ілюстроване видання)",
+    "title": "Jenseits von Gut und Böse",
     "author": "Friedrich Nietzsche",
-    "year": 1916,
+    "year": 1886,
     "language": "German",
     "genres": [
       {
@@ -19618,7 +19618,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -19634,9 +19634,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000571",
-    "title": "Das Parfum (Ілюстроване видання)",
+    "title": "Das Parfum",
     "author": "Patrick Süskind",
-    "year": 2015,
+    "year": 1985,
     "language": "German",
     "genres": [
       {
@@ -19653,7 +19653,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -19669,9 +19669,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000572",
-    "title": "Solaris (Ілюстроване видання)",
+    "title": "Solaris",
     "author": "Stanisław Lem",
-    "year": 1991,
+    "year": 1961,
     "language": "Polish",
     "genres": [
       {
@@ -19684,7 +19684,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -19700,9 +19700,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000573",
-    "title": "Cyberiada (Ілюстроване видання)",
+    "title": "Cyberiada",
     "author": "Stanisław Lem",
-    "year": 1995,
+    "year": 1965,
     "language": "Polish",
     "genres": [
       {
@@ -19719,7 +19719,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -19735,9 +19735,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000574",
-    "title": "Ostatnie życzenie (Ілюстроване видання)",
+    "title": "Ostatnie życzenie",
     "author": "Andrzej Sapkowski",
-    "year": 2023,
+    "year": 1993,
     "language": "Polish",
     "genres": [
       {
@@ -19750,7 +19750,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -19766,9 +19766,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000575",
-    "title": "Miecz przeznaczenia (Ілюстроване видання)",
+    "title": "Miecz przeznaczenia",
     "author": "Andrzej Sapkowski",
-    "year": 2022,
+    "year": 1992,
     "language": "Polish",
     "genres": [
       {
@@ -19781,7 +19781,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -19797,9 +19797,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000576",
-    "title": "Krew elfów (Ілюстроване видання)",
+    "title": "Krew elfów",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1994,
     "language": "Polish",
     "genres": [
       {
@@ -19812,7 +19812,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -19828,9 +19828,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000577",
-    "title": "Bieguni (Ілюстроване видання)",
+    "title": "Bieguni",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2007,
     "language": "Polish",
     "genres": [
       {
@@ -19843,7 +19843,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -19859,9 +19859,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000578",
-    "title": "Prowadź swój pług przez kości umarłych (Ілюстроване видання)",
+    "title": "Prowadź swój pług przez kości umarłych",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2009,
     "language": "Polish",
     "genres": [
       {
@@ -19878,7 +19878,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -19894,9 +19894,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000579",
-    "title": "Pan Tadeusz (Ілюстроване видання)",
+    "title": "Pan Tadeusz",
     "author": "Adam Mickiewicz",
-    "year": 1864,
+    "year": 1834,
     "language": "Polish",
     "genres": [
       {
@@ -19913,7 +19913,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -19929,9 +19929,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000580",
-    "title": "Quo Vadis (Ілюстроване видання)",
+    "title": "Quo Vadis",
     "author": "Henryk Sienkiewicz",
-    "year": 1926,
+    "year": 1896,
     "language": "Polish",
     "genres": [
       {
@@ -19948,7 +19948,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -19964,9 +19964,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000581",
-    "title": "Ogniem i mieczem (Ілюстроване видання)",
+    "title": "Ogniem i mieczem",
     "author": "Henryk Sienkiewicz",
-    "year": 1914,
+    "year": 1884,
     "language": "Polish",
     "genres": [
       {
@@ -19983,7 +19983,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -19999,9 +19999,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000582",
-    "title": "Don Quijote de la Mancha (Ілюстроване видання)",
+    "title": "Don Quijote de la Mancha",
     "author": "Miguel de Cervantes",
-    "year": 1635,
+    "year": 1605,
     "language": "Spanish",
     "genres": [
       {
@@ -20014,7 +20014,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -20030,9 +20030,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000583",
-    "title": "Cien años de soledad (Ілюстроване видання)",
+    "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
-    "year": 1997,
+    "year": 1967,
     "language": "Spanish",
     "genres": [
       {
@@ -20049,7 +20049,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -20065,9 +20065,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000584",
-    "title": "El amor en los tiempos del cólera (Ілюстроване видання)",
+    "title": "El amor en los tiempos del cólera",
     "author": "Gabriel García Márquez",
-    "year": 2015,
+    "year": 1985,
     "language": "Spanish",
     "genres": [
       {
@@ -20080,7 +20080,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -20096,9 +20096,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000585",
-    "title": "Crónica de una muerte anunciada (Ілюстроване видання)",
+    "title": "Crónica de una muerte anunciada",
     "author": "Gabriel García Márquez",
-    "year": 2011,
+    "year": 1981,
     "language": "Spanish",
     "genres": [
       {
@@ -20111,7 +20111,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -20127,9 +20127,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000586",
-    "title": "Ficciones (Ілюстроване видання)",
+    "title": "Ficciones",
     "author": "Jorge Luis Borges",
-    "year": 1974,
+    "year": 1944,
     "language": "Spanish",
     "genres": [
       {
@@ -20146,7 +20146,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -20162,9 +20162,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000587",
-    "title": "Rayuela (Ілюстроване видання)",
+    "title": "Rayuela",
     "author": "Julio Cortázar",
-    "year": 1993,
+    "year": 1963,
     "language": "Spanish",
     "genres": [
       {
@@ -20181,7 +20181,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -20197,9 +20197,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000588",
-    "title": "La sombra del viento (Ілюстроване видання)",
+    "title": "La sombra del viento",
     "author": "Carlos Ruiz Zafón",
-    "year": 2024,
+    "year": 2001,
     "language": "Spanish",
     "genres": [
       {
@@ -20216,7 +20216,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -20232,9 +20232,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000589",
-    "title": "Divina Commedia (Ілюстроване видання)",
+    "title": "Divina Commedia",
     "author": "Dante Alighieri",
-    "year": 1350,
+    "year": 1320,
     "language": "Italian",
     "genres": [
       {
@@ -20251,7 +20251,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -20267,9 +20267,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000590",
-    "title": "Il nome della rosa (Ілюстроване видання)",
+    "title": "Il nome della rosa",
     "author": "Umberto Eco",
-    "year": 2010,
+    "year": 1980,
     "language": "Italian",
     "genres": [
       {
@@ -20286,7 +20286,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -20302,9 +20302,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000591",
-    "title": "Il pendolo di Foucault (Ілюстроване видання)",
+    "title": "Il pendolo di Foucault",
     "author": "Umberto Eco",
-    "year": 2018,
+    "year": 1988,
     "language": "Italian",
     "genres": [
       {
@@ -20321,7 +20321,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -20337,9 +20337,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000592",
-    "title": "Le città invisibili (Ілюстроване видання)",
+    "title": "Le città invisibili",
     "author": "Italo Calvino",
-    "year": 2002,
+    "year": 1972,
     "language": "Italian",
     "genres": [
       {
@@ -20356,7 +20356,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -20372,9 +20372,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000593",
-    "title": "L'amica geniale (Ілюстроване видання)",
+    "title": "L'amica geniale",
     "author": "Elena Ferrante",
-    "year": 2024,
+    "year": 2011,
     "language": "Italian",
     "genres": [
       {
@@ -20387,7 +20387,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -20403,9 +20403,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000594",
-    "title": "Sapiens: A Brief History of Humankind (Ілюстроване видання)",
+    "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -20422,7 +20422,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -20438,9 +20438,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000595",
-    "title": "Homo Deus: A Brief History of Tomorrow (Ілюстроване видання)",
+    "title": "Homo Deus: A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2015,
     "language": "English",
     "genres": [
       {
@@ -20457,7 +20457,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -20473,9 +20473,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000596",
-    "title": "Thinking, Fast and Slow (Ілюстроване видання)",
+    "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -20492,7 +20492,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -20508,9 +20508,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000597",
-    "title": "Antifragile: Things That Gain from Disorder (Ілюстроване видання)",
+    "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2012,
     "language": "English",
     "genres": [
       {
@@ -20527,7 +20527,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -20543,9 +20543,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000598",
-    "title": "The Black Swan (Ілюстроване видання)",
+    "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2007,
     "language": "English",
     "genres": [
       {
@@ -20562,7 +20562,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -20578,9 +20578,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000599",
-    "title": "Atomic Habits (Ілюстроване видання)",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "year": 2024,
+    "year": 2018,
     "language": "English",
     "genres": [
       {
@@ -20593,7 +20593,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -20609,9 +20609,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000600",
-    "title": "Meditations (Ілюстроване видання)",
+    "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": 210,
+    "year": 180,
     "language": "English",
     "genres": [
       {
@@ -20624,7 +20624,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -20640,9 +20640,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000601",
-    "title": "Letters from a Stoic (Ілюстроване видання)",
+    "title": "Letters from a Stoic",
     "author": "Seneca",
-    "year": 95,
+    "year": 65,
     "language": "English",
     "genres": [
       {
@@ -20655,7 +20655,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -20671,9 +20671,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000602",
-    "title": "Man's Search for Meaning (Ілюстроване видання)",
+    "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
-    "year": 1976,
+    "year": 1946,
     "language": "English",
     "genres": [
       {
@@ -20690,7 +20690,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -20706,9 +20706,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000603",
-    "title": "A Brief History of Time (Ілюстроване видання)",
+    "title": "A Brief History of Time",
     "author": "Stephen Hawking",
-    "year": 2018,
+    "year": 1988,
     "language": "English",
     "genres": [
       {
@@ -20721,7 +20721,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -20737,9 +20737,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000604",
-    "title": "Cosmos (Ілюстроване видання)",
+    "title": "Cosmos",
     "author": "Carl Sagan",
-    "year": 2010,
+    "year": 1980,
     "language": "English",
     "genres": [
       {
@@ -20752,7 +20752,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -20768,9 +20768,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000605",
-    "title": "The Selfish Gene (Ілюстроване видання)",
+    "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "year": 2006,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -20783,7 +20783,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -20799,9 +20799,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000606",
-    "title": "The 48 Laws of Power (Ілюстроване видання)",
+    "title": "The 48 Laws of Power",
     "author": "Robert Greene",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -20818,7 +20818,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -20834,9 +20834,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000607",
-    "title": "The Prince (Ілюстроване видання)",
+    "title": "The Prince",
     "author": "Niccolò Machiavelli",
-    "year": 1562,
+    "year": 1532,
     "language": "English",
     "genres": [
       {
@@ -20853,7 +20853,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -20869,7 +20869,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000608",
-    "title": "The Art of War (Ілюстроване видання)",
+    "title": "The Art of War",
     "author": "Sun Tzu",
     "year": 1900,
     "language": "English",
@@ -20888,7 +20888,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ancient Chinese military treatise on deception, strategic positioning, and overcoming conflict without battle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/id/8235500-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -20904,9 +20904,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000609",
-    "title": "Кобзар (Повне зібрання)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1888,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -20919,7 +20919,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -20935,9 +20935,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000610",
-    "title": "Гайдамаки (Повне зібрання)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1889,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -20954,7 +20954,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -20970,9 +20970,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000611",
-    "title": "Захар Беркут (Повне зібрання)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1931,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -20989,7 +20989,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -21005,9 +21005,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000612",
-    "title": "Перехресні стежки (Повне зібрання)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 1948,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21024,7 +21024,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -21040,9 +21040,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000613",
-    "title": "Украдене щастя (Повне зібрання)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 1941,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21055,7 +21055,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -21071,9 +21071,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000614",
-    "title": "Мойсей (Повне зібрання)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 1953,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21090,7 +21090,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -21106,9 +21106,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000615",
-    "title": "Лісова пісня (Повне зібрання)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 1959,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21125,7 +21125,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -21141,9 +21141,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000616",
-    "title": "Бояриня (Повне зібрання)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 1958,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21156,7 +21156,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -21172,9 +21172,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000617",
-    "title": "Камінний господар (Повне зібрання)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 1960,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21191,7 +21191,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -21207,9 +21207,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000618",
-    "title": "Тіні забутих предків (Повне зібрання)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 1959,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21226,7 +21226,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -21242,9 +21242,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000619",
-    "title": "Fata Morgana (Повне зібрання)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 1958,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21261,7 +21261,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -21277,9 +21277,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000620",
-    "title": "Intermezzo (Повне зібрання)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 1956,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21292,7 +21292,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -21308,9 +21308,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000621",
-    "title": "Кайдашева сім'я (Повне зібрання)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1926,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21323,7 +21323,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -21339,9 +21339,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000622",
-    "title": "Микола Джеря (Повне зібрання)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1926,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21358,7 +21358,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -21374,9 +21374,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000623",
-    "title": "Енеїда (Повне зібрання)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1846,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21393,7 +21393,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -21409,9 +21409,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000624",
-    "title": "Наталка Полтавка (Повне зібрання)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1867,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21424,7 +21424,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -21440,9 +21440,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000625",
-    "title": "Тигролови (Повне зібрання)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 1992,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21459,7 +21459,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -21475,9 +21475,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000626",
-    "title": "Сад Гетсиманський (Повне зібрання)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 1998,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21494,7 +21494,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -21510,9 +21510,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000627",
-    "title": "Місто (Повне зібрання)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 1976,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21529,7 +21529,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -21545,9 +21545,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000628",
-    "title": "Невеличка драма (Повне зібрання)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 1978,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21560,7 +21560,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -21576,9 +21576,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000629",
-    "title": "Я (Романтика) (Повне зібрання)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 1972,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21591,7 +21591,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -21607,9 +21607,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000630",
-    "title": "Маруся Чурай (Повне зібрання)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21626,7 +21626,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -21642,9 +21642,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000631",
-    "title": "Записки українського самашедшого (Повне зібрання)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21657,7 +21657,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -21673,9 +21673,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000632",
-    "title": "Інтернат (Повне зібрання)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21688,7 +21688,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -21704,9 +21704,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000633",
-    "title": "Ворошиловград (Повне зібрання)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21719,7 +21719,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -21735,9 +21735,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000634",
-    "title": "Депеш Мод (Повне зібрання)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21750,7 +21750,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -21766,9 +21766,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000635",
-    "title": "Месопотамія (Повне зібрання)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21785,7 +21785,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -21801,9 +21801,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000636",
-    "title": "Польові дослідження з українського сексу (Повне зібрання)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21820,7 +21820,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -21836,9 +21836,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000637",
-    "title": "Музей покинутих секретів (Повне зібрання)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21855,7 +21855,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -21871,9 +21871,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000638",
-    "title": "Московіада (Повне зібрання)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21886,7 +21886,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -21902,9 +21902,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000639",
-    "title": "Перверзія (Повне зібрання)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21921,7 +21921,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -21937,9 +21937,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000640",
-    "title": "Культ (Повне зібрання)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2024,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21956,7 +21956,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -21972,9 +21972,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000641",
-    "title": "Танго смерті (Повне зібрання)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -21991,7 +21991,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -22007,9 +22007,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000642",
-    "title": "Чорний Ворон (Повне зібрання)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22026,7 +22026,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -22042,9 +22042,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000643",
-    "title": "Колонія. Нові темні віки (Повне зібрання)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22057,7 +22057,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -22073,9 +22073,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000644",
-    "title": "Не озирайся і мовчи (Повне зібрання)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22088,7 +22088,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -22104,9 +22104,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000645",
-    "title": "Фелікс Австрія (Повне зібрання)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22123,7 +22123,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -22139,9 +22139,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000646",
-    "title": "Амадока (Повне зібрання)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22158,7 +22158,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -22174,9 +22174,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000647",
-    "title": "Точка нуль (Повне зібрання)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22189,7 +22189,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -22205,9 +22205,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000648",
-    "title": "Хто ти такий? (Повне зібрання)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22220,7 +22220,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -22236,9 +22236,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000649",
-    "title": "Чорна рада (Повне зібрання)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1905,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22255,7 +22255,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -22271,9 +22271,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000650",
-    "title": "Хіба ревуть воли, як ясла повні? (Повне зібрання)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1928,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22290,7 +22290,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -22306,9 +22306,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000651",
-    "title": "Камінний хрест (Повне зібрання)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 1948,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22321,7 +22321,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -22337,9 +22337,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000652",
-    "title": "Записки кирпатого Мефістофеля (Повне зібрання)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 1965,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22356,7 +22356,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -22372,9 +22372,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000653",
-    "title": "Мина Мазайло (Повне зібрання)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 1977,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22387,7 +22387,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -22403,9 +22403,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000654",
-    "title": "Червоний (Повне зібрання)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -22422,7 +22422,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -22438,9 +22438,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000655",
-    "title": "1984 (Повне зібрання)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 1997,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -22457,7 +22457,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -22473,9 +22473,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000656",
-    "title": "Animal Farm (Повне зібрання)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 1993,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -22492,7 +22492,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -22508,9 +22508,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000657",
-    "title": "Brave New World (Повне зібрання)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 1980,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -22527,7 +22527,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -22543,9 +22543,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000658",
-    "title": "Fahrenheit 451 (Повне зібрання)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 2001,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -22558,7 +22558,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -22574,9 +22574,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000659",
-    "title": "The Hobbit (Повне зібрання)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 1985,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -22593,7 +22593,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -22609,9 +22609,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000660",
-    "title": "The Fellowship of the Ring (Повне зібрання)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 2002,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -22628,7 +22628,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -22644,9 +22644,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000661",
-    "title": "The Two Towers (Повне зібрання)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 2002,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -22659,7 +22659,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -22675,9 +22675,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000662",
-    "title": "The Return of the King (Повне зібрання)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 2003,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -22690,7 +22690,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -22706,9 +22706,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000663",
-    "title": "Dune (Повне зібрання)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 2013,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -22725,7 +22725,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -22741,9 +22741,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000664",
-    "title": "Dune Messiah (Повне зібрання)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 2017,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -22756,7 +22756,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -22772,9 +22772,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000665",
-    "title": "Children of Dune (Повне зібрання)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -22787,7 +22787,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -22803,9 +22803,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000666",
-    "title": "Foundation (Повне зібрання)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 1999,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -22818,7 +22818,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -22834,9 +22834,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000667",
-    "title": "Foundation and Empire (Повне зібрання)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 2000,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -22845,7 +22845,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -22861,9 +22861,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000668",
-    "title": "Second Foundation (Повне зібрання)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 2001,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -22872,7 +22872,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -22888,9 +22888,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000669",
-    "title": "Do Androids Dream of Electric Sheep? (Повне зібрання)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 2016,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -22903,7 +22903,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -22919,9 +22919,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000670",
-    "title": "Neuromancer (Повне зібрання)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 2024,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -22930,7 +22930,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -22946,9 +22946,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000671",
-    "title": "A Game of Thrones (Повне зібрання)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -22961,7 +22961,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -22977,9 +22977,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000672",
-    "title": "A Clash of Kings (Повне зібрання)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -22992,7 +22992,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -23008,9 +23008,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000673",
-    "title": "A Storm of Swords (Повне зібрання)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -23023,7 +23023,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -23039,9 +23039,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000674",
-    "title": "American Gods (Повне зібрання)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -23054,7 +23054,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -23070,9 +23070,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000675",
-    "title": "Neverwhere (Повне зібрання)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -23085,7 +23085,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -23101,9 +23101,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000676",
-    "title": "The Shining (Повне зібрання)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -23116,7 +23116,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -23132,9 +23132,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000677",
-    "title": "It (Повне зібрання)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -23147,7 +23147,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -23163,9 +23163,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000678",
-    "title": "Misery (Повне зібрання)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -23178,7 +23178,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -23194,9 +23194,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000679",
-    "title": "The Stand (Повне зібрання)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -23213,7 +23213,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -23229,9 +23229,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000680",
-    "title": "A Study in Scarlet (Повне зібрання)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1935,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -23244,7 +23244,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -23260,9 +23260,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000681",
-    "title": "The Hound of the Baskervilles (Повне зібрання)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 1950,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -23279,7 +23279,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -23295,9 +23295,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000682",
-    "title": "Murder on the Orient Express (Повне зібрання)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 1982,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -23310,7 +23310,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -23326,9 +23326,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000683",
-    "title": "And Then There Were None (Повне зібрання)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 1987,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -23341,7 +23341,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -23357,9 +23357,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000684",
-    "title": "The Great Gatsby (Повне зібрання)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 1973,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -23372,7 +23372,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -23388,9 +23388,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000685",
-    "title": "The Old Man and the Sea (Повне зібрання)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 2000,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -23407,7 +23407,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -23423,9 +23423,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000686",
-    "title": "For Whom the Bell Tolls (Повне зібрання)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 1988,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -23442,7 +23442,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -23458,9 +23458,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000687",
-    "title": "The Catcher in the Rye (Повне зібрання)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 1999,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -23473,7 +23473,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -23489,9 +23489,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000688",
-    "title": "To Kill a Mockingbird (Повне зібрання)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 2008,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -23504,7 +23504,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -23520,9 +23520,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000689",
-    "title": "Pride and Prejudice (Повне зібрання)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1861,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -23535,7 +23535,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -23551,9 +23551,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000690",
-    "title": "Jane Eyre (Повне зібрання)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1895,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -23566,7 +23566,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -23582,9 +23582,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000691",
-    "title": "Wuthering Heights (Повне зібрання)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1895,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -23601,7 +23601,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -23617,9 +23617,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000692",
-    "title": "The Picture of Dorian Gray (Повне зібрання)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1938,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -23636,7 +23636,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -23652,9 +23652,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000693",
-    "title": "Frankenstein (Повне зібрання)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1866,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -23671,7 +23671,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -23687,9 +23687,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000694",
-    "title": "Dracula (Повне зібрання)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 1945,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -23702,7 +23702,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -23718,9 +23718,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000695",
-    "title": "The Road (Повне зібрання)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2024,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -23737,7 +23737,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -23753,9 +23753,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000696",
-    "title": "The Handmaid's Tale (Повне зібрання)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 2024,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -23768,7 +23768,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -23784,9 +23784,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000697",
-    "title": "Never Let Me Go (Повне зібрання)",
+    "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "year": 2024,
+    "year": 2005,
     "language": "English",
     "genres": [
       {
@@ -23803,7 +23803,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -23819,9 +23819,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000698",
-    "title": "Norwegian Wood (Повне зібрання)",
+    "title": "Norwegian Wood",
     "author": "Haruki Murakami",
-    "year": 2024,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -23834,7 +23834,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -23850,9 +23850,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000699",
-    "title": "Kafka on the Shore (Повне зібрання)",
+    "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "year": 2024,
+    "year": 2002,
     "language": "English",
     "genres": [
       {
@@ -23869,7 +23869,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -23885,9 +23885,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000700",
-    "title": "Le Petit Prince (Повне зібрання)",
+    "title": "Le Petit Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 1991,
+    "year": 1943,
     "language": "French",
     "genres": [
       {
@@ -23904,7 +23904,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -23920,9 +23920,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000701",
-    "title": "L'Étranger (Повне зібрання)",
+    "title": "L'Étranger",
     "author": "Albert Camus",
-    "year": 1990,
+    "year": 1942,
     "language": "French",
     "genres": [
       {
@@ -23935,7 +23935,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -23951,9 +23951,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000702",
-    "title": "La Peste (Повне зібрання)",
+    "title": "La Peste",
     "author": "Albert Camus",
-    "year": 1995,
+    "year": 1947,
     "language": "French",
     "genres": [
       {
@@ -23970,7 +23970,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -23986,9 +23986,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000703",
-    "title": "Les Misérables (Повне зібрання)",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1910,
+    "year": 1862,
     "language": "French",
     "genres": [
       {
@@ -24005,7 +24005,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -24021,9 +24021,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000704",
-    "title": "Notre-Dame de Paris (Повне зібрання)",
+    "title": "Notre-Dame de Paris",
     "author": "Victor Hugo",
-    "year": 1879,
+    "year": 1831,
     "language": "French",
     "genres": [
       {
@@ -24040,7 +24040,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -24056,9 +24056,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000705",
-    "title": "Le Comte de Monte-Cristo (Повне зібрання)",
+    "title": "Le Comte de Monte-Cristo",
     "author": "Alexandre Dumas",
-    "year": 1892,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -24071,7 +24071,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -24087,9 +24087,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000706",
-    "title": "Les Trois Mousquetaires (Повне зібрання)",
+    "title": "Les Trois Mousquetaires",
     "author": "Alexandre Dumas",
-    "year": 1892,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -24102,7 +24102,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -24118,9 +24118,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000707",
-    "title": "Madame Bovary (Повне зібрання)",
+    "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1905,
+    "year": 1857,
     "language": "French",
     "genres": [
       {
@@ -24133,7 +24133,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -24149,9 +24149,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000708",
-    "title": "Du côté de chez Swann (Повне зібрання)",
+    "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1961,
+    "year": 1913,
     "language": "French",
     "genres": [
       {
@@ -24168,7 +24168,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -24184,9 +24184,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000709",
-    "title": "Germinal (Повне зібрання)",
+    "title": "Germinal",
     "author": "Émile Zola",
-    "year": 1933,
+    "year": 1885,
     "language": "French",
     "genres": [
       {
@@ -24203,7 +24203,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -24219,9 +24219,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000710",
-    "title": "Vingt mille lieues sous les mers (Повне зібрання)",
+    "title": "Vingt mille lieues sous les mers",
     "author": "Jules Verne",
-    "year": 1918,
+    "year": 1870,
     "language": "French",
     "genres": [
       {
@@ -24238,7 +24238,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -24254,9 +24254,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000711",
-    "title": "Le Tour du monde en quatre-vingts jours (Повне зібрання)",
+    "title": "Le Tour du monde en quatre-vingts jours",
     "author": "Jules Verne",
-    "year": 1920,
+    "year": 1872,
     "language": "French",
     "genres": [
       {
@@ -24269,7 +24269,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -24285,9 +24285,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000712",
-    "title": "Der Steppenwolf (Повне зібрання)",
+    "title": "Der Steppenwolf",
     "author": "Hermann Hesse",
-    "year": 1975,
+    "year": 1927,
     "language": "German",
     "genres": [
       {
@@ -24304,7 +24304,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -24320,9 +24320,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000713",
-    "title": "Siddhartha (Повне зібрання)",
+    "title": "Siddhartha",
     "author": "Hermann Hesse",
-    "year": 1970,
+    "year": 1922,
     "language": "German",
     "genres": [
       {
@@ -24335,7 +24335,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -24351,9 +24351,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000714",
-    "title": "Demian (Повне зібрання)",
+    "title": "Demian",
     "author": "Hermann Hesse",
-    "year": 1967,
+    "year": 1919,
     "language": "German",
     "genres": [
       {
@@ -24366,7 +24366,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -24382,9 +24382,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000715",
-    "title": "Die Verwandlung (Повне зібрання)",
+    "title": "Die Verwandlung",
     "author": "Franz Kafka",
-    "year": 1963,
+    "year": 1915,
     "language": "German",
     "genres": [
       {
@@ -24397,7 +24397,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -24413,9 +24413,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000716",
-    "title": "Der Process (Повне зібрання)",
+    "title": "Der Process",
     "author": "Franz Kafka",
-    "year": 1973,
+    "year": 1925,
     "language": "German",
     "genres": [
       {
@@ -24432,7 +24432,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -24448,9 +24448,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000717",
-    "title": "Faust (Повне зібрання)",
+    "title": "Faust",
     "author": "Johann Wolfgang von Goethe",
-    "year": 1856,
+    "year": 1808,
     "language": "German",
     "genres": [
       {
@@ -24467,7 +24467,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -24483,9 +24483,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000718",
-    "title": "Im Westen nichts Neues (Повне зібрання)",
+    "title": "Im Westen nichts Neues",
     "author": "Erich Maria Remarque",
-    "year": 1977,
+    "year": 1929,
     "language": "German",
     "genres": [
       {
@@ -24502,7 +24502,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -24518,9 +24518,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000719",
-    "title": "Drei Kameraden (Повне зібрання)",
+    "title": "Drei Kameraden",
     "author": "Erich Maria Remarque",
-    "year": 1984,
+    "year": 1936,
     "language": "German",
     "genres": [
       {
@@ -24537,7 +24537,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -24553,9 +24553,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000720",
-    "title": "Der Zauberberg (Повне зібрання)",
+    "title": "Der Zauberberg",
     "author": "Thomas Mann",
-    "year": 1972,
+    "year": 1924,
     "language": "German",
     "genres": [
       {
@@ -24568,7 +24568,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -24584,9 +24584,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000721",
-    "title": "Also sprach Zarathustra (Повне зібрання)",
+    "title": "Also sprach Zarathustra",
     "author": "Friedrich Nietzsche",
-    "year": 1931,
+    "year": 1883,
     "language": "German",
     "genres": [
       {
@@ -24603,7 +24603,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -24619,9 +24619,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000722",
-    "title": "Jenseits von Gut und Böse (Повне зібрання)",
+    "title": "Jenseits von Gut und Böse",
     "author": "Friedrich Nietzsche",
-    "year": 1934,
+    "year": 1886,
     "language": "German",
     "genres": [
       {
@@ -24630,7 +24630,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -24646,9 +24646,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000723",
-    "title": "Das Parfum (Повне зібрання)",
+    "title": "Das Parfum",
     "author": "Patrick Süskind",
-    "year": 2024,
+    "year": 1985,
     "language": "German",
     "genres": [
       {
@@ -24665,7 +24665,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -24681,9 +24681,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000724",
-    "title": "Solaris (Повне зібрання)",
+    "title": "Solaris",
     "author": "Stanisław Lem",
-    "year": 2009,
+    "year": 1961,
     "language": "Polish",
     "genres": [
       {
@@ -24696,7 +24696,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -24712,9 +24712,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000725",
-    "title": "Cyberiada (Повне зібрання)",
+    "title": "Cyberiada",
     "author": "Stanisław Lem",
-    "year": 2013,
+    "year": 1965,
     "language": "Polish",
     "genres": [
       {
@@ -24731,7 +24731,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -24747,9 +24747,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000726",
-    "title": "Ostatnie życzenie (Повне зібрання)",
+    "title": "Ostatnie życzenie",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1993,
     "language": "Polish",
     "genres": [
       {
@@ -24762,7 +24762,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -24778,9 +24778,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000727",
-    "title": "Miecz przeznaczenia (Повне зібрання)",
+    "title": "Miecz przeznaczenia",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1992,
     "language": "Polish",
     "genres": [
       {
@@ -24793,7 +24793,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -24809,9 +24809,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000728",
-    "title": "Krew elfów (Повне зібрання)",
+    "title": "Krew elfów",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1994,
     "language": "Polish",
     "genres": [
       {
@@ -24824,7 +24824,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -24840,9 +24840,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000729",
-    "title": "Bieguni (Повне зібрання)",
+    "title": "Bieguni",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2007,
     "language": "Polish",
     "genres": [
       {
@@ -24855,7 +24855,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -24871,9 +24871,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000730",
-    "title": "Prowadź swój pług przez kości umarłych (Повне зібрання)",
+    "title": "Prowadź swój pług przez kości umarłych",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2009,
     "language": "Polish",
     "genres": [
       {
@@ -24890,7 +24890,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -24906,9 +24906,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000731",
-    "title": "Pan Tadeusz (Повне зібрання)",
+    "title": "Pan Tadeusz",
     "author": "Adam Mickiewicz",
-    "year": 1882,
+    "year": 1834,
     "language": "Polish",
     "genres": [
       {
@@ -24925,7 +24925,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -24941,9 +24941,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000732",
-    "title": "Quo Vadis (Повне зібрання)",
+    "title": "Quo Vadis",
     "author": "Henryk Sienkiewicz",
-    "year": 1944,
+    "year": 1896,
     "language": "Polish",
     "genres": [
       {
@@ -24960,7 +24960,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -24976,9 +24976,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000733",
-    "title": "Ogniem i mieczem (Повне зібрання)",
+    "title": "Ogniem i mieczem",
     "author": "Henryk Sienkiewicz",
-    "year": 1932,
+    "year": 1884,
     "language": "Polish",
     "genres": [
       {
@@ -24995,7 +24995,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -25011,9 +25011,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000734",
-    "title": "Don Quijote de la Mancha (Повне зібрання)",
+    "title": "Don Quijote de la Mancha",
     "author": "Miguel de Cervantes",
-    "year": 1653,
+    "year": 1605,
     "language": "Spanish",
     "genres": [
       {
@@ -25026,7 +25026,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -25042,9 +25042,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000735",
-    "title": "Cien años de soledad (Повне зібрання)",
+    "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
-    "year": 2015,
+    "year": 1967,
     "language": "Spanish",
     "genres": [
       {
@@ -25061,7 +25061,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -25077,9 +25077,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000736",
-    "title": "El amor en los tiempos del cólera (Повне зібрання)",
+    "title": "El amor en los tiempos del cólera",
     "author": "Gabriel García Márquez",
-    "year": 2024,
+    "year": 1985,
     "language": "Spanish",
     "genres": [
       {
@@ -25092,7 +25092,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -25108,9 +25108,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000737",
-    "title": "Crónica de una muerte anunciada (Повне зібрання)",
+    "title": "Crónica de una muerte anunciada",
     "author": "Gabriel García Márquez",
-    "year": 2024,
+    "year": 1981,
     "language": "Spanish",
     "genres": [
       {
@@ -25123,7 +25123,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -25139,9 +25139,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000738",
-    "title": "Ficciones (Повне зібрання)",
+    "title": "Ficciones",
     "author": "Jorge Luis Borges",
-    "year": 1992,
+    "year": 1944,
     "language": "Spanish",
     "genres": [
       {
@@ -25158,7 +25158,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -25174,9 +25174,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000739",
-    "title": "Rayuela (Повне зібрання)",
+    "title": "Rayuela",
     "author": "Julio Cortázar",
-    "year": 2011,
+    "year": 1963,
     "language": "Spanish",
     "genres": [
       {
@@ -25193,7 +25193,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -25209,9 +25209,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000740",
-    "title": "La sombra del viento (Повне зібрання)",
+    "title": "La sombra del viento",
     "author": "Carlos Ruiz Zafón",
-    "year": 2024,
+    "year": 2001,
     "language": "Spanish",
     "genres": [
       {
@@ -25228,7 +25228,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -25244,9 +25244,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000741",
-    "title": "Divina Commedia (Повне зібрання)",
+    "title": "Divina Commedia",
     "author": "Dante Alighieri",
-    "year": 1368,
+    "year": 1320,
     "language": "Italian",
     "genres": [
       {
@@ -25263,7 +25263,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -25279,9 +25279,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000742",
-    "title": "Il nome della rosa (Повне зібрання)",
+    "title": "Il nome della rosa",
     "author": "Umberto Eco",
-    "year": 2024,
+    "year": 1980,
     "language": "Italian",
     "genres": [
       {
@@ -25298,7 +25298,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -25314,9 +25314,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000743",
-    "title": "Il pendolo di Foucault (Повне зібрання)",
+    "title": "Il pendolo di Foucault",
     "author": "Umberto Eco",
-    "year": 2024,
+    "year": 1988,
     "language": "Italian",
     "genres": [
       {
@@ -25333,7 +25333,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -25349,9 +25349,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000744",
-    "title": "Le città invisibili (Повне зібрання)",
+    "title": "Le città invisibili",
     "author": "Italo Calvino",
-    "year": 2020,
+    "year": 1972,
     "language": "Italian",
     "genres": [
       {
@@ -25368,7 +25368,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -25384,9 +25384,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000745",
-    "title": "L'amica geniale (Повне зібрання)",
+    "title": "L'amica geniale",
     "author": "Elena Ferrante",
-    "year": 2024,
+    "year": 2011,
     "language": "Italian",
     "genres": [
       {
@@ -25399,7 +25399,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -25415,9 +25415,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000746",
-    "title": "Sapiens: A Brief History of Humankind (Повне зібрання)",
+    "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -25434,7 +25434,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -25450,9 +25450,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000747",
-    "title": "Homo Deus: A Brief History of Tomorrow (Повне зібрання)",
+    "title": "Homo Deus: A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2015,
     "language": "English",
     "genres": [
       {
@@ -25469,7 +25469,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -25485,9 +25485,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000748",
-    "title": "Thinking, Fast and Slow (Повне зібрання)",
+    "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -25504,7 +25504,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -25520,9 +25520,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000749",
-    "title": "Antifragile: Things That Gain from Disorder (Повне зібрання)",
+    "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2012,
     "language": "English",
     "genres": [
       {
@@ -25539,7 +25539,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -25555,9 +25555,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000750",
-    "title": "The Black Swan (Повне зібрання)",
+    "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2007,
     "language": "English",
     "genres": [
       {
@@ -25574,7 +25574,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -25590,9 +25590,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000751",
-    "title": "Atomic Habits (Повне зібрання)",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "year": 2024,
+    "year": 2018,
     "language": "English",
     "genres": [
       {
@@ -25605,7 +25605,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -25621,9 +25621,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000752",
-    "title": "Meditations (Повне зібрання)",
+    "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": 228,
+    "year": 180,
     "language": "English",
     "genres": [
       {
@@ -25636,7 +25636,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -25652,9 +25652,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000753",
-    "title": "Letters from a Stoic (Повне зібрання)",
+    "title": "Letters from a Stoic",
     "author": "Seneca",
-    "year": 113,
+    "year": 65,
     "language": "English",
     "genres": [
       {
@@ -25667,7 +25667,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -25683,9 +25683,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000754",
-    "title": "Man's Search for Meaning (Повне зібрання)",
+    "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
-    "year": 1994,
+    "year": 1946,
     "language": "English",
     "genres": [
       {
@@ -25702,7 +25702,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -25718,9 +25718,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000755",
-    "title": "A Brief History of Time (Повне зібрання)",
+    "title": "A Brief History of Time",
     "author": "Stephen Hawking",
-    "year": 2024,
+    "year": 1988,
     "language": "English",
     "genres": [
       {
@@ -25733,7 +25733,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -25749,9 +25749,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000756",
-    "title": "Cosmos (Повне зібрання)",
+    "title": "Cosmos",
     "author": "Carl Sagan",
-    "year": 2024,
+    "year": 1980,
     "language": "English",
     "genres": [
       {
@@ -25764,7 +25764,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -25780,9 +25780,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000757",
-    "title": "The Selfish Gene (Повне зібрання)",
+    "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "year": 2024,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -25795,7 +25795,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -25811,9 +25811,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000758",
-    "title": "The 48 Laws of Power (Повне зібрання)",
+    "title": "The 48 Laws of Power",
     "author": "Robert Greene",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -25830,7 +25830,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -25846,9 +25846,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000759",
-    "title": "The Prince (Повне зібрання)",
+    "title": "The Prince",
     "author": "Niccolò Machiavelli",
-    "year": 1580,
+    "year": 1532,
     "language": "English",
     "genres": [
       {
@@ -25865,7 +25865,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -25881,7 +25881,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000760",
-    "title": "The Art of War (Повне зібрання)",
+    "title": "The Art of War",
     "author": "Sun Tzu",
     "year": 1900,
     "language": "English",
@@ -25900,7 +25900,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ancient Chinese military treatise on deception, strategic positioning, and overcoming conflict without battle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/id/8235500-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -25916,9 +25916,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000761",
-    "title": "Кобзар (Ювілейне видання)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1915,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -25931,7 +25931,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -25947,9 +25947,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000762",
-    "title": "Гайдамаки (Ювілейне видання)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1916,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -25966,7 +25966,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -25982,9 +25982,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000763",
-    "title": "Захар Беркут (Ювілейне видання)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1958,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26001,7 +26001,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -26017,9 +26017,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000764",
-    "title": "Перехресні стежки (Ювілейне видання)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 1975,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26036,7 +26036,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -26052,9 +26052,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000765",
-    "title": "Украдене щастя (Ювілейне видання)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 1968,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26067,7 +26067,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -26083,9 +26083,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000766",
-    "title": "Мойсей (Ювілейне видання)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 1980,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26102,7 +26102,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -26118,9 +26118,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000767",
-    "title": "Лісова пісня (Ювілейне видання)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 1986,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26137,7 +26137,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -26153,9 +26153,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000768",
-    "title": "Бояриня (Ювілейне видання)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 1985,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26168,7 +26168,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -26184,9 +26184,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000769",
-    "title": "Камінний господар (Ювілейне видання)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 1987,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26203,7 +26203,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -26219,9 +26219,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000770",
-    "title": "Тіні забутих предків (Ювілейне видання)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 1986,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26238,7 +26238,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -26254,9 +26254,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000771",
-    "title": "Fata Morgana (Ювілейне видання)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 1985,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26273,7 +26273,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -26289,9 +26289,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000772",
-    "title": "Intermezzo (Ювілейне видання)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 1983,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26304,7 +26304,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -26320,9 +26320,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000773",
-    "title": "Кайдашева сім'я (Ювілейне видання)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1953,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26335,7 +26335,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -26351,9 +26351,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000774",
-    "title": "Микола Джеря (Ювілейне видання)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1953,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26370,7 +26370,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -26386,9 +26386,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000775",
-    "title": "Енеїда (Ювілейне видання)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1873,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26405,7 +26405,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -26421,9 +26421,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000776",
-    "title": "Наталка Полтавка (Ювілейне видання)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1894,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26436,7 +26436,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -26452,9 +26452,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000777",
-    "title": "Тигролови (Ювілейне видання)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 2019,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26471,7 +26471,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -26487,9 +26487,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000778",
-    "title": "Сад Гетсиманський (Ювілейне видання)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 2024,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26506,7 +26506,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -26522,9 +26522,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000779",
-    "title": "Місто (Ювілейне видання)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 2003,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26541,7 +26541,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -26557,9 +26557,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000780",
-    "title": "Невеличка драма (Ювілейне видання)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 2005,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26572,7 +26572,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -26588,9 +26588,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000781",
-    "title": "Я (Романтика) (Ювілейне видання)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 1999,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26603,7 +26603,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -26619,9 +26619,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000782",
-    "title": "Маруся Чурай (Ювілейне видання)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26638,7 +26638,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -26654,9 +26654,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000783",
-    "title": "Записки українського самашедшого (Ювілейне видання)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26669,7 +26669,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -26685,9 +26685,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000784",
-    "title": "Інтернат (Ювілейне видання)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26700,7 +26700,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -26716,9 +26716,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000785",
-    "title": "Ворошиловград (Ювілейне видання)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26731,7 +26731,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -26747,9 +26747,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000786",
-    "title": "Депеш Мод (Ювілейне видання)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26762,7 +26762,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -26778,9 +26778,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000787",
-    "title": "Месопотамія (Ювілейне видання)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26797,7 +26797,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -26813,9 +26813,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000788",
-    "title": "Польові дослідження з українського сексу (Ювілейне видання)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26832,7 +26832,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -26848,9 +26848,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000789",
-    "title": "Музей покинутих секретів (Ювілейне видання)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26867,7 +26867,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -26883,9 +26883,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000790",
-    "title": "Московіада (Ювілейне видання)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26898,7 +26898,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -26914,9 +26914,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000791",
-    "title": "Перверзія (Ювілейне видання)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26933,7 +26933,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -26949,9 +26949,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000792",
-    "title": "Культ (Ювілейне видання)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2024,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -26968,7 +26968,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -26984,9 +26984,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000793",
-    "title": "Танго смерті (Ювілейне видання)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27003,7 +27003,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -27019,9 +27019,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000794",
-    "title": "Чорний Ворон (Ювілейне видання)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27038,7 +27038,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -27054,9 +27054,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000795",
-    "title": "Колонія. Нові темні віки (Ювілейне видання)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27069,7 +27069,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -27085,9 +27085,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000796",
-    "title": "Не озирайся і мовчи (Ювілейне видання)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27100,7 +27100,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -27116,9 +27116,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000797",
-    "title": "Фелікс Австрія (Ювілейне видання)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27135,7 +27135,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -27151,9 +27151,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000798",
-    "title": "Амадока (Ювілейне видання)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27170,7 +27170,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -27186,9 +27186,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000799",
-    "title": "Точка нуль (Ювілейне видання)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27201,7 +27201,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -27217,9 +27217,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000800",
-    "title": "Хто ти такий? (Ювілейне видання)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27232,7 +27232,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -27248,9 +27248,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000801",
-    "title": "Чорна рада (Ювілейне видання)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1932,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27267,7 +27267,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -27283,9 +27283,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000802",
-    "title": "Хіба ревуть воли, як ясла повні? (Ювілейне видання)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1955,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27302,7 +27302,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -27318,9 +27318,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000803",
-    "title": "Камінний хрест (Ювілейне видання)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 1975,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27333,7 +27333,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -27349,9 +27349,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000804",
-    "title": "Записки кирпатого Мефістофеля (Ювілейне видання)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 1992,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27368,7 +27368,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -27384,9 +27384,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000805",
-    "title": "Мина Мазайло (Ювілейне видання)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 2004,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27399,7 +27399,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -27415,9 +27415,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000806",
-    "title": "Червоний (Ювілейне видання)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -27434,7 +27434,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -27450,9 +27450,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000807",
-    "title": "1984 (Ювілейне видання)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 2024,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -27469,7 +27469,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -27485,9 +27485,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000808",
-    "title": "Animal Farm (Ювілейне видання)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 2020,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -27504,7 +27504,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -27520,9 +27520,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000809",
-    "title": "Brave New World (Ювілейне видання)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 2007,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -27539,7 +27539,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -27555,9 +27555,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000810",
-    "title": "Fahrenheit 451 (Ювілейне видання)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 2024,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -27570,7 +27570,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -27586,9 +27586,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000811",
-    "title": "The Hobbit (Ювілейне видання)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 2012,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -27605,7 +27605,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -27621,9 +27621,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000812",
-    "title": "The Fellowship of the Ring (Ювілейне видання)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -27640,7 +27640,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -27656,9 +27656,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000813",
-    "title": "The Two Towers (Ювілейне видання)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -27671,7 +27671,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -27687,9 +27687,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000814",
-    "title": "The Return of the King (Ювілейне видання)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -27702,7 +27702,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -27718,9 +27718,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000815",
-    "title": "Dune (Ювілейне видання)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -27737,7 +27737,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -27753,9 +27753,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000816",
-    "title": "Dune Messiah (Ювілейне видання)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -27768,7 +27768,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -27784,9 +27784,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000817",
-    "title": "Children of Dune (Ювілейне видання)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -27799,7 +27799,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -27815,9 +27815,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000818",
-    "title": "Foundation (Ювілейне видання)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -27830,7 +27830,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -27846,9 +27846,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000819",
-    "title": "Foundation and Empire (Ювілейне видання)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -27857,7 +27857,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -27873,9 +27873,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000820",
-    "title": "Second Foundation (Ювілейне видання)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -27884,7 +27884,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -27900,9 +27900,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000821",
-    "title": "Do Androids Dream of Electric Sheep? (Ювілейне видання)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 2024,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -27915,7 +27915,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -27931,9 +27931,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000822",
-    "title": "Neuromancer (Ювілейне видання)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 2024,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -27942,7 +27942,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -27958,9 +27958,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000823",
-    "title": "A Game of Thrones (Ювілейне видання)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -27973,7 +27973,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -27989,9 +27989,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000824",
-    "title": "A Clash of Kings (Ювілейне видання)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -28004,7 +28004,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -28020,9 +28020,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000825",
-    "title": "A Storm of Swords (Ювілейне видання)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -28035,7 +28035,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -28051,9 +28051,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000826",
-    "title": "American Gods (Ювілейне видання)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -28066,7 +28066,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -28082,9 +28082,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000827",
-    "title": "Neverwhere (Ювілейне видання)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -28097,7 +28097,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -28113,9 +28113,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000828",
-    "title": "The Shining (Ювілейне видання)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -28128,7 +28128,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -28144,9 +28144,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000829",
-    "title": "It (Ювілейне видання)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -28159,7 +28159,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -28175,9 +28175,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000830",
-    "title": "Misery (Ювілейне видання)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -28190,7 +28190,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -28206,9 +28206,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000831",
-    "title": "The Stand (Ювілейне видання)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -28225,7 +28225,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -28241,9 +28241,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000832",
-    "title": "A Study in Scarlet (Ювілейне видання)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1962,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -28256,7 +28256,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -28272,9 +28272,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000833",
-    "title": "The Hound of the Baskervilles (Ювілейне видання)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 1977,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -28291,7 +28291,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -28307,9 +28307,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000834",
-    "title": "Murder on the Orient Express (Ювілейне видання)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 2009,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -28322,7 +28322,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -28338,9 +28338,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000835",
-    "title": "And Then There Were None (Ювілейне видання)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 2014,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -28353,7 +28353,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -28369,9 +28369,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000836",
-    "title": "The Great Gatsby (Ювілейне видання)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 2000,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -28384,7 +28384,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -28400,9 +28400,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000837",
-    "title": "The Old Man and the Sea (Ювілейне видання)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 2024,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -28419,7 +28419,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -28435,9 +28435,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000838",
-    "title": "For Whom the Bell Tolls (Ювілейне видання)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 2015,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -28454,7 +28454,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -28470,9 +28470,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000839",
-    "title": "The Catcher in the Rye (Ювілейне видання)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 2024,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -28485,7 +28485,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -28501,9 +28501,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000840",
-    "title": "To Kill a Mockingbird (Ювілейне видання)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 2024,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -28516,7 +28516,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -28532,9 +28532,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000841",
-    "title": "Pride and Prejudice (Ювілейне видання)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1888,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -28547,7 +28547,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -28563,9 +28563,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000842",
-    "title": "Jane Eyre (Ювілейне видання)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1922,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -28578,7 +28578,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -28594,9 +28594,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000843",
-    "title": "Wuthering Heights (Ювілейне видання)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1922,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -28613,7 +28613,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -28629,9 +28629,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000844",
-    "title": "The Picture of Dorian Gray (Ювілейне видання)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1965,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -28648,7 +28648,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -28664,9 +28664,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000845",
-    "title": "Frankenstein (Ювілейне видання)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1893,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -28683,7 +28683,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -28699,9 +28699,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000846",
-    "title": "Dracula (Ювілейне видання)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 1972,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -28714,7 +28714,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -28730,9 +28730,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000847",
-    "title": "The Road (Ювілейне видання)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2024,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -28749,7 +28749,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -28765,9 +28765,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000848",
-    "title": "The Handmaid's Tale (Ювілейне видання)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 2024,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -28780,7 +28780,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -28796,9 +28796,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000849",
-    "title": "Never Let Me Go (Ювілейне видання)",
+    "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "year": 2024,
+    "year": 2005,
     "language": "English",
     "genres": [
       {
@@ -28815,7 +28815,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Kathy, Tommy, and Ruth grow up at Hailsham school, slowly uncovering the truth of their existence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400078776-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -28831,9 +28831,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000850",
-    "title": "Norwegian Wood (Ювілейне видання)",
+    "title": "Norwegian Wood",
     "author": "Haruki Murakami",
-    "year": 2024,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -28846,7 +28846,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Toru Watanabe reflects on youth, suicide, and profound nostalgia in 1960s Tokyo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780375704024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -28862,9 +28862,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000851",
-    "title": "Kafka on the Shore (Ювілейне видання)",
+    "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "year": 2024,
+    "year": 2002,
     "language": "English",
     "genres": [
       {
@@ -28881,7 +28881,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400079278-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -28897,9 +28897,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000852",
-    "title": "Le Petit Prince (Ювілейне видання)",
+    "title": "Le Petit Prince",
     "author": "Antoine de Saint-Exupéry",
-    "year": 2018,
+    "year": 1943,
     "language": "French",
     "genres": [
       {
@@ -28916,7 +28916,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Conte poétique et philosophique explorant l'amitié, l'amour et ce qui est invisible pour les yeux.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070612758-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -28932,9 +28932,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000853",
-    "title": "L'Étranger (Ювілейне видання)",
+    "title": "L'Étranger",
     "author": "Albert Camus",
-    "year": 2017,
+    "year": 1942,
     "language": "French",
     "genres": [
       {
@@ -28947,7 +28947,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Meursault tue un homme sur une plage d'Alger et affronte l'absurdité de la justice humaine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -28963,9 +28963,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000854",
-    "title": "La Peste (Ювілейне видання)",
+    "title": "La Peste",
     "author": "Albert Camus",
-    "year": 2022,
+    "year": 1947,
     "language": "French",
     "genres": [
       {
@@ -28982,7 +28982,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Chronique héroïque de solidarité humaine face au fléau mortel qui frappe la ville d'Oran.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070360420-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -28998,9 +28998,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000855",
-    "title": "Les Misérables (Ювілейне видання)",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
-    "year": 1937,
+    "year": 1862,
     "language": "French",
     "genres": [
       {
@@ -29017,7 +29017,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'épopée monumentale de Jean Valjean, Javert, Cosette et Gavroche dans le Paris révolutionnaire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253096337-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -29033,9 +29033,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000856",
-    "title": "Notre-Dame de Paris (Ювілейне видання)",
+    "title": "Notre-Dame de Paris",
     "author": "Victor Hugo",
-    "year": 1906,
+    "year": 1831,
     "language": "French",
     "genres": [
       {
@@ -29052,7 +29052,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le drame gothique d'Esméralda, Quasimodo et Claude Frollo au cœur de la cathédrale médiévale.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253009689-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -29068,9 +29068,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000857",
-    "title": "Le Comte de Monte-Cristo (Ювілейне видання)",
+    "title": "Le Comte de Monte-Cristo",
     "author": "Alexandre Dumas",
-    "year": 1919,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -29083,7 +29083,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Edmond Dantès s'échappe du château d'If pour orchestrer une vengeance implacable contre ses traîtres.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253098553-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -29099,9 +29099,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000858",
-    "title": "Les Trois Mousquetaires (Ювілейне видання)",
+    "title": "Les Trois Mousquetaires",
     "author": "Alexandre Dumas",
-    "year": 1919,
+    "year": 1844,
     "language": "French",
     "genres": [
       {
@@ -29114,7 +29114,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Les prouesses de d'Artagnan, Athos, Porthos et Aramis pour sauver l'honneur de la reine de France.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253008989-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -29130,9 +29130,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000859",
-    "title": "Madame Bovary (Ювілейне видання)",
+    "title": "Madame Bovary",
     "author": "Gustave Flaubert",
-    "year": 1932,
+    "year": 1857,
     "language": "French",
     "genres": [
       {
@@ -29145,7 +29145,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emma Bovary cherche à fuir la banalité provinciale à travers des liaisons amoureuses destructrices.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004455-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -29161,9 +29161,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000860",
-    "title": "Du côté de chez Swann (Ювілейне видання)",
+    "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1988,
+    "year": 1913,
     "language": "French",
     "genres": [
       {
@@ -29180,7 +29180,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le premier volet d'À la recherche du temps perdu, le souvenir de Combray et la madeleine.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782070379248-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -29196,9 +29196,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000861",
-    "title": "Germinal (Ювілейне видання)",
+    "title": "Germinal",
     "author": "Émile Zola",
-    "year": 1960,
+    "year": 1885,
     "language": "French",
     "genres": [
       {
@@ -29215,7 +29215,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La grande révolte des mineurs de charbon du Nord emmenés par Étienne Lantier pour leur survie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253004226-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -29231,9 +29231,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000862",
-    "title": "Vingt mille lieues sous les mers (Ювілейне видання)",
+    "title": "Vingt mille lieues sous les mers",
     "author": "Jules Verne",
-    "year": 1945,
+    "year": 1870,
     "language": "French",
     "genres": [
       {
@@ -29250,7 +29250,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'exploration des fonds marins à bord du sous-marin Nautilus sous les ordres du mystérieux capitaine Nemo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253006329-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -29266,9 +29266,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000863",
-    "title": "Le Tour du monde en quatre-vingts jours (Ювілейне видання)",
+    "title": "Le Tour du monde en quatre-vingts jours",
     "author": "Jules Verne",
-    "year": 1947,
+    "year": 1872,
     "language": "French",
     "genres": [
       {
@@ -29281,7 +29281,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9782253005896-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -29297,9 +29297,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000864",
-    "title": "Der Steppenwolf (Ювілейне видання)",
+    "title": "Der Steppenwolf",
     "author": "Hermann Hesse",
-    "year": 2002,
+    "year": 1927,
     "language": "German",
     "genres": [
       {
@@ -29316,7 +29316,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die Zerrissenheit von Harry Haller zwischen bürgerlichem Intellekt und der ungezähmten Natur des Steppenwolfs.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366752-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -29332,9 +29332,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000865",
-    "title": "Siddhartha (Ювілейне видання)",
+    "title": "Siddhartha",
     "author": "Hermann Hesse",
-    "year": 1997,
+    "year": 1922,
     "language": "German",
     "genres": [
       {
@@ -29347,7 +29347,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die spirituelle Reise eines jungen indischen Brahmanen auf der Suche nach Erleuchtung und innerem Frieden.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518366820-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -29363,9 +29363,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000866",
-    "title": "Demian (Ювілейне видання)",
+    "title": "Demian",
     "author": "Hermann Hesse",
-    "year": 1994,
+    "year": 1919,
     "language": "German",
     "genres": [
       {
@@ -29378,7 +29378,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Emil Sinclairs innere Wandlung unter dem faszinierenden Einfluss seines Schulfreundes Max Demian.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783518367001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -29394,9 +29394,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000867",
-    "title": "Die Verwandlung (Ювілейне видання)",
+    "title": "Die Verwandlung",
     "author": "Franz Kafka",
-    "year": 1990,
+    "year": 1915,
     "language": "German",
     "genres": [
       {
@@ -29409,7 +29409,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gregor Samsa erwacht eines Morgens zu einem ungeheuren Ungeziefer verwandelt und erlebt die Entfremdung.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150099001-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -29425,9 +29425,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000868",
-    "title": "Der Process (Ювілейне видання)",
+    "title": "Der Process",
     "author": "Franz Kafka",
-    "year": 2000,
+    "year": 1925,
     "language": "German",
     "genres": [
       {
@@ -29444,7 +29444,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Josef K. wird ohne erkennbaren Grund verhaftet und in das undurchdringliche Labyrinth der Justiz verstrickt.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596123407-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -29460,9 +29460,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000869",
-    "title": "Faust (Ювілейне видання)",
+    "title": "Faust",
     "author": "Johann Wolfgang von Goethe",
-    "year": 1883,
+    "year": 1808,
     "language": "German",
     "genres": [
       {
@@ -29479,7 +29479,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Die monumentale Tragödie des Gelehrten Heinrich Faust und sein Pakt mit dem Teufel Mephistopheles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150000014-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -29495,9 +29495,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000870",
-    "title": "Im Westen nichts Neues (Ювілейне видання)",
+    "title": "Im Westen nichts Neues",
     "author": "Erich Maria Remarque",
-    "year": 2004,
+    "year": 1929,
     "language": "German",
     "genres": [
       {
@@ -29514,7 +29514,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Das schonungslose Antikriegswerk über die Schrecken und Entmenschlichung der Schützengräben im Ersten Weltkrieg.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046335-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -29530,9 +29530,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000871",
-    "title": "Drei Kameraden (Ювілейне видання)",
+    "title": "Drei Kameraden",
     "author": "Erich Maria Remarque",
-    "year": 2011,
+    "year": 1936,
     "language": "German",
     "genres": [
       {
@@ -29549,7 +29549,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Freundschaft dreier Kriegsheimkehrer und die ergreifende Liebe zwischen Robert und der unheilbar kranken Pat.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783462046311-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -29565,9 +29565,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000872",
-    "title": "Der Zauberberg (Ювілейне видання)",
+    "title": "Der Zauberberg",
     "author": "Thomas Mann",
-    "year": 1999,
+    "year": 1924,
     "language": "German",
     "genres": [
       {
@@ -29580,7 +29580,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hans Castorps siebenjähriger Aufenthalt in einem Schweizer Sanatorium als Spiegelbild der europäischen Kulturkrise.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783596294336-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -29596,9 +29596,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000873",
-    "title": "Also sprach Zarathustra (Ювілейне видання)",
+    "title": "Also sprach Zarathustra",
     "author": "Friedrich Nietzsche",
-    "year": 1958,
+    "year": 1883,
     "language": "German",
     "genres": [
       {
@@ -29615,7 +29615,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nietzsches visionäre philosophische Dichtung über den Übermenschen und die ewige Wiederkehr des Gleichen.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071113-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -29631,9 +29631,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000874",
-    "title": "Jenseits von Gut und Böse (Ювілейне видання)",
+    "title": "Jenseits von Gut und Böse",
     "author": "Friedrich Nietzsche",
-    "year": 1961,
+    "year": 1886,
     "language": "German",
     "genres": [
       {
@@ -29642,7 +29642,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Eine radikale Kritik der traditionellen Moral, der Metaphysik und die Grundlegung des Willens zur Macht.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783150071106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -29658,9 +29658,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000875",
-    "title": "Das Parfum (Ювілейне видання)",
+    "title": "Das Parfum",
     "author": "Patrick Süskind",
-    "year": 2024,
+    "year": 1985,
     "language": "German",
     "genres": [
       {
@@ -29677,7 +29677,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9783257214604-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -29693,9 +29693,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000876",
-    "title": "Solaris (Ювілейне видання)",
+    "title": "Solaris",
     "author": "Stanisław Lem",
-    "year": 2024,
+    "year": 1961,
     "language": "Polish",
     "genres": [
       {
@@ -29708,7 +29708,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Klasyczna powieść science fiction o próbie kontaktu ludzkich naukowców z żyjącym, myślącym oceanem obcej planety.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049006-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -29724,9 +29724,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000877",
-    "title": "Cyberiada (Ювілейне видання)",
+    "title": "Cyberiada",
     "author": "Stanisław Lem",
-    "year": 2024,
+    "year": 1965,
     "language": "Polish",
     "genres": [
       {
@@ -29743,7 +29743,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Fascynujące i pełne humoru opowieści o genialnych konstruktorach Trurlu i Klapaucjuszu budujących wszechświaty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308049013-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -29759,9 +29759,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000878",
-    "title": "Ostatnie życzenie (Ювілейне видання)",
+    "title": "Ostatnie życzenie",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1993,
     "language": "Polish",
     "genres": [
       {
@@ -29774,7 +29774,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Początek sagi o wiedźminie Geralcie z Rivii, polującym na potwory w świecie, gdzie zło bywa mniejsze i większe.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780635-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -29790,9 +29790,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000879",
-    "title": "Miecz przeznaczenia (Ювілейне видання)",
+    "title": "Miecz przeznaczenia",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1992,
     "language": "Polish",
     "genres": [
       {
@@ -29805,7 +29805,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Zbiór opowiadań ukazujący pierwsze spotkanie Geralta z dzieckiem niespodzianką — księżniczką Ciri z Cintry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780642-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -29821,9 +29821,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000880",
-    "title": "Krew elfów (Ювілейне видання)",
+    "title": "Krew elfów",
     "author": "Andrzej Sapkowski",
-    "year": 2024,
+    "year": 1994,
     "language": "Polish",
     "genres": [
       {
@@ -29836,7 +29836,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pierwsza powieść wiedzmińskiej sagi o szkoleniu Ciri w Kaer Morhen i rosnącym zagrożeniu wojną z Nilfgaardem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788375780659-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -29852,9 +29852,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000881",
-    "title": "Bieguni (Ювілейне видання)",
+    "title": "Bieguni",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2007,
     "language": "Polish",
     "genres": [
       {
@@ -29867,7 +29867,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Międzynarodowym Bookerem powieść konstelacyjna o podróży, anatomii ciała i współczesnym koczownictwie.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308041697-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -29883,9 +29883,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000882",
-    "title": "Prowadź swój pług przez kości umarłych (Ювілейне видання)",
+    "title": "Prowadź swój pług przez kości umarłych",
     "author": "Olga Tokarczuk",
-    "year": 2024,
+    "year": 2009,
     "language": "Polish",
     "genres": [
       {
@@ -29902,7 +29902,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Mroczny i błyskotliwy kryminał moralny o Janinie Duszejko i tajemniczych zgonach myśliwych w Kotlinie Kłodzkiej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788308043691-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -29918,9 +29918,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000883",
-    "title": "Pan Tadeusz (Ювілейне видання)",
+    "title": "Pan Tadeusz",
     "author": "Adam Mickiewicz",
-    "year": 1909,
+    "year": 1834,
     "language": "Polish",
     "genres": [
       {
@@ -29937,7 +29937,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Polska epopeja narodowa ukazująca szlachecki dwór w Soplicowie, spory rodowe i nadzieje na wolność z Napoleonem.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788304000452-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -29953,9 +29953,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000884",
-    "title": "Quo Vadis (Ювілейне видання)",
+    "title": "Quo Vadis",
     "author": "Henryk Sienkiewicz",
-    "year": 1971,
+    "year": 1896,
     "language": "Polish",
     "genres": [
       {
@@ -29972,7 +29972,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nagrodzona Noblem powieść historyczna o miłości patrycjusza Winicjusza i chrześcijanki Ligii w płonącym Rzymie Nerona.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271876-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -29988,9 +29988,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000885",
-    "title": "Ogniem i mieczem (Ювілейне видання)",
+    "title": "Ogniem i mieczem",
     "author": "Henryk Sienkiewicz",
-    "year": 1959,
+    "year": 1884,
     "language": "Polish",
     "genres": [
       {
@@ -30007,7 +30007,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788373271883-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -30023,9 +30023,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000886",
-    "title": "Don Quijote de la Mancha (Ювілейне видання)",
+    "title": "Don Quijote de la Mancha",
     "author": "Miguel de Cervantes",
-    "year": 1680,
+    "year": 1605,
     "language": "Spanish",
     "genres": [
       {
@@ -30038,7 +30038,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Las inmortales andanzas del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza contra molinos de viento.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -30054,9 +30054,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000887",
-    "title": "Cien años de soledad (Ювілейне видання)",
+    "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
-    "year": 2024,
+    "year": 1967,
     "language": "Spanish",
     "genres": [
       {
@@ -30073,7 +30073,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La cumbre del realismo mágico: la saga de siete generaciones de la familia Buendía en el mítico pueblo de Macondo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -30089,9 +30089,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000888",
-    "title": "El amor en los tiempos del cólera (Ювілейне видання)",
+    "title": "El amor en los tiempos del cólera",
     "author": "Gabriel García Márquez",
-    "year": 2024,
+    "year": 1985,
     "language": "Spanish",
     "genres": [
       {
@@ -30104,7 +30104,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La paciente y apasionada devoción de Florentino Ariza esperando más de medio siglo el amor de Fermina Daza.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387264-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -30120,9 +30120,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000889",
-    "title": "Crónica de una muerte anunciada (Ювілейне видання)",
+    "title": "Crónica de una muerte anunciada",
     "author": "Gabriel García Márquez",
-    "year": 2024,
+    "year": 1981,
     "language": "Spanish",
     "genres": [
       {
@@ -30135,7 +30135,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "La reconstrucción periodística y literaria del asesinato premeditado de Santiago Nasar que todo el pueblo conocía.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400034710-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -30151,9 +30151,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000890",
-    "title": "Ficciones (Ювілейне видання)",
+    "title": "Ficciones",
     "author": "Jorge Luis Borges",
-    "year": 2019,
+    "year": 1944,
     "language": "Spanish",
     "genres": [
       {
@@ -30170,7 +30170,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Colección magistral de laberintos, bibliotecas infinitas, espejos y enigmas metafísicos.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307950925-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -30186,9 +30186,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000891",
-    "title": "Rayuela (Ювілейне видання)",
+    "title": "Rayuela",
     "author": "Julio Cortázar",
-    "year": 2024,
+    "year": 1963,
     "language": "Spanish",
     "genres": [
       {
@@ -30205,7 +30205,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novela contranovelística revolucionaria que puede leerse de múltiples formas a través de París y Buenos Aires.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788466331906-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -30221,9 +30221,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000892",
-    "title": "La sombra del viento (Ювілейне видання)",
+    "title": "La sombra del viento",
     "author": "Carlos Ruiz Zafón",
-    "year": 2024,
+    "year": 2001,
     "language": "Spanish",
     "genres": [
       {
@@ -30240,7 +30240,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -30256,9 +30256,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000893",
-    "title": "Divina Commedia (Ювілейне видання)",
+    "title": "Divina Commedia",
     "author": "Dante Alighieri",
-    "year": 1395,
+    "year": 1320,
     "language": "Italian",
     "genres": [
       {
@@ -30275,7 +30275,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Il viaggio allegorico attraverso Inferno, Purgatorio e Paradiso guidato da Virgilio e Beatrice.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788806228583-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -30291,9 +30291,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000894",
-    "title": "Il nome della rosa (Ювілейне видання)",
+    "title": "Il nome della rosa",
     "author": "Umberto Eco",
-    "year": 2024,
+    "year": 1980,
     "language": "Italian",
     "genres": [
       {
@@ -30310,7 +30310,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Guglielmo da Baskerville indaga su una serie di misteriosi delitti in un'abbazia benedettina del XIV secolo.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278655-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -30326,9 +30326,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000895",
-    "title": "Il pendolo di Foucault (Ювілейне видання)",
+    "title": "Il pendolo di Foucault",
     "author": "Umberto Eco",
-    "year": 2024,
+    "year": 1988,
     "language": "Italian",
     "genres": [
       {
@@ -30345,7 +30345,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Tre redattori creano per gioco un gigantesco complotto ermetico che finisce per prendere vita.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788845278662-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -30361,9 +30361,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000896",
-    "title": "Le città invisibili (Ювілейне видання)",
+    "title": "Le città invisibili",
     "author": "Italo Calvino",
-    "year": 2024,
+    "year": 1972,
     "language": "Italian",
     "genres": [
       {
@@ -30380,7 +30380,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "I dialoghi poetici tra Marco Polo e l'imperatore Kublai Khan sulle meraviglie delle città dell'immaginazione.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788804667957-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -30396,9 +30396,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000897",
-    "title": "L'amica geniale (Ювілейне видання)",
+    "title": "L'amica geniale",
     "author": "Elena Ferrante",
-    "year": 2024,
+    "year": 2011,
     "language": "Italian",
     "genres": [
       {
@@ -30411,7 +30411,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9788866320326-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -30427,9 +30427,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000898",
-    "title": "Sapiens: A Brief History of Humankind (Ювілейне видання)",
+    "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -30446,7 +30446,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An exhilarating exploration of how an insignificant ape became the master of planet Earth.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -30462,9 +30462,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000899",
-    "title": "Homo Deus: A Brief History of Tomorrow (Ювілейне видання)",
+    "title": "Homo Deus: A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
-    "year": 2024,
+    "year": 2015,
     "language": "English",
     "genres": [
       {
@@ -30481,7 +30481,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Provocative examination of future dreams, artificial intelligence, and the destiny of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062464316-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -30497,9 +30497,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000900",
-    "title": "Thinking, Fast and Slow (Ювілейне видання)",
+    "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "year": 2024,
+    "year": 2011,
     "language": "English",
     "genres": [
       {
@@ -30516,7 +30516,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Nobel laureate Kahneman reveals the dual systems of human intuition, bias, and decision-making.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -30532,9 +30532,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000901",
-    "title": "Antifragile: Things That Gain from Disorder (Ювілейне видання)",
+    "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2012,
     "language": "English",
     "genres": [
       {
@@ -30551,7 +30551,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "How certain systems, businesses, and people thrive under volatility, stress, and uncertainty.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780812979688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -30567,9 +30567,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000902",
-    "title": "The Black Swan (Ювілейне видання)",
+    "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb",
-    "year": 2024,
+    "year": 2007,
     "language": "English",
     "genres": [
       {
@@ -30586,7 +30586,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The impact of highly improbable, massive-consequence events and our collective blindness to them.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781400063512-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -30602,9 +30602,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000903",
-    "title": "Atomic Habits (Ювілейне видання)",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "year": 2024,
+    "year": 2018,
     "language": "English",
     "genres": [
       {
@@ -30617,7 +30617,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An easy and proven way to build good habits, break bad ones, and achieve remarkable results.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -30633,9 +30633,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000904",
-    "title": "Meditations (Ювілейне видання)",
+    "title": "Meditations",
     "author": "Marcus Aurelius",
-    "year": 255,
+    "year": 180,
     "language": "English",
     "genres": [
       {
@@ -30648,7 +30648,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The personal private journal of the Roman Emperor practicing Stoic mindfulness, virtue, and resilience.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -30664,9 +30664,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000905",
-    "title": "Letters from a Stoic (Ювілейне видання)",
+    "title": "Letters from a Stoic",
     "author": "Seneca",
-    "year": 140,
+    "year": 65,
     "language": "English",
     "genres": [
       {
@@ -30679,7 +30679,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Timeless ethical counsel on overcoming fear, handling grief, living simply, and finding tranquil peace.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140442106-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -30695,9 +30695,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000906",
-    "title": "Man's Search for Meaning (Ювілейне видання)",
+    "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
-    "year": 2021,
+    "year": 1946,
     "language": "English",
     "genres": [
       {
@@ -30714,7 +30714,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Psychiatrist Frankl's harrowing experience in Nazi concentration camps and the birth of logotherapy.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780807014295-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -30730,9 +30730,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000907",
-    "title": "A Brief History of Time (Ювілейне видання)",
+    "title": "A Brief History of Time",
     "author": "Stephen Hawking",
-    "year": 2024,
+    "year": 1988,
     "language": "English",
     "genres": [
       {
@@ -30745,7 +30745,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Landmark book explaining the Big Bang, black holes, light cones, and the nature of space-time.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -30761,9 +30761,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000908",
-    "title": "Cosmos (Ювілейне видання)",
+    "title": "Cosmos",
     "author": "Carl Sagan",
-    "year": 2024,
+    "year": 1980,
     "language": "English",
     "genres": [
       {
@@ -30776,7 +30776,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Lyrical and awe-inspiring scientific journey through the fifteen billion years of cosmic evolution.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345331359-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -30792,9 +30792,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000909",
-    "title": "The Selfish Gene (Ювілейне видання)",
+    "title": "The Selfish Gene",
     "author": "Richard Dawkins",
-    "year": 2024,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -30807,7 +30807,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Gene-centric view of evolution introducing the concept of the meme and natural selection dynamics.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -30823,9 +30823,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000910",
-    "title": "The 48 Laws of Power (Ювілейне видання)",
+    "title": "The 48 Laws of Power",
     "author": "Robert Greene",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -30842,7 +30842,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Amoral, cunning, and ruthless distilled wisdom of three thousand years of history and power struggle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140280197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -30858,9 +30858,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000911",
-    "title": "The Prince (Ювілейне видання)",
+    "title": "The Prince",
     "author": "Niccolò Machiavelli",
-    "year": 1607,
+    "year": 1532,
     "language": "English",
     "genres": [
       {
@@ -30877,7 +30877,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Pragmatic treatise on statecraft, political survival, and the cold realities of gaining and holding power.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140449150-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -30893,7 +30893,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000912",
-    "title": "The Art of War (Ювілейне видання)",
+    "title": "The Art of War",
     "author": "Sun Tzu",
     "year": 1900,
     "language": "English",
@@ -30912,7 +30912,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ancient Chinese military treatise on deception, strategic positioning, and overcoming conflict without battle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/id/8235500-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -30928,9 +30928,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000913",
-    "title": "Кобзар (Том 2)",
+    "title": "Кобзар",
     "author": "Тарас Шевченко",
-    "year": 1948,
+    "year": 1840,
     "language": "Ukrainian",
     "genres": [
       {
@@ -30943,7 +30943,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Фундаментальна збірка поетичних творів, яка стала духовною основою модерної української нації та мови.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -30959,9 +30959,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000914",
-    "title": "Гайдамаки (Том 3)",
+    "title": "Гайдамаки",
     "author": "Тарас Шевченко",
-    "year": 1949,
+    "year": 1841,
     "language": "Ukrainian",
     "genres": [
       {
@@ -30978,7 +30978,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історична поема про масштабне народне повстання Коліївщини 1768 року.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -30994,9 +30994,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000915",
-    "title": "Захар Беркут (Том 1)",
+    "title": "Захар Беркут",
     "author": "Іван Франко",
-    "year": 1991,
+    "year": 1883,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31013,7 +31013,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Героїчна повість про мужню боротьбу карпатської тухольської громади проти монголо-татарської навали.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -31029,9 +31029,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000916",
-    "title": "Перехресні стежки (Том 2)",
+    "title": "Перехресні стежки",
     "author": "Іван Франко",
-    "year": 2008,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31048,7 +31048,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про громадську боротьбу адвоката Рафаловича та трагічні повороти кохання.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -31064,9 +31064,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000917",
-    "title": "Украдене щастя (Том 3)",
+    "title": "Украдене щастя",
     "author": "Іван Франко",
-    "year": 2001,
+    "year": 1893,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31079,7 +31079,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична драма про трагічний любовний трикутник та знівечену жіночу долю в галицькому селі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -31095,9 +31095,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000918",
-    "title": "Мойсей (Том 1)",
+    "title": "Мойсей",
     "author": "Іван Франко",
-    "year": 2013,
+    "year": 1905,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31114,7 +31114,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Філософська поема про випробування лідера, віру народу та довгий шлях до омріяної свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -31130,9 +31130,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000919",
-    "title": "Лісова пісня (Том 2)",
+    "title": "Лісова пісня",
     "author": "Леся Українка",
-    "year": 2019,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31149,7 +31149,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драма-феєрія про чисте кохання Мавки й Лукаша, зіткнення вільної духовної краси з матеріальним світом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511497584788-87676104235f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -31165,9 +31165,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000920",
-    "title": "Бояриня (Том 3)",
+    "title": "Бояриня",
     "author": "Леся Українка",
-    "year": 2018,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31180,7 +31180,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Драматична поема доби Руїни про культурний розлом між козацькою Україною та Московією.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -31196,9 +31196,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000921",
-    "title": "Камінний господар (Том 1)",
+    "title": "Камінний господар",
     "author": "Леся Українка",
-    "year": 2020,
+    "year": 1912,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31215,7 +31215,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Новаторська інтерпретація образу Дон Жуана, спокуси абсолютною владою та невідворотної розплати.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -31231,9 +31231,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000922",
-    "title": "Тіні забутих предків (Том 2)",
+    "title": "Тіні забутих предків",
     "author": "Михайло Коцюбинський",
-    "year": 2019,
+    "year": 1911,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31250,7 +31250,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гуцульська історія палкого кохання Івана й Марічки з двох ворогуючих родів серед магічної природи Карпат.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -31266,9 +31266,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000923",
-    "title": "Fata Morgana (Том 3)",
+    "title": "Fata Morgana",
     "author": "Михайло Коцюбинський",
-    "year": 2018,
+    "year": 1910,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31285,7 +31285,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Шедевр психологічної прози про соціальні заворушення та оманливі надії українського селянства.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -31301,9 +31301,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000924",
-    "title": "Intermezzo (Том 1)",
+    "title": "Intermezzo",
     "author": "Михайло Коцюбинський",
-    "year": 2016,
+    "year": 1908,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31316,7 +31316,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Імпресіоністична новела про втому митця від людського болю та зцілення у гармонії з природою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -31332,9 +31332,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000925",
-    "title": "Кайдашева сім'я (Том 2)",
+    "title": "Кайдашева сім'я",
     "author": "Іван Нечуй-Левицький",
-    "year": 1986,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31347,7 +31347,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Безсмертна соціально-побутова повість із тонким гумором та сатирою про родинні суперечки за спадок і землю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
@@ -31363,9 +31363,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000926",
-    "title": "Микола Джеря (Том 3)",
+    "title": "Микола Джеря",
     "author": "Іван Нечуй-Левицький",
-    "year": 1986,
+    "year": 1878,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31382,7 +31382,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Повість про волелюбного бунтаря, який тікає від кріпацького ярма у пошуках справжньої свободи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000026",
     "isForTrade": true,
     "user": {
@@ -31398,9 +31398,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000927",
-    "title": "Енеїда (Том 1)",
+    "title": "Енеїда",
     "author": "Іван Котляревський",
-    "year": 1906,
+    "year": 1798,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31417,7 +31417,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перлина бурлескно-травестійної класики, перший друкований твір народною українською мовою.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000027",
     "isForTrade": true,
     "user": {
@@ -31433,9 +31433,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000928",
-    "title": "Наталка Полтавка (Том 2)",
+    "title": "Наталка Полтавка",
     "author": "Іван Котляревський",
-    "year": 1927,
+    "year": 1819,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31448,7 +31448,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Класична п'єса про вірність, щирість та силу кохання простої дівчини, покладена в основу українського театру.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000028",
     "isForTrade": true,
     "user": {
@@ -31464,9 +31464,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000929",
-    "title": "Тигролови (Том 3)",
+    "title": "Тигролови",
     "author": "Іван Багряний",
-    "year": 2024,
+    "year": 1944,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31483,7 +31483,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий пригодницький роман про втечу інженера Григорія Многогрішного з потяга смерті в нетрі далекосхідної тайги.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000029",
     "isForTrade": true,
     "user": {
@@ -31499,9 +31499,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000930",
-    "title": "Сад Гетсиманський (Том 1)",
+    "title": "Сад Гетсиманський",
     "author": "Іван Багряний",
-    "year": 2024,
+    "year": 1950,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31518,7 +31518,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Потужний роман про незламність людського духу перед катувальною машиною радянського НКВС.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000030",
     "isForTrade": false,
     "user": {
@@ -31534,9 +31534,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000931",
-    "title": "Місто (Том 2)",
+    "title": "Місто",
     "author": "Валер'ян Підмогильний",
-    "year": 2024,
+    "year": 1928,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31553,7 +31553,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український урбаністичний роман про підкорення Києва амбітним юнаком Степаном Радченком.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000031",
     "isForTrade": true,
     "user": {
@@ -31569,9 +31569,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000932",
-    "title": "Невеличка драма (Том 3)",
+    "title": "Невеличка драма",
     "author": "Валер'ян Підмогильний",
-    "year": 2024,
+    "year": 1930,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31584,7 +31584,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Глибокий психологічний роман Розстріляного Відродження про конфлікт раціонального мислення та почуттів.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000032",
     "isForTrade": true,
     "user": {
@@ -31600,9 +31600,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000933",
-    "title": "Я (Романтика) (Том 1)",
+    "title": "Я (Романтика)",
     "author": "Микола Хвильовий",
-    "year": 2024,
+    "year": 1924,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31615,7 +31615,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Трагічна психологічна новела про роздвоєння особистості між сліпим фанатизмом революції та синівською любов'ю.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000033",
     "isForTrade": true,
     "user": {
@@ -31631,9 +31631,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000934",
-    "title": "Маруся Чурай (Том 2)",
+    "title": "Маруся Чурай",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 1979,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31650,7 +31650,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Історичний роман у віршах про легендарну полтавську піснярку та драматичну добу козаччини.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000034",
     "isForTrade": true,
     "user": {
@@ -31666,9 +31666,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000935",
-    "title": "Записки українського самашедшого (Том 3)",
+    "title": "Записки українського самашедшого",
     "author": "Ліна Костенко",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31681,7 +31681,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гострий щоденниковий роман про стан глобалізованого суспільства та хроніку українського життя на зламі тисячоліть.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000035",
     "isForTrade": true,
     "user": {
@@ -31697,9 +31697,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000936",
-    "title": "Інтернат (Том 1)",
+    "title": "Інтернат",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31712,7 +31712,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про вчителя Пашу, який вирушає крізь лінію фронту на Донбасі, аби забрати племінника з інтернату.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000036",
     "isForTrade": true,
     "user": {
@@ -31728,9 +31728,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000937",
-    "title": "Ворошиловград (Том 2)",
+    "title": "Ворошиловград",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2010,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31743,7 +31743,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Атмосферний роман про повернення до рідного міста, боротьбу за стару бензоколонку, дружбу й пам'ять.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000037",
     "isForTrade": true,
     "user": {
@@ -31759,9 +31759,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000938",
-    "title": "Депеш Мод (Том 3)",
+    "title": "Депеш Мод",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2004,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31774,7 +31774,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Культовий роман про буремну молодість у Харкові 90-х років, пригоди, пошуки друга та музику епохи.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000038",
     "isForTrade": true,
     "user": {
@@ -31790,9 +31790,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000939",
-    "title": "Месопотамія (Том 1)",
+    "title": "Месопотамія",
     "author": "Сергій Жадан",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31809,7 +31809,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Книга прози та поезії про Харків — місто між двома ріками, історії кохання, втрат і надій.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000039",
     "isForTrade": true,
     "user": {
@@ -31825,9 +31825,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000940",
-    "title": "Польові дослідження з українського сексу (Том 2)",
+    "title": "Польові дослідження з українського сексу",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31844,7 +31844,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Знаковий роман, що започаткував нову хвилю сучасної української феміністичної та інтелектуальної прози.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000040",
     "isForTrade": true,
     "user": {
@@ -31860,9 +31860,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000941",
-    "title": "Музей покинутих секретів (Том 3)",
+    "title": "Музей покинутих секретів",
     "author": "Оксана Забужко",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31879,7 +31879,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабна родинна сага трьох поколінь крізь prism шести десятиліть української боротьби й таємниць.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000041",
     "isForTrade": true,
     "user": {
@@ -31895,9 +31895,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000942",
-    "title": "Московіада (Том 1)",
+    "title": "Московіада",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1993,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31910,7 +31910,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Постмодерністський роман-гротеск про один божевільний день українського поета Отто фон Ф. у Москві початку 90-х.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000042",
     "isForTrade": true,
     "user": {
@@ -31926,9 +31926,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000943",
-    "title": "Перверзія (Том 2)",
+    "title": "Перверзія",
     "author": "Юрій Андрухович",
-    "year": 2024,
+    "year": 1996,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31945,7 +31945,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Венеційська містифікація навколо загадкового семінару та зникнення поета Станіслава Перфецького.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000043",
     "isForTrade": true,
     "user": {
@@ -31961,9 +31961,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000944",
-    "title": "Культ (Том 3)",
+    "title": "Культ",
     "author": "Любко Дереш",
-    "year": 2024,
+    "year": 2001,
     "language": "Ukrainian",
     "genres": [
       {
@@ -31980,7 +31980,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Дебютний роман-трилер про містичні події в провінційному ліцеї та лавкрафтівських древніх чудовиськ.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000044",
     "isForTrade": true,
     "user": {
@@ -31996,9 +31996,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000945",
-    "title": "Танго смерті (Том 1)",
+    "title": "Танго смерті",
     "author": "Юрій Винничук",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32015,7 +32015,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Захопливий роман про довоєнний Львів, дружбу чотирьох юнаків різних національностей і таємничу мелодію.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000045",
     "isForTrade": false,
     "user": {
@@ -32031,9 +32031,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000946",
-    "title": "Чорний Ворон (Том 2)",
+    "title": "Чорний Ворон",
     "author": "Василь Шкляр",
-    "year": 2024,
+    "year": 2009,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32050,7 +32050,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Роман про запеклу партизанську боротьбу холодноярських повстанців проти радянської окупації у 1920-х роках.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508672019048-805b876b67e2?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000046",
     "isForTrade": true,
     "user": {
@@ -32066,9 +32066,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000947",
-    "title": "Колонія. Нові темні віки (Том 3)",
+    "title": "Колонія. Нові темні віки",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2023,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32081,7 +32081,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Монументальний твердий науково-фантастичний епос про виживання марсіанської колонії у XXII столітті.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000047",
     "isForTrade": true,
     "user": {
@@ -32097,9 +32097,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000948",
-    "title": "Не озирайся і мовчи (Том 1)",
+    "title": "Не озирайся і мовчи",
     "author": "Макс Кідрук",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32112,7 +32112,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Містичний технотрилер про хлопця Марка та паралельний світ, де можна сховатися від цькування.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000048",
     "isForTrade": true,
     "user": {
@@ -32128,9 +32128,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000949",
-    "title": "Фелікс Австрія (Том 2)",
+    "title": "Фелікс Австрія",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2014,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32147,7 +32147,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Тонкий чуттєвий роман про Станиславів початку XX століття та складні стосунки служниці Стефи й панянки Аделі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000049",
     "isForTrade": true,
     "user": {
@@ -32163,9 +32163,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000950",
-    "title": "Амадока (Том 3)",
+    "title": "Амадока",
     "author": "Софія Андрухович",
-    "year": 2024,
+    "year": 2020,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32182,7 +32182,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Масштабний роман про людську пам'ять, травми війни, Розстріляне Відродження та втрачене озеро.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000050",
     "isForTrade": true,
     "user": {
@@ -32198,9 +32198,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000951",
-    "title": "Точка нуль (Том 1)",
+    "title": "Точка нуль",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2017,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32213,7 +32213,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Чесні та пронизливі фронтові нотатки солдата ЗСУ про передову, армійський побут та психологію війни.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000051",
     "isForTrade": true,
     "user": {
@@ -32229,9 +32229,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000952",
-    "title": "Хто ти такий? (Том 2)",
+    "title": "Хто ти такий?",
     "author": "Артем Чех",
-    "year": 2024,
+    "year": 2021,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32244,7 +32244,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Автобіографічний роман дорослішання у Черкасах 90-х років та дружби з ветераном війни в Афганістані Феліксом.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000052",
     "isForTrade": true,
     "user": {
@@ -32260,9 +32260,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000953",
-    "title": "Чорна рада (Том 3)",
+    "title": "Чорна рада",
     "author": "Пантелеймон Куліш",
-    "year": 1965,
+    "year": 1857,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32279,7 +32279,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Перший український історичний роман про бурхливі події Ніжинської ради 1663 року та боротьбу за гетьманство.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000053",
     "isForTrade": true,
     "user": {
@@ -32295,9 +32295,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000954",
-    "title": "Хіба ревуть воли, як ясла повні? (Том 1)",
+    "title": "Хіба ревуть воли, як ясла повні?",
     "author": "Панас Мирний",
-    "year": 1988,
+    "year": 1880,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32314,7 +32314,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Соціально-психологічний роман про перетворення правдошукача Чіпки Варениченка на розбійника.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000054",
     "isForTrade": true,
     "user": {
@@ -32330,9 +32330,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000955",
-    "title": "Камінний хрест (Том 2)",
+    "title": "Камінний хрест",
     "author": "Василь Стефаник",
-    "year": 2008,
+    "year": 1900,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32345,7 +32345,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Експресіоністична новела про трагедію еміграції галицьких селян до далекої Канади.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000055",
     "isForTrade": true,
     "user": {
@@ -32361,9 +32361,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000956",
-    "title": "Записки кирпатого Мефістофеля (Том 3)",
+    "title": "Записки кирпатого Мефістофеля",
     "author": "Володимир Винниченко",
-    "year": 2024,
+    "year": 1917,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32380,7 +32380,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Психологічний роман про адвоката Якова Михайлюка, цинізм, батьківство та моральні дилеми.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1507842229452-7e3e78f99e30?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000056",
     "isForTrade": true,
     "user": {
@@ -32396,9 +32396,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000957",
-    "title": "Мина Мазайло (Том 1)",
+    "title": "Мина Мазайло",
     "author": "Микола Куліш",
-    "year": 2024,
+    "year": 1929,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32411,7 +32411,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Блискуча сатирична комедія доби українізації про харківського службовця, який соромиться свого прізвища.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000057",
     "isForTrade": true,
     "user": {
@@ -32427,9 +32427,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000958",
-    "title": "Червоний (Том 2)",
+    "title": "Червоний",
     "author": "Андрій Кокотюха",
-    "year": 2024,
+    "year": 2012,
     "language": "Ukrainian",
     "genres": [
       {
@@ -32446,7 +32446,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "userId": "00000000-0000-4000-a000-000000000058",
     "isForTrade": true,
     "user": {
@@ -32462,9 +32462,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000959",
-    "title": "1984 (Том 3)",
+    "title": "1984",
     "author": "George Orwell",
-    "year": 2024,
+    "year": 1949,
     "language": "English",
     "genres": [
       {
@@ -32481,7 +32481,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The definitive dystopian novel exploring surveillance, totalitarian rule, Big Brother, and the erasure of individual thought.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000059",
     "isForTrade": true,
     "user": {
@@ -32497,9 +32497,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000960",
-    "title": "Animal Farm (Том 1)",
+    "title": "Animal Farm",
     "author": "George Orwell",
-    "year": 2024,
+    "year": 1945,
     "language": "English",
     "genres": [
       {
@@ -32516,7 +32516,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A timeless political allegorical novella detailing how an animal revolution slips into oppressive tyranny.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000060",
     "isForTrade": false,
     "user": {
@@ -32532,9 +32532,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000961",
-    "title": "Brave New World (Том 2)",
+    "title": "Brave New World",
     "author": "Aldous Huxley",
-    "year": 2024,
+    "year": 1932,
     "language": "English",
     "genres": [
       {
@@ -32551,7 +32551,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Visionary masterpiece warning against consumerist sedation, caste genetics, and loss of humanity.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000061",
     "isForTrade": true,
     "user": {
@@ -32567,9 +32567,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000962",
-    "title": "Fahrenheit 451 (Том 3)",
+    "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
-    "year": 2024,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -32582,7 +32582,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A haunting portrait of a book-burning future where Guy Montag discovers the subversive power of literature.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000062",
     "isForTrade": true,
     "user": {
@@ -32598,9 +32598,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000963",
-    "title": "The Hobbit (Том 1)",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1937,
     "language": "English",
     "genres": [
       {
@@ -32617,7 +32617,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The enchanting journey of Bilbo Baggins to reclaim the Lonely Mountain and its treasure from Smaug.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000063",
     "isForTrade": true,
     "user": {
@@ -32633,9 +32633,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000964",
-    "title": "The Fellowship of the Ring (Том 2)",
+    "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -32652,7 +32652,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The epic quest begins as Frodo Baggins sets out to cast the One Ring into Mount Doom.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928210-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000064",
     "isForTrade": true,
     "user": {
@@ -32668,9 +32668,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000965",
-    "title": "The Two Towers (Том 3)",
+    "title": "The Two Towers",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1954,
     "language": "English",
     "genres": [
       {
@@ -32683,7 +32683,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The fellowship is broken, Frodo and Sam travel with Gollum, while Aragorn battles at Helm's Deep.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928203-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000065",
     "isForTrade": true,
     "user": {
@@ -32699,9 +32699,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000966",
-    "title": "The Return of the King (Том 1)",
+    "title": "The Return of the King",
     "author": "J.R.R. Tolkien",
-    "year": 2024,
+    "year": 1955,
     "language": "English",
     "genres": [
       {
@@ -32714,7 +32714,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The final confrontation for Middle-earth at the Pelennor Fields and the destruction of the Ring.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780547928197-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000066",
     "isForTrade": true,
     "user": {
@@ -32730,9 +32730,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000967",
-    "title": "Dune (Том 2)",
+    "title": "Dune",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1965,
     "language": "English",
     "genres": [
       {
@@ -32749,7 +32749,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sweeping space opera of Paul Atreides, Arrakis, spice melange, and planetary ecology.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000067",
     "isForTrade": true,
     "user": {
@@ -32765,9 +32765,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000968",
-    "title": "Dune Messiah (Том 3)",
+    "title": "Dune Messiah",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1969,
     "language": "English",
     "genres": [
       {
@@ -32780,7 +32780,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Paul Muad'Dib grapples with the uncontrollable consequences of his galactic holy war.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441172696-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000068",
     "isForTrade": true,
     "user": {
@@ -32796,9 +32796,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000969",
-    "title": "Children of Dune (Том 1)",
+    "title": "Children of Dune",
     "author": "Frank Herbert",
-    "year": 2024,
+    "year": 1976,
     "language": "English",
     "genres": [
       {
@@ -32811,7 +32811,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Leto II and Ghanima navigate spice addiction and political intrigue to forge the Golden Path.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000069",
     "isForTrade": true,
     "user": {
@@ -32827,9 +32827,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000970",
-    "title": "Foundation (Том 2)",
+    "title": "Foundation",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -32842,7 +32842,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hari Seldon pioneers psychohistory to preserve knowledge across the dark age of the Galactic Empire.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000070",
     "isForTrade": true,
     "user": {
@@ -32858,9 +32858,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000971",
-    "title": "Foundation and Empire (Том 3)",
+    "title": "Foundation and Empire",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -32869,7 +32869,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Foundation confronts the dying might of the Empire and the mysterious psychic power of the Mule.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293371-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000071",
     "isForTrade": true,
     "user": {
@@ -32885,9 +32885,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000972",
-    "title": "Second Foundation (Том 1)",
+    "title": "Second Foundation",
     "author": "Isaac Asimov",
-    "year": 2024,
+    "year": 1953,
     "language": "English",
     "genres": [
       {
@@ -32896,7 +32896,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The secretive mentalics of the Second Foundation guide galactic history from the shadows.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553293364-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000072",
     "isForTrade": true,
     "user": {
@@ -32912,9 +32912,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000973",
-    "title": "Do Androids Dream of Electric Sheep? (Том 2)",
+    "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "year": 2024,
+    "year": 1968,
     "language": "English",
     "genres": [
       {
@@ -32927,7 +32927,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Bounty hunter Rick Deckard tracks rogue replicants in post-apocalyptic San Francisco.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780345404474-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000073",
     "isForTrade": true,
     "user": {
@@ -32943,9 +32943,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000974",
-    "title": "Neuromancer (Том 3)",
+    "title": "Neuromancer",
     "author": "William Gibson",
-    "year": 2024,
+    "year": 1984,
     "language": "English",
     "genres": [
       {
@@ -32954,7 +32954,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The seminal cyberpunk novel introducing cyberspace, console cowboys, and artificial superintelligence.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780441569595-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000074",
     "isForTrade": true,
     "user": {
@@ -32970,9 +32970,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000975",
-    "title": "A Game of Thrones (Том 1)",
+    "title": "A Game of Thrones",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -32985,7 +32985,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Noble houses vie for the Iron Throne of Westeros while an ancient menace awakens in the north.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573404-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000075",
     "isForTrade": false,
     "user": {
@@ -33001,9 +33001,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000976",
-    "title": "A Clash of Kings (Том 2)",
+    "title": "A Clash of Kings",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 1998,
     "language": "English",
     "genres": [
       {
@@ -33016,7 +33016,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Five kings wage brutal war across Westeros as a red comet burns across the sky.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553579901-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000001",
     "isForTrade": true,
     "user": {
@@ -33032,9 +33032,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000977",
-    "title": "A Storm of Swords (Том 3)",
+    "title": "A Storm of Swords",
     "author": "George R.R. Martin",
-    "year": 2024,
+    "year": 2000,
     "language": "English",
     "genres": [
       {
@@ -33047,7 +33047,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The War of the Five Kings reaches its shocking climax with betrayal, royal weddings, and wall battles.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780553573428-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000002",
     "isForTrade": true,
     "user": {
@@ -33063,9 +33063,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000978",
-    "title": "American Gods (Том 1)",
+    "title": "American Gods",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 2001,
     "language": "English",
     "genres": [
       {
@@ -33078,7 +33078,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Shadow Moon is caught in an impending war between mythological gods and modern obsessions.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060558123-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000003",
     "isForTrade": true,
     "user": {
@@ -33094,9 +33094,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000979",
-    "title": "Neverwhere (Том 2)",
+    "title": "Neverwhere",
     "author": "Neil Gaiman",
-    "year": 2024,
+    "year": 1996,
     "language": "English",
     "genres": [
       {
@@ -33109,7 +33109,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Richard Mayhew discovers the hidden, treacherous underworld of London Below.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060557805-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000004",
     "isForTrade": true,
     "user": {
@@ -33125,9 +33125,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000980",
-    "title": "The Shining (Том 3)",
+    "title": "The Shining",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1977,
     "language": "English",
     "genres": [
       {
@@ -33140,7 +33140,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Jack Torrance becomes caretaker of the secluded Overlook Hotel as malevolent spirits take hold.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000005",
     "isForTrade": true,
     "user": {
@@ -33156,9 +33156,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000981",
-    "title": "It (Том 1)",
+    "title": "It",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1986,
     "language": "English",
     "genres": [
       {
@@ -33171,7 +33171,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The Losers' Club reunites twenty-seven years later to destroy the shape-shifting evil beneath Derry.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000006",
     "isForTrade": true,
     "user": {
@@ -33187,9 +33187,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000982",
-    "title": "Misery (Том 2)",
+    "title": "Misery",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1987,
     "language": "English",
     "genres": [
       {
@@ -33202,7 +33202,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Novelist Paul Sheldon is rescued from a blizzard by his obsessive number-one fan Annie Wilkes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9781501156748-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000007",
     "isForTrade": true,
     "user": {
@@ -33218,9 +33218,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000983",
-    "title": "The Stand (Том 3)",
+    "title": "The Stand",
     "author": "Stephen King",
-    "year": 2024,
+    "year": 1978,
     "language": "English",
     "genres": [
       {
@@ -33237,7 +33237,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Survivors of a weaponized super-flu divide into camps of good and evil for a final showdown.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307743688-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000008",
     "isForTrade": true,
     "user": {
@@ -33253,9 +33253,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000984",
-    "title": "A Study in Scarlet (Том 1)",
+    "title": "A Study in Scarlet",
     "author": "Arthur Conan Doyle",
-    "year": 1995,
+    "year": 1887,
     "language": "English",
     "genres": [
       {
@@ -33268,7 +33268,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The legendary first meeting between Dr. John Watson and Sherlock Holmes solving a poison riddle.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780140439083-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000009",
     "isForTrade": true,
     "user": {
@@ -33284,9 +33284,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000985",
-    "title": "The Hound of the Baskervilles (Том 2)",
+    "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "year": 2010,
+    "year": 1902,
     "language": "English",
     "genres": [
       {
@@ -33303,7 +33303,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Sherlock Holmes and Watson investigate a demonic phantom hound on the eerie Dartmoor moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439730-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000010",
     "isForTrade": true,
     "user": {
@@ -33319,9 +33319,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000986",
-    "title": "Murder on the Orient Express (Том 3)",
+    "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "year": 2024,
+    "year": 1934,
     "language": "English",
     "genres": [
       {
@@ -33334,7 +33334,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Hercule Poirot must solve the murder of an American tycoon trapped in a snowbound train.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073495-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000011",
     "isForTrade": true,
     "user": {
@@ -33350,9 +33350,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000987",
-    "title": "And Then There Were None (Том 1)",
+    "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "year": 2024,
+    "year": 1939,
     "language": "English",
     "genres": [
       {
@@ -33365,7 +33365,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Ten strangers invited to an isolated island are eliminated one by one in rhyme.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000012",
     "isForTrade": true,
     "user": {
@@ -33381,9 +33381,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000988",
-    "title": "The Great Gatsby (Том 2)",
+    "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "year": 2024,
+    "year": 1925,
     "language": "English",
     "genres": [
       {
@@ -33396,7 +33396,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A poignant portrait of Jazz Age glamour, unrequited love, and the disillusionment of the American Dream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000013",
     "isForTrade": true,
     "user": {
@@ -33412,9 +33412,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000989",
-    "title": "The Old Man and the Sea (Том 3)",
+    "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
-    "year": 2024,
+    "year": 1952,
     "language": "English",
     "genres": [
       {
@@ -33431,7 +33431,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Santiago's relentless solitary struggle against a giant marlin far out in the Gulf Stream.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000014",
     "isForTrade": true,
     "user": {
@@ -33447,9 +33447,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000990",
-    "title": "For Whom the Bell Tolls (Том 1)",
+    "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
-    "year": 2024,
+    "year": 1940,
     "language": "English",
     "genres": [
       {
@@ -33466,7 +33466,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Robert Jordan's three harrowing days with anti-fascist guerrillas during the Spanish Civil War.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780684803357-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000015",
     "isForTrade": false,
     "user": {
@@ -33482,9 +33482,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000991",
-    "title": "The Catcher in the Rye (Том 2)",
+    "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "year": 2024,
+    "year": 1951,
     "language": "English",
     "genres": [
       {
@@ -33497,7 +33497,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Holden Caulfield's iconic wandering through New York City battling phoniness and alienation.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000016",
     "isForTrade": true,
     "user": {
@@ -33513,9 +33513,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000992",
-    "title": "To Kill a Mockingbird (Том 3)",
+    "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "year": 2024,
+    "year": 1960,
     "language": "English",
     "genres": [
       {
@@ -33528,7 +33528,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Atticus Finch defends a wrongly accused man in Depression-era Alabama, seen through Scout's eyes.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780060935467-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000017",
     "isForTrade": true,
     "user": {
@@ -33544,9 +33544,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000993",
-    "title": "Pride and Prejudice (Том 1)",
+    "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "year": 1921,
+    "year": 1813,
     "language": "English",
     "genres": [
       {
@@ -33559,7 +33559,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The sharp-witted Elizabeth Bennet clashes with the proud Mr. Darcy in Regency England.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235295-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000018",
     "isForTrade": true,
     "user": {
@@ -33575,9 +33575,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000994",
-    "title": "Jane Eyre (Том 2)",
+    "title": "Jane Eyre",
     "author": "Charlotte Brontë",
-    "year": 1955,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -33590,7 +33590,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "An orphaned governess fights for dignity, independence, and love with the brooding Mr. Rochester.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235360-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000019",
     "isForTrade": true,
     "user": {
@@ -33606,9 +33606,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000995",
-    "title": "Wuthering Heights (Том 3)",
+    "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "year": 1955,
+    "year": 1847,
     "language": "English",
     "genres": [
       {
@@ -33625,7 +33625,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "The tempestuous and destructive passion between Heathcliff and Catherine on the Yorkshire moors.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235410-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000020",
     "isForTrade": true,
     "user": {
@@ -33641,9 +33641,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000996",
-    "title": "The Picture of Dorian Gray (Том 1)",
+    "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "year": 1998,
+    "year": 1890,
     "language": "English",
     "genres": [
       {
@@ -33660,7 +33660,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A decadent young man stays eternally youthful while his portrait bears the ugly scars of his sins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232190-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000021",
     "isForTrade": true,
     "user": {
@@ -33676,9 +33676,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000997",
-    "title": "Frankenstein (Том 2)",
+    "title": "Frankenstein",
     "author": "Mary Shelley",
-    "year": 1926,
+    "year": 1818,
     "language": "English",
     "genres": [
       {
@@ -33695,7 +33695,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Victor Frankenstein reanimates lifeless flesh, unleashing a creature seeking companionship and revenge.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232300-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000022",
     "isForTrade": true,
     "user": {
@@ -33711,9 +33711,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000998",
-    "title": "Dracula (Том 3)",
+    "title": "Dracula",
     "author": "Bram Stoker",
-    "year": 2005,
+    "year": 1897,
     "language": "English",
     "genres": [
       {
@@ -33726,7 +33726,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Count Dracula relocates from Transylvania to England to spread the curse of the undead.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8232260-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000023",
     "isForTrade": true,
     "user": {
@@ -33742,9 +33742,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000000999",
-    "title": "The Road (Том 1)",
+    "title": "The Road",
     "author": "Cormac McCarthy",
-    "year": 2024,
+    "year": 2006,
     "language": "English",
     "genres": [
       {
@@ -33761,7 +33761,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "A father and son walk through burned America, carrying the fire of humanity amidst ash and ruins.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8235465-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000024",
     "isForTrade": true,
     "user": {
@@ -33777,9 +33777,9 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
   },
   {
     "id": "00000000-0000-4000-b000-000000001000",
-    "title": "The Handmaid's Tale (Том 2)",
+    "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
-    "year": 2024,
+    "year": 1985,
     "language": "English",
     "genres": [
       {
@@ -33792,7 +33792,7 @@ export const RAW_SEED_BOOKS_1000: RawSeedBook[] = [
       }
     ],
     "description": "Offred recounts life in the Republic of Gilead, a religious autocracy that subjugates women.",
-    "coverURL": "https://covers.openlibrary.org/b/id/8575743-L.jpg",
+    "coverURL": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg",
     "userId": "00000000-0000-4000-a000-000000000025",
     "isForTrade": true,
     "user": {
