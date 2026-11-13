@@ -144,29 +144,53 @@ export const completePrismaTrade = async (tradeId: string, userId: string): Prom
     assertTradeExists(trade);
     assertCompletableTrade(trade, userId);
 
-    const offeredIds = trade.items.filter((i) => i.side === 'OFFERED').map((i) => i.bookId);
-    const requestedIds = trade.items.filter((i) => i.side === 'REQUESTED').map((i) => i.bookId);
+    const isSender = trade.senderId === userId;
+    const isReceiver = trade.receiverId === userId;
 
-    if (offeredIds.length > 0) {
-      await tx.book.updateMany({
-        where: { id: { in: offeredIds } },
-        data: { userId: trade.receiverId, isForTrade: false },
-      });
+    const newSenderCompleted = isSender ? true : Boolean(trade.senderCompleted);
+    const newReceiverCompleted = isReceiver ? true : Boolean(trade.receiverCompleted);
+    const bothCompleted = newSenderCompleted && newReceiverCompleted;
+
+    if (bothCompleted) {
+      const offeredIds = trade.items.filter((i) => i.side === 'OFFERED').map((i) => i.bookId);
+      const requestedIds = trade.items.filter((i) => i.side === 'REQUESTED').map((i) => i.bookId);
+
+      if (offeredIds.length > 0) {
+        await tx.book.updateMany({
+          where: { id: { in: offeredIds } },
+          data: { userId: trade.receiverId, isForTrade: false },
+        });
+      }
+      if (requestedIds.length > 0) {
+        await tx.book.updateMany({
+          where: { id: { in: requestedIds } },
+          data: { userId: trade.senderId, isForTrade: false },
+        });
+      }
+
+      const updated = (await tx.trade.update({
+        where: { id: tradeId },
+        data: {
+          status: 'COMPLETED',
+          senderCompleted: true,
+          receiverCompleted: true,
+        },
+        include: tradeRelationsInclude,
+      })) as unknown as PrismaTradeEntity;
+
+      return formatTradePrisma(updated, userId);
+    } else {
+      const updated = (await tx.trade.update({
+        where: { id: tradeId },
+        data: {
+          senderCompleted: newSenderCompleted,
+          receiverCompleted: newReceiverCompleted,
+        },
+        include: tradeRelationsInclude,
+      })) as unknown as PrismaTradeEntity;
+
+      return formatTradePrisma(updated, userId);
     }
-    if (requestedIds.length > 0) {
-      await tx.book.updateMany({
-        where: { id: { in: requestedIds } },
-        data: { userId: trade.senderId, isForTrade: false },
-      });
-    }
-
-    const updated = (await tx.trade.update({
-      where: { id: tradeId },
-      data: { status: 'COMPLETED' },
-      include: tradeRelationsInclude,
-    })) as unknown as PrismaTradeEntity;
-
-    return formatTradePrisma(updated, userId);
   });
 };
 
