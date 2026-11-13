@@ -25,7 +25,6 @@ export interface SeedUserDef {
 }
 
 export const SEED_USERS_RAW = [
-  // KYIV (30 users at actual residential addresses)
   { username: 'alex_reader', email: 'alex.reader@bookswap.org', city: 'Kyiv', latitude: 50.5015, longitude: 30.4982, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
   { username: 'olena_books', email: 'olena.books@bookswap.org', city: 'Kyiv', latitude: 50.4688, longitude: 30.5185, photoURL: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80' },
   { username: 'taras_shev', email: 'taras.shev@bookswap.org', city: 'Kyiv', latitude: 50.4623, longitude: 30.5218, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
@@ -57,7 +56,6 @@ export const SEED_USERS_RAW = [
   { username: 'roman_lit', email: 'roman.lit@bookswap.org', city: 'Kyiv', latitude: 50.5190, longitude: 30.6120, photoURL: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80' },
   { username: 'liliya_books', email: 'liliya.books@bookswap.org', city: 'Kyiv', latitude: 50.4530, longitude: 30.5050, photoURL: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80' },
 
-  // LVIV (15 users at actual residential addresses)
   { username: 'victoria_lviv', email: 'victoria.lviv@bookswap.org', city: 'Lviv', latitude: 49.8418, longitude: 24.0315, photoURL: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80' },
   { username: 'ostap_lit', email: 'ostap.lit@bookswap.org', city: 'Lviv', latitude: 49.8320, longitude: 24.0340, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
   { username: 'marta_books', email: 'marta.books@bookswap.org', city: 'Lviv', latitude: 49.8355, longitude: 24.0090, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
@@ -74,7 +72,6 @@ export const SEED_USERS_RAW = [
   { username: 'marko_reads', email: 'marko.reads@bookswap.org', city: 'Lviv', latitude: 49.8190, longitude: 24.0680, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
   { username: 'olesya_books', email: 'olesya.books@bookswap.org', city: 'Lviv', latitude: 49.8080, longitude: 24.0040, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
 
-  // ODESA (10 users at actual residential addresses)
   { username: 'denys_odesa', email: 'denys.odesa@bookswap.org', city: 'Odesa', latitude: 46.4850, longitude: 30.7380, photoURL: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80' },
   { username: 'kateryna_sea', email: 'kateryna.sea@bookswap.org', city: 'Odesa', latitude: 46.4590, longitude: 30.7550, photoURL: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80' },
   { username: 'leonid_lit', email: 'leonid.lit@bookswap.org', city: 'Odesa', latitude: 46.4420, longitude: 30.7520, photoURL: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80' },
@@ -86,7 +83,6 @@ export const SEED_USERS_RAW = [
   { username: 'serhiy_dev', email: 'serhiy.dev@bookswap.org', city: 'Odesa', latitude: 46.4790, longitude: 30.7420, photoURL: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80' },
   { username: 'anastasiya_sea', email: 'anastasiya.sea@bookswap.org', city: 'Odesa', latitude: 46.4680, longitude: 30.7450, photoURL: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80' },
 
-  // KHARKIV (8 users at actual residential addresses)
   { username: 'igor_kharkiv', email: 'igor.kharkiv@bookswap.org', city: 'Kharkiv', latitude: 50.0080, longitude: 36.2360, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
   { username: 'olena_kh', email: 'olena.kh@bookswap.org', city: 'Kharkiv', latitude: 50.0010, longitude: 36.2480, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
   { username: 'sergiy_saltivka', email: 'sergiy.saltivka@bookswap.org', city: 'Kharkiv', latitude: 50.0240, longitude: 36.3350, photoURL: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80' },
@@ -96,7 +92,6 @@ export const SEED_USERS_RAW = [
   { username: 'artur_lit', email: 'artur.lit@bookswap.org', city: 'Kharkiv', latitude: 50.0520, longitude: 36.2050, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
   { username: 'viktoriya_kh', email: 'viktoriya.kh@bookswap.org', city: 'Kharkiv', latitude: 49.9910, longitude: 36.2340, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
 
-  // DNIPRO (6 users at actual residential addresses)
   { username: 'taras_dnipro', email: 'taras.dnipro@bookswap.org', city: 'Dnipro', latitude: 48.4650, longitude: 35.0450, photoURL: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80' },
   { username: 'inna_dnipro', email: 'inna.dnipro@bookswap.org', city: 'Dnipro', latitude: 48.4230, longitude: 35.0780, photoURL: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80' },
   { username: 'mykhailo_dnipro', email: 'mykhailo.dnipro@bookswap.org', city: 'Dnipro', latitude: 48.4350, longitude: 35.0420, photoURL: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80' },
@@ -104,7 +99,6 @@ export const SEED_USERS_RAW = [
   { username: 'vitalik_dnipro', email: 'vitalik.dnipro@bookswap.org', city: 'Dnipro', latitude: 48.4320, longitude: 35.0080, photoURL: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80' },
   { username: 'lyudmyla_dnipro', email: 'lyudmyla.dnipro@bookswap.org', city: 'Dnipro', latitude: 48.3950, longitude: 35.0250, photoURL: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80' },
 
-  // OTHER UKRAINIAN REGIONS (6 users at actual residential addresses)
   { username: 'dmytro_vin', email: 'dmytro.vin@bookswap.org', city: 'Vinnytsia', latitude: 49.2331, longitude: 28.4682, photoURL: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80' },
   { username: 'yuliya_frank', email: 'yuliya.frank@bookswap.org', city: 'Ivano-Frankivsk', latitude: 48.9226, longitude: 24.7111, photoURL: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80' },
   { username: 'bohdan_poltava', email: 'bohdan.poltava@bookswap.org', city: 'Poltava', latitude: 49.5883, longitude: 34.5514, photoURL: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80' },

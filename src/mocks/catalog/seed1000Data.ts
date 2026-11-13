@@ -1,8 +1,3 @@
-/**
- * Automatically generated seed catalog: 1000 books & 75 residential users
- * NO trades included. Real OpenLibrary cover URLs, multilingual titles,
- * and exact residential building coordinates in Ukrainian cities.
- */
 import type { MockBook, MockUser } from '../mockBooks.types.js';
 
 export const SEED_GENRES = [

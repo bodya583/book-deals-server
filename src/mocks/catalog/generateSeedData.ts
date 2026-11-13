@@ -10,11 +10,10 @@ export interface RawBookTemplate {
   language: string;
   genres: string[];
   description: string;
-  coverIdOrIsbn: string; // If numeric -> OpenLibrary ID, if starts with 978 or ISBN -> ISBN
+  coverIdOrIsbn: string;
 }
 
 export const MASTER_CATALOG: RawBookTemplate[] = [
-  // UKRAINIAN LITERATURE & CLASSICS
   {
     title: "Кобзар",
     author: "Тарас Шевченко",
@@ -429,8 +428,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "Гостросюжетний роман про командира УПА Данила Червоного, який піднімає повстання у сталінському концтаборі.",
     coverIdOrIsbn: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80"
   },
-
-  // ENGLISH & WORLD CLASSICS
   {
     title: "1984",
     author: "George Orwell",
@@ -836,8 +833,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "A runaway teenager and an elderly man who speaks with cats cross paths in a world of surreal wonders.",
     coverIdOrIsbn: "9781400079278"
   },
-
-  // FRENCH LITERATURE
   {
     title: "Le Petit Prince",
     author: "Antoine de Saint-Exupéry",
@@ -946,8 +941,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "Le pari audacieux de Phileas Fogg et son fidèle Passepartout pour boucler le globe en 80 jours.",
     coverIdOrIsbn: "9782253005896"
   },
-
-  // GERMAN LITERATURE & PHILOSOPHY
   {
     title: "Der Steppenwolf",
     author: "Hermann Hesse",
@@ -1056,8 +1049,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "Jean-Baptiste Grenouilles Besessenheit, den vollkommenen Duft junger Mädchen im Frankreich des 18. Jahrhunderts zu destillieren.",
     coverIdOrIsbn: "9783257214604"
   },
-
-  // POLISH LITERATURE
   {
     title: "Solaris",
     author: "Stanisław Lem",
@@ -1148,8 +1139,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "Epicka powieść awanturnicza z czasów powstania Bohdana Chmielnickiego w XVII-wiecznej Rzeczypospolitej.",
     coverIdOrIsbn: "9788373271883"
   },
-
-  // SPANISH & LATIN AMERICAN LITERATURE
   {
     title: "Don Quijote de la Mancha",
     author: "Miguel de Cervantes",
@@ -1213,8 +1202,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "Daniel Sempere descubre en el Cementerio de los Libros Olvidados de Barcelona un misterio lleno de secretos oscuros.",
     coverIdOrIsbn: "9788408163435"
   },
-
-  // ITALIAN LITERATURE
   {
     title: "Divina Commedia",
     author: "Dante Alighieri",
@@ -1260,8 +1247,6 @@ export const MASTER_CATALOG: RawBookTemplate[] = [
     description: "L'intensa amicizia di oltre cinquant'anni tra Elena e Lila in un rione popolare di Napoli.",
     coverIdOrIsbn: "9788866320326"
   },
-
-  // WORLD NON-FICTION, PHILOSOPHY, PSYCHOLOGY & SCIENCE
   {
     title: "Sapiens: A Brief History of Humankind",
     author: "Yuval Noah Harari",
@@ -1431,7 +1416,7 @@ export function generate1000Books() {
       description: tmpl.description,
       coverURL,
       userId: assignedUser.id,
-      isForTrade: (currentBookIndex % 15 !== 0), // ~93% for trade, ~7% personal
+      isForTrade: (currentBookIndex % 15 !== 0),
       user: {
         id: assignedUser.id,
         username: assignedUser.username,
@@ -1453,12 +1438,7 @@ async function build() {
 
   const passwordHash = await bcrypt.hash('Password123!', 10);
 
-  const fileContent = `/**
- * Automatically generated seed catalog: 1000 books & 75 residential users
- * NO trades included. Real OpenLibrary cover URLs, multilingual titles,
- * and exact residential building coordinates in Ukrainian cities.
- */
-import type { MockBook, MockUser } from '../mockBooks.types.js';
+  const fileContent = `import type { MockBook, MockUser } from '../mockBooks.types.js';
 
 export const SEED_GENRES = ${JSON.stringify(Array.from(GENRE_MAP.values()), null, 2)};
 
