@@ -1,7 +1,16 @@
+import 'dotenv/config';
 import { PrismaClient } from '@prisma/client';
+import { PrismaPg } from '@prisma/adapter-pg';
+import { Pool } from 'pg';
 import { SEED_GENRES, SEED_USERS_WITH_HASH, SEED_BOOKS_1000 } from '../src/mocks/catalog/seed1000Data.js';
 
-const prisma = new PrismaClient();
+const connString = process.env.DATABASE_URL;
+const pool = new Pool({
+  connectionString: connString,
+  ssl: { rejectUnauthorized: false },
+});
+const adapter = new PrismaPg(pool);
+const prisma = new PrismaClient({ adapter });
 
 async function main() {
   console.log('--- Starting BookSwap Database Seed ---');
@@ -84,4 +93,5 @@ main()
   })
   .finally(async () => {
     await prisma.$disconnect();
+    await pool.end();
   });
