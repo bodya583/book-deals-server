@@ -141,16 +141,19 @@ export const validateCounterOffer = (
   if (oldTrade.status !== 'PENDING') {
     throw new ConflictError(`Cannot modify a trade with status "${oldTrade.status}"`);
   }
+  if (oldTrade.senderId === userId) {
+    throw new ForbiddenError('It is not your turn to modify this trade. Wait for partner response or withdraw the offer');
+  }
 
-  const targetPartnerId = oldTrade.senderId === userId ? oldTrade.receiverId : oldTrade.senderId;
+  const targetPartnerId = oldTrade.senderId;
   validateSelfTrade(userId, targetPartnerId);
 
   const items = oldTrade.items || [];
   const oldOffered = items
-    .filter((i) => (oldTrade.senderId === userId ? i.side === 'OFFERED' : i.side === 'REQUESTED'))
+    .filter((i) => i.side === 'REQUESTED')
     .map((i) => i.bookId);
   const oldTarget = items
-    .filter((i) => (oldTrade.senderId === userId ? i.side === 'REQUESTED' : i.side === 'OFFERED'))
+    .filter((i) => i.side === 'OFFERED')
     .map((i) => i.bookId);
 
   if (computeBooksHash(oldOffered, oldTarget) === computeBooksHash(offerBookIds, targetBookIds)) {

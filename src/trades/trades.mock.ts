@@ -223,7 +223,7 @@ export const counterMockTrade = async (
     data.targetBookIds
   );
 
-  oldTrade.status = oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED';
+  oldTrade.status = 'REJECTED';
   oldTrade.updatedAt = new Date();
 
   const prevMessages = inMemoryTradeMessages.filter((m) => m.tradeId === originalTradeId);

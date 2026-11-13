@@ -274,7 +274,7 @@ export const counterPrismaTrade = async (
 
     await tx.trade.update({
       where: { id: originalTradeId },
-      data: { status: oldTrade.senderId === userId ? 'CANCELLED' : 'REJECTED' },
+      data: { status: 'REJECTED' },
     });
 
     const newTrade = (await tx.trade.create({
