@@ -13,6 +13,7 @@ import {
   assertCompletableTrade,
   assertPendingRecipientAction,
   assertPendingSenderCancel,
+  assertRejectableTrade,
   assertTradeExists,
   assertTradeParticipant,
   validateBookOwnership,
@@ -171,9 +172,11 @@ export const rejectMockTrade = async (
 ): Promise<FormattedTrade> => {
   const trade = inMemoryTrades.find((t) => t.id === tradeId);
   assertTradeExists(trade);
-  assertPendingRecipientAction(trade, userId, 'reject');
+  assertRejectableTrade(trade, userId);
 
   trade.status = 'REJECTED';
+  trade.senderCompleted = false;
+  trade.receiverCompleted = false;
   trade.updatedAt = new Date();
 
   if (reason && reason.trim()) {
@@ -195,6 +198,8 @@ export const cancelMockTrade = async (tradeId: string, userId: string): Promise<
   assertTradeExists(trade);
   assertPendingSenderCancel(trade, userId);
   trade.status = 'CANCELLED';
+  trade.senderCompleted = false;
+  trade.receiverCompleted = false;
   trade.updatedAt = new Date();
   return formatTradeMock(trade, userId);
 };

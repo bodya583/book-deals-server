@@ -77,6 +77,7 @@ export const validateBookOwnership = (
 };
 
 export interface TradeActorShape {
+  id?: string;
   senderId: string;
   receiverId: string;
   status: string;
@@ -115,13 +116,32 @@ export const assertPendingRecipientAction = (
   }
 };
 
+export const assertRejectableTrade = (trade: TradeActorShape, userId: string): void => {
+  assertTradeParticipant(trade, userId, 'You do not have permission to reject this trade');
+  if (trade.status === 'PENDING') {
+    if (trade.receiverId !== userId) {
+      throw new ForbiddenError('Only the recipient can reject a trade');
+    }
+    return;
+  }
+  if (trade.status === 'AGREED' || trade.status === 'ACCEPTED') {
+    return;
+  }
+  throw new ConflictError(`Cannot reject a trade with status "${trade.status}"`);
+};
+
 export const assertPendingSenderCancel = (trade: TradeActorShape, userId: string): void => {
-  if (trade.senderId !== userId) {
-    throw new ForbiddenError('Only the offer creator can cancel this trade');
+  assertTradeParticipant(trade, userId, 'You do not have permission to cancel this trade');
+  if (trade.status === 'PENDING') {
+    if (trade.senderId !== userId) {
+      throw new ForbiddenError('Only the offer creator can cancel this trade');
+    }
+    return;
   }
-  if (trade.status !== 'PENDING') {
-    throw new ConflictError(`Cannot cancel a trade with status "${trade.status}"`);
+  if (trade.status === 'AGREED' || trade.status === 'ACCEPTED') {
+    return;
   }
+  throw new ConflictError(`Cannot cancel a trade with status "${trade.status}"`);
 };
 
 export const assertCompletableTrade = (trade: TradeActorShape, userId: string): void => {

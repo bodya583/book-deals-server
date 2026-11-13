@@ -4,6 +4,7 @@ import {
   validateSelfTrade,
   validateTradePayload,
   validateBookOwnership,
+  assertRejectableTrade,
   type BookOwnershipItem,
 } from '../trades.validation.js';
 
@@ -95,6 +96,65 @@ describe('Trade Validation Rules', () => {
       assert.throws(
         () => validateBookOwnership('user-sender', 'user-receiver', ['ghost-id'], ['b3'], mockBooks),
         /was not found/
+      );
+    });
+  });
+
+  describe('assertRejectableTrade', () => {
+    it('should allow recipient to reject a pending trade', () => {
+      assert.doesNotThrow(() =>
+        assertRejectableTrade(
+          { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'PENDING' },
+          'u2'
+        )
+      );
+    });
+
+    it('should throw if sender tries to reject a pending trade', () => {
+      assert.throws(
+        () =>
+          assertRejectableTrade(
+            { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'PENDING' },
+            'u1'
+          ),
+        /Only the recipient can reject a trade/
+      );
+    });
+
+    it('should allow either participant to reject an agreed trade', () => {
+      assert.doesNotThrow(() =>
+        assertRejectableTrade(
+          { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'AGREED' },
+          'u1'
+        )
+      );
+      assert.doesNotThrow(() =>
+        assertRejectableTrade(
+          { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'AGREED' },
+          'u2'
+        )
+      );
+    });
+
+    it('should throw if a non-participant tries to reject', () => {
+      assert.throws(
+        () =>
+          assertRejectableTrade(
+            { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'AGREED' },
+            'stranger'
+          ),
+        /You do not have permission to reject this trade/
+      );
+    });
+
+    it('should throw if trade is already completed', () => {
+      assert.throws(
+        () =>
+          assertRejectableTrade(
+            { id: 't1', senderId: 'u1', receiverId: 'u2', status: 'COMPLETED' },
+            'u1'
+          ),
+        /Cannot reject a trade with status "COMPLETED"/
       );
     });
   });

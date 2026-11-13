@@ -11,6 +11,7 @@ import {
   assertCompletableTrade,
   assertPendingRecipientAction,
   assertPendingSenderCancel,
+  assertRejectableTrade,
   assertTradeExists,
   assertTradeParticipant,
   validateBookOwnership,
@@ -201,11 +202,11 @@ export const rejectPrismaTrade = async (
 ): Promise<FormattedTrade> => {
   const trade = await prisma.trade.findUnique({ where: { id: tradeId } });
   assertTradeExists(trade);
-  assertPendingRecipientAction(trade, userId, 'reject');
+  assertRejectableTrade(trade, userId);
 
   const updated = (await prisma.trade.update({
     where: { id: tradeId },
-    data: { status: 'REJECTED' },
+    data: { status: 'REJECTED', senderCompleted: false, receiverCompleted: false },
     include: tradeRelationsInclude,
   })) as unknown as PrismaTradeEntity;
 
@@ -225,7 +226,7 @@ export const cancelPrismaTrade = async (tradeId: string, userId: string): Promis
 
   const updated = (await prisma.trade.update({
     where: { id: tradeId },
-    data: { status: 'CANCELLED' },
+    data: { status: 'CANCELLED', senderCompleted: false, receiverCompleted: false },
     include: tradeRelationsInclude,
   })) as unknown as PrismaTradeEntity;
 
